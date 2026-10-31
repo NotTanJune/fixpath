@@ -1,0 +1,22 @@
+flowchart LR
+  Q["Question"] --> TRI["Triage<br/>JEV<br/>machine, alarm,<br/>root cause,<br/>intent, safety"]
+  TRI --> GA["Graph agent<br/>Terra<br/>six read-only<br/>graph tools"]
+  TRI --> MA["Manual agent<br/>Terra<br/>keyword and<br/>vector search"]
+  TRI -.->|"unsure or<br/>not this plant"| ASK["Ask back or<br/>refer"]
+  GA --> SYN["Synthesizer<br/>Sol<br/>summary and<br/>cited claims"]
+  MA --> SYN
+  SYN --> VER["Verifier<br/>JEV<br/>one question<br/>per claim"]
+  VER --> ASM["Assemble<br/>code<br/>copies facts<br/>from the graph"]
+  ASM --> CARD["Answer<br/>card"]
+  LOCK["Lockout block<br/>from the machine's<br/>own manual"] --> ASM
+
+  classDef code fill:#f3f4f1,stroke:#1d2023,stroke-width:2px,color:#1d2023
+  classDef jev fill:#1f4fd1,stroke:#1f4fd1,color:#ffffff
+  classDef llm fill:#1d2023,stroke:#1d2023,color:#ffffff
+  classDef green fill:#2d8653,stroke:#2d8653,color:#ffffff
+  classDef alarm fill:#c2362b,stroke:#c2362b,color:#ffffff
+  class Q,ASK,ASM code
+  class TRI,VER jev
+  class GA,MA,SYN llm
+  class CARD green
+  class LOCK alarm

@@ -1,0 +1,81 @@
+{
+  "id": "DOC-a4a04eba",
+  "path": "handovers/handover_2026-08-03_A.txt",
+  "doc_type": "handover",
+  "kind": "text",
+  "text": "Shift handover 2026-08-03 Shift A\nFrom: WM   To: Rajesh\n\n- waiting on gripper fingers, stores says noen left\n- Kessler 2 stopped 1255 w/ ALM SP-104, spindle running hot adn noisy at high rpm. Repl spidnle brg set (BRG7014ACD x2, GREASEKLB2, SEAL SPDL 70), test run ok. Down 230 min. f/u tmr.\n\nSigned WM\n",
+  "spans": [
+    {
+      "quote": "- Kessler 2 stopped 1255 w/ ALM SP-104, spindle running hot adn noisy at high rpm. Repl spidnle brg set (BRG7014ACD x2, GREASEKLB2, SEAL SPDL 70), test run ok. Down 230 min. f/u tmr.",
+      "start": 109,
+      "end": 291,
+      "page": null,
+      "fact_kind": "node",
+      "fact_id": "INC-2026-043",
+      "type": "Incident",
+      "label": "spindle running hot and noisy at high rpm",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- Kessler 2 stopped 1255 w/ ALM SP-104, spindle running hot adn noisy at high rpm. Repl spidnle brg set (BRG7014ACD x2, GREASEKLB2, SEAL SPDL 70), test run ok. Down 230 min. f/u tmr.",
+      "start": 109,
+      "end": 291,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-043|OCCURRED_ON|CNC-02",
+      "type": "OCCURRED_ON",
+      "label": "INC-2026-043 happened on CNC-02",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- Kessler 2 stopped 1255 w/ ALM SP-104, spindle running hot adn noisy at high rpm. Repl spidnle brg set (BRG7014ACD x2, GREASEKLB2, SEAL SPDL 70), test run ok. Down 230 min. f/u tmr.",
+      "start": 109,
+      "end": 291,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-043|TRIGGERED_BY|SP-104",
+      "type": "TRIGGERED_BY",
+      "label": "INC-2026-043 started with SP-104",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- Kessler 2 stopped 1255 w/ ALM SP-104, spindle running hot adn noisy at high rpm. Repl spidnle brg set (BRG7014ACD x2, GREASEKLB2, SEAL SPDL 70), test run ok. Down 230 min. f/u tmr.",
+      "start": 109,
+      "end": 291,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-043|USED|BRG-7014-ACD",
+      "type": "USED",
+      "label": "INC-2026-043 used BRG-7014-ACD",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- Kessler 2 stopped 1255 w/ ALM SP-104, spindle running hot adn noisy at high rpm. Repl spidnle brg set (BRG7014ACD x2, GREASEKLB2, SEAL SPDL 70), test run ok. Down 230 min. f/u tmr.",
+      "start": 109,
+      "end": 291,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-043|USED|GREASE-KLB-2",
+      "type": "USED",
+      "label": "INC-2026-043 used GREASE-KLB-2",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- Kessler 2 stopped 1255 w/ ALM SP-104, spindle running hot adn noisy at high rpm. Repl spidnle brg set (BRG7014ACD x2, GREASEKLB2, SEAL SPDL 70), test run ok. Down 230 min. f/u tmr.",
+      "start": 109,
+      "end": 291,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-043|USED|SEAL-SPDL-70",
+      "type": "USED",
+      "label": "INC-2026-043 used SEAL-SPDL-70",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    }
+  ]
+}

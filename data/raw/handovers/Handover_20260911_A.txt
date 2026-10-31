@@ -1,0 +1,9 @@
+Shift handover 11 Sep Shift A
+From: JH   To: Rajesh
+
+- waiting on gripper fingers, stores says none left
+- 5S done on robot cell
+- robot cell guard doro sticking a bit, f/u tmr
+- LT1 stopped 0958 w/ VT-012, matser part reading otu of tolerance. Recalibrate pressure sensor, rnuning ok now. Down apprxo 2h. pls f/u w/ stores.
+
+Signed Jia Hui

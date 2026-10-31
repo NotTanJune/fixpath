@@ -1,0 +1,9 @@
+Shift handover 05/05/2026 C shift
+From: Arun   To: Jia Hui
+
+- pls f/u on stores count for seals
+- CNC 1 running fine, tool wear ok
+- nothing major, all machines running
+- leak test stopped 0631 w/ VT-012, good parts failing leak test, reference off. Recalibrate pressure senosr, tested ok. Down approx 2h. psl chk again tmr.
+
+Signed Arun

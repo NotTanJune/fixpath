@@ -1,0 +1,45 @@
+{
+  "id": "DOC-4795207a",
+  "path": "handovers/Handover_20260903_B.txt",
+  "doc_type": "handover",
+  "kind": "text",
+  "text": "Shift handover 2026-09-03 B\nFrom: Rajesh   To: MH\n\n- CNC 1 running fnie, tool wear ok\n- LT1 stopped 1621 w/ VT12, master patr readnig out of tolerance. Recalibrate pressure sensor, test rnu ok. Down 95 min.\n\nSigned RP\n",
+  "spans": [
+    {
+      "quote": "- LT1 stopped 1621 w/ VT12, master patr readnig out of tolerance. Recalibrate pressure sensor, test rnu ok. Down 95 min.",
+      "start": 86,
+      "end": 206,
+      "page": null,
+      "fact_kind": "node",
+      "fact_id": "INC-2026-055",
+      "type": "Incident",
+      "label": "master part reading out of tolerance",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- LT1 stopped 1621 w/ VT12, master patr readnig out of tolerance. Recalibrate pressure sensor, test rnu ok. Down 95 min.",
+      "start": 86,
+      "end": 206,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-055|OCCURRED_ON|LT-01",
+      "type": "OCCURRED_ON",
+      "label": "INC-2026-055 happened on LT-01",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- LT1 stopped 1621 w/ VT12, master patr readnig out of tolerance. Recalibrate pressure sensor, test rnu ok. Down 95 min.",
+      "start": 86,
+      "end": 206,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-055|TRIGGERED_BY|VT-012",
+      "type": "TRIGGERED_BY",
+      "label": "INC-2026-055 started with VT-012",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    }
+  ]
+}

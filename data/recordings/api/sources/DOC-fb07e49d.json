@@ -1,0 +1,57 @@
+{
+  "id": "DOC-fb07e49d",
+  "path": "handovers/Handover_20260627_A.txt",
+  "doc_type": "handover",
+  "kind": "text",
+  "text": "Shift handover 2026-06-27 Shift A\nFrom: WM   To: NA\n\n- deburr cell stopped 1456 w/ RB570, muting fault after the guard was knocekd. Realign light curtain (LC bracket), tested ok. Down 125 min. pls f/u w/ stores.\n- chk air pressure at LT1, ok\n- 5S done on robot cell\n- pls f/u on stores count for seals\n\nSigned WM\n",
+  "spans": [
+    {
+      "quote": "- deburr cell stopped 1456 w/ RB570, muting fault after the guard was knocekd. Realign light curtain (LC bracket), tested ok. Down 125 min. pls f/u w/ stores.",
+      "start": 53,
+      "end": 211,
+      "page": null,
+      "fact_kind": "node",
+      "fact_id": "INC-2026-033",
+      "type": "Incident",
+      "label": "muting fault after the guard was knocked",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- deburr cell stopped 1456 w/ RB570, muting fault after the guard was knocekd. Realign light curtain (LC bracket), tested ok. Down 125 min. pls f/u w/ stores.",
+      "start": 53,
+      "end": 211,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-033|OCCURRED_ON|RW-01",
+      "type": "OCCURRED_ON",
+      "label": "INC-2026-033 happened on RW-01",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- deburr cell stopped 1456 w/ RB570, muting fault after the guard was knocekd. Realign light curtain (LC bracket), tested ok. Down 125 min. pls f/u w/ stores.",
+      "start": 53,
+      "end": 211,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-033|TRIGGERED_BY|RB-570",
+      "type": "TRIGGERED_BY",
+      "label": "INC-2026-033 started with RB-570",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- deburr cell stopped 1456 w/ RB570, muting fault after the guard was knocekd. Realign light curtain (LC bracket), tested ok. Down 125 min. pls f/u w/ stores.",
+      "start": 53,
+      "end": 211,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-033|USED|BRKT-LC-01",
+      "type": "USED",
+      "label": "INC-2026-033 used BRKT-LC-01",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    }
+  ]
+}

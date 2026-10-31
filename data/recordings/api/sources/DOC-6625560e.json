@@ -1,0 +1,69 @@
+{
+  "id": "DOC-6625560e",
+  "path": "handovers/shift notes 28 Jun B.txt",
+  "doc_type": "handover",
+  "kind": "text",
+  "text": "Shift handover 28 Jun B\nFrom: RP   To: JHC\n\n- the press stopped 2056 w/ E-217, oli leaking under the ram, pressure dropping. Repl main cylinder seal kit (HLP46, SWITCH LIM 01), tested ok. Down 440 min.\n- ckh air pressure at LT1, ok\n- CNC 1 running fine, tool waer ok\n\nSigned RP\n",
+  "spans": [
+    {
+      "quote": "- the press stopped 2056 w/ E-217, oli leaking under the ram, pressure dropping. Repl main cylinder seal kit (HLP46, SWITCH LIM 01), tested ok. Down 440 min.",
+      "start": 44,
+      "end": 201,
+      "page": null,
+      "fact_kind": "node",
+      "fact_id": "INC-2026-034",
+      "type": "Incident",
+      "label": "oil leaking under the ram, pressure dropping",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- the press stopped 2056 w/ E-217, oli leaking under the ram, pressure dropping. Repl main cylinder seal kit (HLP46, SWITCH LIM 01), tested ok. Down 440 min.",
+      "start": 44,
+      "end": 201,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-034|OCCURRED_ON|HP-01",
+      "type": "OCCURRED_ON",
+      "label": "INC-2026-034 happened on HP-01",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- the press stopped 2056 w/ E-217, oli leaking under the ram, pressure dropping. Repl main cylinder seal kit (HLP46, SWITCH LIM 01), tested ok. Down 440 min.",
+      "start": 44,
+      "end": 201,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-034|TRIGGERED_BY|E-217",
+      "type": "TRIGGERED_BY",
+      "label": "INC-2026-034 started with E-217",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- the press stopped 2056 w/ E-217, oli leaking under the ram, pressure dropping. Repl main cylinder seal kit (HLP46, SWITCH LIM 01), tested ok. Down 440 min.",
+      "start": 44,
+      "end": 201,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-034|USED|OIL-HLP46-20L",
+      "type": "USED",
+      "label": "INC-2026-034 used OIL-HLP46-20L",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- the press stopped 2056 w/ E-217, oli leaking under the ram, pressure dropping. Repl main cylinder seal kit (HLP46, SWITCH LIM 01), tested ok. Down 440 min.",
+      "start": 44,
+      "end": 201,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-034|USED|SWITCH-LIM-01",
+      "type": "USED",
+      "label": "INC-2026-034 used SWITCH-LIM-01",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    }
+  ]
+}

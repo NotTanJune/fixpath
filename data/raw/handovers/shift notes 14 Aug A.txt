@@ -1,0 +1,8 @@
+Shift handover 2026-08-14 Shift A
+From: Jia Hui   To: NA
+
+- CNC 1 running fine, tool wear ok
+- coolnat topped up on MC-2
+- LT-01 stopped 1403 w/ VT-012, good parts failing leak test, reference off. Recalibrate pressure sensor (SENSPRS10), test run ok. Down approx 1h. pls chk agani tmr.
+
+Signed Jia Hui

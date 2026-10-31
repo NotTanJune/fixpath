@@ -1,0 +1,8 @@
+Shift handover 2026-09-17 Shift A
+From: JH   To: NA
+
+- pls f/u on stores count for seals
+- CNC 1 running fine, tool wear ok
+- HP1 stopped 1229, oil leaking under the rma, pressure dorpping. Repl main cylinder seal kti (OIL HLP46 20L), rnuning ok now. Down 475 min.
+
+Signed JH

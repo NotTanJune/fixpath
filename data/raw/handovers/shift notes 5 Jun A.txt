@@ -1,0 +1,7 @@
+Shift handover 05/06/2026 Shift A
+From: Siew Ling   To: Rajesh
+
+- robot cell guard door sticking a bit, f/u tmr
+- CNC 2 stopped 1049 w/ ALM TC-305, tool not clamping afetr change, machine stops. Repl tool clamp disc springs (SENS PROX 08, disc springs TC), tested ok. Down approx 5h.
+
+Signed Siew Ling

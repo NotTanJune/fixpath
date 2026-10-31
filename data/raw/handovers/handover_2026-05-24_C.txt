@@ -1,0 +1,8 @@
+Shift handover 24 May C shift
+From: Hafiz   To: Wei Ming
+
+- press warm-up normal
+- 5S done on robot cell
+- leak tester master part passed at start of shift
+
+Signed MH

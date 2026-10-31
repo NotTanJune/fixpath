@@ -1,0 +1,1 @@
+On 31 Aug MC-2 stopped at about 1429 with ALM SP-104 on the screen. Spindle running hot and noisy at high rpm. The root cause was spindle bearing wear, found on the spindle. I replaced spdl brg x2 and KLB2 grease and SEAL SPDL 70 and SENSPT10001. After the repair I ran it for a while and it held. Next time I will check the spindle before the shift starts.

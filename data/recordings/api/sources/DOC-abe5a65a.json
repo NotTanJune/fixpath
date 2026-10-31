@@ -1,0 +1,45 @@
+{
+  "id": "DOC-abe5a65a",
+  "path": "handovers/Handover_20260516_C.txt",
+  "doc_type": "handover",
+  "kind": "text",
+  "text": "Shift handover 16/05/2026 C shift\nFrom: MH   To: Jia Hui\n\n- waiting on gripper fingers, stores says nnoe left\n- leak tester stopped 0147 w/ VT-012, master part reading out of tolerance. Recalibrate pressure sensor, rnuning ok now. Down 145 mni.\n\nSigned MH\n",
+  "spans": [
+    {
+      "quote": "- leak tester stopped 0147 w/ VT-012, master part reading out of tolerance. Recalibrate pressure sensor, rnuning ok now. Down 145 mni.",
+      "start": 110,
+      "end": 244,
+      "page": null,
+      "fact_kind": "node",
+      "fact_id": "INC-2026-021",
+      "type": "Incident",
+      "label": "master part reading out of tolerance",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- leak tester stopped 0147 w/ VT-012, master part reading out of tolerance. Recalibrate pressure sensor, rnuning ok now. Down 145 mni.",
+      "start": 110,
+      "end": 244,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-021|OCCURRED_ON|LT-01",
+      "type": "OCCURRED_ON",
+      "label": "INC-2026-021 happened on LT-01",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- leak tester stopped 0147 w/ VT-012, master part reading out of tolerance. Recalibrate pressure sensor, rnuning ok now. Down 145 mni.",
+      "start": 110,
+      "end": 244,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-021|TRIGGERED_BY|VT-012",
+      "type": "TRIGGERED_BY",
+      "label": "INC-2026-021 started with VT-012",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    }
+  ]
+}

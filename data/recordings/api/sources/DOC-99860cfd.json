@@ -1,0 +1,93 @@
+{
+  "id": "DOC-99860cfd",
+  "path": "maintenance/note_from_weiming_CNC1_spindle.txt",
+  "doc_type": "maintenance_note",
+  "kind": "text",
+  "text": "On 2 Sep CNC 1 stopped at about 1330 with SP117 on the screen. When I opened it up I found spindle bearing wear on the spindle. I replaced spdl brg x2 and GREASE KLB 2 and seal 70 and SENSPT10001. Next time I will check the spindle before the shift starts.\n",
+  "spans": [
+    {
+      "quote": "On 2 Sep CNC 1 stopped at about 1330 with SP117 on the screen. When I opened it up I found spindle bearing wear on the spindle. I replaced spdl brg x2 and GREASE KLB 2 and seal 70 and SENSPT10001.",
+      "start": 0,
+      "end": 196,
+      "page": null,
+      "fact_kind": "node",
+      "fact_id": "INC-2026-054",
+      "type": "Incident",
+      "label": "grinding noise from spindle, vibration alarm",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "On 2 Sep CNC 1 stopped at about 1330 with SP117 on the screen. When I opened it up I found spindle bearing wear on the spindle. I replaced spdl brg x2 and GREASE KLB 2 and seal 70 and SENSPT10001.",
+      "start": 0,
+      "end": 196,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-054|OCCURRED_ON|CNC-01",
+      "type": "OCCURRED_ON",
+      "label": "INC-2026-054 happened on CNC-01",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "On 2 Sep CNC 1 stopped at about 1330 with SP117 on the screen. When I opened it up I found spindle bearing wear on the spindle. I replaced spdl brg x2 and GREASE KLB 2 and seal 70 and SENSPT10001.",
+      "start": 0,
+      "end": 196,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-054|TRIGGERED_BY|SP-117",
+      "type": "TRIGGERED_BY",
+      "label": "INC-2026-054 started with SP-117",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "On 2 Sep CNC 1 stopped at about 1330 with SP117 on the screen. When I opened it up I found spindle bearing wear on the spindle. I replaced spdl brg x2 and GREASE KLB 2 and seal 70 and SENSPT10001.",
+      "start": 0,
+      "end": 196,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-054|USED|BRG-7014-ACD",
+      "type": "USED",
+      "label": "INC-2026-054 used BRG-7014-ACD",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "On 2 Sep CNC 1 stopped at about 1330 with SP117 on the screen. When I opened it up I found spindle bearing wear on the spindle. I replaced spdl brg x2 and GREASE KLB 2 and seal 70 and SENSPT10001.",
+      "start": 0,
+      "end": 196,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-054|USED|GREASE-KLB-2",
+      "type": "USED",
+      "label": "INC-2026-054 used GREASE-KLB-2",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "On 2 Sep CNC 1 stopped at about 1330 with SP117 on the screen. When I opened it up I found spindle bearing wear on the spindle. I replaced spdl brg x2 and GREASE KLB 2 and seal 70 and SENSPT10001.",
+      "start": 0,
+      "end": 196,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-054|USED|SEAL-SPDL-70",
+      "type": "USED",
+      "label": "INC-2026-054 used SEAL-SPDL-70",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "On 2 Sep CNC 1 stopped at about 1330 with SP117 on the screen. When I opened it up I found spindle bearing wear on the spindle. I replaced spdl brg x2 and GREASE KLB 2 and seal 70 and SENSPT10001.",
+      "start": 0,
+      "end": 196,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-054|USED|SENS-PT100-01",
+      "type": "USED",
+      "label": "INC-2026-054 used SENS-PT100-01",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    }
+  ]
+}

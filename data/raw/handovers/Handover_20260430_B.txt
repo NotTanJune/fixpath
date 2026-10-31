@@ -1,0 +1,9 @@
+Shift handover 2026-04-30 B
+From: NA   To: Jun Hao
+
+- leak tester master part passed at start of shift
+- 5S done on robot cell
+- LT-01 stopped 1915 w/ VT018, leak rate high on every part, fixture hisisng. Repl fixture seals (SEAL FIX 30 x2), running ok now. Down 145 min.
+- pls f/u on stores coutn for seals
+
+Signed NA

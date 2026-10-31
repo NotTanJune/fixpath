@@ -1,0 +1,7 @@
+Shift handover 1 Aug C shift
+From: JHC   To: WM
+
+- robot cell guard doro sticikng a bit, f/u tmr
+- CNC 1 running fine, tool wear ok
+
+Signed Jun Hao

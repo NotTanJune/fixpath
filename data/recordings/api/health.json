@@ -1,0 +1,14 @@
+{
+  "keys": {
+    "openai": false,
+    "typesafe": false,
+    "langfuse": false
+  },
+  "decider": "cache",
+  "replay_mode": true,
+  "ingest_enabled": false,
+  "budget": {
+    "spent_usd": 0.0,
+    "limit_usd": 40.0
+  }
+}

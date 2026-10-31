@@ -1,0 +1,132 @@
+%PDF-1.3
+%“Œ‹ž ReportLab Generated PDF document (opensource)
+1 0 obj
+<<
+/F1 2 0 R /F2 3 0 R
+>>
+endobj
+2 0 obj
+<<
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
+endobj
+3 0 obj
+<<
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+>>
+endobj
+4 0 obj
+<<
+/Contents 9 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 8 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+5 0 obj
+<<
+/Contents 10 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 8 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+6 0 obj
+<<
+/PageMode /UseNone /Pages 8 0 R /Type /Catalog
+>>
+endobj
+7 0 obj
+<<
+/Author (Bramwell Hydraulics) /CreationDate (D:20000101000000+00'00') /Creator (Bramwell Hydraulics) /Keywords () /ModDate (D:20000101000000+00'00') /Producer (ReportLab PDF Library - \(opensource\)) 
+  /Subject (unspecified) /Title (Bramwell Hydraulics BH-250 Service bulletin SB-250-07) /Trapped /False
+>>
+endobj
+8 0 obj
+<<
+/Count 2 /Kids [ 4 0 R 5 0 R ] /Type /Pages
+>>
+endobj
+9 0 obj
+<<
+/Length 1114
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F1 12 Tf 14.4 TL ET
+BT 1 0 0 1 56 780 Tm (Service bulletin SB-250-07) Tj T* ET
+BT /F1 12 Tf 14.4 TL ET
+BT 1 0 0 1 56 760 Tm (Bramwell Hydraulics BH-250 hydraulic press) Tj T* ET
+BT /F2 12 Tf 14.4 TL ET
+BT 1 0 0 1 56 740 Tm (1 Scope) Tj T* ET
+BT /F1 12 Tf 14.4 TL ET
+BT 1 0 0 1 56 724 Tm (This bulletin applies to every BH-250 press in service, among them the press HP-01 on) Tj T* ET
+BT 1 0 0 1 56 708 Tm (line 3. It covers pressure loss in the main cylinder and the seal kit that cures it.) Tj T* ET
+BT /F2 12 Tf 14.4 TL ET
+BT 1 0 0 1 56 688 Tm (2 Alarm E-217) Tj T* ET
+BT /F1 12 Tf 14.4 TL ET
+BT 1 0 0 1 56 672 Tm (The controller raises E-217, main cylinder pressure loss, when the main cylinder cannot) Tj T* ET
+BT 1 0 0 1 56 656 Tm (hold pressure during the stroke. The usual cause is wear of the cylinder rod seals. Check) Tj T* ET
+BT 1 0 0 1 56 640 Tm (for oil under the press before anything else.) Tj T* ET
+BT /F1 9 Tf 10.8 TL ET
+BT 1 0 0 1 56 40 Tm (Bramwell Hydraulics BH-250 Service bulletin SB-250-07, rev 1) Tj T* ET
+BT 1 0 0 1 56 28 Tm (Page 1) Tj T* ET
+ 
+endstream
+endobj
+10 0 obj
+<<
+/Length 1042
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 12 Tf 14.4 TL ET
+BT 1 0 0 1 56 780 Tm (3 Replacing the seals) Tj T* ET
+BT /F1 12 Tf 14.4 TL ET
+BT 1 0 0 1 56 764 Tm (Lock out the main isolator and release the stored pressure first. Drain the cylinder,) Tj T* ET
+BT 1 0 0 1 56 748 Tm (withdraw the rod and fit the main cylinder seal kit SEAL-KIT-50. Replace the rod wiper) Tj T* ET
+BT 1 0 0 1 56 732 Tm (WIPER-CYL-50 at the same time, since a worn wiper brings dirt back to the new seals.) Tj T* ET
+BT /F2 12 Tf 14.4 TL ET
+BT 1 0 0 1 56 712 Tm (4 Parts) Tj T* ET
+BT /F1 12 Tf 14.4 TL ET
+BT 1 0 0 1 56 696 Tm (SEAL-KIT-50 Main cylinder seal kit, 50 mm rod, one kit) Tj T* ET
+BT /F1 12 Tf 14.4 TL ET
+BT 1 0 0 1 56 676 Tm (WIPER-CYL-50 Cylinder rod wiper 50 mm, one) Tj T* ET
+BT /F1 12 Tf 14.4 TL ET
+BT 1 0 0 1 56 656 Tm (OIL-HLP46-20L Hydraulic oil HLP 46, 20 litre pail, to top up) Tj T* ET
+BT /F1 9 Tf 10.8 TL ET
+BT 1 0 0 1 56 40 Tm (Bramwell Hydraulics BH-250 Service bulletin SB-250-07, rev 1) Tj T* ET
+BT 1 0 0 1 56 28 Tm (Page 2) Tj T* ET
+ 
+endstream
+endobj
+xref
+0 11
+0000000000 65535 f 
+0000000061 00000 n 
+0000000102 00000 n 
+0000000209 00000 n 
+0000000321 00000 n 
+0000000524 00000 n 
+0000000728 00000 n 
+0000000796 00000 n 
+0000001122 00000 n 
+0000001187 00000 n 
+0000002352 00000 n 
+trailer
+<<
+/ID 
+[<8ec15d01d05e207844e151f37b5c953f><8ec15d01d05e207844e151f37b5c953f>]
+% ReportLab generated PDF document -- digest (opensource)
+
+/Info 7 0 R
+/Root 6 0 R
+/Size 11
+>>
+startxref
+3446
+%%EOF

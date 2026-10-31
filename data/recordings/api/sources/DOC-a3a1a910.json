@@ -1,0 +1,45 @@
+{
+  "id": "DOC-a3a1a910",
+  "path": "handovers/Handover_20260911_A.txt",
+  "doc_type": "handover",
+  "kind": "text",
+  "text": "Shift handover 11 Sep Shift A\nFrom: JH   To: Rajesh\n\n- waiting on gripper fingers, stores says none left\n- 5S done on robot cell\n- robot cell guard doro sticking a bit, f/u tmr\n- LT1 stopped 0958 w/ VT-012, matser part reading otu of tolerance. Recalibrate pressure sensor, rnuning ok now. Down apprxo 2h. pls f/u w/ stores.\n\nSigned Jia Hui\n",
+  "spans": [
+    {
+      "quote": "- LT1 stopped 0958 w/ VT-012, matser part reading otu of tolerance. Recalibrate pressure sensor, rnuning ok now. Down apprxo 2h. pls f/u w/ stores.",
+      "start": 177,
+      "end": 324,
+      "page": null,
+      "fact_kind": "node",
+      "fact_id": "INC-2026-057",
+      "type": "Incident",
+      "label": "master part reading out of tolerance",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- LT1 stopped 0958 w/ VT-012, matser part reading otu of tolerance. Recalibrate pressure sensor, rnuning ok now. Down apprxo 2h. pls f/u w/ stores.",
+      "start": 177,
+      "end": 324,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-057|OCCURRED_ON|LT-01",
+      "type": "OCCURRED_ON",
+      "label": "INC-2026-057 happened on LT-01",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- LT1 stopped 0958 w/ VT-012, matser part reading otu of tolerance. Recalibrate pressure sensor, rnuning ok now. Down apprxo 2h. pls f/u w/ stores.",
+      "start": 177,
+      "end": 324,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-057|TRIGGERED_BY|VT-012",
+      "type": "TRIGGERED_BY",
+      "label": "INC-2026-057 started with VT-012",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    }
+  ]
+}

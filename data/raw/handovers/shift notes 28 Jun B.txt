@@ -1,0 +1,8 @@
+Shift handover 28 Jun B
+From: RP   To: JHC
+
+- the press stopped 2056 w/ E-217, oli leaking under the ram, pressure dropping. Repl main cylinder seal kit (HLP46, SWITCH LIM 01), tested ok. Down 440 min.
+- ckh air pressure at LT1, ok
+- CNC 1 running fine, tool waer ok
+
+Signed RP

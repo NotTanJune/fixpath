@@ -1,0 +1,4521 @@
+{
+  "answers": [
+    {
+      "ledger": {
+        "graph agent": {
+          "calls": 4,
+          "usd": 0.0038609000000000004
+        },
+        "manual agent": {
+          "calls": 1,
+          "usd": 0.000484
+        },
+        "synthesize": {
+          "calls": 1,
+          "usd": 0.006016
+        },
+        "triage": {
+          "calls": 1,
+          "usd": 7.068600000000001e-05
+        },
+        "verify": {
+          "calls": 1,
+          "usd": 9.9876e-05
+        }
+      },
+      "nodes": {
+        "assemble": {
+          "backend": null,
+          "cache_hit": null,
+          "seconds": 0.0072,
+          "usd": 0.0
+        },
+        "graph_agent": {
+          "backend": "gpt-6.1-terra",
+          "cache_hit": false,
+          "seconds": 9.0722,
+          "usd": 0.0038609
+        },
+        "manual_agent": {
+          "backend": "gpt-6.1-terra",
+          "cache_hit": false,
+          "seconds": 2.749,
+          "usd": 0.000484
+        },
+        "synthesize": {
+          "backend": "gpt-6.1-sol",
+          "cache_hit": false,
+          "seconds": 5.0726,
+          "usd": 0.006016
+        },
+        "triage": {
+          "backend": "jev-1.14.0",
+          "cache_hit": false,
+          "seconds": 0.314,
+          "usd": 7.068600000000001e-05
+        },
+        "verify": {
+          "backend": "jev-1.14.0",
+          "cache_hit": false,
+          "seconds": 0.2461,
+          "usd": 9.9876e-05
+        }
+      },
+      "question": "HP-01 stopped with E-217, oil under the press",
+      "row_ids": [
+        10751,
+        10752,
+        10753,
+        10754,
+        10755,
+        10756,
+        10757,
+        10758
+      ],
+      "seconds": 14.717653,
+      "status": "confirm"
+    },
+    {
+      "ledger": {
+        "graph agent": {
+          "calls": 4,
+          "usd": 0.004254699999999999
+        },
+        "manual agent": {
+          "calls": 1,
+          "usd": 0.000505
+        },
+        "synthesize": {
+          "calls": 1,
+          "usd": 0.00547
+        },
+        "triage": {
+          "calls": 1,
+          "usd": 7.068600000000001e-05
+        },
+        "verify": {
+          "calls": 1,
+          "usd": 0.00010143000000000001
+        }
+      },
+      "nodes": {
+        "assemble": {
+          "backend": null,
+          "cache_hit": null,
+          "seconds": 0.0073,
+          "usd": 0.0
+        },
+        "graph_agent": {
+          "backend": "gpt-6.1-terra",
+          "cache_hit": false,
+          "seconds": 9.06,
+          "usd": 0.0042547
+        },
+        "manual_agent": {
+          "backend": "gpt-6.1-terra",
+          "cache_hit": false,
+          "seconds": 2.3044,
+          "usd": 0.000505
+        },
+        "synthesize": {
+          "backend": "gpt-6.1-sol",
+          "cache_hit": false,
+          "seconds": 4.1706,
+          "usd": 0.00547
+        },
+        "triage": {
+          "backend": "jev-1.14.0",
+          "cache_hit": false,
+          "seconds": 0.4273,
+          "usd": 7.068600000000001e-05
+        },
+        "verify": {
+          "backend": "jev-1.14.0",
+          "cache_hit": false,
+          "seconds": 0.285,
+          "usd": 0.00010143000000000001
+        }
+      },
+      "question": "CNC-02 spindle alarm SP-104, grinding noise",
+      "row_ids": [
+        10759,
+        10760,
+        10761,
+        10762,
+        10763,
+        10764,
+        10765,
+        10766
+      ],
+      "seconds": 13.956483,
+      "status": "act"
+    },
+    {
+      "ledger": {
+        "graph agent": {
+          "calls": 4,
+          "usd": 0.0035941000000000002
+        },
+        "manual agent": {
+          "calls": 1,
+          "usd": 0.000494
+        },
+        "synthesize": {
+          "calls": 1,
+          "usd": 0.004638
+        },
+        "triage": {
+          "calls": 1,
+          "usd": 7.064400000000001e-05
+        },
+        "verify": {
+          "calls": 1,
+          "usd": 6.329400000000001e-05
+        }
+      },
+      "nodes": {
+        "assemble": {
+          "backend": null,
+          "cache_hit": null,
+          "seconds": 0.0051,
+          "usd": 0.0
+        },
+        "graph_agent": {
+          "backend": "gpt-6.1-terra",
+          "cache_hit": false,
+          "seconds": 9.4604,
+          "usd": 0.0035941
+        },
+        "manual_agent": {
+          "backend": "gpt-6.1-terra",
+          "cache_hit": false,
+          "seconds": 2.203,
+          "usd": 0.000494
+        },
+        "synthesize": {
+          "backend": "gpt-6.1-sol",
+          "cache_hit": false,
+          "seconds": 4.0409,
+          "usd": 0.004638
+        },
+        "triage": {
+          "backend": "jev-1.14.0",
+          "cache_hit": false,
+          "seconds": 0.2479,
+          "usd": 7.064400000000001e-05
+        },
+        "verify": {
+          "backend": "jev-1.14.0",
+          "cache_hit": false,
+          "seconds": 0.2555,
+          "usd": 6.329400000000001e-05
+        }
+      },
+      "question": "RW-01 gripper keeps dropping parts, RB-551",
+      "row_ids": [
+        10767,
+        10768,
+        10769,
+        10770,
+        10771,
+        10772,
+        10773,
+        10774
+      ],
+      "seconds": 14.015405,
+      "status": "act"
+    },
+    {
+      "ledger": {
+        "graph agent": {
+          "calls": 4,
+          "usd": 0.0036293999999999996
+        },
+        "manual agent": {
+          "calls": 1,
+          "usd": 0.000476
+        },
+        "synthesize": {
+          "calls": 1,
+          "usd": 0.005294
+        },
+        "triage": {
+          "calls": 1,
+          "usd": 7.056e-05
+        },
+        "verify": {
+          "calls": 1,
+          "usd": 0.00010285800000000001
+        }
+      },
+      "nodes": {
+        "assemble": {
+          "backend": null,
+          "cache_hit": null,
+          "seconds": 0.0074,
+          "usd": 0.0
+        },
+        "graph_agent": {
+          "backend": "gpt-6.1-terra",
+          "cache_hit": false,
+          "seconds": 9.4096,
+          "usd": 0.0036294
+        },
+        "manual_agent": {
+          "backend": "gpt-6.1-terra",
+          "cache_hit": false,
+          "seconds": 2.1884,
+          "usd": 0.000476
+        },
+        "synthesize": {
+          "backend": "gpt-6.1-sol",
+          "cache_hit": false,
+          "seconds": 4.7423,
+          "usd": 0.005294
+        },
+        "triage": {
+          "backend": "jev-1.14.0",
+          "cache_hit": false,
+          "seconds": 0.2499,
+          "usd": 7.056e-05
+        },
+        "verify": {
+          "backend": "jev-1.14.0",
+          "cache_hit": false,
+          "seconds": 0.3174,
+          "usd": 0.00010285800000000001
+        }
+      },
+      "question": "Leak tester failing the master part, VT-018",
+      "row_ids": [
+        10775,
+        10776,
+        10777,
+        10778,
+        10779,
+        10780,
+        10781,
+        10782
+      ],
+      "seconds": 14.732897,
+      "status": "confirm"
+    }
+  ],
+  "ingestion": {
+    "linker": {
+      "cached": 0,
+      "questions": [
+        {
+          "purpose": "link root cause",
+          "row_ids": [
+            10690
+          ],
+          "seconds": 0.20497312500083353,
+          "usd": 3.1584e-05
+        },
+        {
+          "purpose": "link root cause",
+          "row_ids": [
+            10691
+          ],
+          "seconds": 0.3039823750004871,
+          "usd": 3.1416e-05
+        },
+        {
+          "purpose": "link root cause",
+          "row_ids": [
+            10692
+          ],
+          "seconds": 0.2062742919952143,
+          "usd": 3.192e-05
+        },
+        {
+          "purpose": "link root cause",
+          "row_ids": [
+            10693
+          ],
+          "seconds": 0.21486925000499468,
+          "usd": 3.444e-05
+        },
+        {
+          "purpose": "link root cause",
+          "row_ids": [
+            10694
+          ],
+          "seconds": 0.2545508329931181,
+          "usd": 3.3936e-05
+        },
+        {
+          "purpose": "link root cause",
+          "row_ids": [
+            10695
+          ],
+          "seconds": 0.2684123329963768,
+          "usd": 3.2676000000000004e-05
+        },
+        {
+          "purpose": "link root cause",
+          "row_ids": [
+            10696
+          ],
+          "seconds": 0.216726541009848,
+          "usd": 3.3054e-05
+        },
+        {
+          "purpose": "link root cause",
+          "row_ids": [
+            10697
+          ],
+          "seconds": 0.23204262500803452,
+          "usd": 3.406200000000001e-05
+        },
+        {
+          "purpose": "link root cause",
+          "row_ids": [
+            10698
+          ],
+          "seconds": 0.21605041599832475,
+          "usd": 2.7930000000000002e-05
+        },
+        {
+          "purpose": "link root cause",
+          "row_ids": [
+            10699
+          ],
+          "seconds": 0.20769279201340396,
+          "usd": 2.9946e-05
+        },
+        {
+          "purpose": "link root cause",
+          "row_ids": [
+            10700
+          ],
+          "seconds": 0.23140333298943006,
+          "usd": 3.4146e-05
+        },
+        {
+          "purpose": "link root cause",
+          "row_ids": [
+            10701
+          ],
+          "seconds": 0.23767641599988565,
+          "usd": 3.2424e-05
+        },
+        {
+          "purpose": "link root cause",
+          "row_ids": [
+            10702
+          ],
+          "seconds": 0.2868319999979576,
+          "usd": 3.0408e-05
+        },
+        {
+          "purpose": "link root cause",
+          "row_ids": [
+            10703
+          ],
+          "seconds": 0.3070747500023572,
+          "usd": 2.8602e-05
+        },
+        {
+          "purpose": "link root cause",
+          "row_ids": [
+            10704
+          ],
+          "seconds": 0.23524066699610557,
+          "usd": 3.5574e-05
+        },
+        {
+          "purpose": "link root cause",
+          "row_ids": [
+            10705
+          ],
+          "seconds": 0.21177324999007396,
+          "usd": 2.7510000000000003e-05
+        },
+        {
+          "purpose": "link root cause",
+          "row_ids": [
+            10706
+          ],
+          "seconds": 0.24165004200767726,
+          "usd": 3.313800000000001e-05
+        },
+        {
+          "purpose": "link root cause",
+          "row_ids": [
+            10707
+          ],
+          "seconds": 0.2259612080088118,
+          "usd": 2.7426e-05
+        },
+        {
+          "purpose": "link root cause",
+          "row_ids": [
+            10708
+          ],
+          "seconds": 0.20089979200565722,
+          "usd": 3.1836000000000005e-05
+        },
+        {
+          "purpose": "link root cause",
+          "row_ids": [
+            10709
+          ],
+          "seconds": 0.2085769590048585,
+          "usd": 3.0786e-05
+        },
+        {
+          "purpose": "link root cause",
+          "row_ids": [
+            10710
+          ],
+          "seconds": 0.20943970799271483,
+          "usd": 2.7174000000000004e-05
+        },
+        {
+          "purpose": "link root cause",
+          "row_ids": [
+            10711
+          ],
+          "seconds": 0.35918770800344646,
+          "usd": 3.0786e-05
+        },
+        {
+          "purpose": "link root cause",
+          "row_ids": [
+            10712
+          ],
+          "seconds": 0.24159541599510703,
+          "usd": 3.0408e-05
+        },
+        {
+          "purpose": "link root cause",
+          "row_ids": [
+            10713
+          ],
+          "seconds": 0.2592435000115074,
+          "usd": 3.171e-05
+        },
+        {
+          "purpose": "link root cause",
+          "row_ids": [
+            10714
+          ],
+          "seconds": 0.20789508300367743,
+          "usd": 2.8266000000000003e-05
+        },
+        {
+          "purpose": "link root cause",
+          "row_ids": [
+            10715
+          ],
+          "seconds": 0.2507212499913294,
+          "usd": 3.297e-05
+        },
+        {
+          "purpose": "link root cause",
+          "row_ids": [
+            10716
+          ],
+          "seconds": 0.2561777499940945,
+          "usd": 2.9148000000000003e-05
+        },
+        {
+          "purpose": "link root cause",
+          "row_ids": [
+            10717
+          ],
+          "seconds": 0.25255504201049916,
+          "usd": 2.7678e-05
+        },
+        {
+          "purpose": "link root cause",
+          "row_ids": [
+            10718
+          ],
+          "seconds": 0.20838412499870174,
+          "usd": 3.1248e-05
+        },
+        {
+          "purpose": "link root cause",
+          "row_ids": [
+            10719
+          ],
+          "seconds": 0.20600508399365935,
+          "usd": 3.2424e-05
+        },
+        {
+          "purpose": "link root cause",
+          "row_ids": [
+            10720
+          ],
+          "seconds": 0.21833091699227225,
+          "usd": 3.3894000000000004e-05
+        },
+        {
+          "purpose": "link root cause",
+          "row_ids": [
+            10721
+          ],
+          "seconds": 0.26251179199607577,
+          "usd": 3.2634e-05
+        },
+        {
+          "purpose": "link root cause",
+          "row_ids": [
+            10722
+          ],
+          "seconds": 0.23207741700753104,
+          "usd": 3.0492000000000002e-05
+        },
+        {
+          "purpose": "link root cause",
+          "row_ids": [
+            10723
+          ],
+          "seconds": 0.21131845899799373,
+          "usd": 3.528e-05
+        },
+        {
+          "purpose": "link root cause",
+          "row_ids": [
+            10724
+          ],
+          "seconds": 0.213824416990974,
+          "usd": 2.7216e-05
+        },
+        {
+          "purpose": "link root cause",
+          "row_ids": [
+            10725
+          ],
+          "seconds": 0.20055679199867882,
+          "usd": 3.7128e-05
+        },
+        {
+          "purpose": "link root cause",
+          "row_ids": [
+            10726
+          ],
+          "seconds": 0.2293609999906039,
+          "usd": 3.1374e-05
+        },
+        {
+          "purpose": "link root cause",
+          "row_ids": [
+            10727
+          ],
+          "seconds": 0.24363566699321382,
+          "usd": 3.2508e-05
+        },
+        {
+          "purpose": "link root cause",
+          "row_ids": [
+            10728
+          ],
+          "seconds": 0.1990552920033224,
+          "usd": 3.381e-05
+        },
+        {
+          "purpose": "link root cause",
+          "row_ids": [
+            10729
+          ],
+          "seconds": 0.22457099999883212,
+          "usd": 3.0702e-05
+        },
+        {
+          "purpose": "link root cause",
+          "row_ids": [
+            10730
+          ],
+          "seconds": 0.2660794590046862,
+          "usd": 3.150000000000001e-05
+        },
+        {
+          "purpose": "link root cause",
+          "row_ids": [
+            10731
+          ],
+          "seconds": 0.24194320899550803,
+          "usd": 2.8602e-05
+        },
+        {
+          "purpose": "link root cause",
+          "row_ids": [
+            10732
+          ],
+          "seconds": 0.2383924589958042,
+          "usd": 3.5448000000000003e-05
+        },
+        {
+          "purpose": "link root cause",
+          "row_ids": [
+            10733
+          ],
+          "seconds": 0.20892608299618587,
+          "usd": 3.2676000000000004e-05
+        },
+        {
+          "purpose": "link root cause",
+          "row_ids": [
+            10734
+          ],
+          "seconds": 0.20907216699561104,
+          "usd": 3.4104e-05
+        },
+        {
+          "purpose": "link root cause",
+          "row_ids": [
+            10735
+          ],
+          "seconds": 0.23306345799937844,
+          "usd": 3.2718e-05
+        },
+        {
+          "purpose": "link root cause",
+          "row_ids": [
+            10736
+          ],
+          "seconds": 0.2171915000071749,
+          "usd": 2.8308000000000004e-05
+        },
+        {
+          "purpose": "link root cause",
+          "row_ids": [
+            10737
+          ],
+          "seconds": 0.2120747499866411,
+          "usd": 3.6078e-05
+        },
+        {
+          "purpose": "link root cause",
+          "row_ids": [
+            10738
+          ],
+          "seconds": 0.2538285829941742,
+          "usd": 3.5952000000000004e-05
+        },
+        {
+          "purpose": "link root cause",
+          "row_ids": [
+            10739
+          ],
+          "seconds": 0.2089790829923004,
+          "usd": 3.0744e-05
+        },
+        {
+          "purpose": "link root cause",
+          "row_ids": [
+            10740
+          ],
+          "seconds": 0.23776433400053065,
+          "usd": 3.2634e-05
+        },
+        {
+          "purpose": "link root cause",
+          "row_ids": [
+            10741
+          ],
+          "seconds": 0.2448987919924548,
+          "usd": 2.7678e-05
+        },
+        {
+          "purpose": "link root cause",
+          "row_ids": [
+            10742
+          ],
+          "seconds": 0.21061066701076925,
+          "usd": 3.7422e-05
+        },
+        {
+          "purpose": "link root cause",
+          "row_ids": [
+            10743
+          ],
+          "seconds": 0.24711995798861608,
+          "usd": 3.5448000000000003e-05
+        },
+        {
+          "purpose": "link root cause",
+          "row_ids": [
+            10744
+          ],
+          "seconds": 0.22081375001289416,
+          "usd": 2.7006e-05
+        },
+        {
+          "purpose": "link root cause",
+          "row_ids": [
+            10745
+          ],
+          "seconds": 0.23522029200103134,
+          "usd": 3.6288e-05
+        },
+        {
+          "purpose": "link root cause",
+          "row_ids": [
+            10746
+          ],
+          "seconds": 0.21001437499944586,
+          "usd": 2.7258000000000002e-05
+        },
+        {
+          "purpose": "link root cause",
+          "row_ids": [
+            10747
+          ],
+          "seconds": 0.2467975409963401,
+          "usd": 3.045e-05
+        },
+        {
+          "purpose": "link root cause",
+          "row_ids": [
+            10748
+          ],
+          "seconds": 0.23125625000102445,
+          "usd": 2.856e-05
+        },
+        {
+          "purpose": "link root cause",
+          "row_ids": [
+            10749
+          ],
+          "seconds": 0.3089587090071291,
+          "usd": 3.444e-05
+        },
+        {
+          "purpose": "link root cause",
+          "row_ids": [
+            10750
+          ],
+          "seconds": 0.20204220799496397,
+          "usd": 3.0366000000000004e-05
+        }
+      ],
+      "seconds": 14.376127875002567
+    },
+    "loader": {
+      "seconds": 5.4011970840074355
+    },
+    "manual_reader": {
+      "files": [
+        {
+          "doc_path": "manuals/BH-250 service manual.pdf",
+          "doc_type": "manual",
+          "model_s": 10.695355874995585,
+          "row_ids": [
+            10448
+          ],
+          "seconds": 10.741127375003998,
+          "usd": 0.024864
+        }
+      ]
+    },
+    "parsers": {
+      "files": [
+        {
+          "doc_path": "inventory/spares_2026-10.xlsx",
+          "doc_type": "inventory",
+          "seconds": 0.0006122500053606927
+        },
+        {
+          "doc_path": "inventory/spares_old.csv",
+          "doc_type": "inventory",
+          "seconds": 0.0005833750037709251
+        },
+        {
+          "doc_path": "logs/CNC01_alarms_apr-sep.log",
+          "doc_type": "log",
+          "seconds": 0.0012517080031102523
+        },
+        {
+          "doc_path": "logs/HP01.log",
+          "doc_type": "log",
+          "seconds": 0.0013497079926310107
+        },
+        {
+          "doc_path": "logs/cnc-02 alarm export.log",
+          "doc_type": "log",
+          "seconds": 0.0012105419882573187
+        },
+        {
+          "doc_path": "logs/leaktest_VT-LD20.log",
+          "doc_type": "log",
+          "seconds": 0.0006191249995026737
+        },
+        {
+          "doc_path": "logs/robot_cell_events.log",
+          "doc_type": "log",
+          "seconds": 0.0005260830075712875
+        },
+        {
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "doc_type": "maintenance_note",
+          "seconds": 0.0015700829972047359
+        }
+      ]
+    },
+    "pipeline_seconds": 55.17405637500633,
+    "resolver": {
+      "cached": 0,
+      "questions": [
+        {
+          "purpose": "merge Part",
+          "row_ids": [
+            10548
+          ],
+          "seconds": 0.2805216659908183,
+          "usd": 2.3520000000000002e-05
+        },
+        {
+          "purpose": "merge Part",
+          "row_ids": [
+            10549
+          ],
+          "seconds": 0.20990604200051166,
+          "usd": 2.2512e-05
+        },
+        {
+          "purpose": "merge Part",
+          "row_ids": [
+            10550
+          ],
+          "seconds": 0.20476041598885786,
+          "usd": 2.2218e-05
+        },
+        {
+          "purpose": "merge Part",
+          "row_ids": [
+            10551
+          ],
+          "seconds": 0.2438185840001097,
+          "usd": 2.3520000000000002e-05
+        },
+        {
+          "purpose": "merge Part",
+          "row_ids": [
+            10552
+          ],
+          "seconds": 0.2576154580019647,
+          "usd": 2.3646e-05
+        },
+        {
+          "purpose": "merge Part",
+          "row_ids": [
+            10553
+          ],
+          "seconds": 0.21152520799660124,
+          "usd": 2.1882e-05
+        },
+        {
+          "purpose": "merge Part",
+          "row_ids": [
+            10554
+          ],
+          "seconds": 0.29930674999195617,
+          "usd": 2.2596e-05
+        },
+        {
+          "purpose": "merge Part",
+          "row_ids": [
+            10555
+          ],
+          "seconds": 0.21675558300921693,
+          "usd": 2.1168e-05
+        },
+        {
+          "purpose": "merge Part",
+          "row_ids": [
+            10556
+          ],
+          "seconds": 0.2099988330010092,
+          "usd": 2.1126e-05
+        },
+        {
+          "purpose": "merge Part",
+          "row_ids": [
+            10557
+          ],
+          "seconds": 0.21926741699280683,
+          "usd": 2.2554e-05
+        },
+        {
+          "purpose": "merge Part",
+          "row_ids": [
+            10558
+          ],
+          "seconds": 0.22469654199085198,
+          "usd": 2.0790000000000003e-05
+        },
+        {
+          "purpose": "merge Part",
+          "row_ids": [
+            10559
+          ],
+          "seconds": 0.24843691701244097,
+          "usd": 2.2092e-05
+        },
+        {
+          "purpose": "merge Part",
+          "row_ids": [
+            10560
+          ],
+          "seconds": 0.24737454199930653,
+          "usd": 2.2974e-05
+        },
+        {
+          "purpose": "merge Part",
+          "row_ids": [
+            10561
+          ],
+          "seconds": 0.25968745799036697,
+          "usd": 2.2344e-05
+        },
+        {
+          "purpose": "merge Part",
+          "row_ids": [
+            10562
+          ],
+          "seconds": 0.24140924999665003,
+          "usd": 2.0958e-05
+        },
+        {
+          "purpose": "merge Part",
+          "row_ids": [
+            10563
+          ],
+          "seconds": 0.2665151249966584,
+          "usd": 2.1924000000000002e-05
+        },
+        {
+          "purpose": "merge Part",
+          "row_ids": [
+            10564
+          ],
+          "seconds": 0.2187177080049878,
+          "usd": 2.2176000000000002e-05
+        },
+        {
+          "purpose": "merge Part",
+          "row_ids": [
+            10565
+          ],
+          "seconds": 0.2102980000054231,
+          "usd": 2.1966e-05
+        },
+        {
+          "purpose": "merge Part",
+          "row_ids": [
+            10566
+          ],
+          "seconds": 0.2849033340025926,
+          "usd": 2.1966e-05
+        },
+        {
+          "purpose": "merge Part",
+          "row_ids": [
+            10567
+          ],
+          "seconds": 0.24917183299839962,
+          "usd": 2.3562000000000002e-05
+        },
+        {
+          "purpose": "merge Part",
+          "row_ids": [
+            10568
+          ],
+          "seconds": 0.2039254580013221,
+          "usd": 2.2470000000000003e-05
+        },
+        {
+          "purpose": "merge Part",
+          "row_ids": [
+            10569
+          ],
+          "seconds": 0.20643225000821985,
+          "usd": 2.2764000000000004e-05
+        },
+        {
+          "purpose": "merge Part",
+          "row_ids": [
+            10570
+          ],
+          "seconds": 0.2539115830004448,
+          "usd": 2.1252000000000003e-05
+        },
+        {
+          "purpose": "merge Part",
+          "row_ids": [
+            10571
+          ],
+          "seconds": 0.3063102500018431,
+          "usd": 2.3478e-05
+        },
+        {
+          "purpose": "merge Part",
+          "row_ids": [
+            10572
+          ],
+          "seconds": 0.2094218330021249,
+          "usd": 2.3562000000000002e-05
+        },
+        {
+          "purpose": "merge Part",
+          "row_ids": [
+            10573
+          ],
+          "seconds": 0.2979659170086961,
+          "usd": 2.2470000000000003e-05
+        },
+        {
+          "purpose": "merge Part",
+          "row_ids": [
+            10574
+          ],
+          "seconds": 0.30484749999595806,
+          "usd": 2.2470000000000003e-05
+        },
+        {
+          "purpose": "merge Part",
+          "row_ids": [
+            10575
+          ],
+          "seconds": 0.2417681660008384,
+          "usd": 2.1966e-05
+        },
+        {
+          "purpose": "merge Part",
+          "row_ids": [
+            10576
+          ],
+          "seconds": 0.22422191700024996,
+          "usd": 2.3520000000000002e-05
+        },
+        {
+          "purpose": "merge Part",
+          "row_ids": [
+            10577
+          ],
+          "seconds": 0.20412349999241997,
+          "usd": 2.3436e-05
+        },
+        {
+          "purpose": "merge Part",
+          "row_ids": [
+            10578
+          ],
+          "seconds": 0.23544404200220015,
+          "usd": 2.3982000000000002e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10579
+          ],
+          "seconds": 0.31088866699428763,
+          "usd": 3.1794e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10580
+          ],
+          "seconds": 0.2168110000056913,
+          "usd": 3.1374e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10581
+          ],
+          "seconds": 0.3946961659967201,
+          "usd": 3.1878e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10582
+          ],
+          "seconds": 0.22182933300791774,
+          "usd": 3.2382e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10583
+          ],
+          "seconds": 0.2225572080060374,
+          "usd": 3.2886e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10584
+          ],
+          "seconds": 0.22363758299616165,
+          "usd": 3.1962e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10585
+          ],
+          "seconds": 0.2193137080030283,
+          "usd": 3.292800000000001e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10586
+          ],
+          "seconds": 0.2928842500114115,
+          "usd": 3.1542000000000004e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10587
+          ],
+          "seconds": 0.23753020800359081,
+          "usd": 3.3096e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10588
+          ],
+          "seconds": 0.4111782499967376,
+          "usd": 3.1164e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10589
+          ],
+          "seconds": 0.24547554198943544,
+          "usd": 2.9778000000000002e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10590
+          ],
+          "seconds": 0.23866208399704192,
+          "usd": 3.0744e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10591
+          ],
+          "seconds": 0.20558995900501031,
+          "usd": 2.9358e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10592
+          ],
+          "seconds": 0.2115828340029111,
+          "usd": 3.0912000000000005e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10593
+          ],
+          "seconds": 0.23063874999934342,
+          "usd": 2.898e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10594
+          ],
+          "seconds": 0.21467441599816084,
+          "usd": 3.0912000000000005e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10595
+          ],
+          "seconds": 0.2286701249977341,
+          "usd": 3.1878e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10596
+          ],
+          "seconds": 0.21391716600919608,
+          "usd": 3.0492000000000002e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10597
+          ],
+          "seconds": 0.2335986660036724,
+          "usd": 3.2046e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10598
+          ],
+          "seconds": 0.23098462501366157,
+          "usd": 3.0114e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10599
+          ],
+          "seconds": 0.20906787499552593,
+          "usd": 3.108e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10600
+          ],
+          "seconds": 0.29779354100173805,
+          "usd": 2.9694000000000004e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10601
+          ],
+          "seconds": 0.617232916993089,
+          "usd": 2.9274e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10602
+          ],
+          "seconds": 0.300033458013786,
+          "usd": 3.1038e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10603
+          ],
+          "seconds": 0.24297641598968767,
+          "usd": 3.1248e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10604
+          ],
+          "seconds": 0.2742528329981724,
+          "usd": 2.9316000000000002e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10605
+          ],
+          "seconds": 0.24130916700232774,
+          "usd": 3.066e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10606
+          ],
+          "seconds": 0.26916429100674577,
+          "usd": 3.0240000000000002e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10607
+          ],
+          "seconds": 0.2165467080048984,
+          "usd": 3.200400000000001e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10608
+          ],
+          "seconds": 0.25588491700182203,
+          "usd": 3.2214e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10609
+          ],
+          "seconds": 0.25265308300731704,
+          "usd": 3.0282000000000002e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10610
+          ],
+          "seconds": 0.2796643750043586,
+          "usd": 2.8854000000000002e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10611
+          ],
+          "seconds": 0.1964666669955477,
+          "usd": 3.0618000000000004e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10612
+          ],
+          "seconds": 0.21787700000277255,
+          "usd": 3.0828000000000004e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10613
+          ],
+          "seconds": 0.2517556669918122,
+          "usd": 2.8896e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10614
+          ],
+          "seconds": 0.2098451659985585,
+          "usd": 3.0408e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10615
+          ],
+          "seconds": 0.21001558299758472,
+          "usd": 2.8476000000000003e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10616
+          ],
+          "seconds": 0.3528635000111535,
+          "usd": 3.2172e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10617
+          ],
+          "seconds": 0.2060781659965869,
+          "usd": 3.0240000000000002e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10618
+          ],
+          "seconds": 0.2448472079995554,
+          "usd": 3.045e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10619
+          ],
+          "seconds": 0.20713162499305326,
+          "usd": 2.9610000000000003e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10620
+          ],
+          "seconds": 0.21027441701153293,
+          "usd": 3.5406e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10621
+          ],
+          "seconds": 0.22132399999827612,
+          "usd": 3.2424e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10622
+          ],
+          "seconds": 0.20691941599943675,
+          "usd": 3.1416e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10623
+          ],
+          "seconds": 0.20179587499296758,
+          "usd": 3.2844e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10624
+          ],
+          "seconds": 0.3347025830007624,
+          "usd": 3.1794e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10625
+          ],
+          "seconds": 0.326183208002476,
+          "usd": 3.1836000000000005e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10626
+          ],
+          "seconds": 0.2342163329885807,
+          "usd": 2.8812e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10627
+          ],
+          "seconds": 0.21897449999232776,
+          "usd": 2.8854000000000002e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10628
+          ],
+          "seconds": 0.2138706659898162,
+          "usd": 2.7804000000000003e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10629
+          ],
+          "seconds": 0.23333699999784585,
+          "usd": 2.9064e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10630
+          ],
+          "seconds": 0.2125848750001751,
+          "usd": 3.0198e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10631
+          ],
+          "seconds": 0.21021295800164808,
+          "usd": 3.0828000000000004e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10632
+          ],
+          "seconds": 0.21503704100905452,
+          "usd": 2.982e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10633
+          ],
+          "seconds": 0.27883066699723713,
+          "usd": 2.6922e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10634
+          ],
+          "seconds": 0.22292520799965132,
+          "usd": 2.919e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10635
+          ],
+          "seconds": 0.21690437500365078,
+          "usd": 2.8686000000000003e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10636
+          ],
+          "seconds": 0.218503582989797,
+          "usd": 3.2382e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10637
+          ],
+          "seconds": 0.3637409579969244,
+          "usd": 3.171e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10638
+          ],
+          "seconds": 0.3460389169922564,
+          "usd": 3.2046e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10639
+          ],
+          "seconds": 0.2104732080042595,
+          "usd": 3.1374e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10640
+          ],
+          "seconds": 0.21006579100503586,
+          "usd": 3.129e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10641
+          ],
+          "seconds": 0.21460695799032692,
+          "usd": 3.1752000000000004e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10642
+          ],
+          "seconds": 0.20763883300242014,
+          "usd": 3.1164e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10643
+          ],
+          "seconds": 0.2153999589936575,
+          "usd": 3.0492000000000002e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10644
+          ],
+          "seconds": 0.33094862500729505,
+          "usd": 3.1248e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10645
+          ],
+          "seconds": 0.30553529200551566,
+          "usd": 2.9274e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10646
+          ],
+          "seconds": 0.24192754201067146,
+          "usd": 3.0240000000000002e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10647
+          ],
+          "seconds": 0.24262745899613947,
+          "usd": 3.2256e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10648
+          ],
+          "seconds": 0.21053625000058673,
+          "usd": 3.0576e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10649
+          ],
+          "seconds": 0.32387929200194776,
+          "usd": 3.3222e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10650
+          ],
+          "seconds": 0.21547858300618827,
+          "usd": 3.5406e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10651
+          ],
+          "seconds": 0.22328979200392496,
+          "usd": 3.427200000000001e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10652
+          ],
+          "seconds": 0.27667249999649357,
+          "usd": 3.1416e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10653
+          ],
+          "seconds": 0.20701762499811593,
+          "usd": 3.2088e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10654
+          ],
+          "seconds": 0.2145914580032695,
+          "usd": 3.2340000000000005e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10655
+          ],
+          "seconds": 0.22342774999560788,
+          "usd": 3.0492000000000002e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10656
+          ],
+          "seconds": 0.2184088329959195,
+          "usd": 3.0744e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10657
+          ],
+          "seconds": 0.22349487501196563,
+          "usd": 2.9778000000000002e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10658
+          ],
+          "seconds": 0.23968233399500605,
+          "usd": 3.0072000000000003e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10659
+          ],
+          "seconds": 0.21204379199480172,
+          "usd": 2.9988e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10660
+          ],
+          "seconds": 0.254534292005701,
+          "usd": 3.4104e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10661
+          ],
+          "seconds": 0.21134999999776483,
+          "usd": 3.2718e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10662
+          ],
+          "seconds": 0.2055424169957405,
+          "usd": 3.2550000000000005e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10663
+          ],
+          "seconds": 0.1984769580012653,
+          "usd": 3.2550000000000005e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10664
+          ],
+          "seconds": 0.21930391700880136,
+          "usd": 2.9316000000000002e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10665
+          ],
+          "seconds": 0.3243741250043968,
+          "usd": 3.6036e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10666
+          ],
+          "seconds": 0.23124129200004973,
+          "usd": 3.3222e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10667
+          ],
+          "seconds": 0.24067204099264927,
+          "usd": 3.2046e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10668
+          ],
+          "seconds": 0.2271917920006672,
+          "usd": 3.3096e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10669
+          ],
+          "seconds": 0.22154199999931734,
+          "usd": 2.9232000000000004e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10670
+          ],
+          "seconds": 0.25026037500356324,
+          "usd": 3.4692e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10671
+          ],
+          "seconds": 0.24413762500626035,
+          "usd": 3.2886e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10672
+          ],
+          "seconds": 0.2484690419951221,
+          "usd": 3.297e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10673
+          ],
+          "seconds": 0.27969733299687505,
+          "usd": 3.1164e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10674
+          ],
+          "seconds": 0.24815933300124016,
+          "usd": 3.4776e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10675
+          ],
+          "seconds": 0.20510437499615364,
+          "usd": 3.5742000000000004e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10676
+          ],
+          "seconds": 0.228925415998674,
+          "usd": 3.5994e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10677
+          ],
+          "seconds": 0.24102929199580103,
+          "usd": 3.1668e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10678
+          ],
+          "seconds": 0.2989960420090938,
+          "usd": 3.5406e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10679
+          ],
+          "seconds": 0.23244712500309106,
+          "usd": 3.0954e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10680
+          ],
+          "seconds": 0.23765358301170636,
+          "usd": 3.108e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10681
+          ],
+          "seconds": 0.24672720799571835,
+          "usd": 3.1206000000000006e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10682
+          ],
+          "seconds": 0.20269508298952132,
+          "usd": 3.1332e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10683
+          ],
+          "seconds": 0.21238324999285396,
+          "usd": 2.6880000000000004e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10684
+          ],
+          "seconds": 0.23774704200332053,
+          "usd": 3.5448000000000003e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10685
+          ],
+          "seconds": 0.24598754200269468,
+          "usd": 2.7594e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10686
+          ],
+          "seconds": 0.22034933300164994,
+          "usd": 2.8518e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10687
+          ],
+          "seconds": 0.2066845840017777,
+          "usd": 2.8854000000000002e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10688
+          ],
+          "seconds": 0.24418395799875725,
+          "usd": 3.0618000000000004e-05
+        },
+        {
+          "purpose": "merge Incident",
+          "row_ids": [
+            10689
+          ],
+          "seconds": 0.21037783299107105,
+          "usd": 3.150000000000001e-05
+        }
+      ],
+      "seconds": 34.9563325420022
+    },
+    "router": {
+      "files": [
+        {
+          "doc_path": "handovers/HO 04-12 A shift.txt",
+          "doc_type": "handover",
+          "seconds": 5.7124998420476913e-05
+        },
+        {
+          "doc_path": "handovers/HO 04-23 B shift.txt",
+          "doc_type": "handover",
+          "seconds": 3.65839950973168e-05
+        },
+        {
+          "doc_path": "handovers/HO 05-04 C shift.txt",
+          "doc_type": "handover",
+          "seconds": 3.1791001674719155e-05
+        },
+        {
+          "doc_path": "handovers/HO 05-05 night shift.txt",
+          "doc_type": "handover",
+          "seconds": 2.7750007575377822e-05
+        },
+        {
+          "doc_path": "handovers/HO 05-23 A shift.txt",
+          "doc_type": "handover",
+          "seconds": 2.8292008209973574e-05
+        },
+        {
+          "doc_path": "handovers/HO 05-26 B shift.txt",
+          "doc_type": "handover",
+          "seconds": 2.562500594649464e-05
+        },
+        {
+          "doc_path": "handovers/HO 05-31 night shift.txt",
+          "doc_type": "handover",
+          "seconds": 2.54580081673339e-05
+        },
+        {
+          "doc_path": "handovers/HO 06-12 night shift.txt",
+          "doc_type": "handover",
+          "seconds": 2.5957997422665358e-05
+        },
+        {
+          "doc_path": "handovers/HO 06-20 A shift.txt",
+          "doc_type": "handover",
+          "seconds": 2.4916997062973678e-05
+        },
+        {
+          "doc_path": "handovers/HO 06-24 A shift.txt",
+          "doc_type": "handover",
+          "seconds": 2.4499997380189598e-05
+        },
+        {
+          "doc_path": "handovers/HO 07-12 C shift.txt",
+          "doc_type": "handover",
+          "seconds": 2.4375010980293155e-05
+        },
+        {
+          "doc_path": "handovers/HO 08-07 night shift.txt",
+          "doc_type": "handover",
+          "seconds": 2.5208995793946087e-05
+        },
+        {
+          "doc_path": "handovers/HO 08-10 B shift.txt",
+          "doc_type": "handover",
+          "seconds": 2.4708991986699402e-05
+        },
+        {
+          "doc_path": "handovers/HO 08-24 night shift.txt",
+          "doc_type": "handover",
+          "seconds": 2.4708002456463873e-05
+        },
+        {
+          "doc_path": "handovers/HO 08-26 C shift.txt",
+          "doc_type": "handover",
+          "seconds": 2.4082997697405517e-05
+        },
+        {
+          "doc_path": "handovers/HO 08-31 A shift.txt",
+          "doc_type": "handover",
+          "seconds": 2.462499833200127e-05
+        },
+        {
+          "doc_path": "handovers/HO 09-02 A shift.txt",
+          "doc_type": "handover",
+          "seconds": 2.4083012249320745e-05
+        },
+        {
+          "doc_path": "handovers/HO 09-30 A shift.txt",
+          "doc_type": "handover",
+          "seconds": 2.4082997697405517e-05
+        },
+        {
+          "doc_path": "handovers/Handover_20260403_B.txt",
+          "doc_type": "handover",
+          "seconds": 2.420799864921719e-05
+        },
+        {
+          "doc_path": "handovers/Handover_20260416_A.txt",
+          "doc_type": "handover",
+          "seconds": 2.420799864921719e-05
+        },
+        {
+          "doc_path": "handovers/Handover_20260418_A.txt",
+          "doc_type": "handover",
+          "seconds": 2.591699012555182e-05
+        },
+        {
+          "doc_path": "handovers/Handover_20260422_B.txt",
+          "doc_type": "handover",
+          "seconds": 2.4374996428377926e-05
+        },
+        {
+          "doc_path": "handovers/Handover_20260422_C.txt",
+          "doc_type": "handover",
+          "seconds": 2.4291002773679793e-05
+        },
+        {
+          "doc_path": "handovers/Handover_20260427_A.txt",
+          "doc_type": "handover",
+          "seconds": 2.4459004634991288e-05
+        },
+        {
+          "doc_path": "handovers/Handover_20260430_B.txt",
+          "doc_type": "handover",
+          "seconds": 2.445800055284053e-05
+        },
+        {
+          "doc_path": "handovers/Handover_20260502_C.txt",
+          "doc_type": "handover",
+          "seconds": 2.3957996745593846e-05
+        },
+        {
+          "doc_path": "handovers/Handover_20260510_A.txt",
+          "doc_type": "handover",
+          "seconds": 2.4666995159350336e-05
+        },
+        {
+          "doc_path": "handovers/Handover_20260513_C.txt",
+          "doc_type": "handover",
+          "seconds": 2.4499997380189598e-05
+        },
+        {
+          "doc_path": "handovers/Handover_20260516_C.txt",
+          "doc_type": "handover",
+          "seconds": 2.416600182186812e-05
+        },
+        {
+          "doc_path": "handovers/Handover_20260519_A.txt",
+          "doc_type": "handover",
+          "seconds": 2.3958011297509074e-05
+        },
+        {
+          "doc_path": "handovers/Handover_20260624_B.txt",
+          "doc_type": "handover",
+          "seconds": 2.3625005269423127e-05
+        },
+        {
+          "doc_path": "handovers/Handover_20260627_A.txt",
+          "doc_type": "handover",
+          "seconds": 2.4415989173576236e-05
+        },
+        {
+          "doc_path": "handovers/Handover_20260719_A.txt",
+          "doc_type": "handover",
+          "seconds": 2.4083012249320745e-05
+        },
+        {
+          "doc_path": "handovers/Handover_20260722_C.txt",
+          "doc_type": "handover",
+          "seconds": 2.37500062212348e-05
+        },
+        {
+          "doc_path": "handovers/Handover_20260723_C.txt",
+          "doc_type": "handover",
+          "seconds": 2.391599991824478e-05
+        },
+        {
+          "doc_path": "handovers/Handover_20260724_A.txt",
+          "doc_type": "handover",
+          "seconds": 2.5749992346391082e-05
+        },
+        {
+          "doc_path": "handovers/Handover_20260820_B.txt",
+          "doc_type": "handover",
+          "seconds": 2.416700590401888e-05
+        },
+        {
+          "doc_path": "handovers/Handover_20260822_B.txt",
+          "doc_type": "handover",
+          "seconds": 2.3999993572942913e-05
+        },
+        {
+          "doc_path": "handovers/Handover_20260903_B.txt",
+          "doc_type": "handover",
+          "seconds": 2.3540997062809765e-05
+        },
+        {
+          "doc_path": "handovers/Handover_20260911_A.txt",
+          "doc_type": "handover",
+          "seconds": 2.3833999875932932e-05
+        },
+        {
+          "doc_path": "handovers/Handover_20260917_A.txt",
+          "doc_type": "handover",
+          "seconds": 2.3541011614724994e-05
+        },
+        {
+          "doc_path": "handovers/handover_2026-04-09_A.txt",
+          "doc_type": "handover",
+          "seconds": 2.3832995793782175e-05
+        },
+        {
+          "doc_path": "handovers/handover_2026-04-14_B.txt",
+          "doc_type": "handover",
+          "seconds": 2.4541004677303135e-05
+        },
+        {
+          "doc_path": "handovers/handover_2026-04-23_A.txt",
+          "doc_type": "handover",
+          "seconds": 2.387500717304647e-05
+        },
+        {
+          "doc_path": "handovers/handover_2026-04-24_A.txt",
+          "doc_type": "handover",
+          "seconds": 2.387499262113124e-05
+        },
+        {
+          "doc_path": "handovers/handover_2026-04-27_C.txt",
+          "doc_type": "handover",
+          "seconds": 2.4125009076669812e-05
+        },
+        {
+          "doc_path": "handovers/handover_2026-05-03_B.txt",
+          "doc_type": "handover",
+          "seconds": 2.387500717304647e-05
+        },
+        {
+          "doc_path": "handovers/handover_2026-05-13_B.txt",
+          "doc_type": "handover",
+          "seconds": 2.3790998966433108e-05
+        },
+        {
+          "doc_path": "handovers/handover_2026-05-20_C.txt",
+          "doc_type": "handover",
+          "seconds": 2.3917004000395536e-05
+        },
+        {
+          "doc_path": "handovers/handover_2026-05-22_night.txt",
+          "doc_type": "handover",
+          "seconds": 2.4082997697405517e-05
+        },
+        {
+          "doc_path": "handovers/handover_2026-05-23_night.txt",
+          "doc_type": "handover",
+          "seconds": 2.36249907175079e-05
+        },
+        {
+          "doc_path": "handovers/handover_2026-05-24_C.txt",
+          "doc_type": "handover",
+          "seconds": 2.3665998014621437e-05
+        },
+        {
+          "doc_path": "handovers/handover_2026-05-26_C.txt",
+          "doc_type": "handover",
+          "seconds": 2.3790998966433108e-05
+        },
+        {
+          "doc_path": "handovers/handover_2026-06-06_C.txt",
+          "doc_type": "handover",
+          "seconds": 2.3832995793782175e-05
+        },
+        {
+          "doc_path": "handovers/handover_2026-06-18_B.txt",
+          "doc_type": "handover",
+          "seconds": 2.3415996110998094e-05
+        },
+        {
+          "doc_path": "handovers/handover_2026-06-30_A.txt",
+          "doc_type": "handover",
+          "seconds": 2.3625005269423127e-05
+        },
+        {
+          "doc_path": "handovers/handover_2026-07-14_B.txt",
+          "doc_type": "handover",
+          "seconds": 2.4291992303915322e-05
+        },
+        {
+          "doc_path": "handovers/handover_2026-07-18_night.txt",
+          "doc_type": "handover",
+          "seconds": 2.420799864921719e-05
+        },
+        {
+          "doc_path": "handovers/handover_2026-07-19_C.txt",
+          "doc_type": "handover",
+          "seconds": 2.4415989173576236e-05
+        },
+        {
+          "doc_path": "handovers/handover_2026-07-22_A.txt",
+          "doc_type": "handover",
+          "seconds": 2.387500717304647e-05
+        },
+        {
+          "doc_path": "handovers/handover_2026-08-03_A.txt",
+          "doc_type": "handover",
+          "seconds": 2.520800626371056e-05
+        },
+        {
+          "doc_path": "handovers/handover_2026-08-11_B.txt",
+          "doc_type": "handover",
+          "seconds": 2.387499262113124e-05
+        },
+        {
+          "doc_path": "handovers/handover_2026-08-12_C.txt",
+          "doc_type": "handover",
+          "seconds": 2.3999993572942913e-05
+        },
+        {
+          "doc_path": "handovers/handover_2026-08-17_B.txt",
+          "doc_type": "handover",
+          "seconds": 2.3541986593045294e-05
+        },
+        {
+          "doc_path": "handovers/handover_2026-08-23_A.txt",
+          "doc_type": "handover",
+          "seconds": 2.3667002096772194e-05
+        },
+        {
+          "doc_path": "handovers/handover_2026-08-26_A.txt",
+          "doc_type": "handover",
+          "seconds": 2.374999166931957e-05
+        },
+        {
+          "doc_path": "handovers/handover_2026-09-23_A.txt",
+          "doc_type": "handover",
+          "seconds": 2.3375003365799785e-05
+        },
+        {
+          "doc_path": "handovers/handover_2026-09-26_B.txt",
+          "doc_type": "handover",
+          "seconds": 2.3375003365799785e-05
+        },
+        {
+          "doc_path": "handovers/handover_2026-09-28_C.txt",
+          "doc_type": "handover",
+          "seconds": 2.374999166931957e-05
+        },
+        {
+          "doc_path": "handovers/shift notes 1 Aug C.txt",
+          "doc_type": "handover",
+          "seconds": 2.358399797230959e-05
+        },
+        {
+          "doc_path": "handovers/shift notes 11 Apr B.txt",
+          "doc_type": "handover",
+          "seconds": 2.3625005269423127e-05
+        },
+        {
+          "doc_path": "handovers/shift notes 11 Jun C.txt",
+          "doc_type": "handover",
+          "seconds": 2.5125002139247954e-05
+        },
+        {
+          "doc_path": "handovers/shift notes 12 Sep B.txt",
+          "doc_type": "handover",
+          "seconds": 2.3582993890158832e-05
+        },
+        {
+          "doc_path": "handovers/shift notes 12 Sep night.txt",
+          "doc_type": "handover",
+          "seconds": 2.4125009076669812e-05
+        },
+        {
+          "doc_path": "handovers/shift notes 13 Jul C.txt",
+          "doc_type": "handover",
+          "seconds": 2.3833010345697403e-05
+        },
+        {
+          "doc_path": "handovers/shift notes 14 Aug A.txt",
+          "doc_type": "handover",
+          "seconds": 2.3957996745593846e-05
+        },
+        {
+          "doc_path": "handovers/shift notes 14 Jun night.txt",
+          "doc_type": "handover",
+          "seconds": 2.4499997380189598e-05
+        },
+        {
+          "doc_path": "handovers/shift notes 18 Jun C.txt",
+          "doc_type": "handover",
+          "seconds": 2.4042004952207208e-05
+        },
+        {
+          "doc_path": "handovers/shift notes 19 Apr C.txt",
+          "doc_type": "handover",
+          "seconds": 2.374999166931957e-05
+        },
+        {
+          "doc_path": "handovers/shift notes 2 May A.txt",
+          "doc_type": "handover",
+          "seconds": 2.3541011614724994e-05
+        },
+        {
+          "doc_path": "handovers/shift notes 22 Apr A.txt",
+          "doc_type": "handover",
+          "seconds": 2.3582993890158832e-05
+        },
+        {
+          "doc_path": "handovers/shift notes 23 Apr C.txt",
+          "doc_type": "handover",
+          "seconds": 2.316699828952551e-05
+        },
+        {
+          "doc_path": "handovers/shift notes 25 Sep C.txt",
+          "doc_type": "handover",
+          "seconds": 2.341700019314885e-05
+        },
+        {
+          "doc_path": "handovers/shift notes 27 Aug C.txt",
+          "doc_type": "handover",
+          "seconds": 2.3625005269423127e-05
+        },
+        {
+          "doc_path": "handovers/shift notes 28 Apr night.txt",
+          "doc_type": "handover",
+          "seconds": 2.341700019314885e-05
+        },
+        {
+          "doc_path": "handovers/shift notes 28 Jun B.txt",
+          "doc_type": "handover",
+          "seconds": 2.374999166931957e-05
+        },
+        {
+          "doc_path": "handovers/shift notes 3 Apr A.txt",
+          "doc_type": "handover",
+          "seconds": 2.4082997697405517e-05
+        },
+        {
+          "doc_path": "handovers/shift notes 5 Jun A.txt",
+          "doc_type": "handover",
+          "seconds": 3.4042008337564766e-05
+        },
+        {
+          "doc_path": "handovers/shift notes 5 Jun B.txt",
+          "doc_type": "handover",
+          "seconds": 2.4042004952207208e-05
+        },
+        {
+          "doc_path": "handovers/shift notes 9 Aug A.txt",
+          "doc_type": "handover",
+          "seconds": 2.3290995159186423e-05
+        },
+        {
+          "doc_path": "inventory/spares_2026-10.xlsx",
+          "doc_type": "inventory",
+          "seconds": 3.1660019885748625e-06
+        },
+        {
+          "doc_path": "inventory/spares_old.csv",
+          "doc_type": "inventory",
+          "seconds": 0.00012024999887216836
+        },
+        {
+          "doc_path": "logs/CNC01_alarms_apr-sep.log",
+          "doc_type": "log",
+          "seconds": 4.208006430417299e-06
+        },
+        {
+          "doc_path": "logs/HP01.log",
+          "doc_type": "log",
+          "seconds": 3.083987394347787e-06
+        },
+        {
+          "doc_path": "logs/cnc-02 alarm export.log",
+          "doc_type": "log",
+          "seconds": 3.0840019462630153e-06
+        },
+        {
+          "doc_path": "logs/leaktest_VT-LD20.log",
+          "doc_type": "log",
+          "seconds": 2.8329959604889154e-06
+        },
+        {
+          "doc_path": "logs/robot_cell_events.log",
+          "doc_type": "log",
+          "seconds": 2.792003215290606e-06
+        },
+        {
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "doc_type": "maintenance_note",
+          "seconds": 5.470799806062132e-05
+        },
+        {
+          "doc_path": "maintenance/note_from_arun_CNC2_spindle.txt",
+          "doc_type": "maintenance_note",
+          "seconds": 0.00014070799807086587
+        },
+        {
+          "doc_path": "maintenance/note_from_rajesh_CNC1_spindle.txt",
+          "doc_type": "maintenance_note",
+          "seconds": 0.00014699999883305281
+        },
+        {
+          "doc_path": "maintenance/note_from_rajesh_CNC2_spindle.txt",
+          "doc_type": "maintenance_note",
+          "seconds": 0.00010733399540185928
+        },
+        {
+          "doc_path": "maintenance/note_from_weiming_CNC1_spindle.txt",
+          "doc_type": "maintenance_note",
+          "seconds": 0.00011033299961127341
+        },
+        {
+          "doc_path": "maintenance/note_from_weiming_CNC2_spindle.txt",
+          "doc_type": "maintenance_note",
+          "seconds": 0.00014024999109096825
+        },
+        {
+          "doc_path": "manuals/BH-250 service manual.pdf",
+          "doc_type": "manual",
+          "seconds": 2.9999937396496534e-06
+        },
+        {
+          "doc_path": "manuals/Kessler_KX-500_Operator_Maintenance_Manual_rev3.pdf",
+          "doc_type": "manual",
+          "seconds": 3.04199056699872e-06
+        },
+        {
+          "doc_path": "manuals/Orbis_OR6_cell_maintenance_guide.pdf",
+          "doc_type": "manual",
+          "seconds": 2.874992787837982e-06
+        },
+        {
+          "doc_path": "manuals/VT-LD20_manual_EN.pdf",
+          "doc_type": "manual",
+          "seconds": 2.874992787837982e-06
+        }
+      ]
+    },
+    "text_reader": {
+      "files": [
+        {
+          "doc_path": "handovers/HO 04-12 A shift.txt",
+          "doc_type": "handover",
+          "model_s": 4.143611292005517,
+          "row_ids": [
+            10444
+          ],
+          "seconds": 4.143762749998132,
+          "usd": 0.00271
+        },
+        {
+          "doc_path": "handovers/handover_2026-04-27_C.txt",
+          "doc_type": "handover",
+          "model_s": 4.436546500000986,
+          "row_ids": [
+            10445
+          ],
+          "seconds": 4.43676883300941,
+          "usd": 0.0006435
+        },
+        {
+          "doc_path": "handovers/shift notes 9 Aug A.txt",
+          "doc_type": "handover",
+          "model_s": 2.760659833002137,
+          "row_ids": [
+            10446
+          ],
+          "seconds": 2.761369375002687,
+          "usd": 0.0005735
+        },
+        {
+          "doc_path": "maintenance/note_from_arun_CNC2_spindle.txt",
+          "doc_type": "maintenance_note",
+          "model_s": 5.122030250000535,
+          "row_ids": [
+            10447
+          ],
+          "seconds": 5.123300457998994,
+          "usd": 0.0031195
+        }
+      ]
+    },
+    "validator": {
+      "seconds": 0.005766208007116802
+    }
+  },
+  "measured_at": "2026-10-29",
+  "spend": {
+    "budget_usd": 1.075596868,
+    "cache_hit_rows": 99,
+    "cap_usd": 0.1,
+    "ledger_added_usd": 0.07737633599999993,
+    "ledger_after": 1.052973204,
+    "ledger_before": 0.975596868,
+    "rows": [
+      {
+        "cache_hit": 0,
+        "id": 10444,
+        "model": "gpt-6.1-sol",
+        "purpose": "extract handover",
+        "seconds": 4.143611292005517,
+        "usd": 0.00271
+      },
+      {
+        "cache_hit": 0,
+        "id": 10445,
+        "model": "gpt-6.1-sol",
+        "purpose": "extract handover",
+        "seconds": 4.436546500000986,
+        "usd": 0.0006435
+      },
+      {
+        "cache_hit": 0,
+        "id": 10446,
+        "model": "gpt-6.1-sol",
+        "purpose": "extract handover",
+        "seconds": 2.760659833002137,
+        "usd": 0.0005735
+      },
+      {
+        "cache_hit": 0,
+        "id": 10447,
+        "model": "gpt-6.1-sol",
+        "purpose": "extract note",
+        "seconds": 5.122030250000535,
+        "usd": 0.0031195
+      },
+      {
+        "cache_hit": 0,
+        "id": 10448,
+        "model": "gpt-6.1-sol",
+        "purpose": "extract manual",
+        "seconds": 10.695355874995585,
+        "usd": 0.024864
+      },
+      {
+        "cache_hit": 0,
+        "id": 10548,
+        "model": "jev-1.14.0",
+        "purpose": "merge Part",
+        "seconds": 0.2805216659908183,
+        "usd": 2.3520000000000002e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10549,
+        "model": "jev-1.14.0",
+        "purpose": "merge Part",
+        "seconds": 0.20990604200051166,
+        "usd": 2.2512e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10550,
+        "model": "jev-1.14.0",
+        "purpose": "merge Part",
+        "seconds": 0.20476041598885786,
+        "usd": 2.2218e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10551,
+        "model": "jev-1.14.0",
+        "purpose": "merge Part",
+        "seconds": 0.2438185840001097,
+        "usd": 2.3520000000000002e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10552,
+        "model": "jev-1.14.0",
+        "purpose": "merge Part",
+        "seconds": 0.2576154580019647,
+        "usd": 2.3646e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10553,
+        "model": "jev-1.14.0",
+        "purpose": "merge Part",
+        "seconds": 0.21152520799660124,
+        "usd": 2.1882e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10554,
+        "model": "jev-1.14.0",
+        "purpose": "merge Part",
+        "seconds": 0.29930674999195617,
+        "usd": 2.2596e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10555,
+        "model": "jev-1.14.0",
+        "purpose": "merge Part",
+        "seconds": 0.21675558300921693,
+        "usd": 2.1168e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10556,
+        "model": "jev-1.14.0",
+        "purpose": "merge Part",
+        "seconds": 0.2099988330010092,
+        "usd": 2.1126e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10557,
+        "model": "jev-1.14.0",
+        "purpose": "merge Part",
+        "seconds": 0.21926741699280683,
+        "usd": 2.2554e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10558,
+        "model": "jev-1.14.0",
+        "purpose": "merge Part",
+        "seconds": 0.22469654199085198,
+        "usd": 2.0790000000000003e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10559,
+        "model": "jev-1.14.0",
+        "purpose": "merge Part",
+        "seconds": 0.24843691701244097,
+        "usd": 2.2092e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10560,
+        "model": "jev-1.14.0",
+        "purpose": "merge Part",
+        "seconds": 0.24737454199930653,
+        "usd": 2.2974e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10561,
+        "model": "jev-1.14.0",
+        "purpose": "merge Part",
+        "seconds": 0.25968745799036697,
+        "usd": 2.2344e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10562,
+        "model": "jev-1.14.0",
+        "purpose": "merge Part",
+        "seconds": 0.24140924999665003,
+        "usd": 2.0958e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10563,
+        "model": "jev-1.14.0",
+        "purpose": "merge Part",
+        "seconds": 0.2665151249966584,
+        "usd": 2.1924000000000002e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10564,
+        "model": "jev-1.14.0",
+        "purpose": "merge Part",
+        "seconds": 0.2187177080049878,
+        "usd": 2.2176000000000002e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10565,
+        "model": "jev-1.14.0",
+        "purpose": "merge Part",
+        "seconds": 0.2102980000054231,
+        "usd": 2.1966e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10566,
+        "model": "jev-1.14.0",
+        "purpose": "merge Part",
+        "seconds": 0.2849033340025926,
+        "usd": 2.1966e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10567,
+        "model": "jev-1.14.0",
+        "purpose": "merge Part",
+        "seconds": 0.24917183299839962,
+        "usd": 2.3562000000000002e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10568,
+        "model": "jev-1.14.0",
+        "purpose": "merge Part",
+        "seconds": 0.2039254580013221,
+        "usd": 2.2470000000000003e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10569,
+        "model": "jev-1.14.0",
+        "purpose": "merge Part",
+        "seconds": 0.20643225000821985,
+        "usd": 2.2764000000000004e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10570,
+        "model": "jev-1.14.0",
+        "purpose": "merge Part",
+        "seconds": 0.2539115830004448,
+        "usd": 2.1252000000000003e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10571,
+        "model": "jev-1.14.0",
+        "purpose": "merge Part",
+        "seconds": 0.3063102500018431,
+        "usd": 2.3478e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10572,
+        "model": "jev-1.14.0",
+        "purpose": "merge Part",
+        "seconds": 0.2094218330021249,
+        "usd": 2.3562000000000002e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10573,
+        "model": "jev-1.14.0",
+        "purpose": "merge Part",
+        "seconds": 0.2979659170086961,
+        "usd": 2.2470000000000003e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10574,
+        "model": "jev-1.14.0",
+        "purpose": "merge Part",
+        "seconds": 0.30484749999595806,
+        "usd": 2.2470000000000003e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10575,
+        "model": "jev-1.14.0",
+        "purpose": "merge Part",
+        "seconds": 0.2417681660008384,
+        "usd": 2.1966e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10576,
+        "model": "jev-1.14.0",
+        "purpose": "merge Part",
+        "seconds": 0.22422191700024996,
+        "usd": 2.3520000000000002e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10577,
+        "model": "jev-1.14.0",
+        "purpose": "merge Part",
+        "seconds": 0.20412349999241997,
+        "usd": 2.3436e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10578,
+        "model": "jev-1.14.0",
+        "purpose": "merge Part",
+        "seconds": 0.23544404200220015,
+        "usd": 2.3982000000000002e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10579,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.31088866699428763,
+        "usd": 3.1794e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10580,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.2168110000056913,
+        "usd": 3.1374e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10581,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.3946961659967201,
+        "usd": 3.1878e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10582,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.22182933300791774,
+        "usd": 3.2382e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10583,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.2225572080060374,
+        "usd": 3.2886e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10584,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.22363758299616165,
+        "usd": 3.1962e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10585,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.2193137080030283,
+        "usd": 3.292800000000001e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10586,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.2928842500114115,
+        "usd": 3.1542000000000004e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10587,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.23753020800359081,
+        "usd": 3.3096e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10588,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.4111782499967376,
+        "usd": 3.1164e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10589,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.24547554198943544,
+        "usd": 2.9778000000000002e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10590,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.23866208399704192,
+        "usd": 3.0744e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10591,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.20558995900501031,
+        "usd": 2.9358e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10592,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.2115828340029111,
+        "usd": 3.0912000000000005e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10593,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.23063874999934342,
+        "usd": 2.898e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10594,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.21467441599816084,
+        "usd": 3.0912000000000005e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10595,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.2286701249977341,
+        "usd": 3.1878e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10596,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.21391716600919608,
+        "usd": 3.0492000000000002e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10597,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.2335986660036724,
+        "usd": 3.2046e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10598,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.23098462501366157,
+        "usd": 3.0114e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10599,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.20906787499552593,
+        "usd": 3.108e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10600,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.29779354100173805,
+        "usd": 2.9694000000000004e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10601,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.617232916993089,
+        "usd": 2.9274e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10602,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.300033458013786,
+        "usd": 3.1038e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10603,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.24297641598968767,
+        "usd": 3.1248e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10604,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.2742528329981724,
+        "usd": 2.9316000000000002e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10605,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.24130916700232774,
+        "usd": 3.066e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10606,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.26916429100674577,
+        "usd": 3.0240000000000002e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10607,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.2165467080048984,
+        "usd": 3.200400000000001e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10608,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.25588491700182203,
+        "usd": 3.2214e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10609,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.25265308300731704,
+        "usd": 3.0282000000000002e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10610,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.2796643750043586,
+        "usd": 2.8854000000000002e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10611,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.1964666669955477,
+        "usd": 3.0618000000000004e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10612,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.21787700000277255,
+        "usd": 3.0828000000000004e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10613,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.2517556669918122,
+        "usd": 2.8896e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10614,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.2098451659985585,
+        "usd": 3.0408e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10615,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.21001558299758472,
+        "usd": 2.8476000000000003e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10616,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.3528635000111535,
+        "usd": 3.2172e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10617,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.2060781659965869,
+        "usd": 3.0240000000000002e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10618,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.2448472079995554,
+        "usd": 3.045e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10619,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.20713162499305326,
+        "usd": 2.9610000000000003e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10620,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.21027441701153293,
+        "usd": 3.5406e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10621,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.22132399999827612,
+        "usd": 3.2424e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10622,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.20691941599943675,
+        "usd": 3.1416e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10623,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.20179587499296758,
+        "usd": 3.2844e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10624,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.3347025830007624,
+        "usd": 3.1794e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10625,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.326183208002476,
+        "usd": 3.1836000000000005e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10626,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.2342163329885807,
+        "usd": 2.8812e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10627,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.21897449999232776,
+        "usd": 2.8854000000000002e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10628,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.2138706659898162,
+        "usd": 2.7804000000000003e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10629,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.23333699999784585,
+        "usd": 2.9064e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10630,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.2125848750001751,
+        "usd": 3.0198e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10631,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.21021295800164808,
+        "usd": 3.0828000000000004e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10632,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.21503704100905452,
+        "usd": 2.982e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10633,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.27883066699723713,
+        "usd": 2.6922e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10634,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.22292520799965132,
+        "usd": 2.919e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10635,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.21690437500365078,
+        "usd": 2.8686000000000003e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10636,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.218503582989797,
+        "usd": 3.2382e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10637,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.3637409579969244,
+        "usd": 3.171e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10638,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.3460389169922564,
+        "usd": 3.2046e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10639,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.2104732080042595,
+        "usd": 3.1374e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10640,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.21006579100503586,
+        "usd": 3.129e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10641,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.21460695799032692,
+        "usd": 3.1752000000000004e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10642,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.20763883300242014,
+        "usd": 3.1164e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10643,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.2153999589936575,
+        "usd": 3.0492000000000002e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10644,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.33094862500729505,
+        "usd": 3.1248e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10645,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.30553529200551566,
+        "usd": 2.9274e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10646,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.24192754201067146,
+        "usd": 3.0240000000000002e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10647,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.24262745899613947,
+        "usd": 3.2256e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10648,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.21053625000058673,
+        "usd": 3.0576e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10649,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.32387929200194776,
+        "usd": 3.3222e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10650,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.21547858300618827,
+        "usd": 3.5406e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10651,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.22328979200392496,
+        "usd": 3.427200000000001e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10652,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.27667249999649357,
+        "usd": 3.1416e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10653,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.20701762499811593,
+        "usd": 3.2088e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10654,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.2145914580032695,
+        "usd": 3.2340000000000005e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10655,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.22342774999560788,
+        "usd": 3.0492000000000002e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10656,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.2184088329959195,
+        "usd": 3.0744e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10657,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.22349487501196563,
+        "usd": 2.9778000000000002e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10658,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.23968233399500605,
+        "usd": 3.0072000000000003e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10659,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.21204379199480172,
+        "usd": 2.9988e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10660,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.254534292005701,
+        "usd": 3.4104e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10661,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.21134999999776483,
+        "usd": 3.2718e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10662,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.2055424169957405,
+        "usd": 3.2550000000000005e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10663,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.1984769580012653,
+        "usd": 3.2550000000000005e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10664,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.21930391700880136,
+        "usd": 2.9316000000000002e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10665,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.3243741250043968,
+        "usd": 3.6036e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10666,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.23124129200004973,
+        "usd": 3.3222e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10667,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.24067204099264927,
+        "usd": 3.2046e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10668,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.2271917920006672,
+        "usd": 3.3096e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10669,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.22154199999931734,
+        "usd": 2.9232000000000004e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10670,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.25026037500356324,
+        "usd": 3.4692e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10671,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.24413762500626035,
+        "usd": 3.2886e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10672,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.2484690419951221,
+        "usd": 3.297e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10673,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.27969733299687505,
+        "usd": 3.1164e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10674,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.24815933300124016,
+        "usd": 3.4776e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10675,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.20510437499615364,
+        "usd": 3.5742000000000004e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10676,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.228925415998674,
+        "usd": 3.5994e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10677,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.24102929199580103,
+        "usd": 3.1668e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10678,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.2989960420090938,
+        "usd": 3.5406e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10679,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.23244712500309106,
+        "usd": 3.0954e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10680,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.23765358301170636,
+        "usd": 3.108e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10681,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.24672720799571835,
+        "usd": 3.1206000000000006e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10682,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.20269508298952132,
+        "usd": 3.1332e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10683,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.21238324999285396,
+        "usd": 2.6880000000000004e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10684,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.23774704200332053,
+        "usd": 3.5448000000000003e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10685,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.24598754200269468,
+        "usd": 2.7594e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10686,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.22034933300164994,
+        "usd": 2.8518e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10687,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.2066845840017777,
+        "usd": 2.8854000000000002e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10688,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.24418395799875725,
+        "usd": 3.0618000000000004e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10689,
+        "model": "jev-1.14.0",
+        "purpose": "merge Incident",
+        "seconds": 0.21037783299107105,
+        "usd": 3.150000000000001e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10690,
+        "model": "jev-1.14.0",
+        "purpose": "link root cause",
+        "seconds": 0.20497312500083353,
+        "usd": 3.1584e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10691,
+        "model": "jev-1.14.0",
+        "purpose": "link root cause",
+        "seconds": 0.3039823750004871,
+        "usd": 3.1416e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10692,
+        "model": "jev-1.14.0",
+        "purpose": "link root cause",
+        "seconds": 0.2062742919952143,
+        "usd": 3.192e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10693,
+        "model": "jev-1.14.0",
+        "purpose": "link root cause",
+        "seconds": 0.21486925000499468,
+        "usd": 3.444e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10694,
+        "model": "jev-1.14.0",
+        "purpose": "link root cause",
+        "seconds": 0.2545508329931181,
+        "usd": 3.3936e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10695,
+        "model": "jev-1.14.0",
+        "purpose": "link root cause",
+        "seconds": 0.2684123329963768,
+        "usd": 3.2676000000000004e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10696,
+        "model": "jev-1.14.0",
+        "purpose": "link root cause",
+        "seconds": 0.216726541009848,
+        "usd": 3.3054e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10697,
+        "model": "jev-1.14.0",
+        "purpose": "link root cause",
+        "seconds": 0.23204262500803452,
+        "usd": 3.406200000000001e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10698,
+        "model": "jev-1.14.0",
+        "purpose": "link root cause",
+        "seconds": 0.21605041599832475,
+        "usd": 2.7930000000000002e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10699,
+        "model": "jev-1.14.0",
+        "purpose": "link root cause",
+        "seconds": 0.20769279201340396,
+        "usd": 2.9946e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10700,
+        "model": "jev-1.14.0",
+        "purpose": "link root cause",
+        "seconds": 0.23140333298943006,
+        "usd": 3.4146e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10701,
+        "model": "jev-1.14.0",
+        "purpose": "link root cause",
+        "seconds": 0.23767641599988565,
+        "usd": 3.2424e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10702,
+        "model": "jev-1.14.0",
+        "purpose": "link root cause",
+        "seconds": 0.2868319999979576,
+        "usd": 3.0408e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10703,
+        "model": "jev-1.14.0",
+        "purpose": "link root cause",
+        "seconds": 0.3070747500023572,
+        "usd": 2.8602e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10704,
+        "model": "jev-1.14.0",
+        "purpose": "link root cause",
+        "seconds": 0.23524066699610557,
+        "usd": 3.5574e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10705,
+        "model": "jev-1.14.0",
+        "purpose": "link root cause",
+        "seconds": 0.21177324999007396,
+        "usd": 2.7510000000000003e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10706,
+        "model": "jev-1.14.0",
+        "purpose": "link root cause",
+        "seconds": 0.24165004200767726,
+        "usd": 3.313800000000001e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10707,
+        "model": "jev-1.14.0",
+        "purpose": "link root cause",
+        "seconds": 0.2259612080088118,
+        "usd": 2.7426e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10708,
+        "model": "jev-1.14.0",
+        "purpose": "link root cause",
+        "seconds": 0.20089979200565722,
+        "usd": 3.1836000000000005e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10709,
+        "model": "jev-1.14.0",
+        "purpose": "link root cause",
+        "seconds": 0.2085769590048585,
+        "usd": 3.0786e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10710,
+        "model": "jev-1.14.0",
+        "purpose": "link root cause",
+        "seconds": 0.20943970799271483,
+        "usd": 2.7174000000000004e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10711,
+        "model": "jev-1.14.0",
+        "purpose": "link root cause",
+        "seconds": 0.35918770800344646,
+        "usd": 3.0786e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10712,
+        "model": "jev-1.14.0",
+        "purpose": "link root cause",
+        "seconds": 0.24159541599510703,
+        "usd": 3.0408e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10713,
+        "model": "jev-1.14.0",
+        "purpose": "link root cause",
+        "seconds": 0.2592435000115074,
+        "usd": 3.171e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10714,
+        "model": "jev-1.14.0",
+        "purpose": "link root cause",
+        "seconds": 0.20789508300367743,
+        "usd": 2.8266000000000003e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10715,
+        "model": "jev-1.14.0",
+        "purpose": "link root cause",
+        "seconds": 0.2507212499913294,
+        "usd": 3.297e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10716,
+        "model": "jev-1.14.0",
+        "purpose": "link root cause",
+        "seconds": 0.2561777499940945,
+        "usd": 2.9148000000000003e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10717,
+        "model": "jev-1.14.0",
+        "purpose": "link root cause",
+        "seconds": 0.25255504201049916,
+        "usd": 2.7678e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10718,
+        "model": "jev-1.14.0",
+        "purpose": "link root cause",
+        "seconds": 0.20838412499870174,
+        "usd": 3.1248e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10719,
+        "model": "jev-1.14.0",
+        "purpose": "link root cause",
+        "seconds": 0.20600508399365935,
+        "usd": 3.2424e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10720,
+        "model": "jev-1.14.0",
+        "purpose": "link root cause",
+        "seconds": 0.21833091699227225,
+        "usd": 3.3894000000000004e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10721,
+        "model": "jev-1.14.0",
+        "purpose": "link root cause",
+        "seconds": 0.26251179199607577,
+        "usd": 3.2634e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10722,
+        "model": "jev-1.14.0",
+        "purpose": "link root cause",
+        "seconds": 0.23207741700753104,
+        "usd": 3.0492000000000002e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10723,
+        "model": "jev-1.14.0",
+        "purpose": "link root cause",
+        "seconds": 0.21131845899799373,
+        "usd": 3.528e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10724,
+        "model": "jev-1.14.0",
+        "purpose": "link root cause",
+        "seconds": 0.213824416990974,
+        "usd": 2.7216e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10725,
+        "model": "jev-1.14.0",
+        "purpose": "link root cause",
+        "seconds": 0.20055679199867882,
+        "usd": 3.7128e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10726,
+        "model": "jev-1.14.0",
+        "purpose": "link root cause",
+        "seconds": 0.2293609999906039,
+        "usd": 3.1374e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10727,
+        "model": "jev-1.14.0",
+        "purpose": "link root cause",
+        "seconds": 0.24363566699321382,
+        "usd": 3.2508e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10728,
+        "model": "jev-1.14.0",
+        "purpose": "link root cause",
+        "seconds": 0.1990552920033224,
+        "usd": 3.381e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10729,
+        "model": "jev-1.14.0",
+        "purpose": "link root cause",
+        "seconds": 0.22457099999883212,
+        "usd": 3.0702e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10730,
+        "model": "jev-1.14.0",
+        "purpose": "link root cause",
+        "seconds": 0.2660794590046862,
+        "usd": 3.150000000000001e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10731,
+        "model": "jev-1.14.0",
+        "purpose": "link root cause",
+        "seconds": 0.24194320899550803,
+        "usd": 2.8602e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10732,
+        "model": "jev-1.14.0",
+        "purpose": "link root cause",
+        "seconds": 0.2383924589958042,
+        "usd": 3.5448000000000003e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10733,
+        "model": "jev-1.14.0",
+        "purpose": "link root cause",
+        "seconds": 0.20892608299618587,
+        "usd": 3.2676000000000004e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10734,
+        "model": "jev-1.14.0",
+        "purpose": "link root cause",
+        "seconds": 0.20907216699561104,
+        "usd": 3.4104e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10735,
+        "model": "jev-1.14.0",
+        "purpose": "link root cause",
+        "seconds": 0.23306345799937844,
+        "usd": 3.2718e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10736,
+        "model": "jev-1.14.0",
+        "purpose": "link root cause",
+        "seconds": 0.2171915000071749,
+        "usd": 2.8308000000000004e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10737,
+        "model": "jev-1.14.0",
+        "purpose": "link root cause",
+        "seconds": 0.2120747499866411,
+        "usd": 3.6078e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10738,
+        "model": "jev-1.14.0",
+        "purpose": "link root cause",
+        "seconds": 0.2538285829941742,
+        "usd": 3.5952000000000004e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10739,
+        "model": "jev-1.14.0",
+        "purpose": "link root cause",
+        "seconds": 0.2089790829923004,
+        "usd": 3.0744e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10740,
+        "model": "jev-1.14.0",
+        "purpose": "link root cause",
+        "seconds": 0.23776433400053065,
+        "usd": 3.2634e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10741,
+        "model": "jev-1.14.0",
+        "purpose": "link root cause",
+        "seconds": 0.2448987919924548,
+        "usd": 2.7678e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10742,
+        "model": "jev-1.14.0",
+        "purpose": "link root cause",
+        "seconds": 0.21061066701076925,
+        "usd": 3.7422e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10743,
+        "model": "jev-1.14.0",
+        "purpose": "link root cause",
+        "seconds": 0.24711995798861608,
+        "usd": 3.5448000000000003e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10744,
+        "model": "jev-1.14.0",
+        "purpose": "link root cause",
+        "seconds": 0.22081375001289416,
+        "usd": 2.7006e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10745,
+        "model": "jev-1.14.0",
+        "purpose": "link root cause",
+        "seconds": 0.23522029200103134,
+        "usd": 3.6288e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10746,
+        "model": "jev-1.14.0",
+        "purpose": "link root cause",
+        "seconds": 0.21001437499944586,
+        "usd": 2.7258000000000002e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10747,
+        "model": "jev-1.14.0",
+        "purpose": "link root cause",
+        "seconds": 0.2467975409963401,
+        "usd": 3.045e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10748,
+        "model": "jev-1.14.0",
+        "purpose": "link root cause",
+        "seconds": 0.23125625000102445,
+        "usd": 2.856e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10749,
+        "model": "jev-1.14.0",
+        "purpose": "link root cause",
+        "seconds": 0.3089587090071291,
+        "usd": 3.444e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10750,
+        "model": "jev-1.14.0",
+        "purpose": "link root cause",
+        "seconds": 0.20204220799496397,
+        "usd": 3.0366000000000004e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10751,
+        "model": "jev-1.14.0",
+        "purpose": "triage",
+        "seconds": null,
+        "usd": 7.068600000000001e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10752,
+        "model": "gpt-6.1-terra",
+        "purpose": "manual agent",
+        "seconds": null,
+        "usd": 0.000484
+      },
+      {
+        "cache_hit": 0,
+        "id": 10753,
+        "model": "gpt-6.1-terra",
+        "purpose": "graph agent",
+        "seconds": null,
+        "usd": 0.001348
+      },
+      {
+        "cache_hit": 0,
+        "id": 10754,
+        "model": "gpt-6.1-terra",
+        "purpose": "graph agent",
+        "seconds": null,
+        "usd": 0.001908
+      },
+      {
+        "cache_hit": 0,
+        "id": 10755,
+        "model": "gpt-6.1-terra",
+        "purpose": "graph agent",
+        "seconds": null,
+        "usd": 0.00029375
+      },
+      {
+        "cache_hit": 0,
+        "id": 10756,
+        "model": "gpt-6.1-terra",
+        "purpose": "graph agent",
+        "seconds": null,
+        "usd": 0.00031115
+      },
+      {
+        "cache_hit": 0,
+        "id": 10757,
+        "model": "gpt-6.1-sol",
+        "purpose": "synthesize",
+        "seconds": null,
+        "usd": 0.006016
+      },
+      {
+        "cache_hit": 0,
+        "id": 10758,
+        "model": "jev-1.14.0",
+        "purpose": "verify",
+        "seconds": null,
+        "usd": 9.9876e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10759,
+        "model": "jev-1.14.0",
+        "purpose": "triage",
+        "seconds": null,
+        "usd": 7.068600000000001e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10760,
+        "model": "gpt-6.1-terra",
+        "purpose": "manual agent",
+        "seconds": null,
+        "usd": 0.000505
+      },
+      {
+        "cache_hit": 0,
+        "id": 10761,
+        "model": "gpt-6.1-terra",
+        "purpose": "graph agent",
+        "seconds": null,
+        "usd": 0.001351
+      },
+      {
+        "cache_hit": 0,
+        "id": 10762,
+        "model": "gpt-6.1-terra",
+        "purpose": "graph agent",
+        "seconds": null,
+        "usd": 0.001959
+      },
+      {
+        "cache_hit": 0,
+        "id": 10763,
+        "model": "gpt-6.1-terra",
+        "purpose": "graph agent",
+        "seconds": null,
+        "usd": 0.0005155499999999999
+      },
+      {
+        "cache_hit": 0,
+        "id": 10764,
+        "model": "gpt-6.1-terra",
+        "purpose": "graph agent",
+        "seconds": null,
+        "usd": 0.00042915
+      },
+      {
+        "cache_hit": 0,
+        "id": 10765,
+        "model": "gpt-6.1-sol",
+        "purpose": "synthesize",
+        "seconds": null,
+        "usd": 0.00547
+      },
+      {
+        "cache_hit": 0,
+        "id": 10766,
+        "model": "jev-1.14.0",
+        "purpose": "verify",
+        "seconds": null,
+        "usd": 0.00010143000000000001
+      },
+      {
+        "cache_hit": 0,
+        "id": 10767,
+        "model": "jev-1.14.0",
+        "purpose": "triage",
+        "seconds": null,
+        "usd": 7.064400000000001e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10768,
+        "model": "gpt-6.1-terra",
+        "purpose": "manual agent",
+        "seconds": null,
+        "usd": 0.000494
+      },
+      {
+        "cache_hit": 0,
+        "id": 10769,
+        "model": "gpt-6.1-terra",
+        "purpose": "graph agent",
+        "seconds": null,
+        "usd": 0.001346
+      },
+      {
+        "cache_hit": 0,
+        "id": 10770,
+        "model": "gpt-6.1-terra",
+        "purpose": "graph agent",
+        "seconds": null,
+        "usd": 0.001746
+      },
+      {
+        "cache_hit": 0,
+        "id": 10771,
+        "model": "gpt-6.1-terra",
+        "purpose": "graph agent",
+        "seconds": null,
+        "usd": 0.00028389999999999996
+      },
+      {
+        "cache_hit": 0,
+        "id": 10772,
+        "model": "gpt-6.1-terra",
+        "purpose": "graph agent",
+        "seconds": null,
+        "usd": 0.0002182
+      },
+      {
+        "cache_hit": 0,
+        "id": 10773,
+        "model": "gpt-6.1-sol",
+        "purpose": "synthesize",
+        "seconds": null,
+        "usd": 0.004638
+      },
+      {
+        "cache_hit": 0,
+        "id": 10774,
+        "model": "jev-1.14.0",
+        "purpose": "verify",
+        "seconds": null,
+        "usd": 6.329400000000001e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10775,
+        "model": "jev-1.14.0",
+        "purpose": "triage",
+        "seconds": null,
+        "usd": 7.056e-05
+      },
+      {
+        "cache_hit": 0,
+        "id": 10776,
+        "model": "gpt-6.1-terra",
+        "purpose": "manual agent",
+        "seconds": null,
+        "usd": 0.000476
+      },
+      {
+        "cache_hit": 0,
+        "id": 10777,
+        "model": "gpt-6.1-terra",
+        "purpose": "graph agent",
+        "seconds": null,
+        "usd": 0.001338
+      },
+      {
+        "cache_hit": 0,
+        "id": 10778,
+        "model": "gpt-6.1-terra",
+        "purpose": "graph agent",
+        "seconds": null,
+        "usd": 0.001785
+      },
+      {
+        "cache_hit": 0,
+        "id": 10779,
+        "model": "gpt-6.1-terra",
+        "purpose": "graph agent",
+        "seconds": null,
+        "usd": 0.0002841
+      },
+      {
+        "cache_hit": 0,
+        "id": 10780,
+        "model": "gpt-6.1-terra",
+        "purpose": "graph agent",
+        "seconds": null,
+        "usd": 0.0002223
+      },
+      {
+        "cache_hit": 0,
+        "id": 10781,
+        "model": "gpt-6.1-sol",
+        "purpose": "synthesize",
+        "seconds": null,
+        "usd": 0.005294
+      },
+      {
+        "cache_hit": 0,
+        "id": 10782,
+        "model": "jev-1.14.0",
+        "purpose": "verify",
+        "seconds": null,
+        "usd": 0.00010285800000000001
+      }
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+Shift handover 04/05/2026 night
+From: Arun   To: Siew Ling
+
+- CNC2 stopped 0039 w/ SP-104, grinding noise from spindle, vibration alarm. Repl spindle bgr set (BRG 7014 ACD x2), running ok now. Down approx 10h.
+- nothing mjaor, all machines running
+- robot cell guard door sticking a bit, f/u tmr
+
+Signed Arun

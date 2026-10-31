@@ -1,0 +1,5202 @@
+{
+  "files": [
+    {
+      "candidates": {
+        "chunks": 0,
+        "edges": {
+          "HAS_MACHINE": 5
+        },
+        "nodes": {
+          "Asset": 5,
+          "Line": 1,
+          "Part": 40
+        }
+      },
+      "doc_path": "inventory/spares_2026-10.xlsx",
+      "doc_type": "inventory",
+      "extractor": "inventory-normalizer",
+      "flags": [
+        {
+          "detail": "the node has no edges",
+          "rule": "no_edges",
+          "severity": "warning",
+          "subject": "FUSE-CTRL-02"
+        },
+        {
+          "detail": "the node has no edges",
+          "rule": "no_edges",
+          "severity": "warning",
+          "subject": "LAMP-HMI-24"
+        }
+      ],
+      "merges": [
+        {
+          "backend": null,
+          "candidate": "SPR-TC-40",
+          "decision": "rule",
+          "doc_path": "inventory/spares_2026-10.xlsx",
+          "mention": "SPRTC40",
+          "p": 1.0,
+          "type": "Part"
+        },
+        {
+          "backend": null,
+          "candidate": "HOLDER-BT40",
+          "decision": "rule",
+          "doc_path": "inventory/spares_2026-10.xlsx",
+          "mention": "HOLDERBT40",
+          "p": 1.0,
+          "type": "Part"
+        },
+        {
+          "backend": null,
+          "candidate": null,
+          "decision": "unresolved",
+          "doc_path": "inventory/spares_2026-10.xlsx",
+          "mention": "TAPEPTFE12",
+          "p": null,
+          "type": "Part"
+        },
+        {
+          "backend": null,
+          "candidate": "SENS-PT100-01",
+          "decision": "rule",
+          "doc_path": "inventory/spares_2026-10.xlsx",
+          "mention": "SENSPT10001",
+          "p": 1.0,
+          "type": "Part"
+        },
+        {
+          "backend": null,
+          "candidate": "SWITCH-LIM-01",
+          "decision": "rule",
+          "doc_path": "inventory/spares_2026-10.xlsx",
+          "mention": "SWITCHLIM01",
+          "p": 1.0,
+          "type": "Part"
+        }
+      ],
+      "notes": [],
+      "review": [
+        {
+          "confidence": null,
+          "doc_paths": [
+            "inventory/spares_2026-10.xlsx"
+          ],
+          "kind": "unresolved",
+          "payload": {
+            "candidate": null,
+            "dropped_edges": 0,
+            "dropped_nodes": 2,
+            "mention": "TAPEPTFE12",
+            "p": null,
+            "reason": "no candidate",
+            "type": "Part"
+          }
+        }
+      ]
+    },
+    {
+      "candidates": {
+        "chunks": 0,
+        "edges": {},
+        "nodes": {
+          "Part": 40
+        }
+      },
+      "doc_path": "inventory/spares_old.csv",
+      "doc_type": "inventory",
+      "extractor": "inventory-normalizer",
+      "flags": [
+        {
+          "detail": "the node has no edges",
+          "rule": "no_edges",
+          "severity": "warning",
+          "subject": "FUSE-CTRL-02"
+        },
+        {
+          "detail": "the node has no edges",
+          "rule": "no_edges",
+          "severity": "warning",
+          "subject": "LAMP-HMI-24"
+        }
+      ],
+      "merges": [
+        {
+          "backend": null,
+          "candidate": "BRG-7014-ACD",
+          "decision": "rule",
+          "doc_path": "inventory/spares_old.csv",
+          "mention": "BRG7014ACD",
+          "p": 1.0,
+          "type": "Part"
+        },
+        {
+          "backend": null,
+          "candidate": "SEAL-SPDL-70",
+          "decision": "rule",
+          "doc_path": "inventory/spares_old.csv",
+          "mention": "SEALSPDL70",
+          "p": 1.0,
+          "type": "Part"
+        },
+        {
+          "backend": null,
+          "candidate": "BELT-HTD-8M",
+          "decision": "rule",
+          "doc_path": "inventory/spares_old.csv",
+          "mention": "BELTHTD8M",
+          "p": 1.0,
+          "type": "Part"
+        },
+        {
+          "backend": null,
+          "candidate": "FLT-CL-25",
+          "decision": "rule",
+          "doc_path": "inventory/spares_old.csv",
+          "mention": "FLTCL25",
+          "p": 1.0,
+          "type": "Part"
+        },
+        {
+          "backend": null,
+          "candidate": "SEAL-KIT-50",
+          "decision": "rule",
+          "doc_path": "inventory/spares_old.csv",
+          "mention": "SEALKIT50",
+          "p": 1.0,
+          "type": "Part"
+        },
+        {
+          "backend": null,
+          "candidate": "FLT-HYD-10",
+          "decision": "rule",
+          "doc_path": "inventory/spares_old.csv",
+          "mention": "FLTHYD10",
+          "p": 1.0,
+          "type": "Part"
+        },
+        {
+          "backend": null,
+          "candidate": "GREASE-KLB-2",
+          "decision": "rule",
+          "doc_path": "inventory/spares_old.csv",
+          "mention": "GREASEKLB2",
+          "p": 1.0,
+          "type": "Part"
+        },
+        {
+          "backend": null,
+          "candidate": "O-RING-NBR-12",
+          "decision": "rule",
+          "doc_path": "inventory/spares_old.csv",
+          "mention": "ORINGNBR12",
+          "p": 1.0,
+          "type": "Part"
+        },
+        {
+          "backend": null,
+          "candidate": "SENS-PROX-08",
+          "decision": "rule",
+          "doc_path": "inventory/spares_old.csv",
+          "mention": "SENSPROX08",
+          "p": 1.0,
+          "type": "Part"
+        },
+        {
+          "backend": null,
+          "candidate": "CABLE-ENC-05",
+          "decision": "rule",
+          "doc_path": "inventory/spares_old.csv",
+          "mention": "CABLEENC05",
+          "p": 1.0,
+          "type": "Part"
+        },
+        {
+          "backend": null,
+          "candidate": "BRKT-LC-01",
+          "decision": "rule",
+          "doc_path": "inventory/spares_old.csv",
+          "mention": "BRKTLC01",
+          "p": 1.0,
+          "type": "Part"
+        },
+        {
+          "backend": null,
+          "candidate": "BATT-ENC-36",
+          "decision": "rule",
+          "doc_path": "inventory/spares_old.csv",
+          "mention": "BATTENC36",
+          "p": 1.0,
+          "type": "Part"
+        },
+        {
+          "backend": null,
+          "candidate": "SEAL-FIX-30",
+          "decision": "rule",
+          "doc_path": "inventory/spares_old.csv",
+          "mention": "SEALFIX30",
+          "p": 1.0,
+          "type": "Part"
+        },
+        {
+          "backend": null,
+          "candidate": "PUMP-CL-04",
+          "decision": "rule",
+          "doc_path": "inventory/spares_old.csv",
+          "mention": "PUMPCL04",
+          "p": 1.0,
+          "type": "Part"
+        }
+      ],
+      "notes": [],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 8,
+        "edges": {
+          "AFFECTS": 3,
+          "FITS": 13,
+          "HAS_COMPONENT": 3,
+          "INDICATES": 7,
+          "REQUIRES": 5,
+          "RESOLVED_BY": 3
+        },
+        "nodes": {
+          "AlarmCode": 6,
+          "Asset": 1,
+          "Component": 3,
+          "FailureMode": 3,
+          "Part": 12,
+          "Procedure": 3
+        }
+      },
+      "doc_path": "manuals/BH-250 service manual.pdf",
+      "doc_type": "manual",
+      "extractor": "sol-manual",
+      "flags": [],
+      "merges": [
+        {
+          "backend": null,
+          "candidate": "COUPLING-PMP-28",
+          "decision": "rule",
+          "doc_path": "manuals/BH-250 service manual.pdf",
+          "mention": "COUPLING-PMP-28",
+          "p": 1.0,
+          "type": "Part"
+        },
+        {
+          "backend": null,
+          "candidate": "FLT-HYD-10",
+          "decision": "rule",
+          "doc_path": "manuals/BH-250 service manual.pdf",
+          "mention": "FLT-HYD-10",
+          "p": 1.0,
+          "type": "Part"
+        },
+        {
+          "backend": null,
+          "candidate": "GAUGE-PRS-250",
+          "decision": "rule",
+          "doc_path": "manuals/BH-250 service manual.pdf",
+          "mention": "GAUGE-PRS-250",
+          "p": 1.0,
+          "type": "Part"
+        },
+        {
+          "backend": null,
+          "candidate": "HOSE-HYD-12",
+          "decision": "rule",
+          "doc_path": "manuals/BH-250 service manual.pdf",
+          "mention": "HOSE-HYD-12",
+          "p": 1.0,
+          "type": "Part"
+        },
+        {
+          "backend": null,
+          "candidate": "NUT-GLAND-50",
+          "decision": "rule",
+          "doc_path": "manuals/BH-250 service manual.pdf",
+          "mention": "NUT-GLAND-50",
+          "p": 1.0,
+          "type": "Part"
+        },
+        {
+          "backend": null,
+          "candidate": "O-RING-NBR-12",
+          "decision": "rule",
+          "doc_path": "manuals/BH-250 service manual.pdf",
+          "mention": "O-RING-NBR-12",
+          "p": 1.0,
+          "type": "Part"
+        },
+        {
+          "backend": null,
+          "candidate": "OIL-HLP46-20L",
+          "decision": "rule",
+          "doc_path": "manuals/BH-250 service manual.pdf",
+          "mention": "OIL-HLP46-20L",
+          "p": 1.0,
+          "type": "Part"
+        },
+        {
+          "backend": null,
+          "candidate": "SEAL-KIT-50",
+          "decision": "rule",
+          "doc_path": "manuals/BH-250 service manual.pdf",
+          "mention": "SEAL-KIT-50",
+          "p": 1.0,
+          "type": "Part"
+        },
+        {
+          "backend": null,
+          "candidate": "SEAL-RV-25",
+          "decision": "rule",
+          "doc_path": "manuals/BH-250 service manual.pdf",
+          "mention": "SEAL-RV-25",
+          "p": 1.0,
+          "type": "Part"
+        },
+        {
+          "backend": null,
+          "candidate": "SENS-PT100-01",
+          "decision": "rule",
+          "doc_path": "manuals/BH-250 service manual.pdf",
+          "mention": "SENS-PT100-01",
+          "p": 1.0,
+          "type": "Part"
+        },
+        {
+          "backend": null,
+          "candidate": "SWITCH-LIM-01",
+          "decision": "rule",
+          "doc_path": "manuals/BH-250 service manual.pdf",
+          "mention": "SWITCH-LIM-01",
+          "p": 1.0,
+          "type": "Part"
+        },
+        {
+          "backend": null,
+          "candidate": "WIPER-CYL-50",
+          "decision": "rule",
+          "doc_path": "manuals/BH-250 service manual.pdf",
+          "mention": "WIPER-CYL-50",
+          "p": 1.0,
+          "type": "Part"
+        }
+      ],
+      "notes": [],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 10,
+        "edges": {
+          "AFFECTS": 6,
+          "FITS": 24,
+          "HAS_COMPONENT": 6,
+          "INDICATES": 7,
+          "REQUIRES": 6,
+          "RESOLVED_BY": 4
+        },
+        "nodes": {
+          "AlarmCode": 7,
+          "Asset": 2,
+          "Component": 6,
+          "FailureMode": 3,
+          "Part": 12,
+          "Procedure": 4
+        }
+      },
+      "doc_path": "manuals/Kessler_KX-500_Operator_Maintenance_Manual_rev3.pdf",
+      "doc_type": "manual",
+      "extractor": "sol-manual",
+      "flags": [],
+      "merges": [
+        {
+          "backend": null,
+          "candidate": "BRG-7014-ACD",
+          "decision": "rule",
+          "doc_path": "manuals/Kessler_KX-500_Operator_Maintenance_Manual_rev3.pdf",
+          "mention": "BRG-7014-ACD",
+          "p": 1.0,
+          "type": "Part"
+        },
+        {
+          "backend": null,
+          "candidate": "CLEANER-CL-5L",
+          "decision": "rule",
+          "doc_path": "manuals/Kessler_KX-500_Operator_Maintenance_Manual_rev3.pdf",
+          "mention": "CLEANER-CL-5L",
+          "p": 1.0,
+          "type": "Part"
+        },
+        {
+          "backend": null,
+          "candidate": "COLLET-ER32",
+          "decision": "rule",
+          "doc_path": "manuals/Kessler_KX-500_Operator_Maintenance_Manual_rev3.pdf",
+          "mention": "COLLET-ER32",
+          "p": 1.0,
+          "type": "Part"
+        },
+        {
+          "backend": null,
+          "candidate": "FLT-CL-25",
+          "decision": "rule",
+          "doc_path": "manuals/Kessler_KX-500_Operator_Maintenance_Manual_rev3.pdf",
+          "mention": "FLT-CL-25",
+          "p": 1.0,
+          "type": "Part"
+        },
+        {
+          "backend": null,
+          "candidate": "GREASE-KLB-2",
+          "decision": "rule",
+          "doc_path": "manuals/Kessler_KX-500_Operator_Maintenance_Manual_rev3.pdf",
+          "mention": "GREASE-KLB-2",
+          "p": 1.0,
+          "type": "Part"
+        },
+        {
+          "backend": null,
+          "candidate": "HOLDER-BT40",
+          "decision": "rule",
+          "doc_path": "manuals/Kessler_KX-500_Operator_Maintenance_Manual_rev3.pdf",
+          "mention": "HOLDER-BT40",
+          "p": 1.0,
+          "type": "Part"
+        },
+        {
+          "backend": null,
+          "candidate": "NOZZLE-CL-06",
+          "decision": "rule",
+          "doc_path": "manuals/Kessler_KX-500_Operator_Maintenance_Manual_rev3.pdf",
+          "mention": "NOZZLE-CL-06",
+          "p": 1.0,
+          "type": "Part"
+        },
+        {
+          "backend": null,
+          "candidate": "PUMP-CL-04",
+          "decision": "rule",
+          "doc_path": "manuals/Kessler_KX-500_Operator_Maintenance_Manual_rev3.pdf",
+          "mention": "PUMP-CL-04",
+          "p": 1.0,
+          "type": "Part"
+        },
+        {
+          "backend": null,
+          "candidate": "SEAL-SPDL-70",
+          "decision": "rule",
+          "doc_path": "manuals/Kessler_KX-500_Operator_Maintenance_Manual_rev3.pdf",
+          "mention": "SEAL-SPDL-70",
+          "p": 1.0,
+          "type": "Part"
+        },
+        {
+          "backend": null,
+          "candidate": "SENS-PROX-08",
+          "decision": "rule",
+          "doc_path": "manuals/Kessler_KX-500_Operator_Maintenance_Manual_rev3.pdf",
+          "mention": "SENS-PROX-08",
+          "p": 1.0,
+          "type": "Part"
+        },
+        {
+          "backend": null,
+          "candidate": "SPR-TC-40",
+          "decision": "rule",
+          "doc_path": "manuals/Kessler_KX-500_Operator_Maintenance_Manual_rev3.pdf",
+          "mention": "SPR-TC-40",
+          "p": 1.0,
+          "type": "Part"
+        }
+      ],
+      "notes": [],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 8,
+        "edges": {
+          "AFFECTS": 3,
+          "FITS": 9,
+          "HAS_COMPONENT": 3,
+          "INDICATES": 4,
+          "REQUIRES": 4,
+          "RESOLVED_BY": 3
+        },
+        "nodes": {
+          "AlarmCode": 4,
+          "Asset": 1,
+          "Component": 3,
+          "FailureMode": 3,
+          "Part": 9,
+          "Procedure": 3
+        }
+      },
+      "doc_path": "manuals/Orbis_OR6_cell_maintenance_guide.pdf",
+      "doc_type": "manual",
+      "extractor": "sol-manual",
+      "flags": [],
+      "merges": [
+        {
+          "backend": null,
+          "candidate": "BATT-ENC-36",
+          "decision": "rule",
+          "doc_path": "manuals/Orbis_OR6_cell_maintenance_guide.pdf",
+          "mention": "BATT-ENC-36",
+          "p": 1.0,
+          "type": "Part"
+        },
+        {
+          "backend": null,
+          "candidate": "BELT-HTD-8M",
+          "decision": "rule",
+          "doc_path": "manuals/Orbis_OR6_cell_maintenance_guide.pdf",
+          "mention": "BELT-HTD-8M",
+          "p": 1.0,
+          "type": "Part"
+        },
+        {
+          "backend": null,
+          "candidate": "BRG-6205-2RS",
+          "decision": "rule",
+          "doc_path": "manuals/Orbis_OR6_cell_maintenance_guide.pdf",
+          "mention": "BRG-6205-2RS",
+          "p": 1.0,
+          "type": "Part"
+        },
+        {
+          "backend": null,
+          "candidate": "BRKT-LC-01",
+          "decision": "rule",
+          "doc_path": "manuals/Orbis_OR6_cell_maintenance_guide.pdf",
+          "mention": "BRKT-LC-01",
+          "p": 1.0,
+          "type": "Part"
+        },
+        {
+          "backend": null,
+          "candidate": "CABLE-ENC-05",
+          "decision": "rule",
+          "doc_path": "manuals/Orbis_OR6_cell_maintenance_guide.pdf",
+          "mention": "CABLE-ENC-05",
+          "p": 1.0,
+          "type": "Part"
+        },
+        {
+          "backend": null,
+          "candidate": "CUP-VAC-40",
+          "decision": "rule",
+          "doc_path": "manuals/Orbis_OR6_cell_maintenance_guide.pdf",
+          "mention": "CUP-VAC-40",
+          "p": 1.0,
+          "type": "Part"
+        },
+        {
+          "backend": null,
+          "candidate": "FUSE-SRV-10",
+          "decision": "rule",
+          "doc_path": "manuals/Orbis_OR6_cell_maintenance_guide.pdf",
+          "mention": "FUSE-SRV-10",
+          "p": 1.0,
+          "type": "Part"
+        },
+        {
+          "backend": null,
+          "candidate": "GRP-FNG-12",
+          "decision": "rule",
+          "doc_path": "manuals/Orbis_OR6_cell_maintenance_guide.pdf",
+          "mention": "GRP-FNG-12",
+          "p": 1.0,
+          "type": "Part"
+        },
+        {
+          "backend": null,
+          "candidate": "RELAY-SAF-24",
+          "decision": "rule",
+          "doc_path": "manuals/Orbis_OR6_cell_maintenance_guide.pdf",
+          "mention": "RELAY-SAF-24",
+          "p": 1.0,
+          "type": "Part"
+        }
+      ],
+      "notes": [],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 7,
+        "edges": {
+          "AFFECTS": 2,
+          "FITS": 5,
+          "HAS_COMPONENT": 3,
+          "INDICATES": 4,
+          "REQUIRES": 1,
+          "RESOLVED_BY": 2
+        },
+        "nodes": {
+          "AlarmCode": 3,
+          "Asset": 1,
+          "Component": 3,
+          "FailureMode": 2,
+          "Part": 5,
+          "Procedure": 2
+        }
+      },
+      "doc_path": "manuals/VT-LD20_manual_EN.pdf",
+      "doc_type": "manual",
+      "extractor": "sol-manual",
+      "flags": [],
+      "merges": [
+        {
+          "backend": null,
+          "candidate": "FLT-AIR-05",
+          "decision": "rule",
+          "doc_path": "manuals/VT-LD20_manual_EN.pdf",
+          "mention": "FLT-AIR-05",
+          "p": 1.0,
+          "type": "Part"
+        },
+        {
+          "backend": null,
+          "candidate": "O-RING-NBR-30",
+          "decision": "rule",
+          "doc_path": "manuals/VT-LD20_manual_EN.pdf",
+          "mention": "O-RING-NBR-30",
+          "p": 1.0,
+          "type": "Part"
+        },
+        {
+          "backend": null,
+          "candidate": "SEAL-FIX-30",
+          "decision": "rule",
+          "doc_path": "manuals/VT-LD20_manual_EN.pdf",
+          "mention": "SEAL-FIX-30",
+          "p": 1.0,
+          "type": "Part"
+        },
+        {
+          "backend": null,
+          "candidate": "SENS-PRS-10",
+          "decision": "rule",
+          "doc_path": "manuals/VT-LD20_manual_EN.pdf",
+          "mention": "SENS-PRS-10",
+          "p": 1.0,
+          "type": "Part"
+        },
+        {
+          "backend": null,
+          "candidate": "VALVE-FILL-08",
+          "decision": "rule",
+          "doc_path": "manuals/VT-LD20_manual_EN.pdf",
+          "mention": "VALVE-FILL-08",
+          "p": 1.0,
+          "type": "Part"
+        }
+      ],
+      "notes": [],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 0,
+        "edges": {
+          "RAISED": 6
+        },
+        "nodes": {
+          "AlarmCode": 6,
+          "Asset": 1
+        }
+      },
+      "doc_path": "logs/CNC01_alarms_apr-sep.log",
+      "doc_type": "log",
+      "extractor": "log-parser",
+      "flags": [],
+      "merges": [],
+      "notes": [
+        "38 of 1373 lines could not be parsed",
+        "4 duplicate lines dropped"
+      ],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 0,
+        "edges": {
+          "RAISED": 6
+        },
+        "nodes": {
+          "AlarmCode": 6,
+          "Asset": 1
+        }
+      },
+      "doc_path": "logs/HP01.log",
+      "doc_type": "log",
+      "extractor": "log-parser",
+      "flags": [],
+      "merges": [],
+      "notes": [
+        "29 of 1384 lines could not be parsed",
+        "3 duplicate lines dropped"
+      ],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 0,
+        "edges": {
+          "RAISED": 7
+        },
+        "nodes": {
+          "AlarmCode": 7,
+          "Asset": 1
+        }
+      },
+      "doc_path": "logs/cnc-02 alarm export.log",
+      "doc_type": "log",
+      "extractor": "log-parser",
+      "flags": [],
+      "merges": [],
+      "notes": [
+        "32 of 1384 lines could not be parsed",
+        "3 duplicate lines dropped"
+      ],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 0,
+        "edges": {
+          "RAISED": 3
+        },
+        "nodes": {
+          "AlarmCode": 3,
+          "Asset": 1
+        }
+      },
+      "doc_path": "logs/leaktest_VT-LD20.log",
+      "doc_type": "log",
+      "extractor": "log-parser",
+      "flags": [],
+      "merges": [],
+      "notes": [
+        "38 of 1210 lines could not be parsed",
+        "2 duplicate lines dropped"
+      ],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 0,
+        "edges": {
+          "RAISED": 4
+        },
+        "nodes": {
+          "AlarmCode": 4,
+          "Asset": 1
+        }
+      },
+      "doc_path": "logs/robot_cell_events.log",
+      "doc_type": "log",
+      "extractor": "log-parser",
+      "flags": [],
+      "merges": [],
+      "notes": [
+        "32 of 1169 lines could not be parsed"
+      ],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 0,
+        "edges": {
+          "OCCURRED_ON": 57,
+          "TRIGGERED_BY": 32,
+          "USED": 93
+        },
+        "nodes": {
+          "Incident": 57
+        }
+      },
+      "doc_path": "maintenance/maint_log_export_2026.csv",
+      "doc_type": "maintenance_note",
+      "extractor": "csv-parser",
+      "flags": [
+        {
+          "detail": "the incident has no shift",
+          "rule": "incident_no_shift",
+          "severity": "warning",
+          "subject": "INC-2026-002"
+        },
+        {
+          "detail": "the incident has no shift",
+          "rule": "incident_no_shift",
+          "severity": "warning",
+          "subject": "INC-2026-010"
+        },
+        {
+          "detail": "the incident has no shift",
+          "rule": "incident_no_shift",
+          "severity": "warning",
+          "subject": "INC-2026-011"
+        },
+        {
+          "detail": "the incident has no shift",
+          "rule": "incident_no_shift",
+          "severity": "warning",
+          "subject": "INC-2026-012"
+        },
+        {
+          "detail": "the incident has no shift",
+          "rule": "incident_no_shift",
+          "severity": "warning",
+          "subject": "INC-2026-014"
+        },
+        {
+          "detail": "the incident has no shift",
+          "rule": "incident_no_shift",
+          "severity": "warning",
+          "subject": "INC-2026-017"
+        },
+        {
+          "detail": "the incident has no shift",
+          "rule": "incident_no_shift",
+          "severity": "warning",
+          "subject": "INC-2026-018"
+        },
+        {
+          "detail": "the incident has no shift",
+          "rule": "incident_no_shift",
+          "severity": "warning",
+          "subject": "INC-2026-024"
+        },
+        {
+          "detail": "the incident has no shift",
+          "rule": "incident_no_shift",
+          "severity": "warning",
+          "subject": "INC-2026-028"
+        },
+        {
+          "detail": "the incident has no shift",
+          "rule": "incident_no_shift",
+          "severity": "warning",
+          "subject": "INC-2026-032"
+        },
+        {
+          "detail": "the incident has no shift",
+          "rule": "incident_no_shift",
+          "severity": "warning",
+          "subject": "INC-2026-035"
+        },
+        {
+          "detail": "the incident has no shift",
+          "rule": "incident_no_shift",
+          "severity": "warning",
+          "subject": "INC-2026-037"
+        },
+        {
+          "detail": "the incident has no shift",
+          "rule": "incident_no_shift",
+          "severity": "warning",
+          "subject": "INC-2026-042"
+        },
+        {
+          "detail": "the incident has no shift",
+          "rule": "incident_no_shift",
+          "severity": "warning",
+          "subject": "INC-2026-044"
+        },
+        {
+          "detail": "the incident has no shift",
+          "rule": "incident_no_shift",
+          "severity": "warning",
+          "subject": "INC-2026-048"
+        },
+        {
+          "detail": "the incident has no shift",
+          "rule": "incident_no_shift",
+          "severity": "warning",
+          "subject": "INC-2026-051"
+        },
+        {
+          "detail": "the incident has no shift",
+          "rule": "incident_no_shift",
+          "severity": "warning",
+          "subject": "INC-2026-052"
+        },
+        {
+          "detail": "the incident has no shift",
+          "rule": "incident_no_shift",
+          "severity": "warning",
+          "subject": "INC-2026-060"
+        }
+      ],
+      "merges": [
+        {
+          "backend": "jev",
+          "candidate": "OIL-HLP46-20L",
+          "decision": "merge",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "HLP46",
+          "p": 0.89,
+          "type": "Part"
+        },
+        {
+          "backend": "jev",
+          "candidate": "SEAL-KIT-50",
+          "decision": "merge",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "SK-50",
+          "p": 0.96,
+          "type": "Part"
+        },
+        {
+          "backend": null,
+          "candidate": "OIL-HLP46-20L",
+          "decision": "rule",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "OILHLP4620L",
+          "p": 1.0,
+          "type": "Part"
+        },
+        {
+          "backend": "jev",
+          "candidate": "BRG-6205-2RS",
+          "decision": "merge",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "BRG-6205",
+          "p": 0.83,
+          "type": "Part"
+        },
+        {
+          "backend": "jev",
+          "candidate": "SEAL-FIX-30",
+          "decision": "merge",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "FIXTURE-SEAL",
+          "p": 0.79,
+          "type": "Part"
+        },
+        {
+          "backend": "jev",
+          "candidate": "SPR-TC-40",
+          "decision": "merge",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "DISC-SPRINGS-TC",
+          "p": 0.91,
+          "type": "Part"
+        },
+        {
+          "backend": "jev",
+          "candidate": "GREASE-KLB-2",
+          "decision": "merge",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "KLB2-GREASE",
+          "p": 0.88,
+          "type": "Part"
+        },
+        {
+          "backend": "jev",
+          "candidate": "BRKT-LC-01",
+          "decision": "merge",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "LC-BRACKET",
+          "p": 0.87,
+          "type": "Part"
+        },
+        {
+          "backend": null,
+          "candidate": "CUP-VAC-40",
+          "decision": "rule",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "CUPVAC40",
+          "p": 1.0,
+          "type": "Part"
+        },
+        {
+          "backend": "jev",
+          "candidate": "SENS-PROX-08",
+          "decision": "merge",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "PROX-SENSOR-M8",
+          "p": 0.94,
+          "type": "Part"
+        },
+        {
+          "backend": null,
+          "candidate": "O-RING-NBR-30",
+          "decision": "rule",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "ORINGNBR30",
+          "p": 1.0,
+          "type": "Part"
+        },
+        {
+          "backend": "jev",
+          "candidate": "SEAL-RV-25",
+          "decision": "merge",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "RV-SEAL",
+          "p": 0.83,
+          "type": "Part"
+        },
+        {
+          "backend": "jev",
+          "candidate": "FLT-CL-25",
+          "decision": "merge",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "CL-FILTER-25",
+          "p": 0.91,
+          "type": "Part"
+        },
+        {
+          "backend": "jev",
+          "candidate": "BRG-7014-ACD",
+          "decision": "merge",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "7014ACD",
+          "p": 0.97,
+          "type": "Part"
+        },
+        {
+          "backend": "jev",
+          "candidate": "SEAL-SPDL-70",
+          "decision": "merge",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "SEAL-70",
+          "p": 0.85,
+          "type": "Part"
+        },
+        {
+          "backend": "jev",
+          "candidate": "GRP-FNG-12",
+          "decision": "merge",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "GRIPPER-FINGER",
+          "p": 0.79,
+          "type": "Part"
+        },
+        {
+          "backend": "jev",
+          "candidate": "BRG-7014-ACD",
+          "decision": "merge",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "SPDL-BRG",
+          "p": 0.72,
+          "type": "Part"
+        },
+        {
+          "backend": null,
+          "candidate": "SEAL-RV-25",
+          "decision": "rule",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "SEALRV25",
+          "p": 1.0,
+          "type": "Part"
+        },
+        {
+          "backend": null,
+          "candidate": "FUSE-SRV-10",
+          "decision": "rule",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "FUSESRV10",
+          "p": 1.0,
+          "type": "Part"
+        },
+        {
+          "backend": "jev",
+          "candidate": "SENS-PRS-10",
+          "decision": "merge",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "PRESSURE-SENSOR-10BAR",
+          "p": 0.95,
+          "type": "Part"
+        },
+        {
+          "backend": null,
+          "candidate": "WO-3841",
+          "decision": "rule",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "WO-3841",
+          "p": 1.0,
+          "type": "Incident"
+        },
+        {
+          "backend": null,
+          "candidate": "WO-6578",
+          "decision": "rule",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "WO-6578",
+          "p": 1.0,
+          "type": "Incident"
+        },
+        {
+          "backend": null,
+          "candidate": "WO-7175",
+          "decision": "rule",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "WO-7175",
+          "p": 1.0,
+          "type": "Incident"
+        },
+        {
+          "backend": null,
+          "candidate": "WO-8889",
+          "decision": "rule",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "WO-8889",
+          "p": 1.0,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "handovers/handover_2026-04-14_B.txt::handovers/handover_2026-04-14_B.txt#1",
+          "decision": "merge",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "WO-1142",
+          "p": 0.97,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "handovers/Handover_20260418_A.txt::handovers/Handover_20260418_A.txt#1",
+          "decision": "new",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "WO-1801",
+          "p": 0.05,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "handovers/Handover_20260418_A.txt::handovers/Handover_20260418_A.txt#1",
+          "decision": "merge",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "WO-1877",
+          "p": 0.97,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "handovers/shift notes 19 Apr C.txt::handovers/shift notes 19 Apr C.txt#1",
+          "decision": "queue",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "WO-1877",
+          "p": 0.52,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "handovers/Handover_20260422_B.txt::handovers/Handover_20260422_B.txt#1",
+          "decision": "queue",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "WO-3033",
+          "p": 0.88,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "handovers/Handover_20260422_C.txt::handovers/Handover_20260422_C.txt#1",
+          "decision": "merge",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "WO-3033",
+          "p": 0.94,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "handovers/shift notes 22 Apr A.txt::handovers/shift notes 22 Apr A.txt#1",
+          "decision": "new",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "WO-3033",
+          "p": 0.02,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "handovers/HO 04-23 B shift.txt::handovers/HO 04-23 B shift.txt#1",
+          "decision": "queue",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "WO-3033",
+          "p": 0.77,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "handovers/handover_2026-04-23_A.txt::handovers/handover_2026-04-23_A.txt#1",
+          "decision": "new",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "WO-3033",
+          "p": 0.02,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "handovers/Handover_20260422_B.txt::handovers/Handover_20260422_B.txt#1",
+          "decision": "new",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "WO-3306",
+          "p": 0.03,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "handovers/Handover_20260422_C.txt::handovers/Handover_20260422_C.txt#1",
+          "decision": "new",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "WO-3306",
+          "p": 0.03,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "handovers/shift notes 22 Apr A.txt::handovers/shift notes 22 Apr A.txt#1",
+          "decision": "merge",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "WO-3306",
+          "p": 0.95,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "handovers/HO 04-23 B shift.txt::handovers/HO 04-23 B shift.txt#1",
+          "decision": "new",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "WO-3306",
+          "p": 0.02,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "handovers/handover_2026-04-23_A.txt::handovers/handover_2026-04-23_A.txt#1",
+          "decision": "new",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "WO-3306",
+          "p": 0.02,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "handovers/Handover_20260422_B.txt::handovers/Handover_20260422_B.txt#1",
+          "decision": "merge",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "WO-3456",
+          "p": 0.97,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "handovers/Handover_20260422_C.txt::handovers/Handover_20260422_C.txt#1",
+          "decision": "queue",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "WO-3456",
+          "p": 0.94,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "handovers/shift notes 22 Apr A.txt::handovers/shift notes 22 Apr A.txt#1",
+          "decision": "new",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "WO-3456",
+          "p": 0.02,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "handovers/HO 04-23 B shift.txt::handovers/HO 04-23 B shift.txt#1",
+          "decision": "queue",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "WO-3456",
+          "p": 0.87,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "handovers/handover_2026-04-23_A.txt::handovers/handover_2026-04-23_A.txt#1",
+          "decision": "new",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "WO-3456",
+          "p": 0.03,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "handovers/HO 04-23 B shift.txt::handovers/HO 04-23 B shift.txt#1",
+          "decision": "new",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "WO-3685",
+          "p": 0.04,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "handovers/handover_2026-04-23_A.txt::handovers/handover_2026-04-23_A.txt#1",
+          "decision": "merge",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "WO-3685",
+          "p": 0.95,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "handovers/HO 04-23 B shift.txt::handovers/HO 04-23 B shift.txt#1",
+          "decision": "merge",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "WO-3699",
+          "p": 0.97,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "handovers/handover_2026-04-23_A.txt::handovers/handover_2026-04-23_A.txt#1",
+          "decision": "new",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "WO-3699",
+          "p": 0.03,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "handovers/Handover_20260430_B.txt::handovers/Handover_20260430_B.txt#1",
+          "decision": "merge",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "WO-4247",
+          "p": 0.96,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "maintenance/note_from_arun_CNC2_spindle.txt::maintenance/note_from_arun_CNC2_spindle.txt#1",
+          "decision": "merge",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "WO-4469",
+          "p": 0.97,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "handovers/HO 05-04 C shift.txt::handovers/HO 05-04 C shift.txt#1",
+          "decision": "merge",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "WO-4469",
+          "p": 0.96,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "handovers/HO 05-05 night shift.txt::handovers/HO 05-05 night shift.txt#1",
+          "decision": "new",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "WO-4469",
+          "p": 0.02,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "handovers/HO 05-05 night shift.txt::handovers/HO 05-05 night shift.txt#1",
+          "decision": "merge",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "WO-4483",
+          "p": 0.96,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "handovers/Handover_20260513_C.txt::handovers/Handover_20260513_C.txt#1",
+          "decision": "merge",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "WO-5079",
+          "p": 0.92,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "handovers/handover_2026-05-13_B.txt::handovers/handover_2026-05-13_B.txt#1",
+          "decision": "new",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "WO-5079",
+          "p": 0.02,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "handovers/Handover_20260516_C.txt::handovers/Handover_20260516_C.txt#1",
+          "decision": "merge",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "WO-5085",
+          "p": 0.95,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "handovers/HO 05-23 A shift.txt::handovers/HO 05-23 A shift.txt#1",
+          "decision": "merge",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "WO-5218",
+          "p": 0.97,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "handovers/HO 05-31 night shift.txt::handovers/HO 05-31 night shift.txt#1",
+          "decision": "merge",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "WO-5373",
+          "p": 0.91,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "handovers/shift notes 5 Jun A.txt::handovers/shift notes 5 Jun A.txt#1",
+          "decision": "merge",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "WO-5485",
+          "p": 0.97,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "handovers/shift notes 5 Jun B.txt::handovers/shift notes 5 Jun B.txt#1",
+          "decision": "queue",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "WO-5485",
+          "p": 0.67,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "handovers/shift notes 5 Jun A.txt::handovers/shift notes 5 Jun A.txt#1",
+          "decision": "queue",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "WO-5657",
+          "p": 0.65,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "handovers/shift notes 5 Jun B.txt::handovers/shift notes 5 Jun B.txt#1",
+          "decision": "merge",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "WO-5657",
+          "p": 0.97,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "handovers/shift notes 14 Jun night.txt::handovers/shift notes 14 Jun night.txt#1",
+          "decision": "merge",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "WO-5999",
+          "p": 0.96,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "handovers/shift notes 18 Jun C.txt::handovers/shift notes 18 Jun C.txt#1",
+          "decision": "merge",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "WO-6240",
+          "p": 0.96,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "handovers/HO 06-20 A shift.txt::handovers/HO 06-20 A shift.txt#1",
+          "decision": "merge",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "WO-6369",
+          "p": 0.94,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "handovers/Handover_20260627_A.txt::handovers/Handover_20260627_A.txt#1",
+          "decision": "merge",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "WO-6485",
+          "p": 0.95,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "handovers/shift notes 28 Jun B.txt::handovers/shift notes 28 Jun B.txt#1",
+          "decision": "new",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "WO-6485",
+          "p": 0.02,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "handovers/shift notes 28 Jun B.txt::handovers/shift notes 28 Jun B.txt#1",
+          "decision": "merge",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "WO-6570",
+          "p": 0.96,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "handovers/Handover_20260719_A.txt::handovers/Handover_20260719_A.txt#1",
+          "decision": "new",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "WO-6684",
+          "p": 0.02,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "handovers/handover_2026-07-19_C.txt::handovers/handover_2026-07-19_C.txt#1",
+          "decision": "merge",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "WO-6684",
+          "p": 0.97,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "handovers/Handover_20260719_A.txt::handovers/Handover_20260719_A.txt#1",
+          "decision": "merge",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "WO-6916",
+          "p": 0.96,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "handovers/handover_2026-07-19_C.txt::handovers/handover_2026-07-19_C.txt#1",
+          "decision": "new",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "WO-6916",
+          "p": 0.02,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "handovers/handover_2026-07-22_A.txt::handovers/handover_2026-07-22_A.txt#1",
+          "decision": "merge",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "WO-7044",
+          "p": 0.97,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "handovers/Handover_20260724_A.txt::handovers/Handover_20260724_A.txt#1",
+          "decision": "merge",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "WO-7175",
+          "p": 0.96,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "handovers/handover_2026-08-03_A.txt::handovers/handover_2026-08-03_A.txt#1",
+          "decision": "merge",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "WO-7306",
+          "p": 0.97,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "handovers/HO 08-10 B shift.txt::handovers/HO 08-10 B shift.txt#1",
+          "decision": "merge",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "WO-7530",
+          "p": 0.95,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "handovers/handover_2026-08-12_C.txt::handovers/handover_2026-08-12_C.txt#1",
+          "decision": "merge",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "WO-7598",
+          "p": 0.94,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "handovers/shift notes 14 Aug A.txt::handovers/shift notes 14 Aug A.txt#1",
+          "decision": "merge",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "WO-8027",
+          "p": 0.96,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "handovers/Handover_20260822_B.txt::handovers/Handover_20260822_B.txt#1",
+          "decision": "queue",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "WO-8302",
+          "p": 0.53,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "handovers/handover_2026-08-23_A.txt::handovers/handover_2026-08-23_A.txt#1",
+          "decision": "new",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "WO-8302",
+          "p": 0.03,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "handovers/handover_2026-08-23_A.txt::handovers/handover_2026-08-23_A.txt#1",
+          "decision": "merge",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "WO-8773",
+          "p": 0.96,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "maintenance/note_from_weiming_CNC2_spindle.txt::maintenance/note_from_weiming_CNC2_spindle.txt#1",
+          "decision": "new",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "WO-8889",
+          "p": 0.06,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "handovers/HO 08-31 A shift.txt::handovers/HO 08-31 A shift.txt#1",
+          "decision": "new",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "WO-8889",
+          "p": 0.05,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "maintenance/note_from_weiming_CNC2_spindle.txt::maintenance/note_from_weiming_CNC2_spindle.txt#1",
+          "decision": "new",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "WO-9037",
+          "p": 0.03,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "handovers/HO 08-31 A shift.txt::handovers/HO 08-31 A shift.txt#1",
+          "decision": "new",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "WO-9037",
+          "p": 0.02,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "maintenance/note_from_weiming_CNC1_spindle.txt::maintenance/note_from_weiming_CNC1_spindle.txt#1",
+          "decision": "merge",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "WO-9220",
+          "p": 0.97,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "handovers/HO 09-02 A shift.txt::handovers/HO 09-02 A shift.txt#1",
+          "decision": "merge",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "WO-9220",
+          "p": 0.96,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "handovers/Handover_20260903_B.txt::handovers/Handover_20260903_B.txt#1",
+          "decision": "new",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "WO-9220",
+          "p": 0.02,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "handovers/Handover_20260903_B.txt::handovers/Handover_20260903_B.txt#1",
+          "decision": "merge",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "WO-9307",
+          "p": 0.97,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "maintenance/note_from_rajesh_CNC2_spindle.txt::maintenance/note_from_rajesh_CNC2_spindle.txt#1",
+          "decision": "merge",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "WO-9373",
+          "p": 0.97,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "handovers/Handover_20260911_A.txt::handovers/Handover_20260911_A.txt#1",
+          "decision": "merge",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "WO-9570",
+          "p": 0.95,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "handovers/shift notes 12 Sep night.txt::handovers/shift notes 12 Sep night.txt#1",
+          "decision": "new",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "WO-9570",
+          "p": 0.02,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "handovers/Handover_20260917_A.txt::handovers/Handover_20260917_A.txt#1",
+          "decision": "merge",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "WO-9908",
+          "p": 0.96,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "handovers/handover_2026-09-28_C.txt::handovers/handover_2026-09-28_C.txt#1",
+          "decision": "new",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "mention": "WO-9989",
+          "p": 0.02,
+          "type": "Incident"
+        }
+      ],
+      "notes": [],
+      "review": [
+        {
+          "confidence": null,
+          "doc_paths": [
+            "maintenance/maint_log_export_2026.csv"
+          ],
+          "kind": "conflict",
+          "payload": {
+            "differences": {
+              "downtime_min": [
+                200,
+                220
+              ]
+            },
+            "key": "WO-3841",
+            "reason": "a repeated record differs"
+          }
+        },
+        {
+          "confidence": null,
+          "doc_paths": [
+            "maintenance/maint_log_export_2026.csv"
+          ],
+          "kind": "conflict",
+          "payload": {
+            "differences": {
+              "downtime_min": [
+                180,
+                170
+              ]
+            },
+            "key": "WO-6578",
+            "reason": "a repeated record differs"
+          }
+        },
+        {
+          "confidence": null,
+          "doc_paths": [
+            "maintenance/maint_log_export_2026.csv"
+          ],
+          "kind": "conflict",
+          "payload": {
+            "differences": {
+              "downtime_min": [
+                95,
+                120
+              ]
+            },
+            "key": "WO-7175",
+            "reason": "a repeated record differs"
+          }
+        },
+        {
+          "confidence": null,
+          "doc_paths": [
+            "maintenance/maint_log_export_2026.csv"
+          ],
+          "kind": "conflict",
+          "payload": {
+            "differences": {
+              "downtime_min": [
+                90,
+                110
+              ]
+            },
+            "key": "WO-8889",
+            "reason": "a repeated record differs"
+          }
+        },
+        {
+          "confidence": 0.52,
+          "doc_paths": [
+            "maintenance/maint_log_export_2026.csv",
+            "handovers/shift notes 19 Apr C.txt"
+          ],
+          "kind": "merge",
+          "payload": {
+            "p": 0.52,
+            "reason": "unsure match",
+            "records": [
+              [
+                "maintenance/maint_log_export_2026.csv",
+                "WO-1877"
+              ],
+              [
+                "handovers/shift notes 19 Apr C.txt",
+                "handovers/shift notes 19 Apr C.txt#1"
+              ]
+            ]
+          }
+        },
+        {
+          "confidence": 0.88,
+          "doc_paths": [
+            "maintenance/maint_log_export_2026.csv",
+            "handovers/Handover_20260422_B.txt"
+          ],
+          "kind": "merge",
+          "payload": {
+            "p": 0.88,
+            "reason": "unsure match",
+            "records": [
+              [
+                "maintenance/maint_log_export_2026.csv",
+                "WO-3033"
+              ],
+              [
+                "handovers/Handover_20260422_B.txt",
+                "handovers/Handover_20260422_B.txt#1"
+              ]
+            ]
+          }
+        },
+        {
+          "confidence": 0.77,
+          "doc_paths": [
+            "maintenance/maint_log_export_2026.csv",
+            "handovers/HO 04-23 B shift.txt"
+          ],
+          "kind": "merge",
+          "payload": {
+            "p": 0.77,
+            "reason": "unsure match",
+            "records": [
+              [
+                "maintenance/maint_log_export_2026.csv",
+                "WO-3033"
+              ],
+              [
+                "handovers/HO 04-23 B shift.txt",
+                "handovers/HO 04-23 B shift.txt#1"
+              ]
+            ]
+          }
+        },
+        {
+          "confidence": 0.94,
+          "doc_paths": [
+            "maintenance/maint_log_export_2026.csv",
+            "handovers/Handover_20260422_C.txt"
+          ],
+          "kind": "merge",
+          "payload": {
+            "p": 0.94,
+            "reason": "cannot link",
+            "records": [
+              [
+                "maintenance/maint_log_export_2026.csv",
+                "WO-3456"
+              ],
+              [
+                "handovers/Handover_20260422_C.txt",
+                "handovers/Handover_20260422_C.txt#1"
+              ]
+            ]
+          }
+        },
+        {
+          "confidence": 0.87,
+          "doc_paths": [
+            "maintenance/maint_log_export_2026.csv",
+            "handovers/HO 04-23 B shift.txt"
+          ],
+          "kind": "merge",
+          "payload": {
+            "p": 0.87,
+            "reason": "unsure match",
+            "records": [
+              [
+                "maintenance/maint_log_export_2026.csv",
+                "WO-3456"
+              ],
+              [
+                "handovers/HO 04-23 B shift.txt",
+                "handovers/HO 04-23 B shift.txt#1"
+              ]
+            ]
+          }
+        },
+        {
+          "confidence": 0.76,
+          "doc_paths": [
+            "handovers/Handover_20260422_B.txt",
+            "maintenance/maint_log_export_2026.csv"
+          ],
+          "kind": "merge",
+          "payload": {
+            "p": 0.76,
+            "reason": "unsure match",
+            "records": [
+              [
+                "handovers/Handover_20260422_B.txt",
+                "handovers/Handover_20260422_B.txt#1"
+              ],
+              [
+                "maintenance/maint_log_export_2026.csv",
+                "WO-3699"
+              ]
+            ]
+          }
+        },
+        {
+          "confidence": 0.87,
+          "doc_paths": [
+            "handovers/Handover_20260422_C.txt",
+            "maintenance/maint_log_export_2026.csv"
+          ],
+          "kind": "merge",
+          "payload": {
+            "p": 0.87,
+            "reason": "unsure match",
+            "records": [
+              [
+                "handovers/Handover_20260422_C.txt",
+                "handovers/Handover_20260422_C.txt#1"
+              ],
+              [
+                "maintenance/maint_log_export_2026.csv",
+                "WO-3699"
+              ]
+            ]
+          }
+        },
+        {
+          "confidence": 0.67,
+          "doc_paths": [
+            "maintenance/maint_log_export_2026.csv",
+            "handovers/shift notes 5 Jun B.txt"
+          ],
+          "kind": "merge",
+          "payload": {
+            "p": 0.67,
+            "reason": "unsure match",
+            "records": [
+              [
+                "maintenance/maint_log_export_2026.csv",
+                "WO-5485"
+              ],
+              [
+                "handovers/shift notes 5 Jun B.txt",
+                "handovers/shift notes 5 Jun B.txt#1"
+              ]
+            ]
+          }
+        },
+        {
+          "confidence": 0.65,
+          "doc_paths": [
+            "maintenance/maint_log_export_2026.csv",
+            "handovers/shift notes 5 Jun A.txt"
+          ],
+          "kind": "merge",
+          "payload": {
+            "p": 0.65,
+            "reason": "unsure match",
+            "records": [
+              [
+                "maintenance/maint_log_export_2026.csv",
+                "WO-5657"
+              ],
+              [
+                "handovers/shift notes 5 Jun A.txt",
+                "handovers/shift notes 5 Jun A.txt#1"
+              ]
+            ]
+          }
+        },
+        {
+          "confidence": 0.53,
+          "doc_paths": [
+            "maintenance/maint_log_export_2026.csv",
+            "handovers/Handover_20260822_B.txt"
+          ],
+          "kind": "merge",
+          "payload": {
+            "p": 0.53,
+            "reason": "unsure match",
+            "records": [
+              [
+                "maintenance/maint_log_export_2026.csv",
+                "WO-8302"
+              ],
+              [
+                "handovers/Handover_20260822_B.txt",
+                "handovers/Handover_20260822_B.txt#1"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {
+          "OCCURRED_ON": 1,
+          "TRIGGERED_BY": 1,
+          "USED": 3
+        },
+        "nodes": {
+          "Incident": 1
+        }
+      },
+      "doc_path": "maintenance/note_from_arun_CNC2_spindle.txt",
+      "doc_type": "maintenance_note",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [
+        {
+          "backend": "jev",
+          "candidate": "handovers/HO 05-04 C shift.txt::handovers/HO 05-04 C shift.txt#1",
+          "decision": "merge",
+          "doc_path": "maintenance/note_from_arun_CNC2_spindle.txt",
+          "mention": "maintenance/note_from_arun_CNC2_spindle.txt#1",
+          "p": 0.97,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "maintenance/maint_log_export_2026.csv::WO-4483",
+          "decision": "new",
+          "doc_path": "maintenance/note_from_arun_CNC2_spindle.txt",
+          "mention": "maintenance/note_from_arun_CNC2_spindle.txt#1",
+          "p": 0.02,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "handovers/HO 05-05 night shift.txt::handovers/HO 05-05 night shift.txt#1",
+          "decision": "new",
+          "doc_path": "maintenance/note_from_arun_CNC2_spindle.txt",
+          "mention": "maintenance/note_from_arun_CNC2_spindle.txt#1",
+          "p": 0.02,
+          "type": "Incident"
+        }
+      ],
+      "notes": [
+        "item 1: part 'KLB2 grease' has no quantity, so 1 is assumed",
+        "item 1: part 'SEAL SPDL 70' has no quantity, so 1 is assumed"
+      ],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {
+          "OCCURRED_ON": 1,
+          "TRIGGERED_BY": 1,
+          "USED": 4
+        },
+        "nodes": {
+          "Incident": 1
+        }
+      },
+      "doc_path": "maintenance/note_from_rajesh_CNC1_spindle.txt",
+      "doc_type": "maintenance_note",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [
+        {
+          "backend": "jev",
+          "candidate": "handovers/handover_2026-07-14_B.txt::handovers/handover_2026-07-14_B.txt#1",
+          "decision": "merge",
+          "doc_path": "maintenance/note_from_rajesh_CNC1_spindle.txt",
+          "mention": "maintenance/note_from_rajesh_CNC1_spindle.txt#1",
+          "p": 0.95,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "maintenance/maint_log_export_2026.csv::WO-6626",
+          "decision": "new",
+          "doc_path": "maintenance/note_from_rajesh_CNC1_spindle.txt",
+          "mention": "maintenance/note_from_rajesh_CNC1_spindle.txt#1",
+          "p": 0.02,
+          "type": "Incident"
+        }
+      ],
+      "notes": [
+        "item 1: part 'COLLET ER32' has no quantity, so 1 is assumed",
+        "item 1: part 'GREASEKLB2' has no quantity, so 1 is assumed",
+        "item 1: part 'SEALSPDL70' has no quantity, so 1 is assumed"
+      ],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {
+          "OCCURRED_ON": 1,
+          "TRIGGERED_BY": 1,
+          "USED": 3
+        },
+        "nodes": {
+          "Incident": 1
+        }
+      },
+      "doc_path": "maintenance/note_from_rajesh_CNC2_spindle.txt",
+      "doc_type": "maintenance_note",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [],
+      "notes": [
+        "item 1: part 'KLB2 grease' has no quantity, so 1 is assumed",
+        "item 1: part 'seal 70' has no quantity, so 1 is assumed"
+      ],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {
+          "OCCURRED_ON": 1,
+          "TRIGGERED_BY": 1,
+          "USED": 4
+        },
+        "nodes": {
+          "Incident": 1
+        }
+      },
+      "doc_path": "maintenance/note_from_weiming_CNC1_spindle.txt",
+      "doc_type": "maintenance_note",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [
+        {
+          "backend": "jev",
+          "candidate": "handovers/HO 09-02 A shift.txt::handovers/HO 09-02 A shift.txt#1",
+          "decision": "merge",
+          "doc_path": "maintenance/note_from_weiming_CNC1_spindle.txt",
+          "mention": "maintenance/note_from_weiming_CNC1_spindle.txt#1",
+          "p": 0.96,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "maintenance/maint_log_export_2026.csv::WO-9307",
+          "decision": "new",
+          "doc_path": "maintenance/note_from_weiming_CNC1_spindle.txt",
+          "mention": "maintenance/note_from_weiming_CNC1_spindle.txt#1",
+          "p": 0.02,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "handovers/Handover_20260903_B.txt::handovers/Handover_20260903_B.txt#1",
+          "decision": "new",
+          "doc_path": "maintenance/note_from_weiming_CNC1_spindle.txt",
+          "mention": "maintenance/note_from_weiming_CNC1_spindle.txt#1",
+          "p": 0.02,
+          "type": "Incident"
+        }
+      ],
+      "notes": [
+        "item 1: part 'GREASE KLB 2' has no quantity, so 1 is assumed",
+        "item 1: part 'seal 70' has no quantity, so 1 is assumed",
+        "item 1: part 'SENSPT10001' has no quantity, so 1 is assumed"
+      ],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {
+          "OCCURRED_ON": 1,
+          "TRIGGERED_BY": 1,
+          "USED": 4
+        },
+        "nodes": {
+          "Incident": 1
+        }
+      },
+      "doc_path": "maintenance/note_from_weiming_CNC2_spindle.txt",
+      "doc_type": "maintenance_note",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [
+        {
+          "backend": "jev",
+          "candidate": "handovers/HO 08-31 A shift.txt::handovers/HO 08-31 A shift.txt#1",
+          "decision": "merge",
+          "doc_path": "maintenance/note_from_weiming_CNC2_spindle.txt",
+          "mention": "maintenance/note_from_weiming_CNC2_spindle.txt#1",
+          "p": 0.97,
+          "type": "Incident"
+        }
+      ],
+      "notes": [
+        "item 1: part 'KLB2 grease' has no quantity, so 1 is assumed",
+        "item 1: part 'SEAL SPDL 70' has no quantity, so 1 is assumed",
+        "item 1: part 'SENSPT10001' has no quantity, so 1 is assumed"
+      ],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {},
+        "nodes": {}
+      },
+      "doc_path": "handovers/HO 04-12 A shift.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {
+          "OCCURRED_ON": 1,
+          "TRIGGERED_BY": 1,
+          "USED": 2
+        },
+        "nodes": {
+          "Incident": 1
+        }
+      },
+      "doc_path": "handovers/HO 04-23 B shift.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [
+        {
+          "backend": "jev",
+          "candidate": "handovers/handover_2026-04-23_A.txt::handovers/handover_2026-04-23_A.txt#1",
+          "decision": "new",
+          "doc_path": "handovers/HO 04-23 B shift.txt",
+          "mention": "handovers/HO 04-23 B shift.txt#1",
+          "p": 0.02,
+          "type": "Incident"
+        }
+      ],
+      "notes": [
+        "item 1: part 'OIL HLP46 20L' has no quantity, so 1 is assumed",
+        "item 1: part 'SEALKIT50' has no quantity, so 1 is assumed"
+      ],
+      "review": [
+        {
+          "confidence": 0.77,
+          "doc_paths": [
+            "maintenance/maint_log_export_2026.csv",
+            "handovers/HO 04-23 B shift.txt"
+          ],
+          "kind": "merge",
+          "payload": {
+            "p": 0.77,
+            "reason": "unsure match",
+            "records": [
+              [
+                "maintenance/maint_log_export_2026.csv",
+                "WO-3033"
+              ],
+              [
+                "handovers/HO 04-23 B shift.txt",
+                "handovers/HO 04-23 B shift.txt#1"
+              ]
+            ]
+          }
+        },
+        {
+          "confidence": 0.87,
+          "doc_paths": [
+            "maintenance/maint_log_export_2026.csv",
+            "handovers/HO 04-23 B shift.txt"
+          ],
+          "kind": "merge",
+          "payload": {
+            "p": 0.87,
+            "reason": "unsure match",
+            "records": [
+              [
+                "maintenance/maint_log_export_2026.csv",
+                "WO-3456"
+              ],
+              [
+                "handovers/HO 04-23 B shift.txt",
+                "handovers/HO 04-23 B shift.txt#1"
+              ]
+            ]
+          }
+        },
+        {
+          "confidence": 0.61,
+          "doc_paths": [
+            "handovers/Handover_20260422_B.txt",
+            "handovers/HO 04-23 B shift.txt"
+          ],
+          "kind": "merge",
+          "payload": {
+            "p": 0.61,
+            "reason": "unsure match",
+            "records": [
+              [
+                "handovers/Handover_20260422_B.txt",
+                "handovers/Handover_20260422_B.txt#1"
+              ],
+              [
+                "handovers/HO 04-23 B shift.txt",
+                "handovers/HO 04-23 B shift.txt#1"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {
+          "OCCURRED_ON": 1,
+          "TRIGGERED_BY": 1,
+          "USED": 1
+        },
+        "nodes": {
+          "Incident": 1
+        }
+      },
+      "doc_path": "handovers/HO 05-04 C shift.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [
+        {
+          "backend": "jev",
+          "candidate": "BRG-7014-ACD",
+          "decision": "merge",
+          "doc_path": "handovers/HO 05-04 C shift.txt",
+          "mention": "BRG-7014-ACD-X2",
+          "p": 0.9,
+          "type": "Part"
+        },
+        {
+          "backend": "jev",
+          "candidate": "maintenance/maint_log_export_2026.csv::WO-4483",
+          "decision": "new",
+          "doc_path": "handovers/HO 05-04 C shift.txt",
+          "mention": "handovers/HO 05-04 C shift.txt#1",
+          "p": 0.02,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "handovers/HO 05-05 night shift.txt::handovers/HO 05-05 night shift.txt#1",
+          "decision": "new",
+          "doc_path": "handovers/HO 05-04 C shift.txt",
+          "mention": "handovers/HO 05-04 C shift.txt#1",
+          "p": 0.02,
+          "type": "Incident"
+        }
+      ],
+      "notes": [],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {
+          "OCCURRED_ON": 1,
+          "TRIGGERED_BY": 1
+        },
+        "nodes": {
+          "Incident": 1
+        }
+      },
+      "doc_path": "handovers/HO 05-05 night shift.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [
+        {
+          "backend": "jev",
+          "candidate": "maintenance/maint_log_export_2026.csv::WO-4780",
+          "decision": "new",
+          "doc_path": "handovers/HO 05-05 night shift.txt",
+          "mention": "handovers/HO 05-05 night shift.txt#1",
+          "p": 0.02,
+          "type": "Incident"
+        }
+      ],
+      "notes": [],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {
+          "OCCURRED_ON": 1,
+          "TRIGGERED_BY": 1,
+          "USED": 1
+        },
+        "nodes": {
+          "Incident": 1
+        }
+      },
+      "doc_path": "handovers/HO 05-23 A shift.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [],
+      "notes": [
+        "item 1: part 'LC bracket' has no quantity, so 1 is assumed"
+      ],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {},
+        "nodes": {}
+      },
+      "doc_path": "handovers/HO 05-26 B shift.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {
+          "OCCURRED_ON": 1,
+          "TRIGGERED_BY": 1,
+          "USED": 1
+        },
+        "nodes": {
+          "Incident": 1
+        }
+      },
+      "doc_path": "handovers/HO 05-31 night shift.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [
+        {
+          "backend": null,
+          "candidate": "SENS-PRS-10",
+          "decision": "rule",
+          "doc_path": "handovers/HO 05-31 night shift.txt",
+          "mention": "SENSPRS10",
+          "p": 1.0,
+          "type": "Part"
+        }
+      ],
+      "notes": [
+        "item 1: part 'SENSPRS10' has no quantity, so 1 is assumed"
+      ],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {},
+        "nodes": {}
+      },
+      "doc_path": "handovers/HO 06-12 night shift.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {
+          "OCCURRED_ON": 1,
+          "TRIGGERED_BY": 1,
+          "USED": 1
+        },
+        "nodes": {
+          "Incident": 1
+        }
+      },
+      "doc_path": "handovers/HO 06-20 A shift.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [
+        {
+          "backend": "jev",
+          "candidate": "maintenance/maint_log_export_2026.csv::WO-6442",
+          "decision": "new",
+          "doc_path": "handovers/HO 06-20 A shift.txt",
+          "mention": "handovers/HO 06-20 A shift.txt#1",
+          "p": 0.1,
+          "type": "Incident"
+        }
+      ],
+      "notes": [
+        "item 1: part 'SEALKIT50' has no quantity, so 1 is assumed"
+      ],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {},
+        "nodes": {}
+      },
+      "doc_path": "handovers/HO 06-24 A shift.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {},
+        "nodes": {}
+      },
+      "doc_path": "handovers/HO 07-12 C shift.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {},
+        "nodes": {}
+      },
+      "doc_path": "handovers/HO 08-07 night shift.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {
+          "OCCURRED_ON": 1,
+          "TRIGGERED_BY": 1,
+          "USED": 2
+        },
+        "nodes": {
+          "Incident": 1
+        }
+      },
+      "doc_path": "handovers/HO 08-10 B shift.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [],
+      "notes": [
+        "item 1: part 'FLTHYD10' has no quantity, so 1 is assumed"
+      ],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {},
+        "nodes": {}
+      },
+      "doc_path": "handovers/HO 08-24 night shift.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {},
+        "nodes": {}
+      },
+      "doc_path": "handovers/HO 08-26 C shift.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {
+          "OCCURRED_ON": 1,
+          "TRIGGERED_BY": 1,
+          "USED": 2
+        },
+        "nodes": {
+          "Incident": 1
+        }
+      },
+      "doc_path": "handovers/HO 08-31 A shift.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [],
+      "notes": [
+        "item 1: part 'SENS PT100 01' has no quantity, so 1 is assumed"
+      ],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {
+          "OCCURRED_ON": 1,
+          "TRIGGERED_BY": 1,
+          "USED": 3
+        },
+        "nodes": {
+          "Incident": 1
+        }
+      },
+      "doc_path": "handovers/HO 09-02 A shift.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [
+        {
+          "backend": "jev",
+          "candidate": "maintenance/maint_log_export_2026.csv::WO-9307",
+          "decision": "new",
+          "doc_path": "handovers/HO 09-02 A shift.txt",
+          "mention": "handovers/HO 09-02 A shift.txt#1",
+          "p": 0.02,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "handovers/Handover_20260903_B.txt::handovers/Handover_20260903_B.txt#1",
+          "decision": "new",
+          "doc_path": "handovers/HO 09-02 A shift.txt",
+          "mention": "handovers/HO 09-02 A shift.txt#1",
+          "p": 0.02,
+          "type": "Incident"
+        }
+      ],
+      "notes": [
+        "item 1: part 'GREASE KLB 2' has no quantity, so 1 is assumed",
+        "item 1: part 'SEAL SPDL 70' has no quantity, so 1 is assumed"
+      ],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {},
+        "nodes": {}
+      },
+      "doc_path": "handovers/HO 09-30 A shift.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {},
+        "nodes": {}
+      },
+      "doc_path": "handovers/Handover_20260403_B.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {},
+        "nodes": {}
+      },
+      "doc_path": "handovers/Handover_20260416_A.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {
+          "OCCURRED_ON": 1,
+          "TRIGGERED_BY": 1,
+          "USED": 2
+        },
+        "nodes": {
+          "Incident": 1
+        }
+      },
+      "doc_path": "handovers/Handover_20260418_A.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [
+        {
+          "backend": "jev",
+          "candidate": "handovers/shift notes 19 Apr C.txt::handovers/shift notes 19 Apr C.txt#1",
+          "decision": "new",
+          "doc_path": "handovers/Handover_20260418_A.txt",
+          "mention": "handovers/Handover_20260418_A.txt#1",
+          "p": 0.11,
+          "type": "Incident"
+        }
+      ],
+      "notes": [
+        "item 1: part 'FLTHYD10' has no quantity, so 1 is assumed"
+      ],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {
+          "OCCURRED_ON": 1,
+          "TRIGGERED_BY": 1,
+          "USED": 1
+        },
+        "nodes": {
+          "Incident": 1
+        }
+      },
+      "doc_path": "handovers/Handover_20260422_B.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [
+        {
+          "backend": "jev",
+          "candidate": "handovers/Handover_20260422_C.txt::handovers/Handover_20260422_C.txt#1",
+          "decision": "queue",
+          "doc_path": "handovers/Handover_20260422_B.txt",
+          "mention": "handovers/Handover_20260422_B.txt#1",
+          "p": 0.74,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "handovers/shift notes 22 Apr A.txt::handovers/shift notes 22 Apr A.txt#1",
+          "decision": "new",
+          "doc_path": "handovers/Handover_20260422_B.txt",
+          "mention": "handovers/Handover_20260422_B.txt#1",
+          "p": 0.02,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "maintenance/maint_log_export_2026.csv::WO-3685",
+          "decision": "new",
+          "doc_path": "handovers/Handover_20260422_B.txt",
+          "mention": "handovers/Handover_20260422_B.txt#1",
+          "p": 0.02,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "maintenance/maint_log_export_2026.csv::WO-3699",
+          "decision": "queue",
+          "doc_path": "handovers/Handover_20260422_B.txt",
+          "mention": "handovers/Handover_20260422_B.txt#1",
+          "p": 0.76,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "handovers/HO 04-23 B shift.txt::handovers/HO 04-23 B shift.txt#1",
+          "decision": "queue",
+          "doc_path": "handovers/Handover_20260422_B.txt",
+          "mention": "handovers/Handover_20260422_B.txt#1",
+          "p": 0.61,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "handovers/handover_2026-04-23_A.txt::handovers/handover_2026-04-23_A.txt#1",
+          "decision": "new",
+          "doc_path": "handovers/Handover_20260422_B.txt",
+          "mention": "handovers/Handover_20260422_B.txt#1",
+          "p": 0.02,
+          "type": "Incident"
+        }
+      ],
+      "notes": [
+        "item 1: part 'SK-50' has no quantity, so 1 is assumed"
+      ],
+      "review": [
+        {
+          "confidence": 0.88,
+          "doc_paths": [
+            "maintenance/maint_log_export_2026.csv",
+            "handovers/Handover_20260422_B.txt"
+          ],
+          "kind": "merge",
+          "payload": {
+            "p": 0.88,
+            "reason": "unsure match",
+            "records": [
+              [
+                "maintenance/maint_log_export_2026.csv",
+                "WO-3033"
+              ],
+              [
+                "handovers/Handover_20260422_B.txt",
+                "handovers/Handover_20260422_B.txt#1"
+              ]
+            ]
+          }
+        },
+        {
+          "confidence": 0.74,
+          "doc_paths": [
+            "handovers/Handover_20260422_B.txt",
+            "handovers/Handover_20260422_C.txt"
+          ],
+          "kind": "merge",
+          "payload": {
+            "p": 0.74,
+            "reason": "unsure match",
+            "records": [
+              [
+                "handovers/Handover_20260422_B.txt",
+                "handovers/Handover_20260422_B.txt#1"
+              ],
+              [
+                "handovers/Handover_20260422_C.txt",
+                "handovers/Handover_20260422_C.txt#1"
+              ]
+            ]
+          }
+        },
+        {
+          "confidence": 0.76,
+          "doc_paths": [
+            "handovers/Handover_20260422_B.txt",
+            "maintenance/maint_log_export_2026.csv"
+          ],
+          "kind": "merge",
+          "payload": {
+            "p": 0.76,
+            "reason": "unsure match",
+            "records": [
+              [
+                "handovers/Handover_20260422_B.txt",
+                "handovers/Handover_20260422_B.txt#1"
+              ],
+              [
+                "maintenance/maint_log_export_2026.csv",
+                "WO-3699"
+              ]
+            ]
+          }
+        },
+        {
+          "confidence": 0.61,
+          "doc_paths": [
+            "handovers/Handover_20260422_B.txt",
+            "handovers/HO 04-23 B shift.txt"
+          ],
+          "kind": "merge",
+          "payload": {
+            "p": 0.61,
+            "reason": "unsure match",
+            "records": [
+              [
+                "handovers/Handover_20260422_B.txt",
+                "handovers/Handover_20260422_B.txt#1"
+              ],
+              [
+                "handovers/HO 04-23 B shift.txt",
+                "handovers/HO 04-23 B shift.txt#1"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {
+          "OCCURRED_ON": 1,
+          "TRIGGERED_BY": 1,
+          "USED": 2
+        },
+        "nodes": {
+          "Incident": 1
+        }
+      },
+      "doc_path": "handovers/Handover_20260422_C.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [
+        {
+          "backend": "jev",
+          "candidate": "handovers/shift notes 22 Apr A.txt::handovers/shift notes 22 Apr A.txt#1",
+          "decision": "new",
+          "doc_path": "handovers/Handover_20260422_C.txt",
+          "mention": "handovers/Handover_20260422_C.txt#1",
+          "p": 0.02,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "maintenance/maint_log_export_2026.csv::WO-3685",
+          "decision": "new",
+          "doc_path": "handovers/Handover_20260422_C.txt",
+          "mention": "handovers/Handover_20260422_C.txt#1",
+          "p": 0.03,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "maintenance/maint_log_export_2026.csv::WO-3699",
+          "decision": "queue",
+          "doc_path": "handovers/Handover_20260422_C.txt",
+          "mention": "handovers/Handover_20260422_C.txt#1",
+          "p": 0.87,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "handovers/HO 04-23 B shift.txt::handovers/HO 04-23 B shift.txt#1",
+          "decision": "new",
+          "doc_path": "handovers/Handover_20260422_C.txt",
+          "mention": "handovers/Handover_20260422_C.txt#1",
+          "p": 0.42,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "handovers/handover_2026-04-23_A.txt::handovers/handover_2026-04-23_A.txt#1",
+          "decision": "new",
+          "doc_path": "handovers/Handover_20260422_C.txt",
+          "mention": "handovers/Handover_20260422_C.txt#1",
+          "p": 0.02,
+          "type": "Incident"
+        }
+      ],
+      "notes": [
+        "item 1: part 'HLP46' has no quantity, so 1 is assumed",
+        "item 1: part 'seal kit 50' has no quantity, so 1 is assumed"
+      ],
+      "review": [
+        {
+          "confidence": 0.94,
+          "doc_paths": [
+            "maintenance/maint_log_export_2026.csv",
+            "handovers/Handover_20260422_C.txt"
+          ],
+          "kind": "merge",
+          "payload": {
+            "p": 0.94,
+            "reason": "cannot link",
+            "records": [
+              [
+                "maintenance/maint_log_export_2026.csv",
+                "WO-3456"
+              ],
+              [
+                "handovers/Handover_20260422_C.txt",
+                "handovers/Handover_20260422_C.txt#1"
+              ]
+            ]
+          }
+        },
+        {
+          "confidence": 0.74,
+          "doc_paths": [
+            "handovers/Handover_20260422_B.txt",
+            "handovers/Handover_20260422_C.txt"
+          ],
+          "kind": "merge",
+          "payload": {
+            "p": 0.74,
+            "reason": "unsure match",
+            "records": [
+              [
+                "handovers/Handover_20260422_B.txt",
+                "handovers/Handover_20260422_B.txt#1"
+              ],
+              [
+                "handovers/Handover_20260422_C.txt",
+                "handovers/Handover_20260422_C.txt#1"
+              ]
+            ]
+          }
+        },
+        {
+          "confidence": 0.87,
+          "doc_paths": [
+            "handovers/Handover_20260422_C.txt",
+            "maintenance/maint_log_export_2026.csv"
+          ],
+          "kind": "merge",
+          "payload": {
+            "p": 0.87,
+            "reason": "unsure match",
+            "records": [
+              [
+                "handovers/Handover_20260422_C.txt",
+                "handovers/Handover_20260422_C.txt#1"
+              ],
+              [
+                "maintenance/maint_log_export_2026.csv",
+                "WO-3699"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {},
+        "nodes": {}
+      },
+      "doc_path": "handovers/Handover_20260427_A.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {
+          "OCCURRED_ON": 1,
+          "TRIGGERED_BY": 1,
+          "USED": 1
+        },
+        "nodes": {
+          "Incident": 1
+        }
+      },
+      "doc_path": "handovers/Handover_20260430_B.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {},
+        "nodes": {}
+      },
+      "doc_path": "handovers/Handover_20260502_C.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {},
+        "nodes": {}
+      },
+      "doc_path": "handovers/Handover_20260510_A.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {
+          "OCCURRED_ON": 1,
+          "TRIGGERED_BY": 1,
+          "USED": 1
+        },
+        "nodes": {
+          "Incident": 1
+        }
+      },
+      "doc_path": "handovers/Handover_20260513_C.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [
+        {
+          "backend": "jev",
+          "candidate": "OIL-HLP46-20L",
+          "decision": "merge",
+          "doc_path": "handovers/Handover_20260513_C.txt",
+          "mention": "HYD-OIL-20L",
+          "p": 0.79,
+          "type": "Part"
+        },
+        {
+          "backend": "jev",
+          "candidate": "handovers/handover_2026-05-13_B.txt::handovers/handover_2026-05-13_B.txt#1",
+          "decision": "new",
+          "doc_path": "handovers/Handover_20260513_C.txt",
+          "mention": "handovers/Handover_20260513_C.txt#1",
+          "p": 0.02,
+          "type": "Incident"
+        }
+      ],
+      "notes": [],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {
+          "OCCURRED_ON": 1,
+          "TRIGGERED_BY": 1
+        },
+        "nodes": {
+          "Incident": 1
+        }
+      },
+      "doc_path": "handovers/Handover_20260516_C.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {
+          "OCCURRED_ON": 1,
+          "TRIGGERED_BY": 1,
+          "USED": 1
+        },
+        "nodes": {
+          "Incident": 1
+        }
+      },
+      "doc_path": "handovers/Handover_20260519_A.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [],
+      "notes": [
+        "item 1: part 'disc springs TC' has no quantity, so 1 is assumed"
+      ],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {},
+        "nodes": {}
+      },
+      "doc_path": "handovers/Handover_20260624_B.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {
+          "OCCURRED_ON": 1,
+          "TRIGGERED_BY": 1,
+          "USED": 1
+        },
+        "nodes": {
+          "Incident": 1
+        }
+      },
+      "doc_path": "handovers/Handover_20260627_A.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [
+        {
+          "backend": "jev",
+          "candidate": "maintenance/maint_log_export_2026.csv::WO-6570",
+          "decision": "new",
+          "doc_path": "handovers/Handover_20260627_A.txt",
+          "mention": "handovers/Handover_20260627_A.txt#1",
+          "p": 0.02,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "handovers/shift notes 28 Jun B.txt::handovers/shift notes 28 Jun B.txt#1",
+          "decision": "new",
+          "doc_path": "handovers/Handover_20260627_A.txt",
+          "mention": "handovers/Handover_20260627_A.txt#1",
+          "p": 0.02,
+          "type": "Incident"
+        }
+      ],
+      "notes": [
+        "item 1: part 'LC bracket' has no quantity, so 1 is assumed"
+      ],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {
+          "OCCURRED_ON": 1,
+          "TRIGGERED_BY": 1,
+          "USED": 1
+        },
+        "nodes": {
+          "Incident": 1
+        }
+      },
+      "doc_path": "handovers/Handover_20260719_A.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [
+        {
+          "backend": "jev",
+          "candidate": "handovers/handover_2026-07-19_C.txt::handovers/handover_2026-07-19_C.txt#1",
+          "decision": "new",
+          "doc_path": "handovers/Handover_20260719_A.txt",
+          "mention": "handovers/Handover_20260719_A.txt#1",
+          "p": 0.02,
+          "type": "Incident"
+        }
+      ],
+      "notes": [
+        "item 1: part 'SENS PROX 08' has no quantity, so 1 is assumed"
+      ],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {},
+        "nodes": {}
+      },
+      "doc_path": "handovers/Handover_20260722_C.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {},
+        "nodes": {}
+      },
+      "doc_path": "handovers/Handover_20260723_C.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {
+          "OCCURRED_ON": 1,
+          "TRIGGERED_BY": 1,
+          "USED": 1
+        },
+        "nodes": {
+          "Incident": 1
+        }
+      },
+      "doc_path": "handovers/Handover_20260724_A.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [],
+      "notes": [
+        "item 1: part 'FLTCL25' has no quantity, so 1 is assumed"
+      ],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {},
+        "nodes": {}
+      },
+      "doc_path": "handovers/Handover_20260820_B.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {
+          "OCCURRED_ON": 1,
+          "TRIGGERED_BY": 1,
+          "USED": 3
+        },
+        "nodes": {
+          "Incident": 1
+        }
+      },
+      "doc_path": "handovers/Handover_20260822_B.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [
+        {
+          "backend": "jev",
+          "candidate": "maintenance/maint_log_export_2026.csv::WO-8773",
+          "decision": "new",
+          "doc_path": "handovers/Handover_20260822_B.txt",
+          "mention": "handovers/Handover_20260822_B.txt#1",
+          "p": 0.04,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "handovers/handover_2026-08-23_A.txt::handovers/handover_2026-08-23_A.txt#1",
+          "decision": "new",
+          "doc_path": "handovers/Handover_20260822_B.txt",
+          "mention": "handovers/Handover_20260822_B.txt#1",
+          "p": 0.03,
+          "type": "Incident"
+        }
+      ],
+      "notes": [
+        "item 1: part 'SEAL SPDL 70' has no quantity, so 1 is assumed",
+        "item 1: part 'SENS PT100 01' has no quantity, so 1 is assumed"
+      ],
+      "review": [
+        {
+          "confidence": 0.53,
+          "doc_paths": [
+            "maintenance/maint_log_export_2026.csv",
+            "handovers/Handover_20260822_B.txt"
+          ],
+          "kind": "merge",
+          "payload": {
+            "p": 0.53,
+            "reason": "unsure match",
+            "records": [
+              [
+                "maintenance/maint_log_export_2026.csv",
+                "WO-8302"
+              ],
+              [
+                "handovers/Handover_20260822_B.txt",
+                "handovers/Handover_20260822_B.txt#1"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {
+          "OCCURRED_ON": 1,
+          "TRIGGERED_BY": 1
+        },
+        "nodes": {
+          "Incident": 1
+        }
+      },
+      "doc_path": "handovers/Handover_20260903_B.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {
+          "OCCURRED_ON": 1,
+          "TRIGGERED_BY": 1
+        },
+        "nodes": {
+          "Incident": 1
+        }
+      },
+      "doc_path": "handovers/Handover_20260911_A.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [
+        {
+          "backend": "jev",
+          "candidate": "handovers/shift notes 12 Sep night.txt::handovers/shift notes 12 Sep night.txt#1",
+          "decision": "new",
+          "doc_path": "handovers/Handover_20260911_A.txt",
+          "mention": "handovers/Handover_20260911_A.txt#1",
+          "p": 0.02,
+          "type": "Incident"
+        }
+      ],
+      "notes": [],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {
+          "OCCURRED_ON": 1,
+          "USED": 1
+        },
+        "nodes": {
+          "Incident": 1
+        }
+      },
+      "doc_path": "handovers/Handover_20260917_A.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [],
+      "notes": [
+        "item 1: part 'OIL HLP46 20L' has no quantity, so 1 is assumed"
+      ],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {},
+        "nodes": {}
+      },
+      "doc_path": "handovers/handover_2026-04-09_A.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {
+          "OCCURRED_ON": 1,
+          "TRIGGERED_BY": 1,
+          "USED": 2
+        },
+        "nodes": {
+          "Incident": 1
+        }
+      },
+      "doc_path": "handovers/handover_2026-04-14_B.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [],
+      "notes": [
+        "item 1: part 'OIL HLP46 20L' has no quantity, so 1 is assumed",
+        "item 1: part 'SK-50' has no quantity, so 1 is assumed"
+      ],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {
+          "OCCURRED_ON": 1,
+          "TRIGGERED_BY": 1,
+          "USED": 1
+        },
+        "nodes": {
+          "Incident": 1
+        }
+      },
+      "doc_path": "handovers/handover_2026-04-23_A.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {},
+        "nodes": {}
+      },
+      "doc_path": "handovers/handover_2026-04-24_A.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {},
+        "nodes": {}
+      },
+      "doc_path": "handovers/handover_2026-04-27_C.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {},
+        "nodes": {}
+      },
+      "doc_path": "handovers/handover_2026-05-03_B.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {
+          "OCCURRED_ON": 1,
+          "TRIGGERED_BY": 1,
+          "USED": 1
+        },
+        "nodes": {
+          "Incident": 1
+        }
+      },
+      "doc_path": "handovers/handover_2026-05-13_B.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {},
+        "nodes": {}
+      },
+      "doc_path": "handovers/handover_2026-05-20_C.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {},
+        "nodes": {}
+      },
+      "doc_path": "handovers/handover_2026-05-22_night.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {},
+        "nodes": {}
+      },
+      "doc_path": "handovers/handover_2026-05-23_night.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {},
+        "nodes": {}
+      },
+      "doc_path": "handovers/handover_2026-05-24_C.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {},
+        "nodes": {}
+      },
+      "doc_path": "handovers/handover_2026-05-26_C.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {},
+        "nodes": {}
+      },
+      "doc_path": "handovers/handover_2026-06-06_C.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {},
+        "nodes": {}
+      },
+      "doc_path": "handovers/handover_2026-06-18_B.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {},
+        "nodes": {}
+      },
+      "doc_path": "handovers/handover_2026-06-30_A.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {
+          "OCCURRED_ON": 1,
+          "TRIGGERED_BY": 1,
+          "USED": 2
+        },
+        "nodes": {
+          "Incident": 1
+        }
+      },
+      "doc_path": "handovers/handover_2026-07-14_B.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [
+        {
+          "backend": "jev",
+          "candidate": "maintenance/maint_log_export_2026.csv::WO-6626",
+          "decision": "new",
+          "doc_path": "handovers/handover_2026-07-14_B.txt",
+          "mention": "handovers/handover_2026-07-14_B.txt#1",
+          "p": 0.02,
+          "type": "Incident"
+        }
+      ],
+      "notes": [
+        "item 1: part 'GREASEKLB2' has no quantity, so 1 is assumed",
+        "item 1: part 'SEAL SPDL 70' has no quantity, so 1 is assumed"
+      ],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {},
+        "nodes": {}
+      },
+      "doc_path": "handovers/handover_2026-07-18_night.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {
+          "OCCURRED_ON": 1,
+          "TRIGGERED_BY": 1,
+          "USED": 1
+        },
+        "nodes": {
+          "Incident": 1
+        }
+      },
+      "doc_path": "handovers/handover_2026-07-19_C.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {
+          "OCCURRED_ON": 1,
+          "TRIGGERED_BY": 1,
+          "USED": 1
+        },
+        "nodes": {
+          "Incident": 1
+        }
+      },
+      "doc_path": "handovers/handover_2026-07-22_A.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {
+          "OCCURRED_ON": 1,
+          "TRIGGERED_BY": 1,
+          "USED": 3
+        },
+        "nodes": {
+          "Incident": 1
+        }
+      },
+      "doc_path": "handovers/handover_2026-08-03_A.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [
+        {
+          "backend": "jev",
+          "candidate": "maintenance/maint_log_export_2026.csv::WO-7340",
+          "decision": "new",
+          "doc_path": "handovers/handover_2026-08-03_A.txt",
+          "mention": "handovers/handover_2026-08-03_A.txt#1",
+          "p": 0.02,
+          "type": "Incident"
+        }
+      ],
+      "notes": [
+        "item 1: part 'GREASEKLB2' has no quantity, so 1 is assumed",
+        "item 1: part 'SEAL SPDL 70' has no quantity, so 1 is assumed"
+      ],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {},
+        "nodes": {}
+      },
+      "doc_path": "handovers/handover_2026-08-11_B.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {
+          "OCCURRED_ON": 1,
+          "TRIGGERED_BY": 1,
+          "USED": 1
+        },
+        "nodes": {
+          "Incident": 1
+        }
+      },
+      "doc_path": "handovers/handover_2026-08-12_C.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [],
+      "notes": [
+        "item 1: part 'brg 6205' has no quantity, so 1 is assumed"
+      ],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {},
+        "nodes": {}
+      },
+      "doc_path": "handovers/handover_2026-08-17_B.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {
+          "OCCURRED_ON": 1,
+          "TRIGGERED_BY": 1,
+          "USED": 1
+        },
+        "nodes": {
+          "Incident": 1
+        }
+      },
+      "doc_path": "handovers/handover_2026-08-23_A.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [],
+      "notes": [
+        "item 1: part 'FLTCL25' has no quantity, so 1 is assumed"
+      ],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {},
+        "nodes": {}
+      },
+      "doc_path": "handovers/handover_2026-08-26_A.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {},
+        "nodes": {}
+      },
+      "doc_path": "handovers/handover_2026-09-23_A.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {},
+        "nodes": {}
+      },
+      "doc_path": "handovers/handover_2026-09-26_B.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {
+          "OCCURRED_ON": 1,
+          "TRIGGERED_BY": 1,
+          "USED": 1
+        },
+        "nodes": {
+          "Incident": 1
+        }
+      },
+      "doc_path": "handovers/handover_2026-09-28_C.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {},
+        "nodes": {}
+      },
+      "doc_path": "handovers/shift notes 1 Aug C.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {},
+        "nodes": {}
+      },
+      "doc_path": "handovers/shift notes 11 Apr B.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {},
+        "nodes": {}
+      },
+      "doc_path": "handovers/shift notes 11 Jun C.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {},
+        "nodes": {}
+      },
+      "doc_path": "handovers/shift notes 12 Sep B.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {
+          "OCCURRED_ON": 1,
+          "TRIGGERED_BY": 1,
+          "USED": 1
+        },
+        "nodes": {
+          "Incident": 1
+        }
+      },
+      "doc_path": "handovers/shift notes 12 Sep night.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {},
+        "nodes": {}
+      },
+      "doc_path": "handovers/shift notes 13 Jul C.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {
+          "OCCURRED_ON": 1,
+          "TRIGGERED_BY": 1,
+          "USED": 1
+        },
+        "nodes": {
+          "Incident": 1
+        }
+      },
+      "doc_path": "handovers/shift notes 14 Aug A.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [],
+      "notes": [
+        "item 1: part 'SENSPRS10' has no quantity, so 1 is assumed"
+      ],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {
+          "OCCURRED_ON": 1,
+          "TRIGGERED_BY": 1,
+          "USED": 2
+        },
+        "nodes": {
+          "Incident": 1
+        }
+      },
+      "doc_path": "handovers/shift notes 14 Jun night.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [],
+      "notes": [
+        "item 1: part 'ORINGNBR30' has no quantity, so 1 is assumed"
+      ],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {
+          "OCCURRED_ON": 1,
+          "TRIGGERED_BY": 1,
+          "USED": 1
+        },
+        "nodes": {
+          "Incident": 1
+        }
+      },
+      "doc_path": "handovers/shift notes 18 Jun C.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [],
+      "notes": [
+        "item 1: part 'FLT HYD 10' has no quantity, so 1 is assumed"
+      ],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {
+          "OCCURRED_ON": 1,
+          "TRIGGERED_BY": 1,
+          "USED": 2
+        },
+        "nodes": {
+          "Incident": 1
+        }
+      },
+      "doc_path": "handovers/shift notes 19 Apr C.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [
+        {
+          "backend": null,
+          "candidate": "WIPER-CYL-50",
+          "decision": "rule",
+          "doc_path": "handovers/shift notes 19 Apr C.txt",
+          "mention": "WIPERCYL50",
+          "p": 1.0,
+          "type": "Part"
+        }
+      ],
+      "notes": [
+        "item 1: part 'OIL HLP46 20L' has no quantity, so 1 is assumed",
+        "item 1: part 'WIPERCYL50' has no quantity, so 1 is assumed"
+      ],
+      "review": [
+        {
+          "confidence": 0.52,
+          "doc_paths": [
+            "maintenance/maint_log_export_2026.csv",
+            "handovers/shift notes 19 Apr C.txt"
+          ],
+          "kind": "merge",
+          "payload": {
+            "p": 0.52,
+            "reason": "unsure match",
+            "records": [
+              [
+                "maintenance/maint_log_export_2026.csv",
+                "WO-1877"
+              ],
+              [
+                "handovers/shift notes 19 Apr C.txt",
+                "handovers/shift notes 19 Apr C.txt#1"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {},
+        "nodes": {}
+      },
+      "doc_path": "handovers/shift notes 2 May A.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {
+          "OCCURRED_ON": 1,
+          "TRIGGERED_BY": 1,
+          "USED": 1
+        },
+        "nodes": {
+          "Incident": 1
+        }
+      },
+      "doc_path": "handovers/shift notes 22 Apr A.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [
+        {
+          "backend": "jev",
+          "candidate": "maintenance/maint_log_export_2026.csv::WO-3685",
+          "decision": "new",
+          "doc_path": "handovers/shift notes 22 Apr A.txt",
+          "mention": "handovers/shift notes 22 Apr A.txt#1",
+          "p": 0.02,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "maintenance/maint_log_export_2026.csv::WO-3699",
+          "decision": "new",
+          "doc_path": "handovers/shift notes 22 Apr A.txt",
+          "mention": "handovers/shift notes 22 Apr A.txt#1",
+          "p": 0.02,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "handovers/HO 04-23 B shift.txt::handovers/HO 04-23 B shift.txt#1",
+          "decision": "new",
+          "doc_path": "handovers/shift notes 22 Apr A.txt",
+          "mention": "handovers/shift notes 22 Apr A.txt#1",
+          "p": 0.02,
+          "type": "Incident"
+        },
+        {
+          "backend": "jev",
+          "candidate": "handovers/handover_2026-04-23_A.txt::handovers/handover_2026-04-23_A.txt#1",
+          "decision": "new",
+          "doc_path": "handovers/shift notes 22 Apr A.txt",
+          "mention": "handovers/shift notes 22 Apr A.txt#1",
+          "p": 0.03,
+          "type": "Incident"
+        }
+      ],
+      "notes": [
+        "item 1: part 'FLT CL 25' has no quantity, so 1 is assumed"
+      ],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {},
+        "nodes": {}
+      },
+      "doc_path": "handovers/shift notes 23 Apr C.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {},
+        "nodes": {}
+      },
+      "doc_path": "handovers/shift notes 25 Sep C.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {},
+        "nodes": {}
+      },
+      "doc_path": "handovers/shift notes 27 Aug C.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {},
+        "nodes": {}
+      },
+      "doc_path": "handovers/shift notes 28 Apr night.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {
+          "OCCURRED_ON": 1,
+          "TRIGGERED_BY": 1,
+          "USED": 2
+        },
+        "nodes": {
+          "Incident": 1
+        }
+      },
+      "doc_path": "handovers/shift notes 28 Jun B.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [],
+      "notes": [
+        "item 1: part 'HLP46' has no quantity, so 1 is assumed",
+        "item 1: part 'SWITCH LIM 01' has no quantity, so 1 is assumed"
+      ],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {},
+        "nodes": {}
+      },
+      "doc_path": "handovers/shift notes 3 Apr A.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [],
+      "notes": [],
+      "review": []
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {
+          "OCCURRED_ON": 1,
+          "TRIGGERED_BY": 1,
+          "USED": 2
+        },
+        "nodes": {
+          "Incident": 1
+        }
+      },
+      "doc_path": "handovers/shift notes 5 Jun A.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [
+        {
+          "backend": "jev",
+          "candidate": "handovers/shift notes 5 Jun B.txt::handovers/shift notes 5 Jun B.txt#1",
+          "decision": "new",
+          "doc_path": "handovers/shift notes 5 Jun A.txt",
+          "mention": "handovers/shift notes 5 Jun A.txt#1",
+          "p": 0.31,
+          "type": "Incident"
+        }
+      ],
+      "notes": [
+        "item 1: part 'SENS PROX 08' has no quantity, so 1 is assumed",
+        "item 1: part 'disc springs TC' has no quantity, so 1 is assumed"
+      ],
+      "review": [
+        {
+          "confidence": 0.65,
+          "doc_paths": [
+            "maintenance/maint_log_export_2026.csv",
+            "handovers/shift notes 5 Jun A.txt"
+          ],
+          "kind": "merge",
+          "payload": {
+            "p": 0.65,
+            "reason": "unsure match",
+            "records": [
+              [
+                "maintenance/maint_log_export_2026.csv",
+                "WO-5657"
+              ],
+              [
+                "handovers/shift notes 5 Jun A.txt",
+                "handovers/shift notes 5 Jun A.txt#1"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {
+          "OCCURRED_ON": 1,
+          "USED": 2
+        },
+        "nodes": {
+          "Incident": 1
+        }
+      },
+      "doc_path": "handovers/shift notes 5 Jun B.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [],
+      "notes": [
+        "item 1: part 'prox sensor M8' has no quantity, so 1 is assumed",
+        "item 1: part 'SPR TC 40' has no quantity, so 1 is assumed"
+      ],
+      "review": [
+        {
+          "confidence": 0.67,
+          "doc_paths": [
+            "maintenance/maint_log_export_2026.csv",
+            "handovers/shift notes 5 Jun B.txt"
+          ],
+          "kind": "merge",
+          "payload": {
+            "p": 0.67,
+            "reason": "unsure match",
+            "records": [
+              [
+                "maintenance/maint_log_export_2026.csv",
+                "WO-5485"
+              ],
+              [
+                "handovers/shift notes 5 Jun B.txt",
+                "handovers/shift notes 5 Jun B.txt#1"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "candidates": {
+        "chunks": 1,
+        "edges": {},
+        "nodes": {}
+      },
+      "doc_path": "handovers/shift notes 9 Aug A.txt",
+      "doc_type": "handover",
+      "extractor": "sol-text",
+      "flags": [],
+      "merges": [],
+      "notes": [],
+      "review": []
+    }
+  ],
+  "run": {
+    "loaded": {
+      "chunks": 128,
+      "documents": 107,
+      "edges": 442,
+      "evidence": 906,
+      "nodes": 164,
+      "review": 37
+    },
+    "mode": "full",
+    "ran_at": "2026-10-28T11:27:42+00:00",
+    "seconds": 26.53
+  },
+  "totals": {
+    "cost": {
+      "by_purpose": {
+        "extract handover": {
+          "cache_hits": 90,
+          "calls": 90,
+          "usd": 0.0
+        },
+        "extract manual": {
+          "cache_hits": 4,
+          "calls": 4,
+          "usd": 0.0
+        },
+        "extract note": {
+          "cache_hits": 5,
+          "calls": 5,
+          "usd": 0.0
+        },
+        "link root cause": {
+          "cache_hits": 48,
+          "calls": 61,
+          "usd": 0.000431
+        },
+        "merge Incident": {
+          "cache_hits": 48,
+          "calls": 111,
+          "usd": 0.002003
+        },
+        "merge Part": {
+          "cache_hits": 24,
+          "calls": 31,
+          "usd": 0.000162
+        }
+      },
+      "cache_hits": 219,
+      "calls": 302,
+      "input_tokens": 267212,
+      "output_tokens": 25974,
+      "paid_calls": 83,
+      "usd": 0.002596
+    },
+    "edges": {
+      "AFFECTS": 14,
+      "FITS": 51,
+      "HAS_COMPONENT": 15,
+      "HAS_MACHINE": 5,
+      "INDICATES": 22,
+      "OCCURRED_ON": 61,
+      "RAISED": 26,
+      "REQUIRES": 16,
+      "RESOLVED_BY": 12,
+      "ROOT_CAUSE": 61,
+      "TRIGGERED_BY": 54,
+      "USED": 105
+    },
+    "flags": {
+      "by_rule": {
+        "incident_no_shift": 18,
+        "no_edges": 2
+      },
+      "error": 0,
+      "warning": 20
+    },
+    "merges": {
+      "merge": 58,
+      "new": 58,
+      "queue": 12,
+      "rule": 66,
+      "unresolved": 1
+    },
+    "nodes": {
+      "AlarmCode": 20,
+      "Asset": 5,
+      "Component": 15,
+      "FailureMode": 11,
+      "Incident": 61,
+      "Line": 1,
+      "Part": 39,
+      "Procedure": 12
+    },
+    "review": {
+      "conflict": 4,
+      "merge": 12,
+      "unresolved": 1
+    }
+  },
+  "unassigned_flags": [],
+  "review_queue": [
+    {
+      "id": 1,
+      "kind": "unresolved",
+      "payload": {
+        "candidate": null,
+        "doc_paths": [
+          "inventory/spares_2026-10.xlsx"
+        ],
+        "dropped_edges": 0,
+        "dropped_nodes": 2,
+        "mention": "TAPEPTFE12",
+        "p": null,
+        "reason": "no candidate",
+        "type": "Part"
+      },
+      "confidence": null
+    },
+    {
+      "id": 2,
+      "kind": "conflict",
+      "payload": {
+        "differences": {
+          "downtime_min": [
+            200,
+            220
+          ]
+        },
+        "doc_paths": [
+          "maintenance/maint_log_export_2026.csv"
+        ],
+        "key": "WO-3841",
+        "reason": "a repeated record differs"
+      },
+      "confidence": null
+    },
+    {
+      "id": 3,
+      "kind": "conflict",
+      "payload": {
+        "differences": {
+          "downtime_min": [
+            180,
+            170
+          ]
+        },
+        "doc_paths": [
+          "maintenance/maint_log_export_2026.csv"
+        ],
+        "key": "WO-6578",
+        "reason": "a repeated record differs"
+      },
+      "confidence": null
+    },
+    {
+      "id": 4,
+      "kind": "conflict",
+      "payload": {
+        "differences": {
+          "downtime_min": [
+            95,
+            120
+          ]
+        },
+        "doc_paths": [
+          "maintenance/maint_log_export_2026.csv"
+        ],
+        "key": "WO-7175",
+        "reason": "a repeated record differs"
+      },
+      "confidence": null
+    },
+    {
+      "id": 5,
+      "kind": "conflict",
+      "payload": {
+        "differences": {
+          "downtime_min": [
+            90,
+            110
+          ]
+        },
+        "doc_paths": [
+          "maintenance/maint_log_export_2026.csv"
+        ],
+        "key": "WO-8889",
+        "reason": "a repeated record differs"
+      },
+      "confidence": null
+    },
+    {
+      "id": 6,
+      "kind": "merge",
+      "payload": {
+        "doc_paths": [
+          "maintenance/maint_log_export_2026.csv",
+          "handovers/shift notes 19 Apr C.txt"
+        ],
+        "p": 0.52,
+        "reason": "unsure match",
+        "records": [
+          [
+            "maintenance/maint_log_export_2026.csv",
+            "WO-1877"
+          ],
+          [
+            "handovers/shift notes 19 Apr C.txt",
+            "handovers/shift notes 19 Apr C.txt#1"
+          ]
+        ]
+      },
+      "confidence": 0.52
+    },
+    {
+      "id": 7,
+      "kind": "merge",
+      "payload": {
+        "doc_paths": [
+          "maintenance/maint_log_export_2026.csv",
+          "handovers/Handover_20260422_B.txt"
+        ],
+        "p": 0.88,
+        "reason": "unsure match",
+        "records": [
+          [
+            "maintenance/maint_log_export_2026.csv",
+            "WO-3033"
+          ],
+          [
+            "handovers/Handover_20260422_B.txt",
+            "handovers/Handover_20260422_B.txt#1"
+          ]
+        ]
+      },
+      "confidence": 0.88
+    },
+    {
+      "id": 8,
+      "kind": "merge",
+      "payload": {
+        "doc_paths": [
+          "maintenance/maint_log_export_2026.csv",
+          "handovers/HO 04-23 B shift.txt"
+        ],
+        "p": 0.77,
+        "reason": "unsure match",
+        "records": [
+          [
+            "maintenance/maint_log_export_2026.csv",
+            "WO-3033"
+          ],
+          [
+            "handovers/HO 04-23 B shift.txt",
+            "handovers/HO 04-23 B shift.txt#1"
+          ]
+        ]
+      },
+      "confidence": 0.77
+    },
+    {
+      "id": 9,
+      "kind": "merge",
+      "payload": {
+        "doc_paths": [
+          "maintenance/maint_log_export_2026.csv",
+          "handovers/Handover_20260422_C.txt"
+        ],
+        "p": 0.94,
+        "reason": "cannot link",
+        "records": [
+          [
+            "maintenance/maint_log_export_2026.csv",
+            "WO-3456"
+          ],
+          [
+            "handovers/Handover_20260422_C.txt",
+            "handovers/Handover_20260422_C.txt#1"
+          ]
+        ]
+      },
+      "confidence": 0.94
+    },
+    {
+      "id": 10,
+      "kind": "merge",
+      "payload": {
+        "doc_paths": [
+          "maintenance/maint_log_export_2026.csv",
+          "handovers/HO 04-23 B shift.txt"
+        ],
+        "p": 0.87,
+        "reason": "unsure match",
+        "records": [
+          [
+            "maintenance/maint_log_export_2026.csv",
+            "WO-3456"
+          ],
+          [
+            "handovers/HO 04-23 B shift.txt",
+            "handovers/HO 04-23 B shift.txt#1"
+          ]
+        ]
+      },
+      "confidence": 0.87
+    },
+    {
+      "id": 11,
+      "kind": "merge",
+      "payload": {
+        "doc_paths": [
+          "handovers/Handover_20260422_B.txt",
+          "handovers/Handover_20260422_C.txt"
+        ],
+        "p": 0.74,
+        "reason": "unsure match",
+        "records": [
+          [
+            "handovers/Handover_20260422_B.txt",
+            "handovers/Handover_20260422_B.txt#1"
+          ],
+          [
+            "handovers/Handover_20260422_C.txt",
+            "handovers/Handover_20260422_C.txt#1"
+          ]
+        ]
+      },
+      "confidence": 0.74
+    },
+    {
+      "id": 12,
+      "kind": "merge",
+      "payload": {
+        "doc_paths": [
+          "handovers/Handover_20260422_B.txt",
+          "maintenance/maint_log_export_2026.csv"
+        ],
+        "p": 0.76,
+        "reason": "unsure match",
+        "records": [
+          [
+            "handovers/Handover_20260422_B.txt",
+            "handovers/Handover_20260422_B.txt#1"
+          ],
+          [
+            "maintenance/maint_log_export_2026.csv",
+            "WO-3699"
+          ]
+        ]
+      },
+      "confidence": 0.76
+    },
+    {
+      "id": 13,
+      "kind": "merge",
+      "payload": {
+        "doc_paths": [
+          "handovers/Handover_20260422_B.txt",
+          "handovers/HO 04-23 B shift.txt"
+        ],
+        "p": 0.61,
+        "reason": "unsure match",
+        "records": [
+          [
+            "handovers/Handover_20260422_B.txt",
+            "handovers/Handover_20260422_B.txt#1"
+          ],
+          [
+            "handovers/HO 04-23 B shift.txt",
+            "handovers/HO 04-23 B shift.txt#1"
+          ]
+        ]
+      },
+      "confidence": 0.61
+    },
+    {
+      "id": 14,
+      "kind": "merge",
+      "payload": {
+        "doc_paths": [
+          "handovers/Handover_20260422_C.txt",
+          "maintenance/maint_log_export_2026.csv"
+        ],
+        "p": 0.87,
+        "reason": "unsure match",
+        "records": [
+          [
+            "handovers/Handover_20260422_C.txt",
+            "handovers/Handover_20260422_C.txt#1"
+          ],
+          [
+            "maintenance/maint_log_export_2026.csv",
+            "WO-3699"
+          ]
+        ]
+      },
+      "confidence": 0.87
+    },
+    {
+      "id": 15,
+      "kind": "merge",
+      "payload": {
+        "doc_paths": [
+          "maintenance/maint_log_export_2026.csv",
+          "handovers/shift notes 5 Jun B.txt"
+        ],
+        "p": 0.67,
+        "reason": "unsure match",
+        "records": [
+          [
+            "maintenance/maint_log_export_2026.csv",
+            "WO-5485"
+          ],
+          [
+            "handovers/shift notes 5 Jun B.txt",
+            "handovers/shift notes 5 Jun B.txt#1"
+          ]
+        ]
+      },
+      "confidence": 0.67
+    },
+    {
+      "id": 16,
+      "kind": "merge",
+      "payload": {
+        "doc_paths": [
+          "maintenance/maint_log_export_2026.csv",
+          "handovers/shift notes 5 Jun A.txt"
+        ],
+        "p": 0.65,
+        "reason": "unsure match",
+        "records": [
+          [
+            "maintenance/maint_log_export_2026.csv",
+            "WO-5657"
+          ],
+          [
+            "handovers/shift notes 5 Jun A.txt",
+            "handovers/shift notes 5 Jun A.txt#1"
+          ]
+        ]
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": 17,
+      "kind": "merge",
+      "payload": {
+        "doc_paths": [
+          "maintenance/maint_log_export_2026.csv",
+          "handovers/Handover_20260822_B.txt"
+        ],
+        "p": 0.53,
+        "reason": "unsure match",
+        "records": [
+          [
+            "maintenance/maint_log_export_2026.csv",
+            "WO-8302"
+          ],
+          [
+            "handovers/Handover_20260822_B.txt",
+            "handovers/Handover_20260822_B.txt#1"
+          ]
+        ]
+      },
+      "confidence": 0.53
+    },
+    {
+      "id": 18,
+      "kind": "validator",
+      "payload": {
+        "detail": "the node has no edges",
+        "rule": "no_edges",
+        "severity": "warning",
+        "subject": "FUSE-CTRL-02"
+      },
+      "confidence": null
+    },
+    {
+      "id": 19,
+      "kind": "validator",
+      "payload": {
+        "detail": "the incident has no shift",
+        "rule": "incident_no_shift",
+        "severity": "warning",
+        "subject": "INC-2026-002"
+      },
+      "confidence": null
+    },
+    {
+      "id": 20,
+      "kind": "validator",
+      "payload": {
+        "detail": "the incident has no shift",
+        "rule": "incident_no_shift",
+        "severity": "warning",
+        "subject": "INC-2026-010"
+      },
+      "confidence": null
+    },
+    {
+      "id": 21,
+      "kind": "validator",
+      "payload": {
+        "detail": "the incident has no shift",
+        "rule": "incident_no_shift",
+        "severity": "warning",
+        "subject": "INC-2026-011"
+      },
+      "confidence": null
+    },
+    {
+      "id": 22,
+      "kind": "validator",
+      "payload": {
+        "detail": "the incident has no shift",
+        "rule": "incident_no_shift",
+        "severity": "warning",
+        "subject": "INC-2026-012"
+      },
+      "confidence": null
+    },
+    {
+      "id": 23,
+      "kind": "validator",
+      "payload": {
+        "detail": "the incident has no shift",
+        "rule": "incident_no_shift",
+        "severity": "warning",
+        "subject": "INC-2026-014"
+      },
+      "confidence": null
+    },
+    {
+      "id": 24,
+      "kind": "validator",
+      "payload": {
+        "detail": "the incident has no shift",
+        "rule": "incident_no_shift",
+        "severity": "warning",
+        "subject": "INC-2026-017"
+      },
+      "confidence": null
+    },
+    {
+      "id": 25,
+      "kind": "validator",
+      "payload": {
+        "detail": "the incident has no shift",
+        "rule": "incident_no_shift",
+        "severity": "warning",
+        "subject": "INC-2026-018"
+      },
+      "confidence": null
+    },
+    {
+      "id": 26,
+      "kind": "validator",
+      "payload": {
+        "detail": "the incident has no shift",
+        "rule": "incident_no_shift",
+        "severity": "warning",
+        "subject": "INC-2026-024"
+      },
+      "confidence": null
+    },
+    {
+      "id": 27,
+      "kind": "validator",
+      "payload": {
+        "detail": "the incident has no shift",
+        "rule": "incident_no_shift",
+        "severity": "warning",
+        "subject": "INC-2026-028"
+      },
+      "confidence": null
+    },
+    {
+      "id": 28,
+      "kind": "validator",
+      "payload": {
+        "detail": "the incident has no shift",
+        "rule": "incident_no_shift",
+        "severity": "warning",
+        "subject": "INC-2026-032"
+      },
+      "confidence": null
+    },
+    {
+      "id": 29,
+      "kind": "validator",
+      "payload": {
+        "detail": "the incident has no shift",
+        "rule": "incident_no_shift",
+        "severity": "warning",
+        "subject": "INC-2026-035"
+      },
+      "confidence": null
+    },
+    {
+      "id": 30,
+      "kind": "validator",
+      "payload": {
+        "detail": "the incident has no shift",
+        "rule": "incident_no_shift",
+        "severity": "warning",
+        "subject": "INC-2026-037"
+      },
+      "confidence": null
+    },
+    {
+      "id": 31,
+      "kind": "validator",
+      "payload": {
+        "detail": "the incident has no shift",
+        "rule": "incident_no_shift",
+        "severity": "warning",
+        "subject": "INC-2026-042"
+      },
+      "confidence": null
+    },
+    {
+      "id": 32,
+      "kind": "validator",
+      "payload": {
+        "detail": "the incident has no shift",
+        "rule": "incident_no_shift",
+        "severity": "warning",
+        "subject": "INC-2026-044"
+      },
+      "confidence": null
+    },
+    {
+      "id": 33,
+      "kind": "validator",
+      "payload": {
+        "detail": "the incident has no shift",
+        "rule": "incident_no_shift",
+        "severity": "warning",
+        "subject": "INC-2026-048"
+      },
+      "confidence": null
+    },
+    {
+      "id": 34,
+      "kind": "validator",
+      "payload": {
+        "detail": "the incident has no shift",
+        "rule": "incident_no_shift",
+        "severity": "warning",
+        "subject": "INC-2026-051"
+      },
+      "confidence": null
+    },
+    {
+      "id": 35,
+      "kind": "validator",
+      "payload": {
+        "detail": "the incident has no shift",
+        "rule": "incident_no_shift",
+        "severity": "warning",
+        "subject": "INC-2026-052"
+      },
+      "confidence": null
+    },
+    {
+      "id": 36,
+      "kind": "validator",
+      "payload": {
+        "detail": "the incident has no shift",
+        "rule": "incident_no_shift",
+        "severity": "warning",
+        "subject": "INC-2026-060"
+      },
+      "confidence": null
+    },
+    {
+      "id": 37,
+      "kind": "validator",
+      "payload": {
+        "detail": "the node has no edges",
+        "rule": "no_edges",
+        "severity": "warning",
+        "subject": "LAMP-HMI-24"
+      },
+      "confidence": null
+    }
+  ]
+}

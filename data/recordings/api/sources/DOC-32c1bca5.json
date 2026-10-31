@@ -1,0 +1,57 @@
+{
+  "id": "DOC-32c1bca5",
+  "path": "handovers/HO 06-20 A shift.txt",
+  "doc_type": "handover",
+  "kind": "text",
+  "text": "Shift handover 2026-06-20 Shift A\nFrom: JH   To: Aisyah\n\n- nothing major, all machines running\n- Press 2 stopped 1150 w/ Err:217, oli leaking under the ram, pressure dropping. Repl main cylinder seal kit (SEALKIT50), tested ok. Down approx 6h. f/u tmr.\n\nSigned Jia Hui\n",
+  "spans": [
+    {
+      "quote": "- Press 2 stopped 1150 w/ Err:217, oli leaking under the ram, pressure dropping. Repl main cylinder seal kit (SEALKIT50), tested ok. Down approx 6h. f/u tmr.",
+      "start": 95,
+      "end": 252,
+      "page": null,
+      "fact_kind": "node",
+      "fact_id": "INC-2026-031",
+      "type": "Incident",
+      "label": "oil leaking under the ram, pressure dropping",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- Press 2 stopped 1150 w/ Err:217, oli leaking under the ram, pressure dropping. Repl main cylinder seal kit (SEALKIT50), tested ok. Down approx 6h. f/u tmr.",
+      "start": 95,
+      "end": 252,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-031|OCCURRED_ON|HP-01",
+      "type": "OCCURRED_ON",
+      "label": "INC-2026-031 happened on HP-01",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- Press 2 stopped 1150 w/ Err:217, oli leaking under the ram, pressure dropping. Repl main cylinder seal kit (SEALKIT50), tested ok. Down approx 6h. f/u tmr.",
+      "start": 95,
+      "end": 252,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-031|TRIGGERED_BY|E-217",
+      "type": "TRIGGERED_BY",
+      "label": "INC-2026-031 started with E-217",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- Press 2 stopped 1150 w/ Err:217, oli leaking under the ram, pressure dropping. Repl main cylinder seal kit (SEALKIT50), tested ok. Down approx 6h. f/u tmr.",
+      "start": 95,
+      "end": 252,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-031|USED|SEAL-KIT-50",
+      "type": "USED",
+      "label": "INC-2026-031 used SEAL-KIT-50",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "01_handover_2026-10-19_A.txt": {
+    "doc_type": "handover",
+    "expect": [
+      "CNC-01",
+      "E-217",
+      "HP-01",
+      "OIL-HLP46-20L",
+      "SEAL-KIT-50"
+    ]
+  },
+  "02_handover_2026-10-20_B.md": {
+    "doc_type": "handover",
+    "expect": [
+      "E-221",
+      "FLT-HYD-10",
+      "GRP-FNG-12",
+      "HP-01",
+      "RB-551",
+      "RW-01"
+    ]
+  },
+  "03_note_from_arun_CNC2_spindle.eml": {
+    "doc_type": "maintenance_note",
+    "expect": [
+      "BRG-7014-ACD",
+      "CNC-02",
+      "GREASE-KLB-2",
+      "SEAL-SPDL-70",
+      "SP-104"
+    ]
+  },
+  "04_maintenance_export_oct.csv": {
+    "doc_type": "maintenance_note",
+    "expect": [
+      "CL-210",
+      "CNC-01",
+      "E-252",
+      "FLT-CL-25",
+      "FUSE-SRV-10",
+      "HP-01",
+      "LT-01",
+      "RB-560",
+      "RW-01",
+      "SEAL-FIX-30",
+      "SEAL-RV-25",
+      "VT-018"
+    ]
+  },
+  "05_hp01_event_log_oct.log": {
+    "doc_type": "log",
+    "expect": [
+      "E-200",
+      "E-217",
+      "E-221",
+      "E-245",
+      "HP-01"
+    ]
+  },
+  "06_service_bulletin_BH-250.pdf": {
+    "doc_type": "manual",
+    "expect": [
+      "E-217",
+      "HP-01",
+      "OIL-HLP46-20L",
+      "SEAL-KIT-50",
+      "WIPER-CYL-50"
+    ]
+  },
+  "07_pump_procedure.docx": {
+    "doc_type": "procedure",
+    "expect": [
+      "E-221",
+      "E-230",
+      "FLT-HYD-10",
+      "HP-01",
+      "OIL-HLP46-20L"
+    ]
+  },
+  "08_work_instruction_gripper.html": {
+    "doc_type": "procedure",
+    "expect": [
+      "GRP-FNG-12",
+      "RB-551",
+      "RW-01"
+    ]
+  },
+  "09_alarm_export_week43.json": {
+    "doc_type": "maintenance_note",
+    "expect": [
+      "CNC-02",
+      "LT-01",
+      "RB-570",
+      "RW-01",
+      "SP-104",
+      "SP-117",
+      "VT-021"
+    ]
+  },
+  "10_unknown_firmware.bin": {
+    "doc_type": null,
+    "expect": []
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": "DOC-2e4b5fec",
+  "path": "handovers/HO 05-23 A shift.txt",
+  "doc_type": "handover",
+  "kind": "text",
+  "text": "Shift handover 23 May Shift A\nFrom: WM   To: Aisyah\n\n- RW-01 stopped 1231 w/ RB570, cell stops randomly, light curtani fault. Realign light curtain (LC bracket), test run ok. Down 165 min. chk again next shift.\n- nothing major, all machines running\n- CNC 1 running fine, tool wear ok\n\nSigned Wei Ming\n",
+  "spans": [
+    {
+      "quote": "- RW-01 stopped 1231 w/ RB570, cell stops randomly, light curtani fault. Realign light curtain (LC bracket), test run ok. Down 165 min. chk again next shift.",
+      "start": 53,
+      "end": 210,
+      "page": null,
+      "fact_kind": "node",
+      "fact_id": "INC-2026-023",
+      "type": "Incident",
+      "label": "cell stops randomly, light curtain fault",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- RW-01 stopped 1231 w/ RB570, cell stops randomly, light curtani fault. Realign light curtain (LC bracket), test run ok. Down 165 min. chk again next shift.",
+      "start": 53,
+      "end": 210,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-023|OCCURRED_ON|RW-01",
+      "type": "OCCURRED_ON",
+      "label": "INC-2026-023 happened on RW-01",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- RW-01 stopped 1231 w/ RB570, cell stops randomly, light curtani fault. Realign light curtain (LC bracket), test run ok. Down 165 min. chk again next shift.",
+      "start": 53,
+      "end": 210,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-023|TRIGGERED_BY|RB-570",
+      "type": "TRIGGERED_BY",
+      "label": "INC-2026-023 started with RB-570",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- RW-01 stopped 1231 w/ RB570, cell stops randomly, light curtani fault. Realign light curtain (LC bracket), test run ok. Down 165 min. chk again next shift.",
+      "start": 53,
+      "end": 210,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-023|USED|BRKT-LC-01",
+      "type": "USED",
+      "label": "INC-2026-023 used BRKT-LC-01",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    }
+  ]
+}

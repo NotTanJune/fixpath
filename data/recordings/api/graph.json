@@ -1,0 +1,5460 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "BATT-ENC-36",
+        "label": "Encoder backup battery 3.6 V",
+        "type": "Part",
+        "family": "fix",
+        "glyph": "package"
+      }
+    },
+    {
+      "data": {
+        "id": "BELT-HTD-8M",
+        "label": "Timing belt HTD 8M",
+        "type": "Part",
+        "family": "fix",
+        "glyph": "package"
+      }
+    },
+    {
+      "data": {
+        "id": "BRG-6205-2RS",
+        "label": "Deep groove ball bearing 6205-2RS",
+        "type": "Part",
+        "family": "fix",
+        "glyph": "package"
+      }
+    },
+    {
+      "data": {
+        "id": "BRG-7014-ACD",
+        "label": "Spindle angular contact bearing 7014 ACD",
+        "type": "Part",
+        "family": "fix",
+        "glyph": "package"
+      }
+    },
+    {
+      "data": {
+        "id": "BRKT-LC-01",
+        "label": "Light curtain mounting bracket",
+        "type": "Part",
+        "family": "fix",
+        "glyph": "package"
+      }
+    },
+    {
+      "data": {
+        "id": "CABLE-ENC-05",
+        "label": "Encoder cable 5 m",
+        "type": "Part",
+        "family": "fix",
+        "glyph": "package"
+      }
+    },
+    {
+      "data": {
+        "id": "CL-210",
+        "label": "Coolant pressure low",
+        "type": "AlarmCode",
+        "family": "problem",
+        "glyph": "siren"
+      }
+    },
+    {
+      "data": {
+        "id": "CL-214",
+        "label": "Coolant flow interrupted",
+        "type": "AlarmCode",
+        "family": "problem",
+        "glyph": "siren"
+      }
+    },
+    {
+      "data": {
+        "id": "CLEANER-CL-5L",
+        "label": "Coolant system cleaner, 5 litre",
+        "type": "Part",
+        "family": "fix",
+        "glyph": "package"
+      }
+    },
+    {
+      "data": {
+        "id": "CNC-01",
+        "label": "Machining centre 1",
+        "type": "Asset",
+        "family": "where",
+        "glyph": "cog"
+      }
+    },
+    {
+      "data": {
+        "id": "CNC-01-COOLANT",
+        "label": "Coolant system",
+        "type": "Component",
+        "family": "where",
+        "glyph": "bolt"
+      }
+    },
+    {
+      "data": {
+        "id": "CNC-01-SPINDLE",
+        "label": "Spindle",
+        "type": "Component",
+        "family": "where",
+        "glyph": "bolt"
+      }
+    },
+    {
+      "data": {
+        "id": "CNC-01-TOOLCHG",
+        "label": "Tool changer",
+        "type": "Component",
+        "family": "where",
+        "glyph": "bolt"
+      }
+    },
+    {
+      "data": {
+        "id": "CNC-02",
+        "label": "Machining centre 2",
+        "type": "Asset",
+        "family": "where",
+        "glyph": "cog"
+      }
+    },
+    {
+      "data": {
+        "id": "CNC-02-COOLANT",
+        "label": "Coolant system",
+        "type": "Component",
+        "family": "where",
+        "glyph": "bolt"
+      }
+    },
+    {
+      "data": {
+        "id": "CNC-02-SPINDLE",
+        "label": "Spindle",
+        "type": "Component",
+        "family": "where",
+        "glyph": "bolt"
+      }
+    },
+    {
+      "data": {
+        "id": "CNC-02-TOOLCHG",
+        "label": "Tool changer",
+        "type": "Component",
+        "family": "where",
+        "glyph": "bolt"
+      }
+    },
+    {
+      "data": {
+        "id": "COLLET-ER32",
+        "label": "Collet set ER32",
+        "type": "Part",
+        "family": "fix",
+        "glyph": "package"
+      }
+    },
+    {
+      "data": {
+        "id": "COUPLING-PMP-28",
+        "label": "Pump coupling 28 mm",
+        "type": "Part",
+        "family": "fix",
+        "glyph": "package"
+      }
+    },
+    {
+      "data": {
+        "id": "CUP-VAC-40",
+        "label": "Vacuum suction cup 40 mm",
+        "type": "Part",
+        "family": "fix",
+        "glyph": "package"
+      }
+    },
+    {
+      "data": {
+        "id": "E-200",
+        "label": "Pump start",
+        "type": "AlarmCode",
+        "family": "problem",
+        "glyph": "siren"
+      }
+    },
+    {
+      "data": {
+        "id": "E-217",
+        "label": "Main cylinder pressure loss",
+        "type": "AlarmCode",
+        "family": "problem",
+        "glyph": "siren"
+      }
+    },
+    {
+      "data": {
+        "id": "E-221",
+        "label": "Hydraulic oil temperature high",
+        "type": "AlarmCode",
+        "family": "problem",
+        "glyph": "siren"
+      }
+    },
+    {
+      "data": {
+        "id": "E-230",
+        "label": "Pump pressure unstable",
+        "type": "AlarmCode",
+        "family": "problem",
+        "glyph": "siren"
+      }
+    },
+    {
+      "data": {
+        "id": "E-245",
+        "label": "Oil level low",
+        "type": "AlarmCode",
+        "family": "problem",
+        "glyph": "siren"
+      }
+    },
+    {
+      "data": {
+        "id": "E-252",
+        "label": "Relief valve pressure out of range",
+        "type": "AlarmCode",
+        "family": "problem",
+        "glyph": "siren"
+      }
+    },
+    {
+      "data": {
+        "id": "FLT-AIR-05",
+        "label": "Compressed air filter 5 micron",
+        "type": "Part",
+        "family": "fix",
+        "glyph": "package"
+      }
+    },
+    {
+      "data": {
+        "id": "FLT-CL-25",
+        "label": "Coolant filter element 25 micron",
+        "type": "Part",
+        "family": "fix",
+        "glyph": "package"
+      }
+    },
+    {
+      "data": {
+        "id": "FLT-HYD-10",
+        "label": "Hydraulic return filter 10 micron",
+        "type": "Part",
+        "family": "fix",
+        "glyph": "package"
+      }
+    },
+    {
+      "data": {
+        "id": "FM-AXIS-2-OVERLOAD",
+        "label": "axis 2 overload",
+        "type": "FailureMode",
+        "family": "problem",
+        "glyph": "unlink"
+      }
+    },
+    {
+      "data": {
+        "id": "FM-COOLANT-FILTER-BLOCKAGE",
+        "label": "coolant filter blockage",
+        "type": "FailureMode",
+        "family": "problem",
+        "glyph": "unlink"
+      }
+    },
+    {
+      "data": {
+        "id": "FM-FIXTURE-SEAL-WEAR",
+        "label": "fixture seal wear",
+        "type": "FailureMode",
+        "family": "problem",
+        "glyph": "unlink"
+      }
+    },
+    {
+      "data": {
+        "id": "FM-GRIPPER-FINGER-WEAR",
+        "label": "gripper finger wear",
+        "type": "FailureMode",
+        "family": "problem",
+        "glyph": "unlink"
+      }
+    },
+    {
+      "data": {
+        "id": "FM-HYDRAULIC-OIL-CONTAMINATION",
+        "label": "hydraulic oil contamination",
+        "type": "FailureMode",
+        "family": "problem",
+        "glyph": "unlink"
+      }
+    },
+    {
+      "data": {
+        "id": "FM-LIGHT-CURTAIN-MISALIGNMENT",
+        "label": "light curtain misalignment",
+        "type": "FailureMode",
+        "family": "problem",
+        "glyph": "unlink"
+      }
+    },
+    {
+      "data": {
+        "id": "FM-MAIN-CYLINDER-SEAL-WEAR",
+        "label": "main cylinder seal wear",
+        "type": "FailureMode",
+        "family": "problem",
+        "glyph": "unlink"
+      }
+    },
+    {
+      "data": {
+        "id": "FM-PRESSURE-SENSOR-DRIFT",
+        "label": "pressure sensor drift",
+        "type": "FailureMode",
+        "family": "problem",
+        "glyph": "unlink"
+      }
+    },
+    {
+      "data": {
+        "id": "FM-RELIEF-VALVE-MISADJUSTMENT",
+        "label": "relief valve misadjustment",
+        "type": "FailureMode",
+        "family": "problem",
+        "glyph": "unlink"
+      }
+    },
+    {
+      "data": {
+        "id": "FM-SPINDLE-BEARING-WEAR",
+        "label": "spindle bearing wear",
+        "type": "FailureMode",
+        "family": "problem",
+        "glyph": "unlink"
+      }
+    },
+    {
+      "data": {
+        "id": "FM-TOOL-CLAMP-SPRING-OR-SENSOR-FAULT",
+        "label": "tool clamp spring or sensor fault",
+        "type": "FailureMode",
+        "family": "problem",
+        "glyph": "unlink"
+      }
+    },
+    {
+      "data": {
+        "id": "FUSE-CTRL-02",
+        "label": "Control fuse 2 A",
+        "type": "Part",
+        "family": "fix",
+        "glyph": "package"
+      }
+    },
+    {
+      "data": {
+        "id": "FUSE-SRV-10",
+        "label": "Servo drive fuse 10 A",
+        "type": "Part",
+        "family": "fix",
+        "glyph": "package"
+      }
+    },
+    {
+      "data": {
+        "id": "GAUGE-PRS-250",
+        "label": "Pressure gauge 0 to 250 bar",
+        "type": "Part",
+        "family": "fix",
+        "glyph": "package"
+      }
+    },
+    {
+      "data": {
+        "id": "GREASE-KLB-2",
+        "label": "Spindle bearing grease 400 g",
+        "type": "Part",
+        "family": "fix",
+        "glyph": "package"
+      }
+    },
+    {
+      "data": {
+        "id": "GRP-FNG-12",
+        "label": "Gripper finger, hardened",
+        "type": "Part",
+        "family": "fix",
+        "glyph": "package"
+      }
+    },
+    {
+      "data": {
+        "id": "HOLDER-BT40",
+        "label": "Tool holder BT40",
+        "type": "Part",
+        "family": "fix",
+        "glyph": "package"
+      }
+    },
+    {
+      "data": {
+        "id": "HOSE-HYD-12",
+        "label": "Hydraulic hose 12 mm, 1 m",
+        "type": "Part",
+        "family": "fix",
+        "glyph": "package"
+      }
+    },
+    {
+      "data": {
+        "id": "HP-01",
+        "label": "Hydraulic press",
+        "type": "Asset",
+        "family": "where",
+        "glyph": "cog"
+      }
+    },
+    {
+      "data": {
+        "id": "HP-01-HYDPUMP",
+        "label": "Hydraulic pump",
+        "type": "Component",
+        "family": "where",
+        "glyph": "bolt"
+      }
+    },
+    {
+      "data": {
+        "id": "HP-01-MAINCYL",
+        "label": "Main cylinder and seals",
+        "type": "Component",
+        "family": "where",
+        "glyph": "bolt"
+      }
+    },
+    {
+      "data": {
+        "id": "HP-01-RELIEF",
+        "label": "Pressure relief valve",
+        "type": "Component",
+        "family": "where",
+        "glyph": "bolt"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-001",
+        "label": "press losing pressure mid-stroke, oil on the floor",
+        "type": "Incident",
+        "family": "history",
+        "glyph": "history"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-002",
+        "label": "coolant pressure dropping, parts coming out hot",
+        "type": "Incident",
+        "family": "history",
+        "glyph": "history"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-003",
+        "label": "pressure hunting, oil running hot",
+        "type": "Incident",
+        "family": "history",
+        "glyph": "history"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-004",
+        "label": "press losing pressure mid-stroke, oil on the folor.",
+        "type": "Incident",
+        "family": "history",
+        "glyph": "history"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-005",
+        "label": "press losing pressure mid-stroke, oil on the floor",
+        "type": "Incident",
+        "family": "history",
+        "glyph": "history"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-006",
+        "label": "press losing pressure mid-stroke, oil on the floor",
+        "type": "Incident",
+        "family": "history",
+        "glyph": "history"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-007",
+        "label": "coolant pressure dropping, parts coming out hot",
+        "type": "Incident",
+        "family": "history",
+        "glyph": "history"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-008",
+        "label": "oil leaking under the ram, pressure dropping",
+        "type": "Incident",
+        "family": "history",
+        "glyph": "history"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-009",
+        "label": "fill takes too long, seals look flattened",
+        "type": "Incident",
+        "family": "history",
+        "glyph": "history"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-010",
+        "label": "fill takes too long, seals look flattened",
+        "type": "Incident",
+        "family": "history",
+        "glyph": "history"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-011",
+        "label": "grinding noise from spindle, vibration alarm",
+        "type": "Incident",
+        "family": "history",
+        "glyph": "history"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-012",
+        "label": "robot arm jerky on axis 2, drive alarm",
+        "type": "Incident",
+        "family": "history",
+        "glyph": "history"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-013",
+        "label": "leak rate high on every part, fixture hissing",
+        "type": "Incident",
+        "family": "history",
+        "glyph": "history"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-014",
+        "label": "tool change takes too long then faults",
+        "type": "Incident",
+        "family": "history",
+        "glyph": "history"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-015",
+        "label": "grinding noise from spindle, vibration alarm",
+        "type": "Incident",
+        "family": "history",
+        "glyph": "history"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-016",
+        "label": "good parts failing leak test, reference off",
+        "type": "Incident",
+        "family": "history",
+        "glyph": "history"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-017",
+        "label": "no coolant at the nozzle, chips packing in the bore",
+        "type": "Incident",
+        "family": "history",
+        "glyph": "history"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-018",
+        "label": "good parts failing leak test, reference off",
+        "type": "Incident",
+        "family": "history",
+        "glyph": "history"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-019",
+        "label": "pressure hunting, oil running hot",
+        "type": "Incident",
+        "family": "history",
+        "glyph": "history"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-020",
+        "label": "part-present signal flickering, grippre slipping",
+        "type": "Incident",
+        "family": "history",
+        "glyph": "history"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-021",
+        "label": "master part reading out of tolerance",
+        "type": "Incident",
+        "family": "history",
+        "glyph": "history"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-022",
+        "label": "tool change takes too long then faults",
+        "type": "Incident",
+        "family": "history",
+        "glyph": "history"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-023",
+        "label": "cell stops randomly, light curtain fault",
+        "type": "Incident",
+        "family": "history",
+        "glyph": "history"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-024",
+        "label": "robot dropping parts at the deburr station",
+        "type": "Incident",
+        "family": "history",
+        "glyph": "history"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-025",
+        "label": "master part reading out of tolerance",
+        "type": "Incident",
+        "family": "history",
+        "glyph": "history"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-026",
+        "label": "tool not clamping after change, machine stops",
+        "type": "Incident",
+        "family": "history",
+        "glyph": "history"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-027",
+        "label": "tool not clamping after change, machine stops",
+        "type": "Incident",
+        "family": "history",
+        "glyph": "history"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-028",
+        "label": "coolant pressure dropping, parts coming out hot",
+        "type": "Incident",
+        "family": "history",
+        "glyph": "history"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-029",
+        "label": "fill takes too long, seals look flattened",
+        "type": "Incident",
+        "family": "history",
+        "glyph": "history"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-030",
+        "label": "pressure hunting, oil running hot",
+        "type": "Incident",
+        "family": "history",
+        "glyph": "history"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-031",
+        "label": "oil leaking under the ram, pressure dropping",
+        "type": "Incident",
+        "family": "history",
+        "glyph": "history"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-032",
+        "label": "press cannot reach tonnage, relief valve hissing",
+        "type": "Incident",
+        "family": "history",
+        "glyph": "history"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-033",
+        "label": "muting fault after the guard was knocked",
+        "type": "Incident",
+        "family": "history",
+        "glyph": "history"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-034",
+        "label": "oil leaking under the ram, pressure dropping",
+        "type": "Incident",
+        "family": "history",
+        "glyph": "history"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-035",
+        "label": "press cannot reach tonnage, relief valve hissing",
+        "type": "Incident",
+        "family": "history",
+        "glyph": "history"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-036",
+        "label": "spindle bearing wear on the spindle",
+        "type": "Incident",
+        "family": "history",
+        "glyph": "history"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-037",
+        "label": "coolant pressure dropping, parts coming out hot",
+        "type": "Incident",
+        "family": "history",
+        "glyph": "history"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-038",
+        "label": "tool not clamping after change, machine stops",
+        "type": "Incident",
+        "family": "history",
+        "glyph": "history"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-039",
+        "label": "grinding noise from spindle, vibration alarm",
+        "type": "Incident",
+        "family": "history",
+        "glyph": "history"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-040",
+        "label": "part-present signal flickering, gripper slipping",
+        "type": "Incident",
+        "family": "history",
+        "glyph": "history"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-041",
+        "label": "no coolant at the nozzle, chips packing in the bore",
+        "type": "Incident",
+        "family": "history",
+        "glyph": "history"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-042",
+        "label": "press cannot reach tonnage, relief valve hissing",
+        "type": "Incident",
+        "family": "history",
+        "glyph": "history"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-043",
+        "label": "spindle running hot and noisy at high rpm",
+        "type": "Incident",
+        "family": "history",
+        "glyph": "history"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-044",
+        "label": "pressure spikes above setpoint then drops",
+        "type": "Incident",
+        "family": "history",
+        "glyph": "history"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-045",
+        "label": "oil looks dark and milky, pump noisy",
+        "type": "Incident",
+        "family": "history",
+        "glyph": "history"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-046",
+        "label": "robot arm jerky on axis 2, drive alarm",
+        "type": "Incident",
+        "family": "history",
+        "glyph": "history"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-047",
+        "label": "good parts failing leak test, reference off",
+        "type": "Incident",
+        "family": "history",
+        "glyph": "history"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-048",
+        "label": "grinding noise from spindle, vibration alarm",
+        "type": "Incident",
+        "family": "history",
+        "glyph": "history"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-049",
+        "label": "grinding noise from spindle, virbation alarm",
+        "type": "Incident",
+        "family": "history",
+        "glyph": "history"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-050",
+        "label": "coolant pressure dropping, parts coming out hot",
+        "type": "Incident",
+        "family": "history",
+        "glyph": "history"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-051",
+        "label": "coolant pressure dropping, parts coming out hot",
+        "type": "Incident",
+        "family": "history",
+        "glyph": "history"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-052",
+        "label": "coolant pressure dropping, parts coming out hot",
+        "type": "Incident",
+        "family": "history",
+        "glyph": "history"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-053",
+        "label": "Spindle running hot and noisy at high rpm.",
+        "type": "Incident",
+        "family": "history",
+        "glyph": "history"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-054",
+        "label": "grinding noise from spindle, vibration alarm",
+        "type": "Incident",
+        "family": "history",
+        "glyph": "history"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-055",
+        "label": "master part reading out of tolerance",
+        "type": "Incident",
+        "family": "history",
+        "glyph": "history"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-056",
+        "label": "spindle running hot and noisy at high rpm",
+        "type": "Incident",
+        "family": "history",
+        "glyph": "history"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-057",
+        "label": "master part reading out of tolerance",
+        "type": "Incident",
+        "family": "history",
+        "glyph": "history"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-058",
+        "label": "part-present signal flickering, grippre slipipng",
+        "type": "Incident",
+        "family": "history",
+        "glyph": "history"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-059",
+        "label": "oil leaking under the ram, pressure dropping",
+        "type": "Incident",
+        "family": "history",
+        "glyph": "history"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-060",
+        "label": "press losing pressure mid-stroke, oil on the floor",
+        "type": "Incident",
+        "family": "history",
+        "glyph": "history"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-061",
+        "label": "robot dropping parts at the deburr station",
+        "type": "Incident",
+        "family": "history",
+        "glyph": "history"
+      }
+    },
+    {
+      "data": {
+        "id": "LAMP-HMI-24",
+        "label": "HMI backlight 24 V",
+        "type": "Part",
+        "family": "fix",
+        "glyph": "package"
+      }
+    },
+    {
+      "data": {
+        "id": "LINE-03",
+        "label": "Line 3",
+        "type": "Line",
+        "family": "where",
+        "glyph": "factory"
+      }
+    },
+    {
+      "data": {
+        "id": "LT-01",
+        "label": "Leak tester",
+        "type": "Asset",
+        "family": "where",
+        "glyph": "cog"
+      }
+    },
+    {
+      "data": {
+        "id": "LT-01-FILLVLV",
+        "label": "Fill valve",
+        "type": "Component",
+        "family": "where",
+        "glyph": "bolt"
+      }
+    },
+    {
+      "data": {
+        "id": "LT-01-FIXTURE",
+        "label": "Test fixture and seals",
+        "type": "Component",
+        "family": "where",
+        "glyph": "bolt"
+      }
+    },
+    {
+      "data": {
+        "id": "LT-01-PRSSENS",
+        "label": "Pressure sensor",
+        "type": "Component",
+        "family": "where",
+        "glyph": "bolt"
+      }
+    },
+    {
+      "data": {
+        "id": "NOZZLE-CL-06",
+        "label": "Coolant nozzle 6 mm",
+        "type": "Part",
+        "family": "fix",
+        "glyph": "package"
+      }
+    },
+    {
+      "data": {
+        "id": "NUT-GLAND-50",
+        "label": "Cylinder gland nut 50 mm",
+        "type": "Part",
+        "family": "fix",
+        "glyph": "package"
+      }
+    },
+    {
+      "data": {
+        "id": "O-RING-NBR-12",
+        "label": "O-ring NBR 12 mm, pack of 10",
+        "type": "Part",
+        "family": "fix",
+        "glyph": "package"
+      }
+    },
+    {
+      "data": {
+        "id": "O-RING-NBR-30",
+        "label": "O-ring NBR 30 mm, pack of 10",
+        "type": "Part",
+        "family": "fix",
+        "glyph": "package"
+      }
+    },
+    {
+      "data": {
+        "id": "OIL-HLP46-20L",
+        "label": "Hydraulic oil HLP 46, 20 litre pail",
+        "type": "Part",
+        "family": "fix",
+        "glyph": "package"
+      }
+    },
+    {
+      "data": {
+        "id": "PROC-CNC-01",
+        "label": "Replace spindle bearing set",
+        "type": "Procedure",
+        "family": "fix",
+        "glyph": "wrench"
+      }
+    },
+    {
+      "data": {
+        "id": "PROC-CNC-02",
+        "label": "Check spindle vibration from the HMI",
+        "type": "Procedure",
+        "family": "fix",
+        "glyph": "wrench"
+      }
+    },
+    {
+      "data": {
+        "id": "PROC-CNC-03",
+        "label": "Clean coolant filter and flush lines",
+        "type": "Procedure",
+        "family": "fix",
+        "glyph": "wrench"
+      }
+    },
+    {
+      "data": {
+        "id": "PROC-CNC-04",
+        "label": "Replace tool clamp disc springs",
+        "type": "Procedure",
+        "family": "fix",
+        "glyph": "wrench"
+      }
+    },
+    {
+      "data": {
+        "id": "PROC-HP-04",
+        "label": "Replace main cylinder seal kit",
+        "type": "Procedure",
+        "family": "fix",
+        "glyph": "wrench"
+      }
+    },
+    {
+      "data": {
+        "id": "PROC-HP-05",
+        "label": "Change hydraulic oil and filter",
+        "type": "Procedure",
+        "family": "fix",
+        "glyph": "wrench"
+      }
+    },
+    {
+      "data": {
+        "id": "PROC-HP-06",
+        "label": "Reset and test relief valve",
+        "type": "Procedure",
+        "family": "fix",
+        "glyph": "wrench"
+      }
+    },
+    {
+      "data": {
+        "id": "PROC-LT-01",
+        "label": "Recalibrate pressure sensor",
+        "type": "Procedure",
+        "family": "fix",
+        "glyph": "wrench"
+      }
+    },
+    {
+      "data": {
+        "id": "PROC-LT-02",
+        "label": "Replace fixture seals",
+        "type": "Procedure",
+        "family": "fix",
+        "glyph": "wrench"
+      }
+    },
+    {
+      "data": {
+        "id": "PROC-RW-01",
+        "label": "Replace gripper fingers",
+        "type": "Procedure",
+        "family": "fix",
+        "glyph": "wrench"
+      }
+    },
+    {
+      "data": {
+        "id": "PROC-RW-02",
+        "label": "Inspect axis 2 and reset servo drive",
+        "type": "Procedure",
+        "family": "fix",
+        "glyph": "wrench"
+      }
+    },
+    {
+      "data": {
+        "id": "PROC-RW-03",
+        "label": "Realign light curtain",
+        "type": "Procedure",
+        "family": "fix",
+        "glyph": "wrench"
+      }
+    },
+    {
+      "data": {
+        "id": "PUMP-CL-04",
+        "label": "Coolant pump 0.4 kW",
+        "type": "Part",
+        "family": "fix",
+        "glyph": "package"
+      }
+    },
+    {
+      "data": {
+        "id": "RB-551",
+        "label": "Gripper part-present signal lost",
+        "type": "AlarmCode",
+        "family": "problem",
+        "glyph": "siren"
+      }
+    },
+    {
+      "data": {
+        "id": "RB-560",
+        "label": "Axis 2 overcurrent",
+        "type": "AlarmCode",
+        "family": "problem",
+        "glyph": "siren"
+      }
+    },
+    {
+      "data": {
+        "id": "RB-563",
+        "label": "Axis 2 following error",
+        "type": "AlarmCode",
+        "family": "problem",
+        "glyph": "siren"
+      }
+    },
+    {
+      "data": {
+        "id": "RB-570",
+        "label": "Light curtain muting fault",
+        "type": "AlarmCode",
+        "family": "problem",
+        "glyph": "siren"
+      }
+    },
+    {
+      "data": {
+        "id": "RELAY-SAF-24",
+        "label": "Safety relay 24 V",
+        "type": "Part",
+        "family": "fix",
+        "glyph": "package"
+      }
+    },
+    {
+      "data": {
+        "id": "RW-01",
+        "label": "Robot workcell",
+        "type": "Asset",
+        "family": "where",
+        "glyph": "cog"
+      }
+    },
+    {
+      "data": {
+        "id": "RW-01-AXIS2",
+        "label": "Axis 2 servo",
+        "type": "Component",
+        "family": "where",
+        "glyph": "bolt"
+      }
+    },
+    {
+      "data": {
+        "id": "RW-01-GRIPPER",
+        "label": "Gripper",
+        "type": "Component",
+        "family": "where",
+        "glyph": "bolt"
+      }
+    },
+    {
+      "data": {
+        "id": "RW-01-LIGHTCUR",
+        "label": "Light curtain",
+        "type": "Component",
+        "family": "where",
+        "glyph": "bolt"
+      }
+    },
+    {
+      "data": {
+        "id": "SEAL-FIX-30",
+        "label": "Leak test fixture seal 30 mm",
+        "type": "Part",
+        "family": "fix",
+        "glyph": "package"
+      }
+    },
+    {
+      "data": {
+        "id": "SEAL-KIT-50",
+        "label": "Main cylinder seal kit, 50 mm rod",
+        "type": "Part",
+        "family": "fix",
+        "glyph": "package"
+      }
+    },
+    {
+      "data": {
+        "id": "SEAL-RV-25",
+        "label": "Relief valve seal kit",
+        "type": "Part",
+        "family": "fix",
+        "glyph": "package"
+      }
+    },
+    {
+      "data": {
+        "id": "SEAL-SPDL-70",
+        "label": "Spindle front seal 70 mm",
+        "type": "Part",
+        "family": "fix",
+        "glyph": "package"
+      }
+    },
+    {
+      "data": {
+        "id": "SENS-PROX-08",
+        "label": "Inductive proximity sensor M8",
+        "type": "Part",
+        "family": "fix",
+        "glyph": "package"
+      }
+    },
+    {
+      "data": {
+        "id": "SENS-PRS-10",
+        "label": "Pressure sensor 0 to 10 bar",
+        "type": "Part",
+        "family": "fix",
+        "glyph": "package"
+      }
+    },
+    {
+      "data": {
+        "id": "SENS-PT100-01",
+        "label": "Temperature sensor PT100",
+        "type": "Part",
+        "family": "fix",
+        "glyph": "package"
+      }
+    },
+    {
+      "data": {
+        "id": "SP-001",
+        "label": "Warm-up cycle complete",
+        "type": "AlarmCode",
+        "family": "problem",
+        "glyph": "siren"
+      }
+    },
+    {
+      "data": {
+        "id": "SP-104",
+        "label": "Spindle temperature high",
+        "type": "AlarmCode",
+        "family": "problem",
+        "glyph": "siren"
+      }
+    },
+    {
+      "data": {
+        "id": "SP-117",
+        "label": "Spindle vibration above limit",
+        "type": "AlarmCode",
+        "family": "problem",
+        "glyph": "siren"
+      }
+    },
+    {
+      "data": {
+        "id": "SPR-TC-40",
+        "label": "Tool clamp disc spring set",
+        "type": "Part",
+        "family": "fix",
+        "glyph": "package"
+      }
+    },
+    {
+      "data": {
+        "id": "SWITCH-LIM-01",
+        "label": "Limit switch",
+        "type": "Part",
+        "family": "fix",
+        "glyph": "package"
+      }
+    },
+    {
+      "data": {
+        "id": "TC-305",
+        "label": "Tool clamp not confirmed",
+        "type": "AlarmCode",
+        "family": "problem",
+        "glyph": "siren"
+      }
+    },
+    {
+      "data": {
+        "id": "TC-311",
+        "label": "Tool change timeout",
+        "type": "AlarmCode",
+        "family": "problem",
+        "glyph": "siren"
+      }
+    },
+    {
+      "data": {
+        "id": "VALVE-FILL-08",
+        "label": "Fill valve 8 mm",
+        "type": "Part",
+        "family": "fix",
+        "glyph": "package"
+      }
+    },
+    {
+      "data": {
+        "id": "VT-012",
+        "label": "Reference pressure out of tolerance",
+        "type": "AlarmCode",
+        "family": "problem",
+        "glyph": "siren"
+      }
+    },
+    {
+      "data": {
+        "id": "VT-018",
+        "label": "Leak rate above limit on master part",
+        "type": "AlarmCode",
+        "family": "problem",
+        "glyph": "siren"
+      }
+    },
+    {
+      "data": {
+        "id": "VT-021",
+        "label": "Fill time exceeded",
+        "type": "AlarmCode",
+        "family": "problem",
+        "glyph": "siren"
+      }
+    },
+    {
+      "data": {
+        "id": "WIPER-CYL-50",
+        "label": "Cylinder rod wiper 50 mm",
+        "type": "Part",
+        "family": "fix",
+        "glyph": "package"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "BATT-ENC-36|FITS|RW-01-AXIS2",
+        "source": "BATT-ENC-36",
+        "target": "RW-01-AXIS2",
+        "rel": "FITS",
+        "label": "fits"
+      }
+    },
+    {
+      "data": {
+        "id": "BELT-HTD-8M|FITS|RW-01-AXIS2",
+        "source": "BELT-HTD-8M",
+        "target": "RW-01-AXIS2",
+        "rel": "FITS",
+        "label": "fits"
+      }
+    },
+    {
+      "data": {
+        "id": "BRG-6205-2RS|FITS|RW-01-AXIS2",
+        "source": "BRG-6205-2RS",
+        "target": "RW-01-AXIS2",
+        "rel": "FITS",
+        "label": "fits"
+      }
+    },
+    {
+      "data": {
+        "id": "BRG-7014-ACD|FITS|CNC-01-SPINDLE",
+        "source": "BRG-7014-ACD",
+        "target": "CNC-01-SPINDLE",
+        "rel": "FITS",
+        "label": "fits"
+      }
+    },
+    {
+      "data": {
+        "id": "BRG-7014-ACD|FITS|CNC-02-SPINDLE",
+        "source": "BRG-7014-ACD",
+        "target": "CNC-02-SPINDLE",
+        "rel": "FITS",
+        "label": "fits"
+      }
+    },
+    {
+      "data": {
+        "id": "BRKT-LC-01|FITS|RW-01-LIGHTCUR",
+        "source": "BRKT-LC-01",
+        "target": "RW-01-LIGHTCUR",
+        "rel": "FITS",
+        "label": "fits"
+      }
+    },
+    {
+      "data": {
+        "id": "CABLE-ENC-05|FITS|RW-01-AXIS2",
+        "source": "CABLE-ENC-05",
+        "target": "RW-01-AXIS2",
+        "rel": "FITS",
+        "label": "fits"
+      }
+    },
+    {
+      "data": {
+        "id": "CL-210|INDICATES|FM-COOLANT-FILTER-BLOCKAGE",
+        "source": "CL-210",
+        "target": "FM-COOLANT-FILTER-BLOCKAGE",
+        "rel": "INDICATES",
+        "label": "usually means"
+      }
+    },
+    {
+      "data": {
+        "id": "CL-214|INDICATES|FM-COOLANT-FILTER-BLOCKAGE",
+        "source": "CL-214",
+        "target": "FM-COOLANT-FILTER-BLOCKAGE",
+        "rel": "INDICATES",
+        "label": "usually means"
+      }
+    },
+    {
+      "data": {
+        "id": "CLEANER-CL-5L|FITS|CNC-01-COOLANT",
+        "source": "CLEANER-CL-5L",
+        "target": "CNC-01-COOLANT",
+        "rel": "FITS",
+        "label": "fits"
+      }
+    },
+    {
+      "data": {
+        "id": "CLEANER-CL-5L|FITS|CNC-02-COOLANT",
+        "source": "CLEANER-CL-5L",
+        "target": "CNC-02-COOLANT",
+        "rel": "FITS",
+        "label": "fits"
+      }
+    },
+    {
+      "data": {
+        "id": "CNC-01|HAS_COMPONENT|CNC-01-COOLANT",
+        "source": "CNC-01",
+        "target": "CNC-01-COOLANT",
+        "rel": "HAS_COMPONENT",
+        "label": "is built from"
+      }
+    },
+    {
+      "data": {
+        "id": "CNC-01|HAS_COMPONENT|CNC-01-SPINDLE",
+        "source": "CNC-01",
+        "target": "CNC-01-SPINDLE",
+        "rel": "HAS_COMPONENT",
+        "label": "is built from"
+      }
+    },
+    {
+      "data": {
+        "id": "CNC-01|HAS_COMPONENT|CNC-01-TOOLCHG",
+        "source": "CNC-01",
+        "target": "CNC-01-TOOLCHG",
+        "rel": "HAS_COMPONENT",
+        "label": "is built from"
+      }
+    },
+    {
+      "data": {
+        "id": "CNC-01|RAISED|CL-210",
+        "source": "CNC-01",
+        "target": "CL-210",
+        "rel": "RAISED",
+        "label": "raised"
+      }
+    },
+    {
+      "data": {
+        "id": "CNC-01|RAISED|SP-001",
+        "source": "CNC-01",
+        "target": "SP-001",
+        "rel": "RAISED",
+        "label": "raised"
+      }
+    },
+    {
+      "data": {
+        "id": "CNC-01|RAISED|SP-104",
+        "source": "CNC-01",
+        "target": "SP-104",
+        "rel": "RAISED",
+        "label": "raised"
+      }
+    },
+    {
+      "data": {
+        "id": "CNC-01|RAISED|SP-117",
+        "source": "CNC-01",
+        "target": "SP-117",
+        "rel": "RAISED",
+        "label": "raised"
+      }
+    },
+    {
+      "data": {
+        "id": "CNC-01|RAISED|TC-305",
+        "source": "CNC-01",
+        "target": "TC-305",
+        "rel": "RAISED",
+        "label": "raised"
+      }
+    },
+    {
+      "data": {
+        "id": "CNC-01|RAISED|TC-311",
+        "source": "CNC-01",
+        "target": "TC-311",
+        "rel": "RAISED",
+        "label": "raised"
+      }
+    },
+    {
+      "data": {
+        "id": "CNC-02|HAS_COMPONENT|CNC-02-COOLANT",
+        "source": "CNC-02",
+        "target": "CNC-02-COOLANT",
+        "rel": "HAS_COMPONENT",
+        "label": "is built from"
+      }
+    },
+    {
+      "data": {
+        "id": "CNC-02|HAS_COMPONENT|CNC-02-SPINDLE",
+        "source": "CNC-02",
+        "target": "CNC-02-SPINDLE",
+        "rel": "HAS_COMPONENT",
+        "label": "is built from"
+      }
+    },
+    {
+      "data": {
+        "id": "CNC-02|HAS_COMPONENT|CNC-02-TOOLCHG",
+        "source": "CNC-02",
+        "target": "CNC-02-TOOLCHG",
+        "rel": "HAS_COMPONENT",
+        "label": "is built from"
+      }
+    },
+    {
+      "data": {
+        "id": "CNC-02|RAISED|CL-210",
+        "source": "CNC-02",
+        "target": "CL-210",
+        "rel": "RAISED",
+        "label": "raised"
+      }
+    },
+    {
+      "data": {
+        "id": "CNC-02|RAISED|CL-214",
+        "source": "CNC-02",
+        "target": "CL-214",
+        "rel": "RAISED",
+        "label": "raised"
+      }
+    },
+    {
+      "data": {
+        "id": "CNC-02|RAISED|SP-001",
+        "source": "CNC-02",
+        "target": "SP-001",
+        "rel": "RAISED",
+        "label": "raised"
+      }
+    },
+    {
+      "data": {
+        "id": "CNC-02|RAISED|SP-104",
+        "source": "CNC-02",
+        "target": "SP-104",
+        "rel": "RAISED",
+        "label": "raised"
+      }
+    },
+    {
+      "data": {
+        "id": "CNC-02|RAISED|SP-117",
+        "source": "CNC-02",
+        "target": "SP-117",
+        "rel": "RAISED",
+        "label": "raised"
+      }
+    },
+    {
+      "data": {
+        "id": "CNC-02|RAISED|TC-305",
+        "source": "CNC-02",
+        "target": "TC-305",
+        "rel": "RAISED",
+        "label": "raised"
+      }
+    },
+    {
+      "data": {
+        "id": "CNC-02|RAISED|TC-311",
+        "source": "CNC-02",
+        "target": "TC-311",
+        "rel": "RAISED",
+        "label": "raised"
+      }
+    },
+    {
+      "data": {
+        "id": "COLLET-ER32|FITS|CNC-01-SPINDLE",
+        "source": "COLLET-ER32",
+        "target": "CNC-01-SPINDLE",
+        "rel": "FITS",
+        "label": "fits"
+      }
+    },
+    {
+      "data": {
+        "id": "COLLET-ER32|FITS|CNC-02-SPINDLE",
+        "source": "COLLET-ER32",
+        "target": "CNC-02-SPINDLE",
+        "rel": "FITS",
+        "label": "fits"
+      }
+    },
+    {
+      "data": {
+        "id": "COUPLING-PMP-28|FITS|HP-01-HYDPUMP",
+        "source": "COUPLING-PMP-28",
+        "target": "HP-01-HYDPUMP",
+        "rel": "FITS",
+        "label": "fits"
+      }
+    },
+    {
+      "data": {
+        "id": "CUP-VAC-40|FITS|RW-01-GRIPPER",
+        "source": "CUP-VAC-40",
+        "target": "RW-01-GRIPPER",
+        "rel": "FITS",
+        "label": "fits"
+      }
+    },
+    {
+      "data": {
+        "id": "E-217|INDICATES|FM-MAIN-CYLINDER-SEAL-WEAR",
+        "source": "E-217",
+        "target": "FM-MAIN-CYLINDER-SEAL-WEAR",
+        "rel": "INDICATES",
+        "label": "usually means"
+      }
+    },
+    {
+      "data": {
+        "id": "E-217|INDICATES|FM-RELIEF-VALVE-MISADJUSTMENT",
+        "source": "E-217",
+        "target": "FM-RELIEF-VALVE-MISADJUSTMENT",
+        "rel": "INDICATES",
+        "label": "usually means"
+      }
+    },
+    {
+      "data": {
+        "id": "E-221|INDICATES|FM-HYDRAULIC-OIL-CONTAMINATION",
+        "source": "E-221",
+        "target": "FM-HYDRAULIC-OIL-CONTAMINATION",
+        "rel": "INDICATES",
+        "label": "usually means"
+      }
+    },
+    {
+      "data": {
+        "id": "E-221|INDICATES|FM-RELIEF-VALVE-MISADJUSTMENT",
+        "source": "E-221",
+        "target": "FM-RELIEF-VALVE-MISADJUSTMENT",
+        "rel": "INDICATES",
+        "label": "usually means"
+      }
+    },
+    {
+      "data": {
+        "id": "E-230|INDICATES|FM-HYDRAULIC-OIL-CONTAMINATION",
+        "source": "E-230",
+        "target": "FM-HYDRAULIC-OIL-CONTAMINATION",
+        "rel": "INDICATES",
+        "label": "usually means"
+      }
+    },
+    {
+      "data": {
+        "id": "E-245|INDICATES|FM-MAIN-CYLINDER-SEAL-WEAR",
+        "source": "E-245",
+        "target": "FM-MAIN-CYLINDER-SEAL-WEAR",
+        "rel": "INDICATES",
+        "label": "usually means"
+      }
+    },
+    {
+      "data": {
+        "id": "E-252|INDICATES|FM-RELIEF-VALVE-MISADJUSTMENT",
+        "source": "E-252",
+        "target": "FM-RELIEF-VALVE-MISADJUSTMENT",
+        "rel": "INDICATES",
+        "label": "usually means"
+      }
+    },
+    {
+      "data": {
+        "id": "FLT-AIR-05|FITS|LT-01-FILLVLV",
+        "source": "FLT-AIR-05",
+        "target": "LT-01-FILLVLV",
+        "rel": "FITS",
+        "label": "fits"
+      }
+    },
+    {
+      "data": {
+        "id": "FLT-CL-25|FITS|CNC-01-COOLANT",
+        "source": "FLT-CL-25",
+        "target": "CNC-01-COOLANT",
+        "rel": "FITS",
+        "label": "fits"
+      }
+    },
+    {
+      "data": {
+        "id": "FLT-CL-25|FITS|CNC-02-COOLANT",
+        "source": "FLT-CL-25",
+        "target": "CNC-02-COOLANT",
+        "rel": "FITS",
+        "label": "fits"
+      }
+    },
+    {
+      "data": {
+        "id": "FLT-HYD-10|FITS|HP-01-HYDPUMP",
+        "source": "FLT-HYD-10",
+        "target": "HP-01-HYDPUMP",
+        "rel": "FITS",
+        "label": "fits"
+      }
+    },
+    {
+      "data": {
+        "id": "FM-AXIS-2-OVERLOAD|AFFECTS|RW-01-AXIS2",
+        "source": "FM-AXIS-2-OVERLOAD",
+        "target": "RW-01-AXIS2",
+        "rel": "AFFECTS",
+        "label": "damages"
+      }
+    },
+    {
+      "data": {
+        "id": "FM-AXIS-2-OVERLOAD|RESOLVED_BY|PROC-RW-02",
+        "source": "FM-AXIS-2-OVERLOAD",
+        "target": "PROC-RW-02",
+        "rel": "RESOLVED_BY",
+        "label": "fixed by"
+      }
+    },
+    {
+      "data": {
+        "id": "FM-COOLANT-FILTER-BLOCKAGE|AFFECTS|CNC-01-COOLANT",
+        "source": "FM-COOLANT-FILTER-BLOCKAGE",
+        "target": "CNC-01-COOLANT",
+        "rel": "AFFECTS",
+        "label": "damages"
+      }
+    },
+    {
+      "data": {
+        "id": "FM-COOLANT-FILTER-BLOCKAGE|AFFECTS|CNC-02-COOLANT",
+        "source": "FM-COOLANT-FILTER-BLOCKAGE",
+        "target": "CNC-02-COOLANT",
+        "rel": "AFFECTS",
+        "label": "damages"
+      }
+    },
+    {
+      "data": {
+        "id": "FM-COOLANT-FILTER-BLOCKAGE|RESOLVED_BY|PROC-CNC-03",
+        "source": "FM-COOLANT-FILTER-BLOCKAGE",
+        "target": "PROC-CNC-03",
+        "rel": "RESOLVED_BY",
+        "label": "fixed by"
+      }
+    },
+    {
+      "data": {
+        "id": "FM-FIXTURE-SEAL-WEAR|AFFECTS|LT-01-FIXTURE",
+        "source": "FM-FIXTURE-SEAL-WEAR",
+        "target": "LT-01-FIXTURE",
+        "rel": "AFFECTS",
+        "label": "damages"
+      }
+    },
+    {
+      "data": {
+        "id": "FM-FIXTURE-SEAL-WEAR|RESOLVED_BY|PROC-LT-02",
+        "source": "FM-FIXTURE-SEAL-WEAR",
+        "target": "PROC-LT-02",
+        "rel": "RESOLVED_BY",
+        "label": "fixed by"
+      }
+    },
+    {
+      "data": {
+        "id": "FM-GRIPPER-FINGER-WEAR|AFFECTS|RW-01-GRIPPER",
+        "source": "FM-GRIPPER-FINGER-WEAR",
+        "target": "RW-01-GRIPPER",
+        "rel": "AFFECTS",
+        "label": "damages"
+      }
+    },
+    {
+      "data": {
+        "id": "FM-GRIPPER-FINGER-WEAR|RESOLVED_BY|PROC-RW-01",
+        "source": "FM-GRIPPER-FINGER-WEAR",
+        "target": "PROC-RW-01",
+        "rel": "RESOLVED_BY",
+        "label": "fixed by"
+      }
+    },
+    {
+      "data": {
+        "id": "FM-HYDRAULIC-OIL-CONTAMINATION|AFFECTS|HP-01-HYDPUMP",
+        "source": "FM-HYDRAULIC-OIL-CONTAMINATION",
+        "target": "HP-01-HYDPUMP",
+        "rel": "AFFECTS",
+        "label": "damages"
+      }
+    },
+    {
+      "data": {
+        "id": "FM-HYDRAULIC-OIL-CONTAMINATION|RESOLVED_BY|PROC-HP-05",
+        "source": "FM-HYDRAULIC-OIL-CONTAMINATION",
+        "target": "PROC-HP-05",
+        "rel": "RESOLVED_BY",
+        "label": "fixed by"
+      }
+    },
+    {
+      "data": {
+        "id": "FM-LIGHT-CURTAIN-MISALIGNMENT|AFFECTS|RW-01-LIGHTCUR",
+        "source": "FM-LIGHT-CURTAIN-MISALIGNMENT",
+        "target": "RW-01-LIGHTCUR",
+        "rel": "AFFECTS",
+        "label": "damages"
+      }
+    },
+    {
+      "data": {
+        "id": "FM-LIGHT-CURTAIN-MISALIGNMENT|RESOLVED_BY|PROC-RW-03",
+        "source": "FM-LIGHT-CURTAIN-MISALIGNMENT",
+        "target": "PROC-RW-03",
+        "rel": "RESOLVED_BY",
+        "label": "fixed by"
+      }
+    },
+    {
+      "data": {
+        "id": "FM-MAIN-CYLINDER-SEAL-WEAR|AFFECTS|HP-01-MAINCYL",
+        "source": "FM-MAIN-CYLINDER-SEAL-WEAR",
+        "target": "HP-01-MAINCYL",
+        "rel": "AFFECTS",
+        "label": "damages"
+      }
+    },
+    {
+      "data": {
+        "id": "FM-MAIN-CYLINDER-SEAL-WEAR|RESOLVED_BY|PROC-HP-04",
+        "source": "FM-MAIN-CYLINDER-SEAL-WEAR",
+        "target": "PROC-HP-04",
+        "rel": "RESOLVED_BY",
+        "label": "fixed by"
+      }
+    },
+    {
+      "data": {
+        "id": "FM-PRESSURE-SENSOR-DRIFT|AFFECTS|LT-01-PRSSENS",
+        "source": "FM-PRESSURE-SENSOR-DRIFT",
+        "target": "LT-01-PRSSENS",
+        "rel": "AFFECTS",
+        "label": "damages"
+      }
+    },
+    {
+      "data": {
+        "id": "FM-PRESSURE-SENSOR-DRIFT|RESOLVED_BY|PROC-LT-01",
+        "source": "FM-PRESSURE-SENSOR-DRIFT",
+        "target": "PROC-LT-01",
+        "rel": "RESOLVED_BY",
+        "label": "fixed by"
+      }
+    },
+    {
+      "data": {
+        "id": "FM-RELIEF-VALVE-MISADJUSTMENT|AFFECTS|HP-01-RELIEF",
+        "source": "FM-RELIEF-VALVE-MISADJUSTMENT",
+        "target": "HP-01-RELIEF",
+        "rel": "AFFECTS",
+        "label": "damages"
+      }
+    },
+    {
+      "data": {
+        "id": "FM-RELIEF-VALVE-MISADJUSTMENT|RESOLVED_BY|PROC-HP-06",
+        "source": "FM-RELIEF-VALVE-MISADJUSTMENT",
+        "target": "PROC-HP-06",
+        "rel": "RESOLVED_BY",
+        "label": "fixed by"
+      }
+    },
+    {
+      "data": {
+        "id": "FM-SPINDLE-BEARING-WEAR|AFFECTS|CNC-01-SPINDLE",
+        "source": "FM-SPINDLE-BEARING-WEAR",
+        "target": "CNC-01-SPINDLE",
+        "rel": "AFFECTS",
+        "label": "damages"
+      }
+    },
+    {
+      "data": {
+        "id": "FM-SPINDLE-BEARING-WEAR|AFFECTS|CNC-02-SPINDLE",
+        "source": "FM-SPINDLE-BEARING-WEAR",
+        "target": "CNC-02-SPINDLE",
+        "rel": "AFFECTS",
+        "label": "damages"
+      }
+    },
+    {
+      "data": {
+        "id": "FM-SPINDLE-BEARING-WEAR|RESOLVED_BY|PROC-CNC-01",
+        "source": "FM-SPINDLE-BEARING-WEAR",
+        "target": "PROC-CNC-01",
+        "rel": "RESOLVED_BY",
+        "label": "fixed by"
+      }
+    },
+    {
+      "data": {
+        "id": "FM-SPINDLE-BEARING-WEAR|RESOLVED_BY|PROC-CNC-02",
+        "source": "FM-SPINDLE-BEARING-WEAR",
+        "target": "PROC-CNC-02",
+        "rel": "RESOLVED_BY",
+        "label": "fixed by"
+      }
+    },
+    {
+      "data": {
+        "id": "FM-TOOL-CLAMP-SPRING-OR-SENSOR-FAULT|AFFECTS|CNC-01-TOOLCHG",
+        "source": "FM-TOOL-CLAMP-SPRING-OR-SENSOR-FAULT",
+        "target": "CNC-01-TOOLCHG",
+        "rel": "AFFECTS",
+        "label": "damages"
+      }
+    },
+    {
+      "data": {
+        "id": "FM-TOOL-CLAMP-SPRING-OR-SENSOR-FAULT|AFFECTS|CNC-02-TOOLCHG",
+        "source": "FM-TOOL-CLAMP-SPRING-OR-SENSOR-FAULT",
+        "target": "CNC-02-TOOLCHG",
+        "rel": "AFFECTS",
+        "label": "damages"
+      }
+    },
+    {
+      "data": {
+        "id": "FM-TOOL-CLAMP-SPRING-OR-SENSOR-FAULT|RESOLVED_BY|PROC-CNC-04",
+        "source": "FM-TOOL-CLAMP-SPRING-OR-SENSOR-FAULT",
+        "target": "PROC-CNC-04",
+        "rel": "RESOLVED_BY",
+        "label": "fixed by"
+      }
+    },
+    {
+      "data": {
+        "id": "FUSE-SRV-10|FITS|RW-01-AXIS2",
+        "source": "FUSE-SRV-10",
+        "target": "RW-01-AXIS2",
+        "rel": "FITS",
+        "label": "fits"
+      }
+    },
+    {
+      "data": {
+        "id": "GAUGE-PRS-250|FITS|HP-01-RELIEF",
+        "source": "GAUGE-PRS-250",
+        "target": "HP-01-RELIEF",
+        "rel": "FITS",
+        "label": "fits"
+      }
+    },
+    {
+      "data": {
+        "id": "GREASE-KLB-2|FITS|CNC-01-SPINDLE",
+        "source": "GREASE-KLB-2",
+        "target": "CNC-01-SPINDLE",
+        "rel": "FITS",
+        "label": "fits"
+      }
+    },
+    {
+      "data": {
+        "id": "GREASE-KLB-2|FITS|CNC-02-SPINDLE",
+        "source": "GREASE-KLB-2",
+        "target": "CNC-02-SPINDLE",
+        "rel": "FITS",
+        "label": "fits"
+      }
+    },
+    {
+      "data": {
+        "id": "GRP-FNG-12|FITS|RW-01-GRIPPER",
+        "source": "GRP-FNG-12",
+        "target": "RW-01-GRIPPER",
+        "rel": "FITS",
+        "label": "fits"
+      }
+    },
+    {
+      "data": {
+        "id": "HOLDER-BT40|FITS|CNC-01-TOOLCHG",
+        "source": "HOLDER-BT40",
+        "target": "CNC-01-TOOLCHG",
+        "rel": "FITS",
+        "label": "fits"
+      }
+    },
+    {
+      "data": {
+        "id": "HOLDER-BT40|FITS|CNC-02-TOOLCHG",
+        "source": "HOLDER-BT40",
+        "target": "CNC-02-TOOLCHG",
+        "rel": "FITS",
+        "label": "fits"
+      }
+    },
+    {
+      "data": {
+        "id": "HOSE-HYD-12|FITS|HP-01-HYDPUMP",
+        "source": "HOSE-HYD-12",
+        "target": "HP-01-HYDPUMP",
+        "rel": "FITS",
+        "label": "fits"
+      }
+    },
+    {
+      "data": {
+        "id": "HP-01|HAS_COMPONENT|HP-01-HYDPUMP",
+        "source": "HP-01",
+        "target": "HP-01-HYDPUMP",
+        "rel": "HAS_COMPONENT",
+        "label": "is built from"
+      }
+    },
+    {
+      "data": {
+        "id": "HP-01|HAS_COMPONENT|HP-01-MAINCYL",
+        "source": "HP-01",
+        "target": "HP-01-MAINCYL",
+        "rel": "HAS_COMPONENT",
+        "label": "is built from"
+      }
+    },
+    {
+      "data": {
+        "id": "HP-01|HAS_COMPONENT|HP-01-RELIEF",
+        "source": "HP-01",
+        "target": "HP-01-RELIEF",
+        "rel": "HAS_COMPONENT",
+        "label": "is built from"
+      }
+    },
+    {
+      "data": {
+        "id": "HP-01|RAISED|E-200",
+        "source": "HP-01",
+        "target": "E-200",
+        "rel": "RAISED",
+        "label": "raised"
+      }
+    },
+    {
+      "data": {
+        "id": "HP-01|RAISED|E-217",
+        "source": "HP-01",
+        "target": "E-217",
+        "rel": "RAISED",
+        "label": "raised"
+      }
+    },
+    {
+      "data": {
+        "id": "HP-01|RAISED|E-221",
+        "source": "HP-01",
+        "target": "E-221",
+        "rel": "RAISED",
+        "label": "raised"
+      }
+    },
+    {
+      "data": {
+        "id": "HP-01|RAISED|E-230",
+        "source": "HP-01",
+        "target": "E-230",
+        "rel": "RAISED",
+        "label": "raised"
+      }
+    },
+    {
+      "data": {
+        "id": "HP-01|RAISED|E-245",
+        "source": "HP-01",
+        "target": "E-245",
+        "rel": "RAISED",
+        "label": "raised"
+      }
+    },
+    {
+      "data": {
+        "id": "HP-01|RAISED|E-252",
+        "source": "HP-01",
+        "target": "E-252",
+        "rel": "RAISED",
+        "label": "raised"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-001|OCCURRED_ON|HP-01",
+        "source": "INC-2026-001",
+        "target": "HP-01",
+        "rel": "OCCURRED_ON",
+        "label": "happened on"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-001|ROOT_CAUSE|FM-MAIN-CYLINDER-SEAL-WEAR",
+        "source": "INC-2026-001",
+        "target": "FM-MAIN-CYLINDER-SEAL-WEAR",
+        "rel": "ROOT_CAUSE",
+        "label": "was caused by"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-001|TRIGGERED_BY|E-245",
+        "source": "INC-2026-001",
+        "target": "E-245",
+        "rel": "TRIGGERED_BY",
+        "label": "started with"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-001|USED|OIL-HLP46-20L",
+        "source": "INC-2026-001",
+        "target": "OIL-HLP46-20L",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-001|USED|SEAL-KIT-50",
+        "source": "INC-2026-001",
+        "target": "SEAL-KIT-50",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-002|OCCURRED_ON|CNC-01",
+        "source": "INC-2026-002",
+        "target": "CNC-01",
+        "rel": "OCCURRED_ON",
+        "label": "happened on"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-002|ROOT_CAUSE|FM-COOLANT-FILTER-BLOCKAGE",
+        "source": "INC-2026-002",
+        "target": "FM-COOLANT-FILTER-BLOCKAGE",
+        "rel": "ROOT_CAUSE",
+        "label": "was caused by"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-002|TRIGGERED_BY|CL-210",
+        "source": "INC-2026-002",
+        "target": "CL-210",
+        "rel": "TRIGGERED_BY",
+        "label": "started with"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-002|USED|FLT-CL-25",
+        "source": "INC-2026-002",
+        "target": "FLT-CL-25",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-003|OCCURRED_ON|HP-01",
+        "source": "INC-2026-003",
+        "target": "HP-01",
+        "rel": "OCCURRED_ON",
+        "label": "happened on"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-003|ROOT_CAUSE|FM-HYDRAULIC-OIL-CONTAMINATION",
+        "source": "INC-2026-003",
+        "target": "FM-HYDRAULIC-OIL-CONTAMINATION",
+        "rel": "ROOT_CAUSE",
+        "label": "was caused by"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-003|TRIGGERED_BY|E-230",
+        "source": "INC-2026-003",
+        "target": "E-230",
+        "rel": "TRIGGERED_BY",
+        "label": "started with"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-003|USED|FLT-HYD-10",
+        "source": "INC-2026-003",
+        "target": "FLT-HYD-10",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-003|USED|OIL-HLP46-20L",
+        "source": "INC-2026-003",
+        "target": "OIL-HLP46-20L",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-004|OCCURRED_ON|HP-01",
+        "source": "INC-2026-004",
+        "target": "HP-01",
+        "rel": "OCCURRED_ON",
+        "label": "happened on"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-004|ROOT_CAUSE|FM-MAIN-CYLINDER-SEAL-WEAR",
+        "source": "INC-2026-004",
+        "target": "FM-MAIN-CYLINDER-SEAL-WEAR",
+        "rel": "ROOT_CAUSE",
+        "label": "was caused by"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-004|TRIGGERED_BY|E-217",
+        "source": "INC-2026-004",
+        "target": "E-217",
+        "rel": "TRIGGERED_BY",
+        "label": "started with"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-004|USED|OIL-HLP46-20L",
+        "source": "INC-2026-004",
+        "target": "OIL-HLP46-20L",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-004|USED|WIPER-CYL-50",
+        "source": "INC-2026-004",
+        "target": "WIPER-CYL-50",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-005|OCCURRED_ON|HP-01",
+        "source": "INC-2026-005",
+        "target": "HP-01",
+        "rel": "OCCURRED_ON",
+        "label": "happened on"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-005|ROOT_CAUSE|FM-MAIN-CYLINDER-SEAL-WEAR",
+        "source": "INC-2026-005",
+        "target": "FM-MAIN-CYLINDER-SEAL-WEAR",
+        "rel": "ROOT_CAUSE",
+        "label": "was caused by"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-005|TRIGGERED_BY|E-217",
+        "source": "INC-2026-005",
+        "target": "E-217",
+        "rel": "TRIGGERED_BY",
+        "label": "started with"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-005|USED|OIL-HLP46-20L",
+        "source": "INC-2026-005",
+        "target": "OIL-HLP46-20L",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-005|USED|SEAL-KIT-50",
+        "source": "INC-2026-005",
+        "target": "SEAL-KIT-50",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-006|OCCURRED_ON|HP-01",
+        "source": "INC-2026-006",
+        "target": "HP-01",
+        "rel": "OCCURRED_ON",
+        "label": "happened on"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-006|ROOT_CAUSE|FM-MAIN-CYLINDER-SEAL-WEAR",
+        "source": "INC-2026-006",
+        "target": "FM-MAIN-CYLINDER-SEAL-WEAR",
+        "rel": "ROOT_CAUSE",
+        "label": "was caused by"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-006|TRIGGERED_BY|E-245",
+        "source": "INC-2026-006",
+        "target": "E-245",
+        "rel": "TRIGGERED_BY",
+        "label": "started with"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-006|USED|OIL-HLP46-20L",
+        "source": "INC-2026-006",
+        "target": "OIL-HLP46-20L",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-006|USED|SEAL-KIT-50",
+        "source": "INC-2026-006",
+        "target": "SEAL-KIT-50",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-007|OCCURRED_ON|CNC-01",
+        "source": "INC-2026-007",
+        "target": "CNC-01",
+        "rel": "OCCURRED_ON",
+        "label": "happened on"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-007|ROOT_CAUSE|FM-COOLANT-FILTER-BLOCKAGE",
+        "source": "INC-2026-007",
+        "target": "FM-COOLANT-FILTER-BLOCKAGE",
+        "rel": "ROOT_CAUSE",
+        "label": "was caused by"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-007|TRIGGERED_BY|SP-104",
+        "source": "INC-2026-007",
+        "target": "SP-104",
+        "rel": "TRIGGERED_BY",
+        "label": "started with"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-007|USED|FLT-CL-25",
+        "source": "INC-2026-007",
+        "target": "FLT-CL-25",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-008|OCCURRED_ON|HP-01",
+        "source": "INC-2026-008",
+        "target": "HP-01",
+        "rel": "OCCURRED_ON",
+        "label": "happened on"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-008|ROOT_CAUSE|FM-MAIN-CYLINDER-SEAL-WEAR",
+        "source": "INC-2026-008",
+        "target": "FM-MAIN-CYLINDER-SEAL-WEAR",
+        "rel": "ROOT_CAUSE",
+        "label": "was caused by"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-008|TRIGGERED_BY|E-217",
+        "source": "INC-2026-008",
+        "target": "E-217",
+        "rel": "TRIGGERED_BY",
+        "label": "started with"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-008|USED|OIL-HLP46-20L",
+        "source": "INC-2026-008",
+        "target": "OIL-HLP46-20L",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-008|USED|SEAL-KIT-50",
+        "source": "INC-2026-008",
+        "target": "SEAL-KIT-50",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-009|OCCURRED_ON|LT-01",
+        "source": "INC-2026-009",
+        "target": "LT-01",
+        "rel": "OCCURRED_ON",
+        "label": "happened on"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-009|ROOT_CAUSE|FM-FIXTURE-SEAL-WEAR",
+        "source": "INC-2026-009",
+        "target": "FM-FIXTURE-SEAL-WEAR",
+        "rel": "ROOT_CAUSE",
+        "label": "was caused by"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-009|TRIGGERED_BY|VT-021",
+        "source": "INC-2026-009",
+        "target": "VT-021",
+        "rel": "TRIGGERED_BY",
+        "label": "started with"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-009|USED|SEAL-FIX-30",
+        "source": "INC-2026-009",
+        "target": "SEAL-FIX-30",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-010|OCCURRED_ON|LT-01",
+        "source": "INC-2026-010",
+        "target": "LT-01",
+        "rel": "OCCURRED_ON",
+        "label": "happened on"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-010|ROOT_CAUSE|FM-FIXTURE-SEAL-WEAR",
+        "source": "INC-2026-010",
+        "target": "FM-FIXTURE-SEAL-WEAR",
+        "rel": "ROOT_CAUSE",
+        "label": "was caused by"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-010|TRIGGERED_BY|VT-018",
+        "source": "INC-2026-010",
+        "target": "VT-018",
+        "rel": "TRIGGERED_BY",
+        "label": "started with"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-010|USED|SEAL-FIX-30",
+        "source": "INC-2026-010",
+        "target": "SEAL-FIX-30",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-011|OCCURRED_ON|CNC-02",
+        "source": "INC-2026-011",
+        "target": "CNC-02",
+        "rel": "OCCURRED_ON",
+        "label": "happened on"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-011|ROOT_CAUSE|FM-SPINDLE-BEARING-WEAR",
+        "source": "INC-2026-011",
+        "target": "FM-SPINDLE-BEARING-WEAR",
+        "rel": "ROOT_CAUSE",
+        "label": "was caused by"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-011|TRIGGERED_BY|SP-117",
+        "source": "INC-2026-011",
+        "target": "SP-117",
+        "rel": "TRIGGERED_BY",
+        "label": "started with"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-011|USED|BRG-7014-ACD",
+        "source": "INC-2026-011",
+        "target": "BRG-7014-ACD",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-011|USED|GREASE-KLB-2",
+        "source": "INC-2026-011",
+        "target": "GREASE-KLB-2",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-011|USED|SEAL-SPDL-70",
+        "source": "INC-2026-011",
+        "target": "SEAL-SPDL-70",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-012|OCCURRED_ON|RW-01",
+        "source": "INC-2026-012",
+        "target": "RW-01",
+        "rel": "OCCURRED_ON",
+        "label": "happened on"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-012|ROOT_CAUSE|FM-AXIS-2-OVERLOAD",
+        "source": "INC-2026-012",
+        "target": "FM-AXIS-2-OVERLOAD",
+        "rel": "ROOT_CAUSE",
+        "label": "was caused by"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-012|TRIGGERED_BY|RB-560",
+        "source": "INC-2026-012",
+        "target": "RB-560",
+        "rel": "TRIGGERED_BY",
+        "label": "started with"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-012|USED|BRG-6205-2RS",
+        "source": "INC-2026-012",
+        "target": "BRG-6205-2RS",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-012|USED|FUSE-SRV-10",
+        "source": "INC-2026-012",
+        "target": "FUSE-SRV-10",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-013|OCCURRED_ON|LT-01",
+        "source": "INC-2026-013",
+        "target": "LT-01",
+        "rel": "OCCURRED_ON",
+        "label": "happened on"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-013|ROOT_CAUSE|FM-FIXTURE-SEAL-WEAR",
+        "source": "INC-2026-013",
+        "target": "FM-FIXTURE-SEAL-WEAR",
+        "rel": "ROOT_CAUSE",
+        "label": "was caused by"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-013|TRIGGERED_BY|VT-018",
+        "source": "INC-2026-013",
+        "target": "VT-018",
+        "rel": "TRIGGERED_BY",
+        "label": "started with"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-013|USED|SEAL-FIX-30",
+        "source": "INC-2026-013",
+        "target": "SEAL-FIX-30",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-014|OCCURRED_ON|CNC-01",
+        "source": "INC-2026-014",
+        "target": "CNC-01",
+        "rel": "OCCURRED_ON",
+        "label": "happened on"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-014|ROOT_CAUSE|FM-TOOL-CLAMP-SPRING-OR-SENSOR-FAULT",
+        "source": "INC-2026-014",
+        "target": "FM-TOOL-CLAMP-SPRING-OR-SENSOR-FAULT",
+        "rel": "ROOT_CAUSE",
+        "label": "was caused by"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-014|USED|SENS-PROX-08",
+        "source": "INC-2026-014",
+        "target": "SENS-PROX-08",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-014|USED|SPR-TC-40",
+        "source": "INC-2026-014",
+        "target": "SPR-TC-40",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-015|OCCURRED_ON|CNC-02",
+        "source": "INC-2026-015",
+        "target": "CNC-02",
+        "rel": "OCCURRED_ON",
+        "label": "happened on"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-015|ROOT_CAUSE|FM-SPINDLE-BEARING-WEAR",
+        "source": "INC-2026-015",
+        "target": "FM-SPINDLE-BEARING-WEAR",
+        "rel": "ROOT_CAUSE",
+        "label": "was caused by"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-015|TRIGGERED_BY|SP-104",
+        "source": "INC-2026-015",
+        "target": "SP-104",
+        "rel": "TRIGGERED_BY",
+        "label": "started with"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-015|USED|BRG-7014-ACD",
+        "source": "INC-2026-015",
+        "target": "BRG-7014-ACD",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-015|USED|GREASE-KLB-2",
+        "source": "INC-2026-015",
+        "target": "GREASE-KLB-2",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-015|USED|SEAL-SPDL-70",
+        "source": "INC-2026-015",
+        "target": "SEAL-SPDL-70",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-016|OCCURRED_ON|LT-01",
+        "source": "INC-2026-016",
+        "target": "LT-01",
+        "rel": "OCCURRED_ON",
+        "label": "happened on"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-016|ROOT_CAUSE|FM-PRESSURE-SENSOR-DRIFT",
+        "source": "INC-2026-016",
+        "target": "FM-PRESSURE-SENSOR-DRIFT",
+        "rel": "ROOT_CAUSE",
+        "label": "was caused by"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-016|TRIGGERED_BY|VT-012",
+        "source": "INC-2026-016",
+        "target": "VT-012",
+        "rel": "TRIGGERED_BY",
+        "label": "started with"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-017|OCCURRED_ON|CNC-02",
+        "source": "INC-2026-017",
+        "target": "CNC-02",
+        "rel": "OCCURRED_ON",
+        "label": "happened on"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-017|ROOT_CAUSE|FM-COOLANT-FILTER-BLOCKAGE",
+        "source": "INC-2026-017",
+        "target": "FM-COOLANT-FILTER-BLOCKAGE",
+        "rel": "ROOT_CAUSE",
+        "label": "was caused by"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-017|TRIGGERED_BY|SP-104",
+        "source": "INC-2026-017",
+        "target": "SP-104",
+        "rel": "TRIGGERED_BY",
+        "label": "started with"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-017|USED|FLT-CL-25",
+        "source": "INC-2026-017",
+        "target": "FLT-CL-25",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-018|OCCURRED_ON|LT-01",
+        "source": "INC-2026-018",
+        "target": "LT-01",
+        "rel": "OCCURRED_ON",
+        "label": "happened on"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-018|ROOT_CAUSE|FM-PRESSURE-SENSOR-DRIFT",
+        "source": "INC-2026-018",
+        "target": "FM-PRESSURE-SENSOR-DRIFT",
+        "rel": "ROOT_CAUSE",
+        "label": "was caused by"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-018|TRIGGERED_BY|VT-012",
+        "source": "INC-2026-018",
+        "target": "VT-012",
+        "rel": "TRIGGERED_BY",
+        "label": "started with"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-019|OCCURRED_ON|HP-01",
+        "source": "INC-2026-019",
+        "target": "HP-01",
+        "rel": "OCCURRED_ON",
+        "label": "happened on"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-019|ROOT_CAUSE|FM-HYDRAULIC-OIL-CONTAMINATION",
+        "source": "INC-2026-019",
+        "target": "FM-HYDRAULIC-OIL-CONTAMINATION",
+        "rel": "ROOT_CAUSE",
+        "label": "was caused by"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-019|TRIGGERED_BY|E-230",
+        "source": "INC-2026-019",
+        "target": "E-230",
+        "rel": "TRIGGERED_BY",
+        "label": "started with"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-019|USED|FLT-HYD-10",
+        "source": "INC-2026-019",
+        "target": "FLT-HYD-10",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-019|USED|OIL-HLP46-20L",
+        "source": "INC-2026-019",
+        "target": "OIL-HLP46-20L",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-020|OCCURRED_ON|RW-01",
+        "source": "INC-2026-020",
+        "target": "RW-01",
+        "rel": "OCCURRED_ON",
+        "label": "happened on"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-020|ROOT_CAUSE|FM-GRIPPER-FINGER-WEAR",
+        "source": "INC-2026-020",
+        "target": "FM-GRIPPER-FINGER-WEAR",
+        "rel": "ROOT_CAUSE",
+        "label": "was caused by"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-020|TRIGGERED_BY|RB-551",
+        "source": "INC-2026-020",
+        "target": "RB-551",
+        "rel": "TRIGGERED_BY",
+        "label": "started with"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-020|USED|GRP-FNG-12",
+        "source": "INC-2026-020",
+        "target": "GRP-FNG-12",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-021|OCCURRED_ON|LT-01",
+        "source": "INC-2026-021",
+        "target": "LT-01",
+        "rel": "OCCURRED_ON",
+        "label": "happened on"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-021|ROOT_CAUSE|FM-PRESSURE-SENSOR-DRIFT",
+        "source": "INC-2026-021",
+        "target": "FM-PRESSURE-SENSOR-DRIFT",
+        "rel": "ROOT_CAUSE",
+        "label": "was caused by"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-021|TRIGGERED_BY|VT-012",
+        "source": "INC-2026-021",
+        "target": "VT-012",
+        "rel": "TRIGGERED_BY",
+        "label": "started with"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-022|OCCURRED_ON|CNC-01",
+        "source": "INC-2026-022",
+        "target": "CNC-01",
+        "rel": "OCCURRED_ON",
+        "label": "happened on"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-022|ROOT_CAUSE|FM-TOOL-CLAMP-SPRING-OR-SENSOR-FAULT",
+        "source": "INC-2026-022",
+        "target": "FM-TOOL-CLAMP-SPRING-OR-SENSOR-FAULT",
+        "rel": "ROOT_CAUSE",
+        "label": "was caused by"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-022|TRIGGERED_BY|TC-311",
+        "source": "INC-2026-022",
+        "target": "TC-311",
+        "rel": "TRIGGERED_BY",
+        "label": "started with"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-022|USED|SPR-TC-40",
+        "source": "INC-2026-022",
+        "target": "SPR-TC-40",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-023|OCCURRED_ON|RW-01",
+        "source": "INC-2026-023",
+        "target": "RW-01",
+        "rel": "OCCURRED_ON",
+        "label": "happened on"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-023|ROOT_CAUSE|FM-LIGHT-CURTAIN-MISALIGNMENT",
+        "source": "INC-2026-023",
+        "target": "FM-LIGHT-CURTAIN-MISALIGNMENT",
+        "rel": "ROOT_CAUSE",
+        "label": "was caused by"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-023|TRIGGERED_BY|RB-570",
+        "source": "INC-2026-023",
+        "target": "RB-570",
+        "rel": "TRIGGERED_BY",
+        "label": "started with"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-023|USED|BRKT-LC-01",
+        "source": "INC-2026-023",
+        "target": "BRKT-LC-01",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-024|OCCURRED_ON|RW-01",
+        "source": "INC-2026-024",
+        "target": "RW-01",
+        "rel": "OCCURRED_ON",
+        "label": "happened on"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-024|ROOT_CAUSE|FM-GRIPPER-FINGER-WEAR",
+        "source": "INC-2026-024",
+        "target": "FM-GRIPPER-FINGER-WEAR",
+        "rel": "ROOT_CAUSE",
+        "label": "was caused by"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-024|TRIGGERED_BY|RB-551",
+        "source": "INC-2026-024",
+        "target": "RB-551",
+        "rel": "TRIGGERED_BY",
+        "label": "started with"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-024|USED|CUP-VAC-40",
+        "source": "INC-2026-024",
+        "target": "CUP-VAC-40",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-024|USED|GRP-FNG-12",
+        "source": "INC-2026-024",
+        "target": "GRP-FNG-12",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-025|OCCURRED_ON|LT-01",
+        "source": "INC-2026-025",
+        "target": "LT-01",
+        "rel": "OCCURRED_ON",
+        "label": "happened on"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-025|ROOT_CAUSE|FM-PRESSURE-SENSOR-DRIFT",
+        "source": "INC-2026-025",
+        "target": "FM-PRESSURE-SENSOR-DRIFT",
+        "rel": "ROOT_CAUSE",
+        "label": "was caused by"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-025|TRIGGERED_BY|VT-012",
+        "source": "INC-2026-025",
+        "target": "VT-012",
+        "rel": "TRIGGERED_BY",
+        "label": "started with"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-025|USED|SENS-PRS-10",
+        "source": "INC-2026-025",
+        "target": "SENS-PRS-10",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-026|OCCURRED_ON|CNC-02",
+        "source": "INC-2026-026",
+        "target": "CNC-02",
+        "rel": "OCCURRED_ON",
+        "label": "happened on"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-026|ROOT_CAUSE|FM-TOOL-CLAMP-SPRING-OR-SENSOR-FAULT",
+        "source": "INC-2026-026",
+        "target": "FM-TOOL-CLAMP-SPRING-OR-SENSOR-FAULT",
+        "rel": "ROOT_CAUSE",
+        "label": "was caused by"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-026|TRIGGERED_BY|TC-305",
+        "source": "INC-2026-026",
+        "target": "TC-305",
+        "rel": "TRIGGERED_BY",
+        "label": "started with"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-026|USED|SENS-PROX-08",
+        "source": "INC-2026-026",
+        "target": "SENS-PROX-08",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-026|USED|SPR-TC-40",
+        "source": "INC-2026-026",
+        "target": "SPR-TC-40",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-027|OCCURRED_ON|CNC-01",
+        "source": "INC-2026-027",
+        "target": "CNC-01",
+        "rel": "OCCURRED_ON",
+        "label": "happened on"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-027|ROOT_CAUSE|FM-TOOL-CLAMP-SPRING-OR-SENSOR-FAULT",
+        "source": "INC-2026-027",
+        "target": "FM-TOOL-CLAMP-SPRING-OR-SENSOR-FAULT",
+        "rel": "ROOT_CAUSE",
+        "label": "was caused by"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-027|USED|SENS-PROX-08",
+        "source": "INC-2026-027",
+        "target": "SENS-PROX-08",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-027|USED|SPR-TC-40",
+        "source": "INC-2026-027",
+        "target": "SPR-TC-40",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-028|OCCURRED_ON|CNC-02",
+        "source": "INC-2026-028",
+        "target": "CNC-02",
+        "rel": "OCCURRED_ON",
+        "label": "happened on"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-028|ROOT_CAUSE|FM-COOLANT-FILTER-BLOCKAGE",
+        "source": "INC-2026-028",
+        "target": "FM-COOLANT-FILTER-BLOCKAGE",
+        "rel": "ROOT_CAUSE",
+        "label": "was caused by"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-028|USED|FLT-CL-25",
+        "source": "INC-2026-028",
+        "target": "FLT-CL-25",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-029|OCCURRED_ON|LT-01",
+        "source": "INC-2026-029",
+        "target": "LT-01",
+        "rel": "OCCURRED_ON",
+        "label": "happened on"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-029|ROOT_CAUSE|FM-FIXTURE-SEAL-WEAR",
+        "source": "INC-2026-029",
+        "target": "FM-FIXTURE-SEAL-WEAR",
+        "rel": "ROOT_CAUSE",
+        "label": "was caused by"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-029|TRIGGERED_BY|VT-018",
+        "source": "INC-2026-029",
+        "target": "VT-018",
+        "rel": "TRIGGERED_BY",
+        "label": "started with"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-029|USED|O-RING-NBR-30",
+        "source": "INC-2026-029",
+        "target": "O-RING-NBR-30",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-029|USED|SEAL-FIX-30",
+        "source": "INC-2026-029",
+        "target": "SEAL-FIX-30",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-030|OCCURRED_ON|HP-01",
+        "source": "INC-2026-030",
+        "target": "HP-01",
+        "rel": "OCCURRED_ON",
+        "label": "happened on"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-030|ROOT_CAUSE|FM-HYDRAULIC-OIL-CONTAMINATION",
+        "source": "INC-2026-030",
+        "target": "FM-HYDRAULIC-OIL-CONTAMINATION",
+        "rel": "ROOT_CAUSE",
+        "label": "was caused by"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-030|TRIGGERED_BY|E-230",
+        "source": "INC-2026-030",
+        "target": "E-230",
+        "rel": "TRIGGERED_BY",
+        "label": "started with"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-030|USED|FLT-HYD-10",
+        "source": "INC-2026-030",
+        "target": "FLT-HYD-10",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-030|USED|OIL-HLP46-20L",
+        "source": "INC-2026-030",
+        "target": "OIL-HLP46-20L",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-031|OCCURRED_ON|HP-01",
+        "source": "INC-2026-031",
+        "target": "HP-01",
+        "rel": "OCCURRED_ON",
+        "label": "happened on"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-031|ROOT_CAUSE|FM-MAIN-CYLINDER-SEAL-WEAR",
+        "source": "INC-2026-031",
+        "target": "FM-MAIN-CYLINDER-SEAL-WEAR",
+        "rel": "ROOT_CAUSE",
+        "label": "was caused by"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-031|TRIGGERED_BY|E-217",
+        "source": "INC-2026-031",
+        "target": "E-217",
+        "rel": "TRIGGERED_BY",
+        "label": "started with"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-031|USED|OIL-HLP46-20L",
+        "source": "INC-2026-031",
+        "target": "OIL-HLP46-20L",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-031|USED|SEAL-KIT-50",
+        "source": "INC-2026-031",
+        "target": "SEAL-KIT-50",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-032|OCCURRED_ON|HP-01",
+        "source": "INC-2026-032",
+        "target": "HP-01",
+        "rel": "OCCURRED_ON",
+        "label": "happened on"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-032|ROOT_CAUSE|FM-RELIEF-VALVE-MISADJUSTMENT",
+        "source": "INC-2026-032",
+        "target": "FM-RELIEF-VALVE-MISADJUSTMENT",
+        "rel": "ROOT_CAUSE",
+        "label": "was caused by"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-032|TRIGGERED_BY|E-252",
+        "source": "INC-2026-032",
+        "target": "E-252",
+        "rel": "TRIGGERED_BY",
+        "label": "started with"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-032|USED|GAUGE-PRS-250",
+        "source": "INC-2026-032",
+        "target": "GAUGE-PRS-250",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-032|USED|SEAL-RV-25",
+        "source": "INC-2026-032",
+        "target": "SEAL-RV-25",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-033|OCCURRED_ON|RW-01",
+        "source": "INC-2026-033",
+        "target": "RW-01",
+        "rel": "OCCURRED_ON",
+        "label": "happened on"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-033|ROOT_CAUSE|FM-LIGHT-CURTAIN-MISALIGNMENT",
+        "source": "INC-2026-033",
+        "target": "FM-LIGHT-CURTAIN-MISALIGNMENT",
+        "rel": "ROOT_CAUSE",
+        "label": "was caused by"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-033|TRIGGERED_BY|RB-570",
+        "source": "INC-2026-033",
+        "target": "RB-570",
+        "rel": "TRIGGERED_BY",
+        "label": "started with"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-033|USED|BRKT-LC-01",
+        "source": "INC-2026-033",
+        "target": "BRKT-LC-01",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-034|OCCURRED_ON|HP-01",
+        "source": "INC-2026-034",
+        "target": "HP-01",
+        "rel": "OCCURRED_ON",
+        "label": "happened on"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-034|ROOT_CAUSE|FM-MAIN-CYLINDER-SEAL-WEAR",
+        "source": "INC-2026-034",
+        "target": "FM-MAIN-CYLINDER-SEAL-WEAR",
+        "rel": "ROOT_CAUSE",
+        "label": "was caused by"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-034|TRIGGERED_BY|E-217",
+        "source": "INC-2026-034",
+        "target": "E-217",
+        "rel": "TRIGGERED_BY",
+        "label": "started with"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-034|USED|OIL-HLP46-20L",
+        "source": "INC-2026-034",
+        "target": "OIL-HLP46-20L",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-034|USED|SEAL-KIT-50",
+        "source": "INC-2026-034",
+        "target": "SEAL-KIT-50",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-034|USED|SWITCH-LIM-01",
+        "source": "INC-2026-034",
+        "target": "SWITCH-LIM-01",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-035|OCCURRED_ON|HP-01",
+        "source": "INC-2026-035",
+        "target": "HP-01",
+        "rel": "OCCURRED_ON",
+        "label": "happened on"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-035|ROOT_CAUSE|FM-RELIEF-VALVE-MISADJUSTMENT",
+        "source": "INC-2026-035",
+        "target": "FM-RELIEF-VALVE-MISADJUSTMENT",
+        "rel": "ROOT_CAUSE",
+        "label": "was caused by"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-035|USED|SEAL-RV-25",
+        "source": "INC-2026-035",
+        "target": "SEAL-RV-25",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-036|OCCURRED_ON|CNC-01",
+        "source": "INC-2026-036",
+        "target": "CNC-01",
+        "rel": "OCCURRED_ON",
+        "label": "happened on"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-036|ROOT_CAUSE|FM-SPINDLE-BEARING-WEAR",
+        "source": "INC-2026-036",
+        "target": "FM-SPINDLE-BEARING-WEAR",
+        "rel": "ROOT_CAUSE",
+        "label": "was caused by"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-036|TRIGGERED_BY|SP-104",
+        "source": "INC-2026-036",
+        "target": "SP-104",
+        "rel": "TRIGGERED_BY",
+        "label": "started with"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-036|USED|BRG-7014-ACD",
+        "source": "INC-2026-036",
+        "target": "BRG-7014-ACD",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-036|USED|COLLET-ER32",
+        "source": "INC-2026-036",
+        "target": "COLLET-ER32",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-036|USED|GREASE-KLB-2",
+        "source": "INC-2026-036",
+        "target": "GREASE-KLB-2",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-036|USED|SEAL-SPDL-70",
+        "source": "INC-2026-036",
+        "target": "SEAL-SPDL-70",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-037|OCCURRED_ON|CNC-02",
+        "source": "INC-2026-037",
+        "target": "CNC-02",
+        "rel": "OCCURRED_ON",
+        "label": "happened on"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-037|ROOT_CAUSE|FM-COOLANT-FILTER-BLOCKAGE",
+        "source": "INC-2026-037",
+        "target": "FM-COOLANT-FILTER-BLOCKAGE",
+        "rel": "ROOT_CAUSE",
+        "label": "was caused by"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-037|TRIGGERED_BY|CL-214",
+        "source": "INC-2026-037",
+        "target": "CL-214",
+        "rel": "TRIGGERED_BY",
+        "label": "started with"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-037|USED|FLT-CL-25",
+        "source": "INC-2026-037",
+        "target": "FLT-CL-25",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-038|OCCURRED_ON|CNC-01",
+        "source": "INC-2026-038",
+        "target": "CNC-01",
+        "rel": "OCCURRED_ON",
+        "label": "happened on"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-038|ROOT_CAUSE|FM-TOOL-CLAMP-SPRING-OR-SENSOR-FAULT",
+        "source": "INC-2026-038",
+        "target": "FM-TOOL-CLAMP-SPRING-OR-SENSOR-FAULT",
+        "rel": "ROOT_CAUSE",
+        "label": "was caused by"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-038|TRIGGERED_BY|TC-311",
+        "source": "INC-2026-038",
+        "target": "TC-311",
+        "rel": "TRIGGERED_BY",
+        "label": "started with"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-038|USED|SENS-PROX-08",
+        "source": "INC-2026-038",
+        "target": "SENS-PROX-08",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-038|USED|SPR-TC-40",
+        "source": "INC-2026-038",
+        "target": "SPR-TC-40",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-039|OCCURRED_ON|CNC-02",
+        "source": "INC-2026-039",
+        "target": "CNC-02",
+        "rel": "OCCURRED_ON",
+        "label": "happened on"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-039|ROOT_CAUSE|FM-SPINDLE-BEARING-WEAR",
+        "source": "INC-2026-039",
+        "target": "FM-SPINDLE-BEARING-WEAR",
+        "rel": "ROOT_CAUSE",
+        "label": "was caused by"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-039|TRIGGERED_BY|SP-117",
+        "source": "INC-2026-039",
+        "target": "SP-117",
+        "rel": "TRIGGERED_BY",
+        "label": "started with"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-039|USED|BRG-7014-ACD",
+        "source": "INC-2026-039",
+        "target": "BRG-7014-ACD",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-039|USED|GREASE-KLB-2",
+        "source": "INC-2026-039",
+        "target": "GREASE-KLB-2",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-039|USED|SEAL-SPDL-70",
+        "source": "INC-2026-039",
+        "target": "SEAL-SPDL-70",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-040|OCCURRED_ON|RW-01",
+        "source": "INC-2026-040",
+        "target": "RW-01",
+        "rel": "OCCURRED_ON",
+        "label": "happened on"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-040|ROOT_CAUSE|FM-GRIPPER-FINGER-WEAR",
+        "source": "INC-2026-040",
+        "target": "FM-GRIPPER-FINGER-WEAR",
+        "rel": "ROOT_CAUSE",
+        "label": "was caused by"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-040|TRIGGERED_BY|RB-551",
+        "source": "INC-2026-040",
+        "target": "RB-551",
+        "rel": "TRIGGERED_BY",
+        "label": "started with"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-040|USED|GRP-FNG-12",
+        "source": "INC-2026-040",
+        "target": "GRP-FNG-12",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-041|OCCURRED_ON|CNC-01",
+        "source": "INC-2026-041",
+        "target": "CNC-01",
+        "rel": "OCCURRED_ON",
+        "label": "happened on"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-041|ROOT_CAUSE|FM-COOLANT-FILTER-BLOCKAGE",
+        "source": "INC-2026-041",
+        "target": "FM-COOLANT-FILTER-BLOCKAGE",
+        "rel": "ROOT_CAUSE",
+        "label": "was caused by"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-041|TRIGGERED_BY|CL-210",
+        "source": "INC-2026-041",
+        "target": "CL-210",
+        "rel": "TRIGGERED_BY",
+        "label": "started with"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-041|USED|FLT-CL-25",
+        "source": "INC-2026-041",
+        "target": "FLT-CL-25",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-042|OCCURRED_ON|HP-01",
+        "source": "INC-2026-042",
+        "target": "HP-01",
+        "rel": "OCCURRED_ON",
+        "label": "happened on"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-042|ROOT_CAUSE|FM-RELIEF-VALVE-MISADJUSTMENT",
+        "source": "INC-2026-042",
+        "target": "FM-RELIEF-VALVE-MISADJUSTMENT",
+        "rel": "ROOT_CAUSE",
+        "label": "was caused by"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-042|USED|GAUGE-PRS-250",
+        "source": "INC-2026-042",
+        "target": "GAUGE-PRS-250",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-042|USED|SEAL-RV-25",
+        "source": "INC-2026-042",
+        "target": "SEAL-RV-25",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-043|OCCURRED_ON|CNC-02",
+        "source": "INC-2026-043",
+        "target": "CNC-02",
+        "rel": "OCCURRED_ON",
+        "label": "happened on"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-043|ROOT_CAUSE|FM-SPINDLE-BEARING-WEAR",
+        "source": "INC-2026-043",
+        "target": "FM-SPINDLE-BEARING-WEAR",
+        "rel": "ROOT_CAUSE",
+        "label": "was caused by"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-043|TRIGGERED_BY|SP-104",
+        "source": "INC-2026-043",
+        "target": "SP-104",
+        "rel": "TRIGGERED_BY",
+        "label": "started with"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-043|USED|BRG-7014-ACD",
+        "source": "INC-2026-043",
+        "target": "BRG-7014-ACD",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-043|USED|GREASE-KLB-2",
+        "source": "INC-2026-043",
+        "target": "GREASE-KLB-2",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-043|USED|SEAL-SPDL-70",
+        "source": "INC-2026-043",
+        "target": "SEAL-SPDL-70",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-044|OCCURRED_ON|HP-01",
+        "source": "INC-2026-044",
+        "target": "HP-01",
+        "rel": "OCCURRED_ON",
+        "label": "happened on"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-044|ROOT_CAUSE|FM-RELIEF-VALVE-MISADJUSTMENT",
+        "source": "INC-2026-044",
+        "target": "FM-RELIEF-VALVE-MISADJUSTMENT",
+        "rel": "ROOT_CAUSE",
+        "label": "was caused by"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-044|TRIGGERED_BY|E-221",
+        "source": "INC-2026-044",
+        "target": "E-221",
+        "rel": "TRIGGERED_BY",
+        "label": "started with"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-044|USED|SEAL-RV-25",
+        "source": "INC-2026-044",
+        "target": "SEAL-RV-25",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-045|OCCURRED_ON|HP-01",
+        "source": "INC-2026-045",
+        "target": "HP-01",
+        "rel": "OCCURRED_ON",
+        "label": "happened on"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-045|ROOT_CAUSE|FM-HYDRAULIC-OIL-CONTAMINATION",
+        "source": "INC-2026-045",
+        "target": "FM-HYDRAULIC-OIL-CONTAMINATION",
+        "rel": "ROOT_CAUSE",
+        "label": "was caused by"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-045|TRIGGERED_BY|E-221",
+        "source": "INC-2026-045",
+        "target": "E-221",
+        "rel": "TRIGGERED_BY",
+        "label": "started with"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-045|USED|FLT-HYD-10",
+        "source": "INC-2026-045",
+        "target": "FLT-HYD-10",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-045|USED|OIL-HLP46-20L",
+        "source": "INC-2026-045",
+        "target": "OIL-HLP46-20L",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-046|OCCURRED_ON|RW-01",
+        "source": "INC-2026-046",
+        "target": "RW-01",
+        "rel": "OCCURRED_ON",
+        "label": "happened on"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-046|ROOT_CAUSE|FM-AXIS-2-OVERLOAD",
+        "source": "INC-2026-046",
+        "target": "FM-AXIS-2-OVERLOAD",
+        "rel": "ROOT_CAUSE",
+        "label": "was caused by"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-046|TRIGGERED_BY|RB-563",
+        "source": "INC-2026-046",
+        "target": "RB-563",
+        "rel": "TRIGGERED_BY",
+        "label": "started with"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-046|USED|BRG-6205-2RS",
+        "source": "INC-2026-046",
+        "target": "BRG-6205-2RS",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-046|USED|FUSE-SRV-10",
+        "source": "INC-2026-046",
+        "target": "FUSE-SRV-10",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-047|OCCURRED_ON|LT-01",
+        "source": "INC-2026-047",
+        "target": "LT-01",
+        "rel": "OCCURRED_ON",
+        "label": "happened on"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-047|ROOT_CAUSE|FM-PRESSURE-SENSOR-DRIFT",
+        "source": "INC-2026-047",
+        "target": "FM-PRESSURE-SENSOR-DRIFT",
+        "rel": "ROOT_CAUSE",
+        "label": "was caused by"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-047|TRIGGERED_BY|VT-012",
+        "source": "INC-2026-047",
+        "target": "VT-012",
+        "rel": "TRIGGERED_BY",
+        "label": "started with"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-047|USED|SENS-PRS-10",
+        "source": "INC-2026-047",
+        "target": "SENS-PRS-10",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-048|OCCURRED_ON|CNC-01",
+        "source": "INC-2026-048",
+        "target": "CNC-01",
+        "rel": "OCCURRED_ON",
+        "label": "happened on"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-048|ROOT_CAUSE|FM-SPINDLE-BEARING-WEAR",
+        "source": "INC-2026-048",
+        "target": "FM-SPINDLE-BEARING-WEAR",
+        "rel": "ROOT_CAUSE",
+        "label": "was caused by"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-048|TRIGGERED_BY|SP-104",
+        "source": "INC-2026-048",
+        "target": "SP-104",
+        "rel": "TRIGGERED_BY",
+        "label": "started with"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-048|USED|BRG-7014-ACD",
+        "source": "INC-2026-048",
+        "target": "BRG-7014-ACD",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-048|USED|GREASE-KLB-2",
+        "source": "INC-2026-048",
+        "target": "GREASE-KLB-2",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-048|USED|SEAL-SPDL-70",
+        "source": "INC-2026-048",
+        "target": "SEAL-SPDL-70",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-048|USED|SENS-PT100-01",
+        "source": "INC-2026-048",
+        "target": "SENS-PT100-01",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-049|OCCURRED_ON|CNC-02",
+        "source": "INC-2026-049",
+        "target": "CNC-02",
+        "rel": "OCCURRED_ON",
+        "label": "happened on"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-049|ROOT_CAUSE|FM-SPINDLE-BEARING-WEAR",
+        "source": "INC-2026-049",
+        "target": "FM-SPINDLE-BEARING-WEAR",
+        "rel": "ROOT_CAUSE",
+        "label": "was caused by"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-049|TRIGGERED_BY|SP-104",
+        "source": "INC-2026-049",
+        "target": "SP-104",
+        "rel": "TRIGGERED_BY",
+        "label": "started with"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-049|USED|BRG-7014-ACD",
+        "source": "INC-2026-049",
+        "target": "BRG-7014-ACD",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-049|USED|SEAL-SPDL-70",
+        "source": "INC-2026-049",
+        "target": "SEAL-SPDL-70",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-049|USED|SENS-PT100-01",
+        "source": "INC-2026-049",
+        "target": "SENS-PT100-01",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-050|OCCURRED_ON|CNC-02",
+        "source": "INC-2026-050",
+        "target": "CNC-02",
+        "rel": "OCCURRED_ON",
+        "label": "happened on"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-050|ROOT_CAUSE|FM-COOLANT-FILTER-BLOCKAGE",
+        "source": "INC-2026-050",
+        "target": "FM-COOLANT-FILTER-BLOCKAGE",
+        "rel": "ROOT_CAUSE",
+        "label": "was caused by"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-050|TRIGGERED_BY|CL-214",
+        "source": "INC-2026-050",
+        "target": "CL-214",
+        "rel": "TRIGGERED_BY",
+        "label": "started with"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-050|USED|FLT-CL-25",
+        "source": "INC-2026-050",
+        "target": "FLT-CL-25",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-051|OCCURRED_ON|CNC-02",
+        "source": "INC-2026-051",
+        "target": "CNC-02",
+        "rel": "OCCURRED_ON",
+        "label": "happened on"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-051|ROOT_CAUSE|FM-COOLANT-FILTER-BLOCKAGE",
+        "source": "INC-2026-051",
+        "target": "FM-COOLANT-FILTER-BLOCKAGE",
+        "rel": "ROOT_CAUSE",
+        "label": "was caused by"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-051|TRIGGERED_BY|CL-214",
+        "source": "INC-2026-051",
+        "target": "CL-214",
+        "rel": "TRIGGERED_BY",
+        "label": "started with"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-051|USED|FLT-CL-25",
+        "source": "INC-2026-051",
+        "target": "FLT-CL-25",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-051|USED|PUMP-CL-04",
+        "source": "INC-2026-051",
+        "target": "PUMP-CL-04",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-052|OCCURRED_ON|CNC-01",
+        "source": "INC-2026-052",
+        "target": "CNC-01",
+        "rel": "OCCURRED_ON",
+        "label": "happened on"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-052|ROOT_CAUSE|FM-COOLANT-FILTER-BLOCKAGE",
+        "source": "INC-2026-052",
+        "target": "FM-COOLANT-FILTER-BLOCKAGE",
+        "rel": "ROOT_CAUSE",
+        "label": "was caused by"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-052|USED|FLT-CL-25",
+        "source": "INC-2026-052",
+        "target": "FLT-CL-25",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-053|OCCURRED_ON|CNC-02",
+        "source": "INC-2026-053",
+        "target": "CNC-02",
+        "rel": "OCCURRED_ON",
+        "label": "happened on"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-053|ROOT_CAUSE|FM-SPINDLE-BEARING-WEAR",
+        "source": "INC-2026-053",
+        "target": "FM-SPINDLE-BEARING-WEAR",
+        "rel": "ROOT_CAUSE",
+        "label": "was caused by"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-053|TRIGGERED_BY|SP-104",
+        "source": "INC-2026-053",
+        "target": "SP-104",
+        "rel": "TRIGGERED_BY",
+        "label": "started with"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-053|USED|BRG-7014-ACD",
+        "source": "INC-2026-053",
+        "target": "BRG-7014-ACD",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-053|USED|GREASE-KLB-2",
+        "source": "INC-2026-053",
+        "target": "GREASE-KLB-2",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-053|USED|SEAL-SPDL-70",
+        "source": "INC-2026-053",
+        "target": "SEAL-SPDL-70",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-053|USED|SENS-PT100-01",
+        "source": "INC-2026-053",
+        "target": "SENS-PT100-01",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-054|OCCURRED_ON|CNC-01",
+        "source": "INC-2026-054",
+        "target": "CNC-01",
+        "rel": "OCCURRED_ON",
+        "label": "happened on"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-054|ROOT_CAUSE|FM-SPINDLE-BEARING-WEAR",
+        "source": "INC-2026-054",
+        "target": "FM-SPINDLE-BEARING-WEAR",
+        "rel": "ROOT_CAUSE",
+        "label": "was caused by"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-054|TRIGGERED_BY|SP-117",
+        "source": "INC-2026-054",
+        "target": "SP-117",
+        "rel": "TRIGGERED_BY",
+        "label": "started with"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-054|USED|BRG-7014-ACD",
+        "source": "INC-2026-054",
+        "target": "BRG-7014-ACD",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-054|USED|GREASE-KLB-2",
+        "source": "INC-2026-054",
+        "target": "GREASE-KLB-2",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-054|USED|SEAL-SPDL-70",
+        "source": "INC-2026-054",
+        "target": "SEAL-SPDL-70",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-054|USED|SENS-PT100-01",
+        "source": "INC-2026-054",
+        "target": "SENS-PT100-01",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-055|OCCURRED_ON|LT-01",
+        "source": "INC-2026-055",
+        "target": "LT-01",
+        "rel": "OCCURRED_ON",
+        "label": "happened on"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-055|ROOT_CAUSE|FM-PRESSURE-SENSOR-DRIFT",
+        "source": "INC-2026-055",
+        "target": "FM-PRESSURE-SENSOR-DRIFT",
+        "rel": "ROOT_CAUSE",
+        "label": "was caused by"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-055|TRIGGERED_BY|VT-012",
+        "source": "INC-2026-055",
+        "target": "VT-012",
+        "rel": "TRIGGERED_BY",
+        "label": "started with"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-056|OCCURRED_ON|CNC-02",
+        "source": "INC-2026-056",
+        "target": "CNC-02",
+        "rel": "OCCURRED_ON",
+        "label": "happened on"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-056|ROOT_CAUSE|FM-SPINDLE-BEARING-WEAR",
+        "source": "INC-2026-056",
+        "target": "FM-SPINDLE-BEARING-WEAR",
+        "rel": "ROOT_CAUSE",
+        "label": "was caused by"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-056|TRIGGERED_BY|SP-104",
+        "source": "INC-2026-056",
+        "target": "SP-104",
+        "rel": "TRIGGERED_BY",
+        "label": "started with"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-056|USED|BRG-7014-ACD",
+        "source": "INC-2026-056",
+        "target": "BRG-7014-ACD",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-056|USED|GREASE-KLB-2",
+        "source": "INC-2026-056",
+        "target": "GREASE-KLB-2",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-056|USED|SEAL-SPDL-70",
+        "source": "INC-2026-056",
+        "target": "SEAL-SPDL-70",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-057|OCCURRED_ON|LT-01",
+        "source": "INC-2026-057",
+        "target": "LT-01",
+        "rel": "OCCURRED_ON",
+        "label": "happened on"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-057|ROOT_CAUSE|FM-PRESSURE-SENSOR-DRIFT",
+        "source": "INC-2026-057",
+        "target": "FM-PRESSURE-SENSOR-DRIFT",
+        "rel": "ROOT_CAUSE",
+        "label": "was caused by"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-057|TRIGGERED_BY|VT-012",
+        "source": "INC-2026-057",
+        "target": "VT-012",
+        "rel": "TRIGGERED_BY",
+        "label": "started with"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-058|OCCURRED_ON|RW-01",
+        "source": "INC-2026-058",
+        "target": "RW-01",
+        "rel": "OCCURRED_ON",
+        "label": "happened on"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-058|ROOT_CAUSE|FM-GRIPPER-FINGER-WEAR",
+        "source": "INC-2026-058",
+        "target": "FM-GRIPPER-FINGER-WEAR",
+        "rel": "ROOT_CAUSE",
+        "label": "was caused by"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-058|TRIGGERED_BY|RB-551",
+        "source": "INC-2026-058",
+        "target": "RB-551",
+        "rel": "TRIGGERED_BY",
+        "label": "started with"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-058|USED|GRP-FNG-12",
+        "source": "INC-2026-058",
+        "target": "GRP-FNG-12",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-059|OCCURRED_ON|HP-01",
+        "source": "INC-2026-059",
+        "target": "HP-01",
+        "rel": "OCCURRED_ON",
+        "label": "happened on"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-059|ROOT_CAUSE|FM-MAIN-CYLINDER-SEAL-WEAR",
+        "source": "INC-2026-059",
+        "target": "FM-MAIN-CYLINDER-SEAL-WEAR",
+        "rel": "ROOT_CAUSE",
+        "label": "was caused by"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-059|USED|OIL-HLP46-20L",
+        "source": "INC-2026-059",
+        "target": "OIL-HLP46-20L",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-059|USED|SEAL-KIT-50",
+        "source": "INC-2026-059",
+        "target": "SEAL-KIT-50",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-060|OCCURRED_ON|HP-01",
+        "source": "INC-2026-060",
+        "target": "HP-01",
+        "rel": "OCCURRED_ON",
+        "label": "happened on"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-060|ROOT_CAUSE|FM-MAIN-CYLINDER-SEAL-WEAR",
+        "source": "INC-2026-060",
+        "target": "FM-MAIN-CYLINDER-SEAL-WEAR",
+        "rel": "ROOT_CAUSE",
+        "label": "was caused by"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-060|TRIGGERED_BY|E-217",
+        "source": "INC-2026-060",
+        "target": "E-217",
+        "rel": "TRIGGERED_BY",
+        "label": "started with"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-060|USED|OIL-HLP46-20L",
+        "source": "INC-2026-060",
+        "target": "OIL-HLP46-20L",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-060|USED|SEAL-KIT-50",
+        "source": "INC-2026-060",
+        "target": "SEAL-KIT-50",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-061|OCCURRED_ON|RW-01",
+        "source": "INC-2026-061",
+        "target": "RW-01",
+        "rel": "OCCURRED_ON",
+        "label": "happened on"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-061|ROOT_CAUSE|FM-GRIPPER-FINGER-WEAR",
+        "source": "INC-2026-061",
+        "target": "FM-GRIPPER-FINGER-WEAR",
+        "rel": "ROOT_CAUSE",
+        "label": "was caused by"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-061|TRIGGERED_BY|RB-551",
+        "source": "INC-2026-061",
+        "target": "RB-551",
+        "rel": "TRIGGERED_BY",
+        "label": "started with"
+      }
+    },
+    {
+      "data": {
+        "id": "INC-2026-061|USED|GRP-FNG-12",
+        "source": "INC-2026-061",
+        "target": "GRP-FNG-12",
+        "rel": "USED",
+        "label": "used"
+      }
+    },
+    {
+      "data": {
+        "id": "LINE-03|HAS_MACHINE|CNC-01",
+        "source": "LINE-03",
+        "target": "CNC-01",
+        "rel": "HAS_MACHINE",
+        "label": "has machine"
+      }
+    },
+    {
+      "data": {
+        "id": "LINE-03|HAS_MACHINE|CNC-02",
+        "source": "LINE-03",
+        "target": "CNC-02",
+        "rel": "HAS_MACHINE",
+        "label": "has machine"
+      }
+    },
+    {
+      "data": {
+        "id": "LINE-03|HAS_MACHINE|HP-01",
+        "source": "LINE-03",
+        "target": "HP-01",
+        "rel": "HAS_MACHINE",
+        "label": "has machine"
+      }
+    },
+    {
+      "data": {
+        "id": "LINE-03|HAS_MACHINE|LT-01",
+        "source": "LINE-03",
+        "target": "LT-01",
+        "rel": "HAS_MACHINE",
+        "label": "has machine"
+      }
+    },
+    {
+      "data": {
+        "id": "LINE-03|HAS_MACHINE|RW-01",
+        "source": "LINE-03",
+        "target": "RW-01",
+        "rel": "HAS_MACHINE",
+        "label": "has machine"
+      }
+    },
+    {
+      "data": {
+        "id": "LT-01|HAS_COMPONENT|LT-01-FILLVLV",
+        "source": "LT-01",
+        "target": "LT-01-FILLVLV",
+        "rel": "HAS_COMPONENT",
+        "label": "is built from"
+      }
+    },
+    {
+      "data": {
+        "id": "LT-01|HAS_COMPONENT|LT-01-FIXTURE",
+        "source": "LT-01",
+        "target": "LT-01-FIXTURE",
+        "rel": "HAS_COMPONENT",
+        "label": "is built from"
+      }
+    },
+    {
+      "data": {
+        "id": "LT-01|HAS_COMPONENT|LT-01-PRSSENS",
+        "source": "LT-01",
+        "target": "LT-01-PRSSENS",
+        "rel": "HAS_COMPONENT",
+        "label": "is built from"
+      }
+    },
+    {
+      "data": {
+        "id": "LT-01|RAISED|VT-012",
+        "source": "LT-01",
+        "target": "VT-012",
+        "rel": "RAISED",
+        "label": "raised"
+      }
+    },
+    {
+      "data": {
+        "id": "LT-01|RAISED|VT-018",
+        "source": "LT-01",
+        "target": "VT-018",
+        "rel": "RAISED",
+        "label": "raised"
+      }
+    },
+    {
+      "data": {
+        "id": "LT-01|RAISED|VT-021",
+        "source": "LT-01",
+        "target": "VT-021",
+        "rel": "RAISED",
+        "label": "raised"
+      }
+    },
+    {
+      "data": {
+        "id": "NOZZLE-CL-06|FITS|CNC-01-COOLANT",
+        "source": "NOZZLE-CL-06",
+        "target": "CNC-01-COOLANT",
+        "rel": "FITS",
+        "label": "fits"
+      }
+    },
+    {
+      "data": {
+        "id": "NOZZLE-CL-06|FITS|CNC-02-COOLANT",
+        "source": "NOZZLE-CL-06",
+        "target": "CNC-02-COOLANT",
+        "rel": "FITS",
+        "label": "fits"
+      }
+    },
+    {
+      "data": {
+        "id": "NUT-GLAND-50|FITS|HP-01-MAINCYL",
+        "source": "NUT-GLAND-50",
+        "target": "HP-01-MAINCYL",
+        "rel": "FITS",
+        "label": "fits"
+      }
+    },
+    {
+      "data": {
+        "id": "O-RING-NBR-12|FITS|HP-01-RELIEF",
+        "source": "O-RING-NBR-12",
+        "target": "HP-01-RELIEF",
+        "rel": "FITS",
+        "label": "fits"
+      }
+    },
+    {
+      "data": {
+        "id": "O-RING-NBR-30|FITS|LT-01-FIXTURE",
+        "source": "O-RING-NBR-30",
+        "target": "LT-01-FIXTURE",
+        "rel": "FITS",
+        "label": "fits"
+      }
+    },
+    {
+      "data": {
+        "id": "OIL-HLP46-20L|FITS|HP-01-HYDPUMP",
+        "source": "OIL-HLP46-20L",
+        "target": "HP-01-HYDPUMP",
+        "rel": "FITS",
+        "label": "fits"
+      }
+    },
+    {
+      "data": {
+        "id": "OIL-HLP46-20L|FITS|HP-01-MAINCYL",
+        "source": "OIL-HLP46-20L",
+        "target": "HP-01-MAINCYL",
+        "rel": "FITS",
+        "label": "fits"
+      }
+    },
+    {
+      "data": {
+        "id": "PROC-CNC-01|REQUIRES|BRG-7014-ACD",
+        "source": "PROC-CNC-01",
+        "target": "BRG-7014-ACD",
+        "rel": "REQUIRES",
+        "label": "needs"
+      }
+    },
+    {
+      "data": {
+        "id": "PROC-CNC-01|REQUIRES|GREASE-KLB-2",
+        "source": "PROC-CNC-01",
+        "target": "GREASE-KLB-2",
+        "rel": "REQUIRES",
+        "label": "needs"
+      }
+    },
+    {
+      "data": {
+        "id": "PROC-CNC-01|REQUIRES|SEAL-SPDL-70",
+        "source": "PROC-CNC-01",
+        "target": "SEAL-SPDL-70",
+        "rel": "REQUIRES",
+        "label": "needs"
+      }
+    },
+    {
+      "data": {
+        "id": "PROC-CNC-03|REQUIRES|FLT-CL-25",
+        "source": "PROC-CNC-03",
+        "target": "FLT-CL-25",
+        "rel": "REQUIRES",
+        "label": "needs"
+      }
+    },
+    {
+      "data": {
+        "id": "PROC-CNC-04|REQUIRES|SENS-PROX-08",
+        "source": "PROC-CNC-04",
+        "target": "SENS-PROX-08",
+        "rel": "REQUIRES",
+        "label": "needs"
+      }
+    },
+    {
+      "data": {
+        "id": "PROC-CNC-04|REQUIRES|SPR-TC-40",
+        "source": "PROC-CNC-04",
+        "target": "SPR-TC-40",
+        "rel": "REQUIRES",
+        "label": "needs"
+      }
+    },
+    {
+      "data": {
+        "id": "PROC-HP-04|REQUIRES|OIL-HLP46-20L",
+        "source": "PROC-HP-04",
+        "target": "OIL-HLP46-20L",
+        "rel": "REQUIRES",
+        "label": "needs"
+      }
+    },
+    {
+      "data": {
+        "id": "PROC-HP-04|REQUIRES|SEAL-KIT-50",
+        "source": "PROC-HP-04",
+        "target": "SEAL-KIT-50",
+        "rel": "REQUIRES",
+        "label": "needs"
+      }
+    },
+    {
+      "data": {
+        "id": "PROC-HP-05|REQUIRES|FLT-HYD-10",
+        "source": "PROC-HP-05",
+        "target": "FLT-HYD-10",
+        "rel": "REQUIRES",
+        "label": "needs"
+      }
+    },
+    {
+      "data": {
+        "id": "PROC-HP-05|REQUIRES|OIL-HLP46-20L",
+        "source": "PROC-HP-05",
+        "target": "OIL-HLP46-20L",
+        "rel": "REQUIRES",
+        "label": "needs"
+      }
+    },
+    {
+      "data": {
+        "id": "PROC-HP-06|REQUIRES|SEAL-RV-25",
+        "source": "PROC-HP-06",
+        "target": "SEAL-RV-25",
+        "rel": "REQUIRES",
+        "label": "needs"
+      }
+    },
+    {
+      "data": {
+        "id": "PROC-LT-02|REQUIRES|SEAL-FIX-30",
+        "source": "PROC-LT-02",
+        "target": "SEAL-FIX-30",
+        "rel": "REQUIRES",
+        "label": "needs"
+      }
+    },
+    {
+      "data": {
+        "id": "PROC-RW-01|REQUIRES|GRP-FNG-12",
+        "source": "PROC-RW-01",
+        "target": "GRP-FNG-12",
+        "rel": "REQUIRES",
+        "label": "needs"
+      }
+    },
+    {
+      "data": {
+        "id": "PROC-RW-02|REQUIRES|BRG-6205-2RS",
+        "source": "PROC-RW-02",
+        "target": "BRG-6205-2RS",
+        "rel": "REQUIRES",
+        "label": "needs"
+      }
+    },
+    {
+      "data": {
+        "id": "PROC-RW-02|REQUIRES|FUSE-SRV-10",
+        "source": "PROC-RW-02",
+        "target": "FUSE-SRV-10",
+        "rel": "REQUIRES",
+        "label": "needs"
+      }
+    },
+    {
+      "data": {
+        "id": "PROC-RW-03|REQUIRES|BRKT-LC-01",
+        "source": "PROC-RW-03",
+        "target": "BRKT-LC-01",
+        "rel": "REQUIRES",
+        "label": "needs"
+      }
+    },
+    {
+      "data": {
+        "id": "PUMP-CL-04|FITS|CNC-01-COOLANT",
+        "source": "PUMP-CL-04",
+        "target": "CNC-01-COOLANT",
+        "rel": "FITS",
+        "label": "fits"
+      }
+    },
+    {
+      "data": {
+        "id": "PUMP-CL-04|FITS|CNC-02-COOLANT",
+        "source": "PUMP-CL-04",
+        "target": "CNC-02-COOLANT",
+        "rel": "FITS",
+        "label": "fits"
+      }
+    },
+    {
+      "data": {
+        "id": "RB-551|INDICATES|FM-GRIPPER-FINGER-WEAR",
+        "source": "RB-551",
+        "target": "FM-GRIPPER-FINGER-WEAR",
+        "rel": "INDICATES",
+        "label": "usually means"
+      }
+    },
+    {
+      "data": {
+        "id": "RB-560|INDICATES|FM-AXIS-2-OVERLOAD",
+        "source": "RB-560",
+        "target": "FM-AXIS-2-OVERLOAD",
+        "rel": "INDICATES",
+        "label": "usually means"
+      }
+    },
+    {
+      "data": {
+        "id": "RB-563|INDICATES|FM-AXIS-2-OVERLOAD",
+        "source": "RB-563",
+        "target": "FM-AXIS-2-OVERLOAD",
+        "rel": "INDICATES",
+        "label": "usually means"
+      }
+    },
+    {
+      "data": {
+        "id": "RB-570|INDICATES|FM-LIGHT-CURTAIN-MISALIGNMENT",
+        "source": "RB-570",
+        "target": "FM-LIGHT-CURTAIN-MISALIGNMENT",
+        "rel": "INDICATES",
+        "label": "usually means"
+      }
+    },
+    {
+      "data": {
+        "id": "RELAY-SAF-24|FITS|RW-01-LIGHTCUR",
+        "source": "RELAY-SAF-24",
+        "target": "RW-01-LIGHTCUR",
+        "rel": "FITS",
+        "label": "fits"
+      }
+    },
+    {
+      "data": {
+        "id": "RW-01|HAS_COMPONENT|RW-01-AXIS2",
+        "source": "RW-01",
+        "target": "RW-01-AXIS2",
+        "rel": "HAS_COMPONENT",
+        "label": "is built from"
+      }
+    },
+    {
+      "data": {
+        "id": "RW-01|HAS_COMPONENT|RW-01-GRIPPER",
+        "source": "RW-01",
+        "target": "RW-01-GRIPPER",
+        "rel": "HAS_COMPONENT",
+        "label": "is built from"
+      }
+    },
+    {
+      "data": {
+        "id": "RW-01|HAS_COMPONENT|RW-01-LIGHTCUR",
+        "source": "RW-01",
+        "target": "RW-01-LIGHTCUR",
+        "rel": "HAS_COMPONENT",
+        "label": "is built from"
+      }
+    },
+    {
+      "data": {
+        "id": "RW-01|RAISED|RB-551",
+        "source": "RW-01",
+        "target": "RB-551",
+        "rel": "RAISED",
+        "label": "raised"
+      }
+    },
+    {
+      "data": {
+        "id": "RW-01|RAISED|RB-560",
+        "source": "RW-01",
+        "target": "RB-560",
+        "rel": "RAISED",
+        "label": "raised"
+      }
+    },
+    {
+      "data": {
+        "id": "RW-01|RAISED|RB-563",
+        "source": "RW-01",
+        "target": "RB-563",
+        "rel": "RAISED",
+        "label": "raised"
+      }
+    },
+    {
+      "data": {
+        "id": "RW-01|RAISED|RB-570",
+        "source": "RW-01",
+        "target": "RB-570",
+        "rel": "RAISED",
+        "label": "raised"
+      }
+    },
+    {
+      "data": {
+        "id": "SEAL-FIX-30|FITS|LT-01-FIXTURE",
+        "source": "SEAL-FIX-30",
+        "target": "LT-01-FIXTURE",
+        "rel": "FITS",
+        "label": "fits"
+      }
+    },
+    {
+      "data": {
+        "id": "SEAL-KIT-50|FITS|HP-01-MAINCYL",
+        "source": "SEAL-KIT-50",
+        "target": "HP-01-MAINCYL",
+        "rel": "FITS",
+        "label": "fits"
+      }
+    },
+    {
+      "data": {
+        "id": "SEAL-RV-25|FITS|HP-01-RELIEF",
+        "source": "SEAL-RV-25",
+        "target": "HP-01-RELIEF",
+        "rel": "FITS",
+        "label": "fits"
+      }
+    },
+    {
+      "data": {
+        "id": "SEAL-SPDL-70|FITS|CNC-01-SPINDLE",
+        "source": "SEAL-SPDL-70",
+        "target": "CNC-01-SPINDLE",
+        "rel": "FITS",
+        "label": "fits"
+      }
+    },
+    {
+      "data": {
+        "id": "SEAL-SPDL-70|FITS|CNC-02-SPINDLE",
+        "source": "SEAL-SPDL-70",
+        "target": "CNC-02-SPINDLE",
+        "rel": "FITS",
+        "label": "fits"
+      }
+    },
+    {
+      "data": {
+        "id": "SENS-PROX-08|FITS|CNC-01-TOOLCHG",
+        "source": "SENS-PROX-08",
+        "target": "CNC-01-TOOLCHG",
+        "rel": "FITS",
+        "label": "fits"
+      }
+    },
+    {
+      "data": {
+        "id": "SENS-PROX-08|FITS|CNC-02-TOOLCHG",
+        "source": "SENS-PROX-08",
+        "target": "CNC-02-TOOLCHG",
+        "rel": "FITS",
+        "label": "fits"
+      }
+    },
+    {
+      "data": {
+        "id": "SENS-PRS-10|FITS|LT-01-PRSSENS",
+        "source": "SENS-PRS-10",
+        "target": "LT-01-PRSSENS",
+        "rel": "FITS",
+        "label": "fits"
+      }
+    },
+    {
+      "data": {
+        "id": "SENS-PT100-01|FITS|CNC-01-SPINDLE",
+        "source": "SENS-PT100-01",
+        "target": "CNC-01-SPINDLE",
+        "rel": "FITS",
+        "label": "fits"
+      }
+    },
+    {
+      "data": {
+        "id": "SENS-PT100-01|FITS|CNC-02-SPINDLE",
+        "source": "SENS-PT100-01",
+        "target": "CNC-02-SPINDLE",
+        "rel": "FITS",
+        "label": "fits"
+      }
+    },
+    {
+      "data": {
+        "id": "SENS-PT100-01|FITS|HP-01-HYDPUMP",
+        "source": "SENS-PT100-01",
+        "target": "HP-01-HYDPUMP",
+        "rel": "FITS",
+        "label": "fits"
+      }
+    },
+    {
+      "data": {
+        "id": "SP-104|INDICATES|FM-COOLANT-FILTER-BLOCKAGE",
+        "source": "SP-104",
+        "target": "FM-COOLANT-FILTER-BLOCKAGE",
+        "rel": "INDICATES",
+        "label": "usually means"
+      }
+    },
+    {
+      "data": {
+        "id": "SP-104|INDICATES|FM-SPINDLE-BEARING-WEAR",
+        "source": "SP-104",
+        "target": "FM-SPINDLE-BEARING-WEAR",
+        "rel": "INDICATES",
+        "label": "usually means"
+      }
+    },
+    {
+      "data": {
+        "id": "SP-117|INDICATES|FM-SPINDLE-BEARING-WEAR",
+        "source": "SP-117",
+        "target": "FM-SPINDLE-BEARING-WEAR",
+        "rel": "INDICATES",
+        "label": "usually means"
+      }
+    },
+    {
+      "data": {
+        "id": "SPR-TC-40|FITS|CNC-01-TOOLCHG",
+        "source": "SPR-TC-40",
+        "target": "CNC-01-TOOLCHG",
+        "rel": "FITS",
+        "label": "fits"
+      }
+    },
+    {
+      "data": {
+        "id": "SPR-TC-40|FITS|CNC-02-TOOLCHG",
+        "source": "SPR-TC-40",
+        "target": "CNC-02-TOOLCHG",
+        "rel": "FITS",
+        "label": "fits"
+      }
+    },
+    {
+      "data": {
+        "id": "SWITCH-LIM-01|FITS|HP-01-MAINCYL",
+        "source": "SWITCH-LIM-01",
+        "target": "HP-01-MAINCYL",
+        "rel": "FITS",
+        "label": "fits"
+      }
+    },
+    {
+      "data": {
+        "id": "TC-305|INDICATES|FM-TOOL-CLAMP-SPRING-OR-SENSOR-FAULT",
+        "source": "TC-305",
+        "target": "FM-TOOL-CLAMP-SPRING-OR-SENSOR-FAULT",
+        "rel": "INDICATES",
+        "label": "usually means"
+      }
+    },
+    {
+      "data": {
+        "id": "TC-311|INDICATES|FM-TOOL-CLAMP-SPRING-OR-SENSOR-FAULT",
+        "source": "TC-311",
+        "target": "FM-TOOL-CLAMP-SPRING-OR-SENSOR-FAULT",
+        "rel": "INDICATES",
+        "label": "usually means"
+      }
+    },
+    {
+      "data": {
+        "id": "VALVE-FILL-08|FITS|LT-01-FILLVLV",
+        "source": "VALVE-FILL-08",
+        "target": "LT-01-FILLVLV",
+        "rel": "FITS",
+        "label": "fits"
+      }
+    },
+    {
+      "data": {
+        "id": "VT-012|INDICATES|FM-PRESSURE-SENSOR-DRIFT",
+        "source": "VT-012",
+        "target": "FM-PRESSURE-SENSOR-DRIFT",
+        "rel": "INDICATES",
+        "label": "usually means"
+      }
+    },
+    {
+      "data": {
+        "id": "VT-018|INDICATES|FM-FIXTURE-SEAL-WEAR",
+        "source": "VT-018",
+        "target": "FM-FIXTURE-SEAL-WEAR",
+        "rel": "INDICATES",
+        "label": "usually means"
+      }
+    },
+    {
+      "data": {
+        "id": "VT-018|INDICATES|FM-PRESSURE-SENSOR-DRIFT",
+        "source": "VT-018",
+        "target": "FM-PRESSURE-SENSOR-DRIFT",
+        "rel": "INDICATES",
+        "label": "usually means"
+      }
+    },
+    {
+      "data": {
+        "id": "VT-021|INDICATES|FM-FIXTURE-SEAL-WEAR",
+        "source": "VT-021",
+        "target": "FM-FIXTURE-SEAL-WEAR",
+        "rel": "INDICATES",
+        "label": "usually means"
+      }
+    },
+    {
+      "data": {
+        "id": "WIPER-CYL-50|FITS|HP-01-MAINCYL",
+        "source": "WIPER-CYL-50",
+        "target": "HP-01-MAINCYL",
+        "rel": "FITS",
+        "label": "fits"
+      }
+    }
+  ]
+}

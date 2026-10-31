@@ -1,0 +1,9 @@
+Shift handover 18/06/2026 C shift
+From: Jun Hao   To: Jia Hui
+
+- HP1 stoppde 0403 w/ ERR 230, pressure hunting, oil running hot. Change hydrualic oli & filter (FLT HYD 10), running ok now. Down approx 4h. pls f/u w/ stores.
+- waiting on gripper fingers, stores says noen left
+- pls f/u on stores count for seals
+- CNC 1 running fine, tool wear ok
+
+Signed JHC

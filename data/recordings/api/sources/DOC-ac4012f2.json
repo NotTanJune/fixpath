@@ -1,0 +1,57 @@
+{
+  "id": "DOC-ac4012f2",
+  "path": "handovers/handover_2026-08-23_A.txt",
+  "doc_type": "handover",
+  "kind": "text",
+  "text": "Shift handover 2026-08-23 Shift A\nFrom: WM   To: Aisyah\n\n- pls f/u on stores count for seals\n- CNC 2 stopped 1014 w/ ALM CL-214, coloant pressure dropping, parts cmoing out hot. Clean coolant filter & fulsh lines (FLTCL25), tested ok. Down approx 3h. pls f/u w/ stores.\n- leak tester master part passed at statr of shift\n\nSigned WM\n",
+  "spans": [
+    {
+      "quote": "- CNC 2 stopped 1014 w/ ALM CL-214, coloant pressure dropping, parts cmoing out hot. Clean coolant filter & fulsh lines (FLTCL25), tested ok. Down approx 3h. pls f/u w/ stores.",
+      "start": 93,
+      "end": 269,
+      "page": null,
+      "fact_kind": "node",
+      "fact_id": "INC-2026-050",
+      "type": "Incident",
+      "label": "coolant pressure dropping, parts coming out hot",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- CNC 2 stopped 1014 w/ ALM CL-214, coloant pressure dropping, parts cmoing out hot. Clean coolant filter & fulsh lines (FLTCL25), tested ok. Down approx 3h. pls f/u w/ stores.",
+      "start": 93,
+      "end": 269,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-050|OCCURRED_ON|CNC-02",
+      "type": "OCCURRED_ON",
+      "label": "INC-2026-050 happened on CNC-02",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- CNC 2 stopped 1014 w/ ALM CL-214, coloant pressure dropping, parts cmoing out hot. Clean coolant filter & fulsh lines (FLTCL25), tested ok. Down approx 3h. pls f/u w/ stores.",
+      "start": 93,
+      "end": 269,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-050|TRIGGERED_BY|CL-214",
+      "type": "TRIGGERED_BY",
+      "label": "INC-2026-050 started with CL-214",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- CNC 2 stopped 1014 w/ ALM CL-214, coloant pressure dropping, parts cmoing out hot. Clean coolant filter & fulsh lines (FLTCL25), tested ok. Down approx 3h. pls f/u w/ stores.",
+      "start": 93,
+      "end": 269,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-050|USED|FLT-CL-25",
+      "type": "USED",
+      "label": "INC-2026-050 used FLT-CL-25",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    }
+  ]
+}

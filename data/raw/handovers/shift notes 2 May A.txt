@@ -1,0 +1,7 @@
+Shift handover 2 May Shift A
+From: WM   To: NA
+
+- leak tester master part passed at start of shift
+- chk ari pressure at LT1, ok
+
+Signed Wei Ming

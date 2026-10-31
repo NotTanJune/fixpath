@@ -1,0 +1,7 @@
+Shift handover 2026-08-03 Shift A
+From: WM   To: Rajesh
+
+- waiting on gripper fingers, stores says noen left
+- Kessler 2 stopped 1255 w/ ALM SP-104, spindle running hot adn noisy at high rpm. Repl spidnle brg set (BRG7014ACD x2, GREASEKLB2, SEAL SPDL 70), test run ok. Down 230 min. f/u tmr.
+
+Signed WM

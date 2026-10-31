@@ -1,0 +1,57 @@
+{
+  "id": "DOC-a338ad87",
+  "path": "handovers/handover_2026-08-12_C.txt",
+  "doc_type": "handover",
+  "kind": "text",
+  "text": "Shift handover 12/08/2026 night\nFrom: AP   To: Wei Ming\n\n- deburr cell stopped 0326 w/ RB563, robot arm jerky on axis 2, driev alarm. Inspect aixs 2 & reset servo drive (brg 6205), test run ok. Down 130 mni.\n- waiting on gripper fingers, stores says none left\n\nSigned AP\n",
+  "spans": [
+    {
+      "quote": "- deburr cell stopped 0326 w/ RB563, robot arm jerky on axis 2, driev alarm. Inspect aixs 2 & reset servo drive (brg 6205), test run ok. Down 130 mni.",
+      "start": 57,
+      "end": 207,
+      "page": null,
+      "fact_kind": "node",
+      "fact_id": "INC-2026-046",
+      "type": "Incident",
+      "label": "robot arm jerky on axis 2, drive alarm",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- deburr cell stopped 0326 w/ RB563, robot arm jerky on axis 2, driev alarm. Inspect aixs 2 & reset servo drive (brg 6205), test run ok. Down 130 mni.",
+      "start": 57,
+      "end": 207,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-046|OCCURRED_ON|RW-01",
+      "type": "OCCURRED_ON",
+      "label": "INC-2026-046 happened on RW-01",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- deburr cell stopped 0326 w/ RB563, robot arm jerky on axis 2, driev alarm. Inspect aixs 2 & reset servo drive (brg 6205), test run ok. Down 130 mni.",
+      "start": 57,
+      "end": 207,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-046|TRIGGERED_BY|RB-563",
+      "type": "TRIGGERED_BY",
+      "label": "INC-2026-046 started with RB-563",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- deburr cell stopped 0326 w/ RB563, robot arm jerky on axis 2, driev alarm. Inspect aixs 2 & reset servo drive (brg 6205), test run ok. Down 130 mni.",
+      "start": 57,
+      "end": 207,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-046|USED|BRG-6205-2RS",
+      "type": "USED",
+      "label": "INC-2026-046 used BRG-6205-2RS",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    }
+  ]
+}

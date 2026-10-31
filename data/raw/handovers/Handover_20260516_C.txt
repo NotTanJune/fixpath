@@ -1,0 +1,7 @@
+Shift handover 16/05/2026 C shift
+From: MH   To: Jia Hui
+
+- waiting on gripper fingers, stores says nnoe left
+- leak tester stopped 0147 w/ VT-012, master part reading out of tolerance. Recalibrate pressure sensor, rnuning ok now. Down 145 mni.
+
+Signed MH

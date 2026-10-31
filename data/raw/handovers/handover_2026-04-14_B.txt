@@ -1,0 +1,9 @@
+Shift handover 14 Apr B
+From: RP   To: MH
+
+- HP-01 stopped 1538 w/ E-245, press losing pressure mid-stroke, oil on the floor. Rpel main cylinder seal kit (OIL HLP46 20L, SK-50), tested ok. Down 425 min.
+- coolant topped up on MC-2
+- pls f/u on stores count for seals
+- perss warm-up normal
+
+Signed Rajesh

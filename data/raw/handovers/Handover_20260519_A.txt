@@ -1,0 +1,8 @@
+Shift handover 19/05/2026 Shift A
+From: Jia Hui   To: NA
+
+- CNC 1 stopped 1141 w/ TC311, tool change takes too long then faults. Repl tool clamp disc springs (disc springs TC), test run ok. Down 335 min.
+- CNC 1 running fine, tool waer ok
+- press warm-up normal
+
+Signed JH

@@ -1,0 +1,9 @@
+Shift handover 22 Apr B
+From: RP   To: JHC
+
+- chk air pressure at LT1, ok
+- Press 2 stopped 1648 w/ Err:217, press losing pressure mid-stroke, oil on the floor. Repl main cylinder seal kit (SK-50), running ok now. Down 525 min. pls chk again tmr.
+- 5S done on robot cell
+- CNC 1 running fine, tool wear ok
+
+Signed Rajesh

@@ -1,0 +1,431 @@
+:root {
+  --bd: #f9f5d7; /* Gruvbox light hard, bg0_h: page and panels */
+  --well: #f2e5bc; /* bg0_s: wells, inputs, table heads, hover */
+  --wash: #ebdbb2; /* bg1: washes, disabled fills, empty tracks */
+  --ink: #1d2023;
+  --blue: #1f4fd1;
+  --hair: rgba(29, 32, 35, 0.3);
+  --faint: rgba(29, 32, 35, 0.1);
+  --muted: #5a6168;
+  --sl: #3e5c76;
+  --am: #d9921a;
+  --rd: #c2362b;
+  --gr: #2d8653;
+  --vi: #6a4c9c;
+  --so: #8a8f96;
+  --desk: #bdae93; /* Gruvbox bg3: the desk a document page lies on; white reads 2.2:1 against it, ink labels 7.5:1 */
+  --paper: #ffffff; /* a document page: the one place white is allowed, because the page is content */
+  --mark: rgba(250, 189, 47, 0.45); /* Gruvbox yellow as a highlighter: multiplied onto the page */
+  --mark-solid: #fabd2f; /* the same yellow at full strength: the open fact on the fact map */
+  --point-faint: #928374; /* Gruvbox gray: the facts and passages that are not from the open file */
+  --sheet-head: #e8eaed; /* the grey headers of a spreadsheet: column letters, row numbers, the tab bar */
+  --sheet-ink: #3c4043; /* their text: 8.4:1 on the headers */
+  --sheet-line: #c9d0d9; /* the thin grey grid between cells */
+  --sheet-cell: #1f2937; /* the text of a cell that the file does not colour */
+  --dots: #7c6f64; /* Gruvbox fg4: the dotted underline of a fact that was not cited, 4.7:1 on white */
+  --font: "Barlow", system-ui, sans-serif; /* the one family: hierarchy is weight, size, case, italic */
+  --ease: cubic-bezier(0.16, 1, 0.3, 1);
+  --cell: 24px;
+  --bar: 48px;
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  background: var(--bd);
+  color: var(--ink);
+  font-family: var(--font);
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.4;
+  font-variant-numeric: tabular-nums lining-nums;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  caret-color: var(--blue);
+  accent-color: var(--blue);
+  scrollbar-color: var(--muted) transparent;
+  scrollbar-width: thin;
+}
+
+::selection {
+  background: var(--blue);
+  color: var(--bd);
+}
+
+button,
+input,
+select {
+  font: inherit;
+  color: inherit;
+  border-radius: 0;
+}
+
+button {
+  cursor: pointer;
+  background: none;
+  border: 0;
+  text-align: left;
+}
+
+button:disabled,
+[aria-disabled="true"] {
+  cursor: not-allowed;
+}
+
+a {
+  color: inherit;
+}
+
+h1,
+h2,
+h3,
+.id,
+.num,
+.tab,
+.brand,
+.pill,
+.spend,
+th,
+.conf {
+  font-variant-numeric: tabular-nums lining-nums;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.id {
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+.num {
+  font-variant-numeric: tabular-nums lining-nums;
+}
+
+.quiet {
+  color: var(--muted);
+}
+
+.sr {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+:focus-visible {
+  outline: 3px solid var(--blue);
+  outline-offset: 2px;
+}
+
+/* the skip links: out of sight until they have focus */
+
+.skips {
+  position: fixed;
+  top: 2px;
+  left: 24px;
+  z-index: 40;
+  display: flex;
+  gap: 8px;
+}
+
+.skip {
+  min-height: 44px;
+  padding: 0 16px;
+  background: var(--well);
+  color: var(--ink);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  border: 3px solid var(--blue);
+}
+
+.skip:not(:focus) {
+  position: absolute;
+  transform: translateY(-120px);
+}
+
+/* the app shell */
+
+.top {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  height: var(--bar);
+  background: var(--ink);
+  color: var(--bd);
+  display: flex;
+  align-items: stretch;
+  padding: 0 24px;
+}
+
+.top :focus-visible {
+  outline-color: var(--bd);
+  outline-offset: -3px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-right: 36px;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  text-decoration: none;
+}
+
+.brand::before {
+  content: "";
+  width: 14px;
+  height: 14px;
+  background: var(--well);
+}
+
+.tabs {
+  display: flex;
+  align-items: stretch;
+}
+
+.tab {
+  display: flex;
+  align-items: center;
+  padding: 0 22px;
+  min-width: 44px;
+  font-size: 17px;
+  font-weight: 600;
+  color: #b9bec4;
+  text-decoration: none;
+  border-bottom: 4px solid transparent;
+}
+
+.tab:hover {
+  color: var(--bd);
+}
+
+.tab.on {
+  background: var(--bd);
+  color: var(--ink);
+  border-bottom-color: var(--blue);
+}
+
+.status {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.pill {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid #5c6268;
+  padding: 4px 12px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.pill::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background: var(--gr);
+}
+
+.pill.replay::before {
+  background: none;
+  border: 2px dashed var(--bd);
+}
+
+.pill.off::before {
+  background: var(--rd);
+}
+
+.pill.wait::before {
+  background: none;
+  border: 2px dashed #b9bec4;
+}
+
+.spend {
+  font-size: 15px;
+  font-weight: 600;
+  min-width: 96px;
+  text-align: right;
+}
+
+.view {
+  min-height: calc(100vh - var(--bar));
+}
+
+/* shared pieces */
+
+.gh {
+  min-height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+  border-bottom: 2px solid var(--ink);
+  font-size: 14px;
+}
+
+.gh h2 {
+  font-size: 17px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.sec {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 16px;
+  min-height: 30px;
+  border-bottom: 2px solid var(--ink);
+  padding-bottom: 3px;
+  gap: 12px;
+}
+
+.sec h2 {
+  font-size: 17px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.sec h2 span {
+  text-transform: none;
+  letter-spacing: 0.02em;
+  margin-left: 6px;
+}
+
+.sec small {
+  font-size: 14px;
+  color: var(--muted);
+}
+
+.idlink {
+  color: var(--blue);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+  padding: 0;
+  min-height: 24px;
+  font-weight: 600;
+}
+
+.idlink:hover {
+  text-decoration-thickness: 2px;
+}
+
+.idlink.strong {
+  font-size: 1.04em;
+}
+
+.idlink.onchip {
+  color: inherit;
+  text-decoration-color: currentColor;
+  display: block;
+  width: 100%;
+  min-height: 0;
+}
+
+.link {
+  color: var(--blue);
+  text-underline-offset: 3px;
+  font-weight: 700;
+}
+
+.icon-btn {
+  width: 44px;
+  height: 44px;
+  display: grid;
+  place-items: center;
+  border: 2px solid var(--ink);
+  background: var(--well);
+}
+
+.icon-btn:hover {
+  background: var(--ink);
+  color: var(--bd);
+}
+
+.plain-error {
+  padding: 12px 16px;
+  border: 2px solid var(--ink);
+  background: var(--well);
+  max-width: 62ch;
+}
+
+.pad {
+  padding: 16px;
+}
+
+/* tables */
+
+.tbl {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.tbl th {
+  text-align: left;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 6px 10px 5px 0;
+  border-bottom: 2px solid var(--ink);
+  position: sticky;
+  top: 0;
+  background: var(--well);
+  white-space: nowrap;
+}
+
+.tbl td {
+  padding: 6px 10px 6px 0;
+  border-bottom: 1px solid var(--hair);
+  vertical-align: top;
+}
+
+.tbl .r-al {
+  text-align: right;
+}
+
+.tbl tr.on td {
+  background: rgba(31, 79, 209, 0.1);
+}
+
+.tbl tr.dashed-row td {
+  border-bottom-style: dashed;
+  border-bottom-color: var(--ink);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 1ms !important;
+    animation-delay: 0ms !important;
+    transition-duration: 1ms !important;
+    transition-delay: 0ms !important;
+  }
+}

@@ -1,0 +1,7 @@
+Shift handover 2026-06-20 Shift A
+From: JH   To: Aisyah
+
+- nothing major, all machines running
+- Press 2 stopped 1150 w/ Err:217, oli leaking under the ram, pressure dropping. Repl main cylinder seal kit (SEALKIT50), tested ok. Down approx 6h. f/u tmr.
+
+Signed Jia Hui

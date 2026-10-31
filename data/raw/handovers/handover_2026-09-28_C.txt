@@ -1,0 +1,7 @@
+Shift handover 28 Sep C shift
+From: Jun Hao   To: Jia Hui
+
+- press warm-up normal
+- RC-1 stopped 0623 w/ RB551, robot dropping parts at the deburr station. Repl gripper fingers (GRP FNG 12 x2), test run ok. Donw approx 2h. f/u tmr.
+
+Signed JHC

@@ -1,0 +1,57 @@
+{
+  "id": "DOC-dd145032",
+  "path": "handovers/handover_2026-07-19_C.txt",
+  "doc_type": "handover",
+  "kind": "text",
+  "text": "Shift handover 19/07/2026 C shift\nFrom: Jun Hao   To: Siew Ling\n\n- psl f/u on stores count for seals\n- chk air pressure at LT1, ok\n- CNC2 stopped 0324 w/ SP-117, grinding noise from spindle, vibration alarm. Repl spindle brg set (7014ACD x2), running ok now. Down 535 min. chk again next shift.\n- press warm-up normal\n\nSigned Jun Hao\n",
+  "spans": [
+    {
+      "quote": "- CNC2 stopped 0324 w/ SP-117, grinding noise from spindle, vibration alarm. Repl spindle brg set (7014ACD x2), running ok now. Down 535 min. chk again next shift.",
+      "start": 131,
+      "end": 294,
+      "page": null,
+      "fact_kind": "node",
+      "fact_id": "INC-2026-039",
+      "type": "Incident",
+      "label": "grinding noise from spindle, vibration alarm",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- CNC2 stopped 0324 w/ SP-117, grinding noise from spindle, vibration alarm. Repl spindle brg set (7014ACD x2), running ok now. Down 535 min. chk again next shift.",
+      "start": 131,
+      "end": 294,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-039|OCCURRED_ON|CNC-02",
+      "type": "OCCURRED_ON",
+      "label": "INC-2026-039 happened on CNC-02",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- CNC2 stopped 0324 w/ SP-117, grinding noise from spindle, vibration alarm. Repl spindle brg set (7014ACD x2), running ok now. Down 535 min. chk again next shift.",
+      "start": 131,
+      "end": 294,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-039|TRIGGERED_BY|SP-117",
+      "type": "TRIGGERED_BY",
+      "label": "INC-2026-039 started with SP-117",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- CNC2 stopped 0324 w/ SP-117, grinding noise from spindle, vibration alarm. Repl spindle brg set (7014ACD x2), running ok now. Down 535 min. chk again next shift.",
+      "start": 131,
+      "end": 294,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-039|USED|BRG-7014-ACD",
+      "type": "USED",
+      "label": "INC-2026-039 used BRG-7014-ACD",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    }
+  ]
+}

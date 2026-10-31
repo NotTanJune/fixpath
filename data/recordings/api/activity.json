@@ -1,0 +1,168 @@
+{
+  "breakdowns": [
+    {
+      "id": "INC-2026-061",
+      "date": "2026-09-28",
+      "shift": "C",
+      "downtime_min": 120,
+      "machine": "RW-01",
+      "machine_name": "Robot workcell",
+      "alarm": "RB-551",
+      "alarm_message": "Gripper part-present signal lost",
+      "cause_id": "FM-GRIPPER-FINGER-WEAR",
+      "cause_name": "gripper finger wear",
+      "symptom": "robot dropping parts at the deburr station",
+      "doc_id": "DOC-d0d89be6"
+    },
+    {
+      "id": "INC-2026-060",
+      "date": "2026-09-28",
+      "shift": null,
+      "downtime_min": 420,
+      "machine": "HP-01",
+      "machine_name": "Hydraulic press",
+      "alarm": "E-217",
+      "alarm_message": "Main cylinder pressure loss",
+      "cause_id": "FM-MAIN-CYLINDER-SEAL-WEAR",
+      "cause_name": "main cylinder seal wear",
+      "symptom": "press losing pressure mid-stroke, oil on the floor",
+      "doc_id": "DOC-d62200db"
+    },
+    {
+      "id": "INC-2026-059",
+      "date": "2026-09-17",
+      "shift": "A",
+      "downtime_min": 475,
+      "machine": "HP-01",
+      "machine_name": "Hydraulic press",
+      "alarm": null,
+      "alarm_message": null,
+      "cause_id": "FM-MAIN-CYLINDER-SEAL-WEAR",
+      "cause_name": "main cylinder seal wear",
+      "symptom": "oil leaking under the ram, pressure dropping",
+      "doc_id": "DOC-d62200db"
+    },
+    {
+      "id": "INC-2026-058",
+      "date": "2026-09-12",
+      "shift": "C",
+      "downtime_min": 180,
+      "machine": "RW-01",
+      "machine_name": "Robot workcell",
+      "alarm": "RB-551",
+      "alarm_message": "Gripper part-present signal lost",
+      "cause_id": "FM-GRIPPER-FINGER-WEAR",
+      "cause_name": "gripper finger wear",
+      "symptom": "part-present signal flickering, grippre slipipng",
+      "doc_id": "DOC-2a02eaf8"
+    },
+    {
+      "id": "INC-2026-057",
+      "date": "2026-09-11",
+      "shift": "A",
+      "downtime_min": 110,
+      "machine": "LT-01",
+      "machine_name": "Leak tester",
+      "alarm": "VT-012",
+      "alarm_message": "Reference pressure out of tolerance",
+      "cause_id": "FM-PRESSURE-SENSOR-DRIFT",
+      "cause_name": "pressure sensor drift",
+      "symptom": "master part reading out of tolerance",
+      "doc_id": "DOC-d62200db"
+    },
+    {
+      "id": "INC-2026-056",
+      "date": "2026-09-05",
+      "shift": "B",
+      "downtime_min": 570,
+      "machine": "CNC-02",
+      "machine_name": "Machining centre 2",
+      "alarm": "SP-104",
+      "alarm_message": "Spindle temperature high",
+      "cause_id": "FM-SPINDLE-BEARING-WEAR",
+      "cause_name": "spindle bearing wear",
+      "symptom": "spindle running hot and noisy at high rpm",
+      "doc_id": "DOC-d62200db"
+    },
+    {
+      "id": "INC-2026-055",
+      "date": "2026-09-03",
+      "shift": "B",
+      "downtime_min": 95,
+      "machine": "LT-01",
+      "machine_name": "Leak tester",
+      "alarm": "VT-012",
+      "alarm_message": "Reference pressure out of tolerance",
+      "cause_id": "FM-PRESSURE-SENSOR-DRIFT",
+      "cause_name": "pressure sensor drift",
+      "symptom": "master part reading out of tolerance",
+      "doc_id": "DOC-d62200db"
+    },
+    {
+      "id": "INC-2026-054",
+      "date": "2026-09-02",
+      "shift": "A",
+      "downtime_min": 645,
+      "machine": "CNC-01",
+      "machine_name": "Machining centre 1",
+      "alarm": "SP-117",
+      "alarm_message": "Spindle vibration above limit",
+      "cause_id": "FM-SPINDLE-BEARING-WEAR",
+      "cause_name": "spindle bearing wear",
+      "symptom": "grinding noise from spindle, vibration alarm",
+      "doc_id": "DOC-d62200db"
+    }
+  ],
+  "alarms": [
+    {
+      "machine": "CNC-01",
+      "machine_name": "Machining centre 1",
+      "alarm": "SP-117",
+      "alarm_message": "Spindle vibration above limit",
+      "severity": "warning",
+      "last_seen": "2026-09-30T13:58:46+00:00",
+      "count": 22,
+      "doc_id": "DOC-398dbca4"
+    },
+    {
+      "machine": "HP-01",
+      "machine_name": "Hydraulic press",
+      "alarm": "E-221",
+      "alarm_message": "Hydraulic oil temperature high",
+      "severity": "warning",
+      "last_seen": "2026-09-30T09:00:28+00:00",
+      "count": 24,
+      "doc_id": "DOC-3188ef61"
+    },
+    {
+      "machine": "HP-01",
+      "machine_name": "Hydraulic press",
+      "alarm": "E-200",
+      "alarm_message": "Pump start",
+      "severity": "info",
+      "last_seen": "2026-09-29T22:45:00+00:00",
+      "count": 181,
+      "doc_id": "DOC-3188ef61"
+    },
+    {
+      "machine": "CNC-01",
+      "machine_name": "Machining centre 1",
+      "alarm": "SP-001",
+      "alarm_message": "Warm-up cycle complete",
+      "severity": "info",
+      "last_seen": "2026-09-29T22:30:00+00:00",
+      "count": 182,
+      "doc_id": "DOC-398dbca4"
+    },
+    {
+      "machine": "CNC-02",
+      "machine_name": "Machining centre 2",
+      "alarm": "SP-001",
+      "alarm_message": "Warm-up cycle complete",
+      "severity": "info",
+      "last_seen": "2026-09-29T22:30:00+00:00",
+      "count": 178,
+      "doc_id": "DOC-9a8946e9"
+    }
+  ]
+}

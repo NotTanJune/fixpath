@@ -1,0 +1,8 @@
+Shift handover 23 Apr Shift A
+From: Siew Ling   To: RP
+
+- VT station stopped 1233 w/ VT21, fill taeks too long, seals look flattened. Repl fixture seals (fixture seal x2), running ok now. Down 95 min.
+- nothing major, all machines running
+- coolant topped up on MC-2
+
+Signed SL

@@ -1,0 +1,9 @@
+Shift handover 23 Apr B
+From: Rajesh   To: Hafiz
+
+- prses warm-up normal
+- leak tester master part passed at start of shift
+- pls f/u on stores count for seals
+- Press 2 stopped 2039 w/ Err:217, oli leaikng under the ram, pressure dropping. Repl main cylinder seal kit (OIL HLP46 20L, SEALKIT50), tested ok. Down 180 min.
+
+Signed RP

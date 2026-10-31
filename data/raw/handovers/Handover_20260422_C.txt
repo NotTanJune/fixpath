@@ -1,0 +1,9 @@
+Shift handover 22/04/2026 night
+From: Arun   To: WM
+
+- PR-2 stopped 0248 w/ E245, press losing pressure mid-stroke, oli on the floor. Repl mani cylinder seal kit (HLP46, seal kit 50), running ok now. Down approx 8h.
+- press warm-up normal
+- chk air pressure at LT1, ok
+- coolant topped up on MC-2
+
+Signed AP

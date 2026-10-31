@@ -1,0 +1,57 @@
+{
+  "id": "DOC-39b13f95",
+  "path": "handovers/HO 05-31 night shift.txt",
+  "doc_type": "handover",
+  "kind": "text",
+  "text": "Shift handover 2026-05-31 night\nFrom: Hafiz   To: Jia Hui\n\n- pls f/u on stores count for seals\n- press warm-up normal\n- leak test stopped 0127 w/ VT012, master part reading otu of tolerance. Recalibrate pressure sensor (SENSPRS10), test run ok. Down approx 2h.\n\nSigned Hafiz\n",
+  "spans": [
+    {
+      "quote": "- leak test stopped 0127 w/ VT012, master part reading otu of tolerance. Recalibrate pressure sensor (SENSPRS10), test run ok. Down approx 2h.",
+      "start": 118,
+      "end": 260,
+      "page": null,
+      "fact_kind": "node",
+      "fact_id": "INC-2026-025",
+      "type": "Incident",
+      "label": "master part reading out of tolerance",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- leak test stopped 0127 w/ VT012, master part reading otu of tolerance. Recalibrate pressure sensor (SENSPRS10), test run ok. Down approx 2h.",
+      "start": 118,
+      "end": 260,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-025|OCCURRED_ON|LT-01",
+      "type": "OCCURRED_ON",
+      "label": "INC-2026-025 happened on LT-01",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- leak test stopped 0127 w/ VT012, master part reading otu of tolerance. Recalibrate pressure sensor (SENSPRS10), test run ok. Down approx 2h.",
+      "start": 118,
+      "end": 260,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-025|TRIGGERED_BY|VT-012",
+      "type": "TRIGGERED_BY",
+      "label": "INC-2026-025 started with VT-012",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- leak test stopped 0127 w/ VT012, master part reading otu of tolerance. Recalibrate pressure sensor (SENSPRS10), test run ok. Down approx 2h.",
+      "start": 118,
+      "end": 260,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-025|USED|SENS-PRS-10",
+      "type": "USED",
+      "label": "INC-2026-025 used SENS-PRS-10",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    }
+  ]
+}

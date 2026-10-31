@@ -1,0 +1,9 @@
+Shift handover 18/04/2026 Shift A
+From: WM   To: RP
+
+- leak tester master part passed at start of shitf
+- robot cell guard door sticking a bit, f/u tmr
+- chk air pressure at LT1, ok
+- the press stopped 1355 w/ Err:230, pressure hunting, oil running hot. Chnage hdyraulic oil & filter (FLTHYD10, OIL HLP46 20L x3), tested ok. Down 215 min.
+
+Signed Wei Ming

@@ -1,0 +1,57 @@
+{
+  "id": "DOC-b657cea1",
+  "path": "handovers/Handover_20260724_A.txt",
+  "doc_type": "handover",
+  "kind": "text",
+  "text": "Shift handover 24 Jul Shift A\nFrom: Wei Ming   To: RP\n\n- CNC 1 running fine, tolo wera ok\n- CNC1 stopped 0903 w/ CL210, no coolant at the nozzle, chips packing in the bore. Clean coolant filter & flush lines (FLTCL25), tested ok. Down approx 2h. chk again next shift.\n- coolant topped up on MC-2\n\nSigned WM\n",
+  "spans": [
+    {
+      "quote": "- CNC1 stopped 0903 w/ CL210, no coolant at the nozzle, chips packing in the bore. Clean coolant filter & flush lines (FLTCL25), tested ok. Down approx 2h. chk again next shift.",
+      "start": 90,
+      "end": 267,
+      "page": null,
+      "fact_kind": "node",
+      "fact_id": "INC-2026-041",
+      "type": "Incident",
+      "label": "no coolant at the nozzle, chips packing in the bore",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- CNC1 stopped 0903 w/ CL210, no coolant at the nozzle, chips packing in the bore. Clean coolant filter & flush lines (FLTCL25), tested ok. Down approx 2h. chk again next shift.",
+      "start": 90,
+      "end": 267,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-041|OCCURRED_ON|CNC-01",
+      "type": "OCCURRED_ON",
+      "label": "INC-2026-041 happened on CNC-01",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- CNC1 stopped 0903 w/ CL210, no coolant at the nozzle, chips packing in the bore. Clean coolant filter & flush lines (FLTCL25), tested ok. Down approx 2h. chk again next shift.",
+      "start": 90,
+      "end": 267,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-041|TRIGGERED_BY|CL-210",
+      "type": "TRIGGERED_BY",
+      "label": "INC-2026-041 started with CL-210",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- CNC1 stopped 0903 w/ CL210, no coolant at the nozzle, chips packing in the bore. Clean coolant filter & flush lines (FLTCL25), tested ok. Down approx 2h. chk again next shift.",
+      "start": 90,
+      "end": 267,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-041|USED|FLT-CL-25",
+      "type": "USED",
+      "label": "INC-2026-041 used FLT-CL-25",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    }
+  ]
+}

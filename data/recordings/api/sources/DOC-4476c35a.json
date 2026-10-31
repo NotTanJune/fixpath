@@ -1,0 +1,45 @@
+{
+  "id": "DOC-4476c35a",
+  "path": "handovers/Handover_20260917_A.txt",
+  "doc_type": "handover",
+  "kind": "text",
+  "text": "Shift handover 2026-09-17 Shift A\nFrom: JH   To: NA\n\n- pls f/u on stores count for seals\n- CNC 1 running fine, tool wear ok\n- HP1 stopped 1229, oil leaking under the rma, pressure dorpping. Repl main cylinder seal kti (OIL HLP46 20L), rnuning ok now. Down 475 min.\n\nSigned JH\n",
+  "spans": [
+    {
+      "quote": "- HP1 stopped 1229, oil leaking under the rma, pressure dorpping. Repl main cylinder seal kti (OIL HLP46 20L), rnuning ok now. Down 475 min.",
+      "start": 124,
+      "end": 264,
+      "page": null,
+      "fact_kind": "node",
+      "fact_id": "INC-2026-059",
+      "type": "Incident",
+      "label": "oil leaking under the ram, pressure dropping",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- HP1 stopped 1229, oil leaking under the rma, pressure dorpping. Repl main cylinder seal kti (OIL HLP46 20L), rnuning ok now. Down 475 min.",
+      "start": 124,
+      "end": 264,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-059|OCCURRED_ON|HP-01",
+      "type": "OCCURRED_ON",
+      "label": "INC-2026-059 happened on HP-01",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- HP1 stopped 1229, oil leaking under the rma, pressure dorpping. Repl main cylinder seal kti (OIL HLP46 20L), rnuning ok now. Down 475 min.",
+      "start": 124,
+      "end": 264,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-059|USED|OIL-HLP46-20L",
+      "type": "USED",
+      "label": "INC-2026-059 used OIL-HLP46-20L",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    }
+  ]
+}

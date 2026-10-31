@@ -1,0 +1,8 @@
+Shift handover 19/07/2026 Shift A
+From: Wei Ming   To: RP
+
+- CNC 1 running fine, tool wear ok
+- CNC 1 stopped 0737 w/ TC311, tool not clamping after change, machine stops. Repl tool clamp disc springs (SENS PROX 08), tested ok. Down 285 min.
+- waiting on gripper fingers, stores says noen left
+
+Signed Wei Ming

@@ -1,0 +1,4499 @@
+{
+  "bakeoff": {
+    "bias": "The gates and the prompts of the pipeline were tuned on JEV, so JEV is read with that bias in its favour: Decisions is scored at the gate that was set for JEV. The best gate of each backend is chosen from a sweep on the same questions it is scored on, so it is in sample and flatters the backend. The questions come from the same distribution the gates were tuned on, not from a hold-out. The verify labels come from one LLM judge, and a task is led only when a paired sign test says so.",
+    "latency": {
+      "caveat": "The latency pass is one run of 30 triage asks per backend, not interleaved (JEV first, then Decisions), at one time of day; it covers triage asks only.",
+      "decisions": {
+        "mean": 0.4323871250334681,
+        "n": 30,
+        "p50": 0.41352068800006236,
+        "p95": 0.6077362123491185
+      },
+      "jev": {
+        "mean": 0.28734224020045074,
+        "n": 30,
+        "p50": 0.27335485399999015,
+        "p95": 0.3864762418512328
+      },
+      "measured_at": "2026-10-28",
+      "n": 30,
+      "what": "wall time of one fresh decider ask, in seconds, on a temporary cache"
+    },
+    "summary": {
+      "better_by_accuracy": "no clear difference",
+      "mean_accuracy": {
+        "decisions": 0.9660042395336512,
+        "jev": 0.9805776364599893
+      },
+      "tasks_led": {
+        "decisions": 0,
+        "jev": 0,
+        "tie": 5
+      },
+      "totals": {
+        "decisions": {
+          "asks": 266,
+          "cost_per_1000_usd": 0.0704360902255639
+        },
+        "jev": {
+          "asks": 266,
+          "cost_per_1000_usd": 0.04039926315789476
+        }
+      }
+    },
+    "tasks": {
+      "root_cause": {
+        "decisions": {
+          "accuracy": 1.0,
+          "asks": 60,
+          "best_gate": null,
+          "cost_per_1000_usd": 0.042674999999999984,
+          "ece": 0.010166666666666657,
+          "n": 60,
+          "undecided": 0,
+          "usd": 0.0025604999999999994
+        },
+        "jev": {
+          "accuracy": 1.0,
+          "asks": 60,
+          "best_gate": null,
+          "cost_per_1000_usd": 0.03164069999999999,
+          "ece": 0.007833333333333367,
+          "n": 60,
+          "undecided": 0,
+          "usd": 0.0018984419999999993
+        },
+        "leader": "tie",
+        "n": 60,
+        "saturated": true,
+        "sign_test": {
+          "decisions_only": 0,
+          "jev_only": 0,
+          "n": 0,
+          "p": 1.0
+        },
+        "sign_test_best_gate": null,
+        "verdict": "saturated"
+      },
+      "same_entity": {
+        "decisions": {
+          "accuracy": 1.0,
+          "asks": 41,
+          "best_gate": {
+            "accuracy": 1.0,
+            "correct": 41,
+            "gate": 0.7,
+            "in_sample": true,
+            "n": 41
+          },
+          "cost_per_1000_usd": 0.034212195121951214,
+          "ece": 0.061463414634146334,
+          "n": 41,
+          "undecided": 0,
+          "usd": 0.0014026999999999998
+        },
+        "jev": {
+          "accuracy": 1.0,
+          "asks": 41,
+          "best_gate": {
+            "accuracy": 1.0,
+            "correct": 41,
+            "gate": 0.7,
+            "in_sample": true,
+            "n": 41
+          },
+          "cost_per_1000_usd": 0.022400341463414634,
+          "ece": 0.1251219512195122,
+          "n": 41,
+          "undecided": 0,
+          "usd": 0.000918414
+        },
+        "leader": "tie",
+        "n": 41,
+        "saturated": true,
+        "sign_test": {
+          "decisions_only": 0,
+          "jev_only": 0,
+          "n": 0,
+          "p": 1.0
+        },
+        "sign_test_best_gate": {
+          "decisions_only": 0,
+          "jev_only": 0,
+          "n": 0,
+          "p": 1.0
+        },
+        "verdict": "saturated"
+      },
+      "same_incident": {
+        "decisions": {
+          "accuracy": 0.918918918918919,
+          "asks": 111,
+          "best_gate": {
+            "accuracy": 0.963963963963964,
+            "correct": 107,
+            "gate": 0.95,
+            "in_sample": true,
+            "n": 111
+          },
+          "cost_per_1000_usd": 0.047989189189189194,
+          "ece": 0.07594594594594595,
+          "n": 111,
+          "undecided": 0,
+          "usd": 0.0053268000000000005
+        },
+        "jev": {
+          "accuracy": 0.9819819819819819,
+          "asks": 111,
+          "best_gate": {
+            "accuracy": 0.9819819819819819,
+            "correct": 109,
+            "gate": 0.9,
+            "in_sample": true,
+            "n": 111
+          },
+          "cost_per_1000_usd": 0.03137967567567567,
+          "ece": 0.08900900900900899,
+          "n": 111,
+          "undecided": 0,
+          "usd": 0.0034831439999999997
+        },
+        "leader": "tie",
+        "n": 111,
+        "saturated": false,
+        "sign_test": {
+          "decisions_only": 0,
+          "jev_only": 7,
+          "n": 7,
+          "p": 0.015625
+        },
+        "sign_test_best_gate": {
+          "decisions_only": 0,
+          "jev_only": 2,
+          "n": 2,
+          "p": 0.5
+        },
+        "verdict": "no clear difference"
+      },
+      "triage": {
+        "decisions": {
+          "accuracy": 0.9797297297297297,
+          "asks": 32,
+          "best_gate": null,
+          "cost_per_1000_usd": 0.14541562499999985,
+          "ece": 0.03368421052631584,
+          "n": 32,
+          "undecided": 1,
+          "usd": 0.004653299999999996
+        },
+        "jev": {
+          "accuracy": 0.9797297297297297,
+          "asks": 32,
+          "best_gate": null,
+          "cost_per_1000_usd": 0.07074768750000011,
+          "ece": 0.043684210526315784,
+          "n": 32,
+          "undecided": 1,
+          "usd": 0.0022639260000000038
+        },
+        "leader": "tie",
+        "n": 32,
+        "saturated": false,
+        "sign_test": {
+          "decisions_only": 1,
+          "jev_only": 1,
+          "n": 2,
+          "p": 1.0
+        },
+        "sign_test_best_gate": null,
+        "verdict": "no clear difference"
+      },
+      "verify": {
+        "decisions": {
+          "accuracy": 0.9313725490196079,
+          "asks": 22,
+          "best_gate": {
+            "accuracy": 0.9313725490196079,
+            "correct": 95,
+            "gate": 0.5,
+            "in_sample": true,
+            "n": 102
+          },
+          "cost_per_1000_usd": 0.21785000000000002,
+          "ece": 0.05549019607843135,
+          "n": 102,
+          "undecided": 0,
+          "usd": 0.0047927
+        },
+        "jev": {
+          "accuracy": 0.9411764705882353,
+          "asks": 22,
+          "best_gate": {
+            "accuracy": 0.9509803921568627,
+            "correct": 97,
+            "gate": 0.7,
+            "in_sample": true,
+            "n": 102
+          },
+          "cost_per_1000_usd": 0.09919445454545467,
+          "ece": 0.0487254901960784,
+          "n": 102,
+          "undecided": 0,
+          "usd": 0.0021822780000000028
+        },
+        "leader": "tie",
+        "n": 102,
+        "saturated": false,
+        "sign_test": {
+          "decisions_only": 0,
+          "jev_only": 1,
+          "n": 1,
+          "p": 1.0
+        },
+        "sign_test_best_gate": {
+          "decisions_only": 0,
+          "jev_only": 2,
+          "n": 2,
+          "p": 0.5
+        },
+        "verdict": "no clear difference"
+      }
+    },
+    "tuned_on": "jev"
+  },
+  "cost": {
+    "bakeoff": {
+      "by_purpose": {
+        "bakeoff root_cause": {
+          "cache_hits": 120,
+          "calls": 120,
+          "usd": 0.0
+        },
+        "bakeoff same_entity": {
+          "cache_hits": 82,
+          "calls": 82,
+          "usd": 0.0
+        },
+        "bakeoff same_incident": {
+          "cache_hits": 222,
+          "calls": 222,
+          "usd": 0.0
+        },
+        "bakeoff verify": {
+          "cache_hits": 38,
+          "calls": 44,
+          "usd": 0.001082
+        },
+        "link root cause": {
+          "cache_hits": 61,
+          "calls": 61,
+          "usd": 0.0
+        },
+        "merge Incident": {
+          "cache_hits": 111,
+          "calls": 111,
+          "usd": 0.0
+        },
+        "merge Part": {
+          "cache_hits": 31,
+          "calls": 31,
+          "usd": 0.0
+        },
+        "triage": {
+          "cache_hits": 64,
+          "calls": 64,
+          "usd": 0.0
+        }
+      },
+      "cache_hits": 729,
+      "calls": 735,
+      "input_tokens": 588810,
+      "output_tokens": 40741,
+      "paid_calls": 6,
+      "usd": 0.001082
+    },
+    "layer1": {
+      "by_purpose": {},
+      "cache_hits": 0,
+      "calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "paid_calls": 0,
+      "usd": 0
+    },
+    "layer2": {
+      "by_purpose": {
+        "eval merge Part": {
+          "cache_hits": 8,
+          "calls": 10,
+          "usd": 4.6e-05
+        },
+        "extract handover": {
+          "cache_hits": 90,
+          "calls": 90,
+          "usd": 0.0
+        },
+        "extract manual": {
+          "cache_hits": 4,
+          "calls": 4,
+          "usd": 0.0
+        },
+        "extract note": {
+          "cache_hits": 5,
+          "calls": 5,
+          "usd": 0.0
+        },
+        "merge Incident": {
+          "cache_hits": 111,
+          "calls": 111,
+          "usd": 0.0
+        },
+        "merge Part": {
+          "cache_hits": 31,
+          "calls": 31,
+          "usd": 0.0
+        }
+      },
+      "cache_hits": 249,
+      "calls": 251,
+      "input_tokens": 226423,
+      "output_tokens": 20901,
+      "paid_calls": 2,
+      "usd": 4.6e-05
+    },
+    "layer3": {
+      "by_purpose": {
+        "triage": {
+          "cache_hits": 32,
+          "calls": 32,
+          "usd": 0.0
+        }
+      },
+      "cache_hits": 32,
+      "calls": 32,
+      "input_tokens": 53903,
+      "output_tokens": 19864,
+      "paid_calls": 0,
+      "usd": 0.0
+    },
+    "layer4": {
+      "by_purpose": {
+        "eval judge": {
+          "cache_hits": 16,
+          "calls": 22,
+          "usd": 0.01416
+        },
+        "graph agent": {
+          "cache_hits": 87,
+          "calls": 87,
+          "usd": 0.0
+        },
+        "manual agent": {
+          "cache_hits": 22,
+          "calls": 22,
+          "usd": 0.0
+        },
+        "synthesize": {
+          "cache_hits": 22,
+          "calls": 22,
+          "usd": 0.0
+        },
+        "triage": {
+          "cache_hits": 25,
+          "calls": 25,
+          "usd": 0.0
+        },
+        "verify": {
+          "cache_hits": 16,
+          "calls": 22,
+          "usd": 0.000505
+        }
+      },
+      "cache_hits": 188,
+      "calls": 200,
+      "input_tokens": 308209,
+      "output_tokens": 33326,
+      "paid_calls": 12,
+      "usd": 0.014665
+    }
+  },
+  "crews": {
+    "ingestion": {
+      "graph": {
+        "chunks": 128,
+        "documents": 107,
+        "evidence": 906,
+        "fresh_ingest_estimate": {
+          "basis": "90 handovers, 5 notes and 4 manuals read by Sol, and 203 merge and link questions put to JEV, each at the ledger mean per paid call",
+          "usd": 0.23656054652936906
+        },
+        "links": 442,
+        "nodes": 164,
+        "pipeline_note": "Resolve, link, validate and load over all files on 29 Oct 2026, with the extractions replayed from the cache and the JEV questions asked live.",
+        "pipeline_s": 55.17405637500633,
+        "review_items": 37,
+        "validator_errors": 0,
+        "validator_warnings": 20
+      },
+      "measured_at": {
+        "ledger_from": "2026-10-27",
+        "ledger_to": "2026-10-29",
+        "timed_run": "2026-10-29"
+      },
+      "steps": [
+        {
+          "accuracy": {
+            "k": 107,
+            "label": "files read as the type their folder says",
+            "n": 107
+          },
+          "cost": {
+            "n": null,
+            "per": "file",
+            "source": "code, no model call",
+            "usd": 0.0
+          },
+          "does": "Decides what kind of file each one is, from its extension, its first lines and its folder.",
+          "id": "router",
+          "model": "code",
+          "name": "Router",
+          "note": "Scored against the folder each file sits in, which is the plant's own label for it.",
+          "time": {
+            "n": 107,
+            "p50_s": 2.4e-05,
+            "p95_s": 9.2e-05,
+            "per": "file",
+            "source": "timed run, 29 Oct 2026, 107 files",
+            "step_s": 0.003092
+          }
+        },
+        {
+          "accuracy": {
+            "k": 157,
+            "label": "alarm codes, machines and parts found",
+            "n": 159,
+            "precision": 1.0
+          },
+          "cost": {
+            "n": null,
+            "per": "file",
+            "source": "code, no model call",
+            "usd": 0.0
+          },
+          "does": "Read the machine logs, the spares lists and the maintenance export with fixed rules.",
+          "id": "parsers",
+          "model": "code",
+          "name": "Parsers",
+          "time": {
+            "n": 8,
+            "p50_s": 0.000915,
+            "per": "file",
+            "source": "timed run, 29 Oct 2026, 8 files",
+            "step_s": 0.007723
+          }
+        },
+        {
+          "accuracy": {
+            "k": 119,
+            "label": "alarm codes and parts found",
+            "n": 130,
+            "precision": 1.0
+          },
+          "cost": {
+            "by_kind": {
+              "handover": 0.0014380439655172412,
+              "note": 0.003789552941176471
+            },
+            "n": 133,
+            "per": "note",
+            "source": "ledger mean of 133 paid calls, 28 Oct 2026 to 29 Oct 2026",
+            "usd": 0.0017386127819548872
+          },
+          "does": "Reads shift handovers and loose notes into breakdown records.",
+          "id": "text_reader",
+          "model": "Sol",
+          "name": "Text reader",
+          "note": "Alarm codes and parts only. Machine mentions are left out because routine lines name machines that had no breakdown, so they are not facts to find.",
+          "time": {
+            "n": 4,
+            "p50_s": 4.290266,
+            "per": "note",
+            "source": "timed run, 29 Oct 2026, 4 notes"
+          }
+        },
+        {
+          "accuracy": {
+            "k": 86,
+            "label": "alarm codes, machines, failure modes, parts and procedures found",
+            "n": 86,
+            "precision": 1.0
+          },
+          "cost": {
+            "n": 12,
+            "per": "manual",
+            "source": "ledger mean of 12 paid calls, 28 Oct 2026 to 29 Oct 2026",
+            "usd": 0.02052365
+          },
+          "does": "Reads a vendor PDF manual into alarm codes, failure modes, procedures and parts.",
+          "id": "manual_reader",
+          "model": "Sol",
+          "name": "Manual reader",
+          "time": {
+            "n": 1,
+            "p50_s": 10.741127,
+            "per": "manual",
+            "source": "timed run, 29 Oct 2026, 1 manual"
+          }
+        },
+        {
+          "accuracy": {
+            "k": 17,
+            "label": "same-entity merges found at the gate",
+            "n": 17,
+            "precision": 1.0
+          },
+          "also": [
+            {
+              "k": 41,
+              "label": "same-incident merges found at the gate",
+              "n": 42,
+              "precision": 1.0
+            }
+          ],
+          "cost": {
+            "n": 353,
+            "per": "JEV question",
+            "source": "ledger mean of 353 paid calls, 28 Oct 2026 to 29 Oct 2026",
+            "step_cached": 0,
+            "step_questions": 142,
+            "step_usd": 0.004166358,
+            "usd": 2.947329178470255e-05
+          },
+          "does": "Merges the same machine, part or breakdown named in different files: rules and fuzzy matching first, JEV for the doubtful ones.",
+          "id": "resolver",
+          "model": "rules + JEV",
+          "name": "Resolver",
+          "time": {
+            "n": 142,
+            "p50_s": 0.229782,
+            "p95_s": 0.33071,
+            "per": "JEV question",
+            "source": "timed run, 29 Oct 2026, 142 JEV questions",
+            "step_s": 34.956333
+          }
+        },
+        {
+          "accuracy": {
+            "k": 60,
+            "label": "root causes linked right at the gate",
+            "n": 60,
+            "precision": 1.0
+          },
+          "cost": {
+            "n": 140,
+            "per": "JEV question",
+            "source": "ledger mean of 140 paid calls, 28 Oct 2026 to 29 Oct 2026",
+            "step_cached": 0,
+            "step_questions": 61,
+            "step_usd": 0.001933344,
+            "usd": 3.1810800000000004e-05
+          },
+          "does": "Picks the root cause of each breakdown from the listed causes.",
+          "id": "linker",
+          "model": "JEV",
+          "name": "Linker",
+          "time": {
+            "n": 61,
+            "p50_s": 0.231256,
+            "p95_s": 0.303982,
+            "per": "JEV question",
+            "source": "timed run, 29 Oct 2026, 61 JEV questions",
+            "step_s": 14.376128
+          }
+        },
+        {
+          "accuracy": null,
+          "cost": {
+            "n": null,
+            "per": "run",
+            "source": "code, no model call",
+            "usd": 0.0
+          },
+          "does": "Checks every node and link against the ontology, then writes the graph and the text chunks.",
+          "id": "validate_load",
+          "model": "code",
+          "name": "Validator and loader",
+          "note": "No accuracy figure: the validator raised 0 errors and 20 warnings, and the loader wrote 164 nodes and 442 links.",
+          "outcome": {
+            "errors": 0,
+            "links": 442,
+            "nodes": 164,
+            "warnings": 20
+          },
+          "time": {
+            "n": 1,
+            "p50_s": 5.406963,
+            "parts": {
+              "load_s": 5.401197,
+              "validate_s": 0.005766
+            },
+            "per": "run",
+            "source": "timed run, 29 Oct 2026, 1 run",
+            "step_s": 5.406963
+          }
+        }
+      ]
+    },
+    "ledger": {
+      "extract handover": {
+        "first": "2026-10-28",
+        "last": "2026-10-29",
+        "n": 116,
+        "usd": 0.0014380439655172412
+      },
+      "extract manual": {
+        "first": "2026-10-28",
+        "last": "2026-10-29",
+        "n": 12,
+        "usd": 0.02052365
+      },
+      "extract note": {
+        "first": "2026-10-28",
+        "last": "2026-10-29",
+        "n": 17,
+        "usd": 0.003789552941176471
+      },
+      "link root cause": {
+        "first": "2026-10-28",
+        "last": "2026-10-29",
+        "n": 140,
+        "usd": 3.1810800000000004e-05
+      },
+      "merge Incident": {
+        "first": "2026-10-28",
+        "last": "2026-10-29",
+        "n": 285,
+        "usd": 3.113452631578948e-05
+      },
+      "merge Part": {
+        "first": "2026-10-28",
+        "last": "2026-10-29",
+        "n": 68,
+        "usd": 2.2510764705882357e-05
+      }
+    },
+    "troubleshooting": {
+      "answer": {
+        "accuracy": {
+          "k": 5,
+          "label": "trap questions handled right",
+          "n": 5
+        },
+        "cost": {
+          "n": 25,
+          "p50_usd": 0.00979527,
+          "p95_usd": 0.0113995472,
+          "per": "answer",
+          "source": "live answers, 28 Oct 2026",
+          "usd": 0.00877182384
+        },
+        "id": "answer",
+        "name": "Whole answer",
+        "note": "The mean cost per answer includes the answers that do not retrieve (the non-retrieving traps stop at triage and cost almost nothing), so it is lower than the cost of an answer that does. Read the p50 next to the mean.",
+        "time": {
+          "n": 25,
+          "p50_s": 13.620105,
+          "p95_s": 15.5120134,
+          "per": "answer",
+          "source": "live answers, 28 Oct 2026"
+        },
+        "timed_run": {
+          "answers": 4,
+          "cost_usd": 0.0098415335,
+          "p50_s": 14.366529,
+          "source": "timed run, 29 Oct 2026, 4 answers"
+        }
+      },
+      "measured_at": {
+        "live_answers": "2026-10-28",
+        "timed_run": "2026-10-29"
+      },
+      "note": "The graph agent and the manual agent run in parallel, so the steps do not add up to the time of an answer.",
+      "steps": [
+        {
+          "accuracy": {
+            "k": 29,
+            "label": "questions with all five fields right",
+            "n": 32
+          },
+          "also": [
+            {
+              "k": 22,
+              "label": "all five fields right, of the questions it acted on",
+              "n": 22
+            }
+          ],
+          "cost": {
+            "n": 4,
+            "per": "answer",
+            "source": "timed run, 29 Oct 2026, 4 answers",
+            "usd": 7.064400000000001e-05
+          },
+          "does": "Picks the machine, the alarm, the root cause, the intent and the safety flag.",
+          "id": "triage",
+          "model": "JEV",
+          "name": "Triage",
+          "time": {
+            "n": 25,
+            "p50_s": 0.2858,
+            "p95_s": 0.3884,
+            "per": "answer",
+            "source": "live answers, 28 Oct 2026"
+          }
+        },
+        {
+          "accuracy": {
+            "k": 20,
+            "label": "questions with the right root cause first",
+            "n": 20
+          },
+          "cost": {
+            "n": 4,
+            "per": "answer",
+            "source": "timed run, 29 Oct 2026, 4 answers",
+            "usd": 0.003834775
+          },
+          "does": "Reads the graph with six read-only tools: causes, fixes, parts and past breakdowns.",
+          "id": "graph_agent",
+          "model": "Terra",
+          "name": "Graph agent",
+          "time": {
+            "n": 22,
+            "p50_s": 8.520499999999998,
+            "p95_s": 9.66125,
+            "per": "answer",
+            "source": "live answers, 28 Oct 2026"
+          }
+        },
+        {
+          "accuracy": null,
+          "cost": {
+            "n": 4,
+            "per": "answer",
+            "source": "timed run, 29 Oct 2026, 4 answers",
+            "usd": 0.00048975
+          },
+          "does": "Searches the manuals by keyword and by vector for the passages that apply.",
+          "id": "manual_agent",
+          "model": "Terra",
+          "name": "Manual agent",
+          "note": "No score of its own: its passages are scored through the synthesizer's citations, which cite them.",
+          "time": {
+            "n": 22,
+            "p50_s": 2.4583,
+            "p95_s": 4.2750699999999995,
+            "per": "answer",
+            "source": "live answers, 28 Oct 2026"
+          }
+        },
+        {
+          "accuracy": {
+            "k": 96,
+            "label": "kept claims the judge finds supported",
+            "n": 102
+          },
+          "cost": {
+            "n": 4,
+            "per": "answer",
+            "source": "timed run, 29 Oct 2026, 4 answers",
+            "usd": 0.0053545
+          },
+          "does": "Writes the summary and the claims, each with the passages it cites.",
+          "id": "synthesize",
+          "model": "Sol",
+          "name": "Synthesizer",
+          "time": {
+            "n": 22,
+            "p50_s": 4.67925,
+            "p95_s": 5.818969999999999,
+            "per": "answer",
+            "source": "live answers, 28 Oct 2026"
+          }
+        },
+        {
+          "accuracy": {
+            "k": 96,
+            "label": "verdicts on kept claims that agree with the judge",
+            "n": 102
+          },
+          "cost": {
+            "n": 4,
+            "per": "answer",
+            "source": "timed run, 29 Oct 2026, 4 answers",
+            "usd": 9.186450000000001e-05
+          },
+          "does": "Puts one question to JEV for each claim against the passages it cites.",
+          "id": "verify",
+          "model": "JEV",
+          "name": "Verifier",
+          "time": {
+            "n": 22,
+            "p50_s": 0.3237,
+            "p95_s": 0.361655,
+            "per": "answer",
+            "source": "live answers, 28 Oct 2026"
+          }
+        },
+        {
+          "accuracy": {
+            "k": 19,
+            "label": "lockout blocks shown where the fix needs isolation",
+            "n": 19
+          },
+          "also": [
+            {
+              "k": 20,
+              "label": "questions with the right fix shown",
+              "n": 20
+            },
+            {
+              "k": 20,
+              "label": "questions with the right parts, quantities and bins",
+              "n": 20
+            }
+          ],
+          "cost": {
+            "n": 4,
+            "per": "answer",
+            "source": "timed run, 29 Oct 2026, 4 answers",
+            "usd": 0.0
+          },
+          "does": "Builds the card from the graph in code and adds the lockout block from the machine's own manual.",
+          "id": "assemble",
+          "model": "code",
+          "name": "Assemble with the lockout block",
+          "note": "The lockout block was also shown on 1 of 1 question whose fix needs none.",
+          "time": {
+            "n": 25,
+            "p50_s": 0.006,
+            "p95_s": 0.00772,
+            "per": "answer",
+            "source": "live answers, 28 Oct 2026"
+          }
+        }
+      ]
+    }
+  },
+  "layer1": {
+    "documents": {
+      "handover": {
+        "alarm_codes": {
+          "f1": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tp": 40
+        },
+        "assets": {
+          "f1": 0.43523316062176165,
+          "fn": 109,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 0.2781456953642384,
+          "tp": 42
+        },
+        "docs": 90,
+        "parts": {
+          "f1": 0.9105691056910569,
+          "fn": 11,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 0.835820895522388,
+          "tp": 56
+        }
+      },
+      "inventory": {
+        "alarm_codes": {
+          "f1": null,
+          "fn": 0,
+          "fp": 0,
+          "precision": null,
+          "recall": null,
+          "tp": 0
+        },
+        "assets": {
+          "f1": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tp": 5
+        },
+        "docs": 2,
+        "parts": {
+          "f1": 0.9873417721518988,
+          "fn": 2,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 0.975,
+          "tp": 78
+        }
+      },
+      "log": {
+        "alarm_codes": {
+          "f1": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tp": 26
+        },
+        "assets": {
+          "f1": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tp": 5
+        },
+        "docs": 5,
+        "parts": {
+          "f1": null,
+          "fn": 0,
+          "fp": 0,
+          "precision": null,
+          "recall": null,
+          "tp": 0
+        }
+      },
+      "maintenance_export": {
+        "alarm_codes": {
+          "f1": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tp": 16
+        },
+        "assets": {
+          "f1": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tp": 5
+        },
+        "docs": 1,
+        "parts": {
+          "f1": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tp": 22
+        }
+      },
+      "maintenance_note": {
+        "alarm_codes": {
+          "f1": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tp": 5
+        },
+        "assets": {
+          "f1": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tp": 5
+        },
+        "docs": 5,
+        "parts": {
+          "f1": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tp": 18
+        }
+      },
+      "manual": {
+        "alarm_codes": {
+          "f1": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tp": 20
+        },
+        "assets": {
+          "f1": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tp": 5
+        },
+        "docs": 4,
+        "failure_modes": {
+          "f1": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tp": 11
+        },
+        "parts": {
+          "f1": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tp": 38
+        },
+        "procedures": {
+          "f1": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tp": 12
+        }
+      }
+    },
+    "edges": {
+      "AFFECTS": {
+        "f1": 1.0,
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 14
+      },
+      "FITS": {
+        "f1": 1.0,
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 51
+      },
+      "HAS_COMPONENT": {
+        "f1": 1.0,
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 15
+      },
+      "HAS_MACHINE": {
+        "f1": 1.0,
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 5
+      },
+      "INDICATES": {
+        "f1": 1.0,
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 22
+      },
+      "OCCURRED_ON": {
+        "f1": 0.9917355371900827,
+        "fn": 0,
+        "fp": 1,
+        "precision": 0.9836065573770492,
+        "recall": 1.0,
+        "tp": 60
+      },
+      "RAISED": {
+        "f1": 1.0,
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 26
+      },
+      "REQUIRES": {
+        "f1": 1.0,
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 16
+      },
+      "RESOLVED_BY": {
+        "f1": 1.0,
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 12
+      },
+      "ROOT_CAUSE": {
+        "f1": 0.9917355371900827,
+        "fn": 0,
+        "fp": 1,
+        "precision": 0.9836065573770492,
+        "recall": 1.0,
+        "tp": 60
+      },
+      "TRIGGERED_BY": {
+        "f1": 0.9464285714285714,
+        "fn": 5,
+        "fp": 1,
+        "precision": 0.9814814814814815,
+        "recall": 0.9137931034482759,
+        "tp": 53
+      },
+      "USED": {
+        "f1": 0.9760765550239234,
+        "fn": 2,
+        "fp": 3,
+        "precision": 0.9714285714285714,
+        "recall": 0.9807692307692307,
+        "tp": 102
+      }
+    },
+    "matching": {
+      "AlarmCode": {
+        "matched": 20,
+        "unmatched_graph": [],
+        "unmatched_truth": []
+      },
+      "Asset": {
+        "matched": 5,
+        "unmatched_graph": [],
+        "unmatched_truth": []
+      },
+      "Component": {
+        "matched": 15,
+        "unmatched_graph": [],
+        "unmatched_truth": []
+      },
+      "FailureMode": {
+        "matched": 11,
+        "unmatched_graph": [],
+        "unmatched_truth": []
+      },
+      "Incident": {
+        "matched": 60,
+        "unmatched_graph": [
+          "INC-2026-049"
+        ],
+        "unmatched_truth": []
+      },
+      "Line": {
+        "matched": 1,
+        "unmatched_graph": [],
+        "unmatched_truth": []
+      },
+      "Part": {
+        "matched": 39,
+        "unmatched_graph": [],
+        "unmatched_truth": [
+          "TAPE-PTFE-12"
+        ]
+      },
+      "Procedure": {
+        "matched": 12,
+        "unmatched_graph": [],
+        "unmatched_truth": []
+      }
+    },
+    "nodes": {
+      "AlarmCode": {
+        "f1": 1.0,
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 20
+      },
+      "Asset": {
+        "f1": 1.0,
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 5
+      },
+      "Component": {
+        "f1": 1.0,
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 15
+      },
+      "FailureMode": {
+        "f1": 1.0,
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 11
+      },
+      "Incident": {
+        "f1": 0.9917355371900827,
+        "fn": 0,
+        "fp": 1,
+        "precision": 0.9836065573770492,
+        "recall": 1.0,
+        "tp": 60
+      },
+      "Line": {
+        "f1": 1.0,
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 1
+      },
+      "Part": {
+        "f1": 0.9873417721518988,
+        "fn": 1,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 0.975,
+        "tp": 39
+      },
+      "Procedure": {
+        "f1": 1.0,
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 12
+      }
+    },
+    "properties": {
+      "AlarmCode.severity": {
+        "accuracy": 1.0,
+        "correct": 20,
+        "missing": 0,
+        "n": 20,
+        "wrong": 0
+      },
+      "INDICATES.support": {
+        "accuracy": 0.7727272727272727,
+        "correct": 17,
+        "missing": 0,
+        "n": 22,
+        "wrong": 5
+      },
+      "Incident.date": {
+        "accuracy": 1.0,
+        "correct": 60,
+        "missing": 0,
+        "n": 60,
+        "wrong": 0
+      },
+      "Incident.downtime_min": {
+        "accuracy": 0.7666666666666667,
+        "correct": 46,
+        "missing": 0,
+        "n": 60,
+        "within_30": 1.0,
+        "within_30_count": 60,
+        "wrong": 14
+      },
+      "Incident.shift": {
+        "accuracy": 0.7,
+        "correct": 42,
+        "missing": 18,
+        "n": 60,
+        "wrong": 0
+      },
+      "Part.bin": {
+        "accuracy": 1.0,
+        "correct": 39,
+        "missing": 0,
+        "n": 39,
+        "wrong": 0
+      },
+      "Part.qty_on_hand": {
+        "accuracy": 1.0,
+        "correct": 39,
+        "missing": 0,
+        "n": 39,
+        "wrong": 0
+      },
+      "Part.stock_as_of": {
+        "accuracy": 0.9230769230769231,
+        "correct": 36,
+        "missing": 0,
+        "n": 39,
+        "wrong": 3
+      },
+      "Procedure.est_minutes": {
+        "accuracy": 1.0,
+        "correct": 12,
+        "missing": 0,
+        "n": 12,
+        "wrong": 0
+      },
+      "Procedure.requires_loto": {
+        "accuracy": 1.0,
+        "correct": 12,
+        "missing": 0,
+        "n": 12,
+        "wrong": 0
+      },
+      "RAISED.count": {
+        "accuracy": 0.5,
+        "correct": 13,
+        "events": {
+          "graph": 944,
+          "recall": 0.979253112033195,
+          "truth": 964
+        },
+        "missing": 0,
+        "n": 26,
+        "wrong": 13
+      },
+      "USED.qty": {
+        "accuracy": 1.0,
+        "correct": 102,
+        "missing": 0,
+        "n": 102,
+        "wrong": 0
+      }
+    }
+  },
+  "layer2": {
+    "gates": {
+      "link": 0.75,
+      "link_review": 0.4,
+      "merge_entity": 0.7,
+      "merge_incident": 0.9,
+      "queue_entity": 0.5,
+      "queue_incident": 0.5
+    },
+    "root_cause": {
+      "at_gate": {
+        "f1": 1.0,
+        "fn": 0,
+        "fp": 0,
+        "gate": 0.75,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 60
+      },
+      "bands": {
+        "link": {
+          "false": 0,
+          "true": 60
+        },
+        "none": {
+          "false": 0,
+          "true": 0
+        },
+        "review": {
+          "false": 0,
+          "true": 0
+        },
+        "undecided": {
+          "false": 0,
+          "true": 0
+        }
+      },
+      "gate": 0.75,
+      "max_false_p": null,
+      "min_true_p": 0.81,
+      "pairs": {
+        "false": 0,
+        "labeled": 60,
+        "true": 60,
+        "unlabeled": 1
+      },
+      "recommendation": {
+        "f1": 1.0,
+        "fn": 0,
+        "fp": 0,
+        "gap": {
+          "max_false_p": null,
+          "min_true_p": 0.81
+        },
+        "gate": 0.8,
+        "precision": 1.0,
+        "recall": 1.0,
+        "sample": {
+          "false": 0,
+          "true": 60
+        },
+        "tp": 60,
+        "unbound": true
+      },
+      "reliability": {
+        "bins": [
+          {
+            "count": 0,
+            "high": 0.1,
+            "low": 0.0,
+            "mean_p": null,
+            "observed": null
+          },
+          {
+            "count": 0,
+            "high": 0.2,
+            "low": 0.1,
+            "mean_p": null,
+            "observed": null
+          },
+          {
+            "count": 0,
+            "high": 0.3,
+            "low": 0.2,
+            "mean_p": null,
+            "observed": null
+          },
+          {
+            "count": 0,
+            "high": 0.4,
+            "low": 0.3,
+            "mean_p": null,
+            "observed": null
+          },
+          {
+            "count": 0,
+            "high": 0.5,
+            "low": 0.4,
+            "mean_p": null,
+            "observed": null
+          },
+          {
+            "count": 0,
+            "high": 0.6,
+            "low": 0.5,
+            "mean_p": null,
+            "observed": null
+          },
+          {
+            "count": 0,
+            "high": 0.7,
+            "low": 0.6,
+            "mean_p": null,
+            "observed": null
+          },
+          {
+            "count": 0,
+            "high": 0.8,
+            "low": 0.7,
+            "mean_p": null,
+            "observed": null
+          },
+          {
+            "count": 1,
+            "high": 0.9,
+            "low": 0.8,
+            "mean_p": 0.81,
+            "observed": 1.0
+          },
+          {
+            "count": 59,
+            "high": 1.0,
+            "low": 0.9,
+            "mean_p": 0.9952542372881356,
+            "observed": 1.0
+          }
+        ],
+        "ece": 0.007833333333333367
+      },
+      "sample": {
+        "false": 0,
+        "true": 60
+      },
+      "sources": {
+        "links": 61,
+        "matched_incidents_without_a_link": 0
+      },
+      "sweep": [
+        {
+          "f1": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "gate": 0.5,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tp": 60
+        },
+        {
+          "f1": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "gate": 0.55,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tp": 60
+        },
+        {
+          "f1": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "gate": 0.6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tp": 60
+        },
+        {
+          "f1": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "gate": 0.65,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tp": 60
+        },
+        {
+          "f1": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "gate": 0.7,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tp": 60
+        },
+        {
+          "f1": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "gate": 0.75,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tp": 60
+        },
+        {
+          "f1": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "gate": 0.8,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tp": 60
+        },
+        {
+          "f1": 0.9915966386554622,
+          "fn": 1,
+          "fp": 0,
+          "gate": 0.85,
+          "precision": 1.0,
+          "recall": 0.9833333333333333,
+          "tp": 59
+        },
+        {
+          "f1": 0.9915966386554622,
+          "fn": 1,
+          "fp": 0,
+          "gate": 0.9,
+          "precision": 1.0,
+          "recall": 0.9833333333333333,
+          "tp": 59
+        },
+        {
+          "f1": 0.9655172413793104,
+          "fn": 4,
+          "fp": 0,
+          "gate": 0.95,
+          "precision": 1.0,
+          "recall": 0.9333333333333333,
+          "tp": 56
+        }
+      ]
+    },
+    "same_entity": {
+      "at_gate": {
+        "f1": 1.0,
+        "fn": 0,
+        "fp": 0,
+        "gate": 0.7,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 17
+      },
+      "bands": {
+        "merge": {
+          "false": 0,
+          "true": 17
+        },
+        "none": {
+          "false": 24,
+          "true": 0
+        },
+        "queue": {
+          "false": 0,
+          "true": 0
+        },
+        "undecided": {
+          "false": 0,
+          "true": 0
+        }
+      },
+      "gate": 0.7,
+      "max_false_p": 0.44,
+      "min_true_p": 0.72,
+      "negatives": [
+        {
+          "backend": "jev",
+          "candidate": "BRG-7014-ACD",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "kind": "resolver",
+          "mention": "BRG-6205",
+          "p": 0.03,
+          "true_candidate": "BRG-6205-2RS",
+          "type": "Part"
+        },
+        {
+          "backend": "jev",
+          "candidate": "BRG-6205-2RS",
+          "doc_path": "handovers/HO 05-04 C shift.txt",
+          "kind": "resolver",
+          "mention": "BRG-7014-ACD-X2",
+          "p": 0.02,
+          "true_candidate": "BRG-7014-ACD",
+          "type": "Part"
+        },
+        {
+          "backend": "jev",
+          "candidate": "FLT-AIR-05",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "kind": "resolver",
+          "mention": "CL-FILTER-25",
+          "p": 0.03,
+          "true_candidate": "FLT-CL-25",
+          "type": "Part"
+        },
+        {
+          "backend": "jev",
+          "candidate": "FLT-HYD-10",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "kind": "resolver",
+          "mention": "CL-FILTER-25",
+          "p": 0.04,
+          "true_candidate": "FLT-CL-25",
+          "type": "Part"
+        },
+        {
+          "backend": "jev",
+          "candidate": "SEAL-KIT-50",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "kind": "resolver",
+          "mention": "FIXTURE-SEAL",
+          "p": 0.28,
+          "true_candidate": "SEAL-FIX-30",
+          "type": "Part"
+        },
+        {
+          "backend": "jev",
+          "candidate": "SEAL-RV-25",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "kind": "resolver",
+          "mention": "FIXTURE-SEAL",
+          "p": 0.2,
+          "true_candidate": "SEAL-FIX-30",
+          "type": "Part"
+        },
+        {
+          "backend": "jev",
+          "candidate": "SENS-PROX-08",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "kind": "resolver",
+          "mention": "PRESSURE-SENSOR-10BAR",
+          "p": 0.02,
+          "true_candidate": "SENS-PRS-10",
+          "type": "Part"
+        },
+        {
+          "backend": "jev",
+          "candidate": "SENS-PRS-10",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "kind": "resolver",
+          "mention": "PROX-SENSOR-M8",
+          "p": 0.05,
+          "true_candidate": "SENS-PROX-08",
+          "type": "Part"
+        },
+        {
+          "backend": "jev",
+          "candidate": "SENS-PT100-01",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "kind": "resolver",
+          "mention": "PROX-SENSOR-M8",
+          "p": 0.02,
+          "true_candidate": "SENS-PROX-08",
+          "type": "Part"
+        },
+        {
+          "backend": "jev",
+          "candidate": "SEAL-FIX-30",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "kind": "resolver",
+          "mention": "RV-SEAL",
+          "p": 0.23,
+          "true_candidate": "SEAL-RV-25",
+          "type": "Part"
+        },
+        {
+          "backend": "jev",
+          "candidate": "SEAL-FIX-30",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "kind": "resolver",
+          "mention": "SEAL-70",
+          "p": 0.07,
+          "true_candidate": "SEAL-SPDL-70",
+          "type": "Part"
+        },
+        {
+          "backend": "jev",
+          "candidate": "NUT-GLAND-50",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "kind": "resolver",
+          "mention": "SK-50",
+          "p": 0.27,
+          "true_candidate": "SEAL-KIT-50",
+          "type": "Part"
+        },
+        {
+          "backend": "jev",
+          "candidate": "BRG-6205-2RS",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "kind": "resolver",
+          "mention": "SPDL-BRG",
+          "p": 0.44,
+          "true_candidate": "BRG-7014-ACD",
+          "type": "Part"
+        },
+        {
+          "backend": "jev",
+          "candidate": "SEAL-SPDL-70",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "kind": "resolver",
+          "mention": "SPDL-BRG",
+          "p": 0.13,
+          "true_candidate": "BRG-7014-ACD",
+          "type": "Part"
+        },
+        {
+          "backend": "jev",
+          "candidate": "SEAL-FIX-30",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "kind": "sibling",
+          "mention": "SK-50",
+          "p": 0.1,
+          "true_candidate": "SEAL-KIT-50",
+          "type": "Part"
+        },
+        {
+          "backend": "jev",
+          "candidate": "SEAL-RV-25",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "kind": "sibling",
+          "mention": "SK-50",
+          "p": 0.1,
+          "true_candidate": "SEAL-KIT-50",
+          "type": "Part"
+        },
+        {
+          "backend": "jev",
+          "candidate": "SEAL-SPDL-70",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "kind": "sibling",
+          "mention": "SK-50",
+          "p": 0.06,
+          "true_candidate": "SEAL-KIT-50",
+          "type": "Part"
+        },
+        {
+          "backend": "jev",
+          "candidate": "SEAL-SPDL-70",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "kind": "sibling",
+          "mention": "FIXTURE-SEAL",
+          "p": 0.21,
+          "true_candidate": "SEAL-FIX-30",
+          "type": "Part"
+        },
+        {
+          "backend": "jev",
+          "candidate": "SEAL-KIT-50",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "kind": "sibling",
+          "mention": "RV-SEAL",
+          "p": 0.22,
+          "true_candidate": "SEAL-RV-25",
+          "type": "Part"
+        },
+        {
+          "backend": "jev",
+          "candidate": "SEAL-SPDL-70",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "kind": "sibling",
+          "mention": "RV-SEAL",
+          "p": 0.08,
+          "true_candidate": "SEAL-RV-25",
+          "type": "Part"
+        },
+        {
+          "backend": "jev",
+          "candidate": "BRG-6205-2RS",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "kind": "sibling",
+          "mention": "7014ACD",
+          "p": 0.11,
+          "true_candidate": "BRG-7014-ACD",
+          "type": "Part"
+        },
+        {
+          "backend": "jev",
+          "candidate": "SEAL-KIT-50",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "kind": "sibling",
+          "mention": "SEAL-70",
+          "p": 0.1,
+          "true_candidate": "SEAL-SPDL-70",
+          "type": "Part"
+        },
+        {
+          "backend": "jev",
+          "candidate": "SEAL-RV-25",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "kind": "sibling",
+          "mention": "SEAL-70",
+          "p": 0.08,
+          "true_candidate": "SEAL-SPDL-70",
+          "type": "Part"
+        },
+        {
+          "backend": "jev",
+          "candidate": "SENS-PT100-01",
+          "doc_path": "maintenance/maint_log_export_2026.csv",
+          "kind": "sibling",
+          "mention": "PRESSURE-SENSOR-10BAR",
+          "p": 0.02,
+          "true_candidate": "SENS-PRS-10",
+          "type": "Part"
+        }
+      ],
+      "no_candidate": 1,
+      "pairs": {
+        "false": 24,
+        "labeled": 41,
+        "true": 17,
+        "unlabeled": 0
+      },
+      "recommendation": {
+        "f1": 1.0,
+        "fn": 0,
+        "fp": 0,
+        "gap": {
+          "max_false_p": 0.44,
+          "min_true_p": 0.72
+        },
+        "gate": 0.7,
+        "precision": 1.0,
+        "recall": 1.0,
+        "sample": {
+          "false": 24,
+          "true": 17
+        },
+        "tp": 17,
+        "unbound": true
+      },
+      "reliability": {
+        "bins": [
+          {
+            "count": 12,
+            "high": 0.1,
+            "low": 0.0,
+            "mean_p": 0.043333333333333335,
+            "observed": 0.0
+          },
+          {
+            "count": 5,
+            "high": 0.2,
+            "low": 0.1,
+            "mean_p": 0.10800000000000001,
+            "observed": 0.0
+          },
+          {
+            "count": 6,
+            "high": 0.3,
+            "low": 0.2,
+            "mean_p": 0.23500000000000001,
+            "observed": 0.0
+          },
+          {
+            "count": 0,
+            "high": 0.4,
+            "low": 0.3,
+            "mean_p": null,
+            "observed": null
+          },
+          {
+            "count": 1,
+            "high": 0.5,
+            "low": 0.4,
+            "mean_p": 0.44,
+            "observed": 0.0
+          },
+          {
+            "count": 0,
+            "high": 0.6,
+            "low": 0.5,
+            "mean_p": null,
+            "observed": null
+          },
+          {
+            "count": 0,
+            "high": 0.7,
+            "low": 0.6,
+            "mean_p": null,
+            "observed": null
+          },
+          {
+            "count": 4,
+            "high": 0.8,
+            "low": 0.7,
+            "mean_p": 0.7725,
+            "observed": 1.0
+          },
+          {
+            "count": 6,
+            "high": 0.9,
+            "low": 0.8,
+            "mean_p": 0.8583333333333334,
+            "observed": 1.0
+          },
+          {
+            "count": 7,
+            "high": 1.0,
+            "low": 0.9,
+            "mean_p": 0.9342857142857143,
+            "observed": 1.0
+          }
+        ],
+        "ece": 0.1251219512195122
+      },
+      "rules": {
+        "Part": {
+          "correct": 62,
+          "n": 62,
+          "unlabeled": 0,
+          "wrong": 0
+        }
+      },
+      "sample": {
+        "false": 24,
+        "true": 17
+      },
+      "sources": {
+        "logged": 17,
+        "resolver_asked": 14,
+        "siblings": 10
+      },
+      "sweep": [
+        {
+          "f1": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "gate": 0.5,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tp": 17
+        },
+        {
+          "f1": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "gate": 0.55,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tp": 17
+        },
+        {
+          "f1": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "gate": 0.6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tp": 17
+        },
+        {
+          "f1": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "gate": 0.65,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tp": 17
+        },
+        {
+          "f1": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "gate": 0.7,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tp": 17
+        },
+        {
+          "f1": 0.9696969696969697,
+          "fn": 1,
+          "fp": 0,
+          "gate": 0.75,
+          "precision": 1.0,
+          "recall": 0.9411764705882353,
+          "tp": 16
+        },
+        {
+          "f1": 0.8666666666666667,
+          "fn": 4,
+          "fp": 0,
+          "gate": 0.8,
+          "precision": 1.0,
+          "recall": 0.7647058823529411,
+          "tp": 13
+        },
+        {
+          "f1": 0.7857142857142857,
+          "fn": 6,
+          "fp": 0,
+          "gate": 0.85,
+          "precision": 1.0,
+          "recall": 0.6470588235294118,
+          "tp": 11
+        },
+        {
+          "f1": 0.5833333333333334,
+          "fn": 10,
+          "fp": 0,
+          "gate": 0.9,
+          "precision": 1.0,
+          "recall": 0.4117647058823529,
+          "tp": 7
+        },
+        {
+          "f1": 0.3,
+          "fn": 14,
+          "fp": 0,
+          "gate": 0.95,
+          "precision": 1.0,
+          "recall": 0.17647058823529413,
+          "tp": 3
+        }
+      ],
+      "unlabeled": []
+    },
+    "same_incident": {
+      "at_gate": {
+        "f1": 0.9761904761904762,
+        "fn": 1,
+        "fp": 1,
+        "gate": 0.9,
+        "precision": 0.9761904761904762,
+        "recall": 0.9761904761904762,
+        "tp": 41
+      },
+      "bands": {
+        "merge": {
+          "false": 1,
+          "true": 41
+        },
+        "none": {
+          "false": 58,
+          "true": 0
+        },
+        "queue": {
+          "false": 10,
+          "true": 1
+        },
+        "undecided": {
+          "false": 0,
+          "true": 0
+        }
+      },
+      "decision_level": {
+        "at_gate": {
+          "f1": 0.9879518072289156,
+          "fn": 1,
+          "fp": 0,
+          "gate": 0.9,
+          "precision": 1.0,
+          "recall": 0.9761904761904762,
+          "tp": 41
+        },
+        "recommendation": {
+          "basis": "decision_level",
+          "f1": 0.9879518072289156,
+          "fn": 1,
+          "fp": 0,
+          "gap": {
+            "max_false_p": 0.88,
+            "min_true_p": 0.91
+          },
+          "gate": 0.9,
+          "note": "1 false pair(s) scored up to p 0.94 but the veto or cannot-link rules refused the merge, so the gate is not what stops them",
+          "precision": 1.0,
+          "recall": 0.9761904761904762,
+          "refused_false_pairs": {
+            "count": 1,
+            "max_p": 0.94
+          },
+          "sample": {
+            "false": 69,
+            "true": 42
+          },
+          "tp": 41,
+          "unbound": true
+        },
+        "refused": [
+          {
+            "candidate": "handovers/Handover_20260422_C.txt::handovers/Handover_20260422_C.txt#1",
+            "decision": "queue",
+            "doc_path": "maintenance/maint_log_export_2026.csv",
+            "label": false,
+            "mention": "WO-3456",
+            "p": 0.94
+          }
+        ],
+        "sweep": [
+          {
+            "f1": 0.8936170212765957,
+            "fn": 0,
+            "fp": 10,
+            "gate": 0.5,
+            "precision": 0.8076923076923077,
+            "recall": 1.0,
+            "tp": 42
+          },
+          {
+            "f1": 0.8913043478260869,
+            "fn": 1,
+            "fp": 9,
+            "gate": 0.55,
+            "precision": 0.82,
+            "recall": 0.9761904761904762,
+            "tp": 41
+          },
+          {
+            "f1": 0.8913043478260869,
+            "fn": 1,
+            "fp": 9,
+            "gate": 0.6,
+            "precision": 0.82,
+            "recall": 0.9761904761904762,
+            "tp": 41
+          },
+          {
+            "f1": 0.9010989010989011,
+            "fn": 1,
+            "fp": 8,
+            "gate": 0.65,
+            "precision": 0.8367346938775511,
+            "recall": 0.9761904761904762,
+            "tp": 41
+          },
+          {
+            "f1": 0.9213483146067416,
+            "fn": 1,
+            "fp": 6,
+            "gate": 0.7,
+            "precision": 0.8723404255319149,
+            "recall": 0.9761904761904762,
+            "tp": 41
+          },
+          {
+            "f1": 0.9318181818181818,
+            "fn": 1,
+            "fp": 5,
+            "gate": 0.75,
+            "precision": 0.8913043478260869,
+            "recall": 0.9761904761904762,
+            "tp": 41
+          },
+          {
+            "f1": 0.9534883720930233,
+            "fn": 1,
+            "fp": 3,
+            "gate": 0.8,
+            "precision": 0.9318181818181818,
+            "recall": 0.9761904761904762,
+            "tp": 41
+          },
+          {
+            "f1": 0.9534883720930233,
+            "fn": 1,
+            "fp": 3,
+            "gate": 0.85,
+            "precision": 0.9318181818181818,
+            "recall": 0.9761904761904762,
+            "tp": 41
+          },
+          {
+            "f1": 0.9879518072289156,
+            "fn": 1,
+            "fp": 0,
+            "gate": 0.9,
+            "precision": 1.0,
+            "recall": 0.9761904761904762,
+            "tp": 41
+          },
+          {
+            "f1": 0.9230769230769231,
+            "fn": 6,
+            "fp": 0,
+            "gate": 0.95,
+            "precision": 1.0,
+            "recall": 0.8571428571428571,
+            "tp": 36
+          }
+        ]
+      },
+      "gate": 0.9,
+      "max_false_p": 0.94,
+      "min_true_p": 0.53,
+      "p_only_recommendation": {
+        "f1": 0.9230769230769231,
+        "fn": 6,
+        "fp": 0,
+        "gap": {
+          "max_false_p": 0.94,
+          "min_true_p": 0.95
+        },
+        "gate": 0.95,
+        "precision": 1.0,
+        "recall": 0.8571428571428571,
+        "sample": {
+          "false": 69,
+          "true": 42
+        },
+        "tp": 36,
+        "unbound": true
+      },
+      "pairs": {
+        "false": 69,
+        "labeled": 111,
+        "true": 42,
+        "unlabeled": 0
+      },
+      "recommendation": {
+        "basis": "decision_level",
+        "f1": 0.9879518072289156,
+        "fn": 1,
+        "fp": 0,
+        "gap": {
+          "max_false_p": 0.88,
+          "min_true_p": 0.91
+        },
+        "gate": 0.9,
+        "note": "1 false pair(s) scored up to p 0.94 but the veto or cannot-link rules refused the merge, so the gate is not what stops them",
+        "precision": 1.0,
+        "recall": 0.9761904761904762,
+        "refused_false_pairs": {
+          "count": 1,
+          "max_p": 0.94
+        },
+        "sample": {
+          "false": 69,
+          "true": 42
+        },
+        "tp": 41,
+        "unbound": true
+      },
+      "reliability": {
+        "bins": [
+          {
+            "count": 54,
+            "high": 0.1,
+            "low": 0.0,
+            "mean_p": 0.02425925925925926,
+            "observed": 0.0
+          },
+          {
+            "count": 2,
+            "high": 0.2,
+            "low": 0.1,
+            "mean_p": 0.10500000000000001,
+            "observed": 0.0
+          },
+          {
+            "count": 0,
+            "high": 0.3,
+            "low": 0.2,
+            "mean_p": null,
+            "observed": null
+          },
+          {
+            "count": 1,
+            "high": 0.4,
+            "low": 0.3,
+            "mean_p": 0.31,
+            "observed": 0.0
+          },
+          {
+            "count": 1,
+            "high": 0.5,
+            "low": 0.4,
+            "mean_p": 0.42,
+            "observed": 0.0
+          },
+          {
+            "count": 2,
+            "high": 0.6,
+            "low": 0.5,
+            "mean_p": 0.525,
+            "observed": 0.5
+          },
+          {
+            "count": 3,
+            "high": 0.7,
+            "low": 0.6,
+            "mean_p": 0.6433333333333334,
+            "observed": 0.0
+          },
+          {
+            "count": 3,
+            "high": 0.8,
+            "low": 0.7,
+            "mean_p": 0.7566666666666667,
+            "observed": 0.0
+          },
+          {
+            "count": 3,
+            "high": 0.9,
+            "low": 0.8,
+            "mean_p": 0.8733333333333334,
+            "observed": 0.0
+          },
+          {
+            "count": 42,
+            "high": 1.0,
+            "low": 0.9,
+            "mean_p": 0.9580952380952381,
+            "observed": 0.9761904761904762
+          }
+        ],
+        "ece": 0.08900900900900899
+      },
+      "rules": {
+        "decisions": 4
+      },
+      "sample": {
+        "false": 69,
+        "true": 42
+      },
+      "sweep": [
+        {
+          "f1": 0.8842105263157894,
+          "fn": 0,
+          "fp": 11,
+          "gate": 0.5,
+          "precision": 0.7924528301886793,
+          "recall": 1.0,
+          "tp": 42
+        },
+        {
+          "f1": 0.8817204301075269,
+          "fn": 1,
+          "fp": 10,
+          "gate": 0.55,
+          "precision": 0.803921568627451,
+          "recall": 0.9761904761904762,
+          "tp": 41
+        },
+        {
+          "f1": 0.8817204301075269,
+          "fn": 1,
+          "fp": 10,
+          "gate": 0.6,
+          "precision": 0.803921568627451,
+          "recall": 0.9761904761904762,
+          "tp": 41
+        },
+        {
+          "f1": 0.8913043478260869,
+          "fn": 1,
+          "fp": 9,
+          "gate": 0.65,
+          "precision": 0.82,
+          "recall": 0.9761904761904762,
+          "tp": 41
+        },
+        {
+          "f1": 0.9111111111111111,
+          "fn": 1,
+          "fp": 7,
+          "gate": 0.7,
+          "precision": 0.8541666666666666,
+          "recall": 0.9761904761904762,
+          "tp": 41
+        },
+        {
+          "f1": 0.9213483146067416,
+          "fn": 1,
+          "fp": 6,
+          "gate": 0.75,
+          "precision": 0.8723404255319149,
+          "recall": 0.9761904761904762,
+          "tp": 41
+        },
+        {
+          "f1": 0.9425287356321839,
+          "fn": 1,
+          "fp": 4,
+          "gate": 0.8,
+          "precision": 0.9111111111111111,
+          "recall": 0.9761904761904762,
+          "tp": 41
+        },
+        {
+          "f1": 0.9425287356321839,
+          "fn": 1,
+          "fp": 4,
+          "gate": 0.85,
+          "precision": 0.9111111111111111,
+          "recall": 0.9761904761904762,
+          "tp": 41
+        },
+        {
+          "f1": 0.9761904761904762,
+          "fn": 1,
+          "fp": 1,
+          "gate": 0.9,
+          "precision": 0.9761904761904762,
+          "recall": 0.9761904761904762,
+          "tp": 41
+        },
+        {
+          "f1": 0.9230769230769231,
+          "fn": 6,
+          "fp": 0,
+          "gate": 0.95,
+          "precision": 1.0,
+          "recall": 0.8571428571428571,
+          "tp": 36
+        }
+      ],
+      "unlabeled": []
+    }
+  },
+  "layer3": {
+    "accuracy": {
+      "alarm": {
+        "accuracy": 0.96875,
+        "correct": 31,
+        "n": 32
+      },
+      "intent": {
+        "accuracy": 1.0,
+        "correct": 32,
+        "n": 32
+      },
+      "machine": {
+        "accuracy": 1.0,
+        "correct": 32,
+        "n": 32
+      },
+      "root_cause": {
+        "accuracy": 0.9230769230769231,
+        "correct": 24,
+        "n": 26
+      },
+      "safety": {
+        "accuracy": 1.0,
+        "correct": 26,
+        "n": 26
+      }
+    },
+    "all_fields": {
+      "accuracy": 0.90625,
+      "correct": 29,
+      "n": 32
+    },
+    "gates": [
+      {
+        "expect": [
+          "clarify"
+        ],
+        "id": "tri-30",
+        "kind": "ambiguous_model",
+        "ok": true,
+        "status": "clarify"
+      },
+      {
+        "expect": [
+          "clarify"
+        ],
+        "id": "tri-31",
+        "kind": "part_question",
+        "ok": true,
+        "status": "clarify"
+      },
+      {
+        "expect": [
+          "out_of_scope"
+        ],
+        "id": "tri-32",
+        "kind": "out_of_scope",
+        "ok": true,
+        "status": "out_of_scope"
+      }
+    ],
+    "items": [
+      {
+        "confidence": {
+          "alarm": 1.0,
+          "intent": 1.0,
+          "machine": 1.0,
+          "root_cause": 0.99,
+          "safety_critical": 0.92
+        },
+        "correct": {
+          "alarm": true,
+          "intent": true,
+          "machine": true,
+          "root_cause": true,
+          "safety": true
+        },
+        "id": "tri-01",
+        "kind": "incident",
+        "predicted": {
+          "alarm": "none",
+          "intent": "troubleshoot",
+          "machine": "CNC-01",
+          "root_cause": "FM-TOOL-CLAMP",
+          "safety": true,
+          "safety_p": 0.92
+        },
+        "question": "tool not clamping after change, machine stops on CNC1 w/ no alarm",
+        "status": "act",
+        "status_ok": null
+      },
+      {
+        "confidence": {
+          "alarm": 1.0,
+          "intent": 1.0,
+          "machine": 1.0,
+          "root_cause": 0.96,
+          "safety_critical": 0.91
+        },
+        "correct": {
+          "alarm": true,
+          "intent": true,
+          "machine": true,
+          "root_cause": true,
+          "safety": true
+        },
+        "id": "tri-02",
+        "kind": "incident",
+        "predicted": {
+          "alarm": "CL-210",
+          "intent": "troubleshoot",
+          "machine": "CNC-01",
+          "root_cause": "FM-COOLANT-BLOCK",
+          "safety": true,
+          "safety_p": 0.91
+        },
+        "question": "CNC-01 CL-210 - coolant pressure dropping, parts coming out hot",
+        "status": "act",
+        "status_ok": null
+      },
+      {
+        "confidence": {
+          "alarm": 0.91,
+          "intent": 1.0,
+          "machine": 1.0,
+          "root_cause": 0.98,
+          "safety_critical": 0.93
+        },
+        "correct": {
+          "alarm": true,
+          "intent": true,
+          "machine": true,
+          "root_cause": true,
+          "safety": true
+        },
+        "id": "tri-03",
+        "kind": "incident",
+        "predicted": {
+          "alarm": "SP-104",
+          "intent": "troubleshoot",
+          "machine": "CNC-01",
+          "root_cause": "FM-COOLANT-BLOCK",
+          "safety": true,
+          "safety_p": 0.93
+        },
+        "question": "SP104 CNC-01: coolant pressure dropping, parts coming out hot, what to do?",
+        "status": "act",
+        "status_ok": null
+      },
+      {
+        "confidence": {
+          "alarm": 1.0,
+          "intent": 1.0,
+          "machine": 1.0,
+          "root_cause": 1.0,
+          "safety_critical": 0.93
+        },
+        "correct": {
+          "alarm": true,
+          "intent": true,
+          "machine": true,
+          "root_cause": true,
+          "safety": true
+        },
+        "id": "tri-04",
+        "kind": "incident",
+        "predicted": {
+          "alarm": "SP-104",
+          "intent": "troubleshoot",
+          "machine": "CNC-01",
+          "root_cause": "FM-SPINDLE-BEARING",
+          "safety": true,
+          "safety_p": 0.93
+        },
+        "question": "ALM SP-104 CNC-01: grinding noise from spindle, vibration alarm, what to do?",
+        "status": "act",
+        "status_ok": null
+      },
+      {
+        "confidence": {
+          "alarm": 1.0,
+          "intent": 0.98,
+          "machine": 1.0,
+          "root_cause": 1.0,
+          "safety_critical": 0.9
+        },
+        "correct": {
+          "alarm": true,
+          "intent": true,
+          "machine": true,
+          "root_cause": true,
+          "safety": true
+        },
+        "id": "tri-05",
+        "kind": "incident",
+        "predicted": {
+          "alarm": "SP-117",
+          "intent": "troubleshoot",
+          "machine": "CNC-01",
+          "root_cause": "FM-SPINDLE-BEARING",
+          "safety": true,
+          "safety_p": 0.9
+        },
+        "question": "SP-117 on CNC-01 again. grinding noise from spindle, vibration alarm",
+        "status": "act",
+        "status_ok": null
+      },
+      {
+        "confidence": {
+          "alarm": 0.9,
+          "intent": 1.0,
+          "machine": 1.0,
+          "root_cause": 0.96,
+          "safety_critical": 0.89
+        },
+        "correct": {
+          "alarm": true,
+          "intent": true,
+          "machine": true,
+          "root_cause": true,
+          "safety": true
+        },
+        "id": "tri-06",
+        "kind": "incident",
+        "predicted": {
+          "alarm": "TC-305",
+          "intent": "troubleshoot",
+          "machine": "CNC-01",
+          "root_cause": "FM-TOOL-CLAMP",
+          "safety": true,
+          "safety_p": 0.89
+        },
+        "question": "MC-1 TC-305 - tool change takes too long then faults",
+        "status": "act",
+        "status_ok": null
+      },
+      {
+        "confidence": {
+          "alarm": 1.0,
+          "intent": 0.99,
+          "machine": 1.0,
+          "root_cause": 0.97,
+          "safety_critical": 0.89
+        },
+        "correct": {
+          "alarm": true,
+          "intent": true,
+          "machine": true,
+          "root_cause": true,
+          "safety": true
+        },
+        "id": "tri-07",
+        "kind": "incident",
+        "predicted": {
+          "alarm": "TC-311",
+          "intent": "troubleshoot",
+          "machine": "CNC-01",
+          "root_cause": "FM-TOOL-CLAMP",
+          "safety": true,
+          "safety_p": 0.89
+        },
+        "question": "ALM TC-311 on CNC-01 again. tool change takes too long then faults",
+        "status": "act",
+        "status_ok": null
+      },
+      {
+        "confidence": {
+          "alarm": 0.99,
+          "intent": 1.0,
+          "machine": 1.0,
+          "root_cause": 0.97,
+          "safety_critical": 0.91
+        },
+        "correct": {
+          "alarm": true,
+          "intent": true,
+          "machine": true,
+          "root_cause": true,
+          "safety": true
+        },
+        "id": "tri-08",
+        "kind": "incident",
+        "predicted": {
+          "alarm": "CL-214",
+          "intent": "troubleshoot",
+          "machine": "CNC-02",
+          "root_cause": "FM-COOLANT-BLOCK",
+          "safety": true,
+          "safety_p": 0.91
+        },
+        "question": "CNC-02 ALM CL-214 - coolant pressure dropping, parts coming out hot",
+        "status": "act",
+        "status_ok": null
+      },
+      {
+        "confidence": {
+          "alarm": 0.99,
+          "intent": 1.0,
+          "machine": 1.0,
+          "root_cause": 0.96,
+          "safety_critical": 0.93
+        },
+        "correct": {
+          "alarm": true,
+          "intent": true,
+          "machine": true,
+          "root_cause": true,
+          "safety": true
+        },
+        "id": "tri-09",
+        "kind": "incident",
+        "predicted": {
+          "alarm": "SP-104",
+          "intent": "troubleshoot",
+          "machine": "CNC-02",
+          "root_cause": "FM-COOLANT-BLOCK",
+          "safety": true,
+          "safety_p": 0.93
+        },
+        "question": "CNC2 down w/ ALM SP-104, no coolant at the nozzle, chips packing in the bore pls help",
+        "status": "act",
+        "status_ok": null
+      },
+      {
+        "confidence": {
+          "alarm": 0.99,
+          "intent": 1.0,
+          "machine": 1.0,
+          "root_cause": 1.0,
+          "safety_critical": 0.93
+        },
+        "correct": {
+          "alarm": true,
+          "intent": true,
+          "machine": true,
+          "root_cause": true,
+          "safety": true
+        },
+        "id": "tri-10",
+        "kind": "incident",
+        "predicted": {
+          "alarm": "SP-104",
+          "intent": "troubleshoot",
+          "machine": "CNC-02",
+          "root_cause": "FM-SPINDLE-BEARING",
+          "safety": true,
+          "safety_p": 0.93
+        },
+        "question": "ALM SP-104 CNC-02: grinding noise from spindle, vibration alarm, what to do?",
+        "status": "act",
+        "status_ok": null
+      },
+      {
+        "confidence": {
+          "alarm": 1.0,
+          "intent": 1.0,
+          "machine": 1.0,
+          "root_cause": 1.0,
+          "safety_critical": 0.93
+        },
+        "correct": {
+          "alarm": true,
+          "intent": true,
+          "machine": true,
+          "root_cause": true,
+          "safety": true
+        },
+        "id": "tri-11",
+        "kind": "incident",
+        "predicted": {
+          "alarm": "SP-117",
+          "intent": "troubleshoot",
+          "machine": "CNC-02",
+          "root_cause": "FM-SPINDLE-BEARING",
+          "safety": true,
+          "safety_p": 0.93
+        },
+        "question": "SP-117 MC-2: grinding noise from spindle, vibration alarm, what to do?",
+        "status": "act",
+        "status_ok": null
+      },
+      {
+        "confidence": {
+          "alarm": 1.0,
+          "intent": 0.99,
+          "machine": 1.0,
+          "root_cause": 0.99,
+          "safety_critical": 0.9
+        },
+        "correct": {
+          "alarm": true,
+          "intent": true,
+          "machine": true,
+          "root_cause": true,
+          "safety": true
+        },
+        "id": "tri-12",
+        "kind": "incident",
+        "predicted": {
+          "alarm": "TC-305",
+          "intent": "troubleshoot",
+          "machine": "CNC-02",
+          "root_cause": "FM-TOOL-CLAMP",
+          "safety": true,
+          "safety_p": 0.9
+        },
+        "question": "ALM TC-305 on CNC-02 again. tool not clamping after change, machine stops",
+        "status": "act",
+        "status_ok": null
+      },
+      {
+        "confidence": {
+          "alarm": 1.0,
+          "intent": 1.0,
+          "machine": 1.0,
+          "root_cause": 0.99,
+          "safety_critical": 0.95
+        },
+        "correct": {
+          "alarm": true,
+          "intent": true,
+          "machine": true,
+          "root_cause": true,
+          "safety": true
+        },
+        "id": "tri-13",
+        "kind": "incident",
+        "predicted": {
+          "alarm": "none",
+          "intent": "troubleshoot",
+          "machine": "HP-01",
+          "root_cause": "FM-SEAL-WEAR",
+          "safety": true,
+          "safety_p": 0.95
+        },
+        "question": "HP1 oil leaking under the ram, pressure dropping, no alarm on the screen pls help",
+        "status": "act",
+        "status_ok": null
+      },
+      {
+        "confidence": {
+          "alarm": 1.0,
+          "intent": 1.0,
+          "machine": 1.0,
+          "root_cause": 0.93,
+          "safety_critical": 0.94
+        },
+        "correct": {
+          "alarm": true,
+          "intent": true,
+          "machine": true,
+          "root_cause": true,
+          "safety": true
+        },
+        "id": "tri-14",
+        "kind": "incident",
+        "predicted": {
+          "alarm": "E-217",
+          "intent": "troubleshoot",
+          "machine": "HP-01",
+          "root_cause": "FM-SEAL-WEAR",
+          "safety": true,
+          "safety_p": 0.94
+        },
+        "question": "Press 2 E-217 - press losing pressure mid-stroke, oil on the floor",
+        "status": "act",
+        "status_ok": null
+      },
+      {
+        "confidence": {
+          "alarm": 1.0,
+          "intent": 1.0,
+          "machine": 1.0,
+          "root_cause": 0.95,
+          "safety_critical": 0.84
+        },
+        "correct": {
+          "alarm": true,
+          "intent": true,
+          "machine": true,
+          "root_cause": true,
+          "safety": true
+        },
+        "id": "tri-15",
+        "kind": "incident",
+        "predicted": {
+          "alarm": "E-221",
+          "intent": "troubleshoot",
+          "machine": "HP-01",
+          "root_cause": "FM-OIL-CONTAM",
+          "safety": true,
+          "safety_p": 0.84
+        },
+        "question": "E221 HP1: oil looks dark and milky, pump noisy, what to do?",
+        "status": "act",
+        "status_ok": null
+      },
+      {
+        "confidence": {
+          "alarm": 0.95,
+          "intent": 1.0,
+          "machine": 1.0,
+          "root_cause": 0.76,
+          "safety_critical": 0.91
+        },
+        "correct": {
+          "alarm": true,
+          "intent": true,
+          "machine": true,
+          "root_cause": true,
+          "safety": true
+        },
+        "id": "tri-16",
+        "kind": "incident",
+        "predicted": {
+          "alarm": "E-221",
+          "intent": "troubleshoot",
+          "machine": "HP-01",
+          "root_cause": "FM-RELIEF-DRIFT",
+          "safety": true,
+          "safety_p": 0.91
+        },
+        "question": "the press down w/ E221, press cannot reach tonnage, relief valve hissing pls help",
+        "status": "act",
+        "status_ok": null
+      },
+      {
+        "confidence": {
+          "alarm": 0.98,
+          "intent": 1.0,
+          "machine": 1.0,
+          "root_cause": 0.45,
+          "safety_critical": 0.72
+        },
+        "correct": {
+          "alarm": true,
+          "intent": true,
+          "machine": true,
+          "root_cause": false,
+          "safety": true
+        },
+        "id": "tri-17",
+        "kind": "incident",
+        "predicted": {
+          "alarm": "E-230",
+          "intent": "troubleshoot",
+          "machine": "HP-01",
+          "root_cause": "FM-RELIEF-DRIFT",
+          "safety": true,
+          "safety_p": 0.72
+        },
+        "question": "pressure hunting, oil running hot on HP-01, throwing E-230 pls check",
+        "status": "confirm",
+        "status_ok": null
+      },
+      {
+        "confidence": {
+          "alarm": 0.98,
+          "intent": 1.0,
+          "machine": 1.0,
+          "root_cause": 0.96,
+          "safety_critical": 0.96
+        },
+        "correct": {
+          "alarm": true,
+          "intent": true,
+          "machine": true,
+          "root_cause": true,
+          "safety": true
+        },
+        "id": "tri-18",
+        "kind": "incident",
+        "predicted": {
+          "alarm": "E-245",
+          "intent": "troubleshoot",
+          "machine": "HP-01",
+          "root_cause": "FM-SEAL-WEAR",
+          "safety": true,
+          "safety_p": 0.96
+        },
+        "question": "E245 HP-01: press losing pressure mid-stroke, oil on the floor, what to do?",
+        "status": "act",
+        "status_ok": null
+      },
+      {
+        "confidence": {
+          "alarm": 1.0,
+          "intent": 0.99,
+          "machine": 1.0,
+          "root_cause": 0.79,
+          "safety_critical": 0.92
+        },
+        "correct": {
+          "alarm": true,
+          "intent": true,
+          "machine": true,
+          "root_cause": true,
+          "safety": true
+        },
+        "id": "tri-19",
+        "kind": "incident",
+        "predicted": {
+          "alarm": "E-252",
+          "intent": "troubleshoot",
+          "machine": "HP-01",
+          "root_cause": "FM-RELIEF-DRIFT",
+          "safety": true,
+          "safety_p": 0.92
+        },
+        "question": "PR-2 Err:252 - press cannot reach tonnage, relief valve hissing",
+        "status": "act",
+        "status_ok": null
+      },
+      {
+        "confidence": {
+          "alarm": 0.99,
+          "intent": 1.0,
+          "machine": 1.0,
+          "root_cause": 0.48,
+          "safety_critical": 0.56
+        },
+        "correct": {
+          "alarm": true,
+          "intent": true,
+          "machine": true,
+          "root_cause": false,
+          "safety": true
+        },
+        "id": "tri-20",
+        "kind": "incident",
+        "predicted": {
+          "alarm": "VT-012",
+          "intent": "troubleshoot",
+          "machine": "LT-01",
+          "root_cause": "FM-FIXTURE-SEAL",
+          "safety": false,
+          "safety_p": 0.44
+        },
+        "question": "good parts failing leak test, reference off on leak test, throwing VT12 pls check",
+        "status": "confirm",
+        "status_ok": null
+      },
+      {
+        "confidence": {
+          "alarm": 0.96,
+          "intent": 1.0,
+          "machine": 1.0,
+          "root_cause": 0.74,
+          "safety_critical": 0.69
+        },
+        "correct": {
+          "alarm": true,
+          "intent": true,
+          "machine": true,
+          "root_cause": true,
+          "safety": true
+        },
+        "id": "tri-21",
+        "kind": "incident",
+        "predicted": {
+          "alarm": "VT-018",
+          "intent": "troubleshoot",
+          "machine": "LT-01",
+          "root_cause": "FM-FIXTURE-SEAL",
+          "safety": true,
+          "safety_p": 0.69
+        },
+        "question": "LT1 VT018 - fill takes too long, seals look flattened",
+        "status": "confirm",
+        "status_ok": null
+      },
+      {
+        "confidence": {
+          "alarm": 1.0,
+          "intent": 1.0,
+          "machine": 1.0,
+          "root_cause": 0.92,
+          "safety_critical": 0.61
+        },
+        "correct": {
+          "alarm": true,
+          "intent": true,
+          "machine": true,
+          "root_cause": true,
+          "safety": true
+        },
+        "id": "tri-22",
+        "kind": "incident",
+        "predicted": {
+          "alarm": "VT-021",
+          "intent": "troubleshoot",
+          "machine": "LT-01",
+          "root_cause": "FM-FIXTURE-SEAL",
+          "safety": true,
+          "safety_p": 0.61
+        },
+        "question": "VT21 on leak tester again. fill takes too long, seals look flattened",
+        "status": "confirm",
+        "status_ok": null
+      },
+      {
+        "confidence": {
+          "alarm": 1.0,
+          "intent": 1.0,
+          "machine": 1.0,
+          "root_cause": 0.86,
+          "safety_critical": 0.89
+        },
+        "correct": {
+          "alarm": true,
+          "intent": true,
+          "machine": true,
+          "root_cause": true,
+          "safety": true
+        },
+        "id": "tri-23",
+        "kind": "incident",
+        "predicted": {
+          "alarm": "RB-551",
+          "intent": "troubleshoot",
+          "machine": "RW-01",
+          "root_cause": "FM-GRIPPER-WEAR",
+          "safety": true,
+          "safety_p": 0.89
+        },
+        "question": "RB551 on RW-01 again. part-present signal flickering, gripper slipping",
+        "status": "act",
+        "status_ok": null
+      },
+      {
+        "confidence": {
+          "alarm": 1.0,
+          "intent": 1.0,
+          "machine": 0.99,
+          "root_cause": 0.99,
+          "safety_critical": 0.93
+        },
+        "correct": {
+          "alarm": true,
+          "intent": true,
+          "machine": true,
+          "root_cause": true,
+          "safety": true
+        },
+        "id": "tri-24",
+        "kind": "incident",
+        "predicted": {
+          "alarm": "RB-560",
+          "intent": "troubleshoot",
+          "machine": "RW-01",
+          "root_cause": "FM-SERVO-OVERLOAD",
+          "safety": true,
+          "safety_p": 0.93
+        },
+        "question": "RB560 robot: robot arm jerky on axis 2, drive alarm, what to do?",
+        "status": "act",
+        "status_ok": null
+      },
+      {
+        "confidence": {
+          "alarm": 1.0,
+          "intent": 1.0,
+          "machine": 1.0,
+          "root_cause": 0.96,
+          "safety_critical": 0.9
+        },
+        "correct": {
+          "alarm": true,
+          "intent": true,
+          "machine": true,
+          "root_cause": true,
+          "safety": true
+        },
+        "id": "tri-25",
+        "kind": "incident",
+        "predicted": {
+          "alarm": "RB-563",
+          "intent": "troubleshoot",
+          "machine": "RW-01",
+          "root_cause": "FM-SERVO-OVERLOAD",
+          "safety": true,
+          "safety_p": 0.9
+        },
+        "question": "RC-1 RB-563 - robot arm jerky on axis 2, drive alarm",
+        "status": "act",
+        "status_ok": null
+      },
+      {
+        "confidence": {
+          "alarm": 1.0,
+          "intent": 1.0,
+          "machine": 1.0,
+          "root_cause": 0.98,
+          "safety_critical": 0.93
+        },
+        "correct": {
+          "alarm": true,
+          "intent": true,
+          "machine": true,
+          "root_cause": true,
+          "safety": true
+        },
+        "id": "tri-26",
+        "kind": "incident",
+        "predicted": {
+          "alarm": "RB-570",
+          "intent": "troubleshoot",
+          "machine": "RW-01",
+          "root_cause": "FM-LIGHT-CURTAIN",
+          "safety": true,
+          "safety_p": 0.93
+        },
+        "question": "deburr cell down w/ RB570, cell stops randomly, light curtain fault pls help",
+        "status": "act",
+        "status_ok": null
+      },
+      {
+        "confidence": {
+          "alarm": 0.9400000000000001,
+          "intent": 1.0,
+          "machine": 1.0,
+          "root_cause": 0.7,
+          "safety_critical": 0.59
+        },
+        "correct": {
+          "alarm": true,
+          "intent": true,
+          "machine": true,
+          "root_cause": null,
+          "safety": null
+        },
+        "id": "tri-27",
+        "kind": "alias_only",
+        "predicted": {
+          "alarm": "none",
+          "intent": "troubleshoot",
+          "machine": "LT-01",
+          "root_cause": null,
+          "safety": true,
+          "safety_p": 0.59
+        },
+        "question": "leak tester keeps tripping out, no idea why",
+        "status": "confirm",
+        "status_ok": null
+      },
+      {
+        "confidence": {
+          "alarm": 1.0,
+          "intent": 0.98,
+          "machine": null,
+          "root_cause": 0.86,
+          "safety_critical": 0.87
+        },
+        "correct": {
+          "alarm": true,
+          "intent": true,
+          "machine": true,
+          "root_cause": null,
+          "safety": null
+        },
+        "id": "tri-28",
+        "kind": "alarm_only",
+        "predicted": {
+          "alarm": "E-217",
+          "intent": "troubleshoot",
+          "machine": "HP-01",
+          "root_cause": null,
+          "safety": false,
+          "safety_p": 0.13
+        },
+        "question": "E217 again, what does that mean pls",
+        "status": "confirm",
+        "status_ok": null
+      },
+      {
+        "confidence": {
+          "alarm": 0.96,
+          "intent": 1.0,
+          "machine": 1.0,
+          "root_cause": 0.75,
+          "safety_critical": 0.62
+        },
+        "correct": {
+          "alarm": true,
+          "intent": true,
+          "machine": true,
+          "root_cause": null,
+          "safety": null
+        },
+        "id": "tri-29",
+        "kind": "no_alarm",
+        "predicted": {
+          "alarm": "none",
+          "intent": "troubleshoot",
+          "machine": "HP-01",
+          "root_cause": null,
+          "safety": true,
+          "safety_p": 0.62
+        },
+        "question": "HP-01 stopped mid cycle, nothing on the alarm list",
+        "status": "confirm",
+        "status_ok": null
+      },
+      {
+        "confidence": {
+          "alarm": 0.44,
+          "intent": 1.0,
+          "machine": 0.9,
+          "root_cause": 0.88,
+          "safety_critical": 0.66
+        },
+        "correct": {
+          "alarm": false,
+          "intent": true,
+          "machine": true,
+          "root_cause": null,
+          "safety": null
+        },
+        "id": "tri-30",
+        "kind": "ambiguous_model",
+        "predicted": {
+          "alarm": "TC-305",
+          "intent": "troubleshoot",
+          "machine": null,
+          "root_cause": "FM-TOOL-CLAMP",
+          "safety": true,
+          "safety_p": 0.66
+        },
+        "question": "the KX-500 on the left is throwing a clamp fault pls help",
+        "status": "clarify",
+        "status_ok": true
+      },
+      {
+        "confidence": {
+          "alarm": 0.98,
+          "intent": 0.99,
+          "machine": 0.94,
+          "root_cause": 0.9,
+          "safety_critical": 0.87
+        },
+        "correct": {
+          "alarm": true,
+          "intent": true,
+          "machine": true,
+          "root_cause": null,
+          "safety": null
+        },
+        "id": "tri-31",
+        "kind": "part_question",
+        "predicted": {
+          "alarm": "none",
+          "intent": "find_part",
+          "machine": null,
+          "root_cause": null,
+          "safety": false,
+          "safety_p": 0.13
+        },
+        "question": "got any spdl brg left? need one pls",
+        "status": "clarify",
+        "status_ok": true
+      },
+      {
+        "confidence": {
+          "alarm": 1.0,
+          "intent": 1.0,
+          "machine": 1.0,
+          "root_cause": 1.0,
+          "safety_critical": 0.9299999999999999
+        },
+        "correct": {
+          "alarm": true,
+          "intent": true,
+          "machine": true,
+          "root_cause": null,
+          "safety": null
+        },
+        "id": "tri-32",
+        "kind": "out_of_scope",
+        "predicted": {
+          "alarm": "none",
+          "intent": "out_of_scope",
+          "machine": null,
+          "root_cause": null,
+          "safety": false,
+          "safety_p": 0.07
+        },
+        "question": "who is on the C shift roster this week",
+        "status": "out_of_scope",
+        "status_ok": true
+      }
+    ],
+    "n": 32,
+    "on_act": {
+      "accuracy": {
+        "alarm": {
+          "accuracy": 1.0,
+          "correct": 22,
+          "n": 22
+        },
+        "intent": {
+          "accuracy": 1.0,
+          "correct": 22,
+          "n": 22
+        },
+        "machine": {
+          "accuracy": 1.0,
+          "correct": 22,
+          "n": 22
+        },
+        "root_cause": {
+          "accuracy": 1.0,
+          "correct": 22,
+          "n": 22
+        },
+        "safety": {
+          "accuracy": 1.0,
+          "correct": 22,
+          "n": 22
+        }
+      },
+      "all_fields": {
+        "accuracy": 1.0,
+        "correct": 22,
+        "n": 22
+      },
+      "n": 22
+    },
+    "reliability": {
+      "machine": {
+        "bins": [
+          {
+            "count": 0,
+            "high": 0.1,
+            "low": 0.0,
+            "mean_p": null,
+            "observed": null
+          },
+          {
+            "count": 0,
+            "high": 0.2,
+            "low": 0.1,
+            "mean_p": null,
+            "observed": null
+          },
+          {
+            "count": 0,
+            "high": 0.3,
+            "low": 0.2,
+            "mean_p": null,
+            "observed": null
+          },
+          {
+            "count": 0,
+            "high": 0.4,
+            "low": 0.3,
+            "mean_p": null,
+            "observed": null
+          },
+          {
+            "count": 0,
+            "high": 0.5,
+            "low": 0.4,
+            "mean_p": null,
+            "observed": null
+          },
+          {
+            "count": 0,
+            "high": 0.6,
+            "low": 0.5,
+            "mean_p": null,
+            "observed": null
+          },
+          {
+            "count": 0,
+            "high": 0.7,
+            "low": 0.6,
+            "mean_p": null,
+            "observed": null
+          },
+          {
+            "count": 0,
+            "high": 0.8,
+            "low": 0.7,
+            "mean_p": null,
+            "observed": null
+          },
+          {
+            "count": 0,
+            "high": 0.9,
+            "low": 0.8,
+            "mean_p": null,
+            "observed": null
+          },
+          {
+            "count": 31,
+            "high": 1.0,
+            "low": 0.9,
+            "mean_p": 0.9945161290322581,
+            "observed": 1.0
+          }
+        ],
+        "ece": 0.005483870967741944
+      },
+      "root_cause": {
+        "bins": [
+          {
+            "count": 0,
+            "high": 0.1,
+            "low": 0.0,
+            "mean_p": null,
+            "observed": null
+          },
+          {
+            "count": 0,
+            "high": 0.2,
+            "low": 0.1,
+            "mean_p": null,
+            "observed": null
+          },
+          {
+            "count": 0,
+            "high": 0.3,
+            "low": 0.2,
+            "mean_p": null,
+            "observed": null
+          },
+          {
+            "count": 0,
+            "high": 0.4,
+            "low": 0.3,
+            "mean_p": null,
+            "observed": null
+          },
+          {
+            "count": 2,
+            "high": 0.5,
+            "low": 0.4,
+            "mean_p": 0.46499999999999997,
+            "observed": 0.0
+          },
+          {
+            "count": 0,
+            "high": 0.6,
+            "low": 0.5,
+            "mean_p": null,
+            "observed": null
+          },
+          {
+            "count": 0,
+            "high": 0.7,
+            "low": 0.6,
+            "mean_p": null,
+            "observed": null
+          },
+          {
+            "count": 3,
+            "high": 0.8,
+            "low": 0.7,
+            "mean_p": 0.7633333333333333,
+            "observed": 1.0
+          },
+          {
+            "count": 1,
+            "high": 0.9,
+            "low": 0.8,
+            "mean_p": 0.86,
+            "observed": 1.0
+          },
+          {
+            "count": 20,
+            "high": 1.0,
+            "low": 0.9,
+            "mean_p": 0.9730000000000001,
+            "observed": 1.0
+          }
+        ],
+        "ece": 0.08923076923076918
+      }
+    },
+    "safety": {
+      "false_positive_rate": 0.0,
+      "fn": 0,
+      "fp": 0,
+      "negatives": 1,
+      "positives": 25,
+      "recall": 1.0,
+      "scored": 26,
+      "tn": 1,
+      "tp": 25,
+      "unscored": 6
+    },
+    "status": {
+      "count": {
+        "act": 22,
+        "clarify": 2,
+        "confirm": 7,
+        "out_of_scope": 1
+      },
+      "share": {
+        "act": 0.6875,
+        "clarify": 0.0625,
+        "confirm": 0.21875,
+        "out_of_scope": 0.03125
+      }
+    }
+  },
+  "layer4": {
+    "diagnostics": {
+      "summary_names_first_cause": {
+        "accuracy": 1.0,
+        "correct": 20,
+        "n": 20
+      },
+      "summary_names_truth_cause": {
+        "accuracy": 1.0,
+        "correct": 20,
+        "n": 20
+      }
+    },
+    "fix": {
+      "listed": {
+        "accuracy": 1.0,
+        "correct": 20,
+        "n": 20
+      },
+      "note": "other_fixes carries the procedures of every candidate cause, so listed counts a fix of a cause the card did not lead with; shown is the number that matters.",
+      "shown": {
+        "accuracy": 1.0,
+        "correct": 20,
+        "n": 20
+      }
+    },
+    "items": [
+      {
+        "checks": {
+          "fix_listed": true,
+          "fix_shown": true,
+          "lockout": true,
+          "parts": true,
+          "root_top1": true,
+          "root_top3": true
+        },
+        "diagnostics": {
+          "names_first_cause": true,
+          "names_truth_cause": true
+        },
+        "id": "ans-01",
+        "judge": {
+          "cause": 1,
+          "contradiction": 2,
+          "safety": 2
+        },
+        "ok": true,
+        "question": "CNC 1: tool not clamping after change, machine stops. no alarm code. whats the fix and parts pls",
+        "source": "incident",
+        "status": "act",
+        "trap": null
+      },
+      {
+        "checks": {
+          "fix_listed": true,
+          "fix_shown": true,
+          "lockout": true,
+          "parts": true,
+          "root_top1": true,
+          "root_top3": true
+        },
+        "diagnostics": {
+          "names_first_cause": true,
+          "names_truth_cause": true
+        },
+        "id": "ans-02",
+        "judge": {
+          "cause": 2,
+          "contradiction": 2,
+          "safety": 2
+        },
+        "ok": true,
+        "question": "need help on MC-1, SP104 came up and coolant pressure dropping, parts coming out hot",
+        "source": "incident",
+        "status": "act",
+        "trap": null
+      },
+      {
+        "checks": {
+          "fix_listed": true,
+          "fix_shown": true,
+          "lockout": true,
+          "parts": true,
+          "root_top1": true,
+          "root_top3": true
+        },
+        "diagnostics": {
+          "names_first_cause": true,
+          "names_truth_cause": true
+        },
+        "id": "ans-03",
+        "judge": {
+          "cause": 2,
+          "contradiction": 2,
+          "safety": 2
+        },
+        "ok": true,
+        "question": "CNC 1 is showing SP-104. grinding noise from spindle, vibration alarm. whats the fix and what parts do i need pls",
+        "source": "incident",
+        "status": "act",
+        "trap": null
+      },
+      {
+        "checks": {
+          "fix_listed": true,
+          "fix_shown": true,
+          "lockout": true,
+          "parts": true,
+          "root_top1": true,
+          "root_top3": true
+        },
+        "diagnostics": {
+          "names_first_cause": true,
+          "names_truth_cause": true
+        },
+        "id": "ans-04",
+        "judge": {
+          "cause": 1,
+          "contradiction": 2,
+          "safety": 2
+        },
+        "ok": true,
+        "question": "MC-1 is showing ALM TC-305. tool change takes too long then faults. whats the fix and what parts do i need pls",
+        "source": "incident",
+        "status": "act",
+        "trap": null
+      },
+      {
+        "checks": {
+          "fix_listed": true,
+          "fix_shown": true,
+          "lockout": true,
+          "parts": true,
+          "root_top1": true,
+          "root_top3": true
+        },
+        "diagnostics": {
+          "names_first_cause": true,
+          "names_truth_cause": true
+        },
+        "id": "ans-05",
+        "judge": {
+          "cause": 2,
+          "contradiction": 2,
+          "safety": 2
+        },
+        "ok": true,
+        "question": "need help on CNC-02, ALM SP-104 came up and no coolant at the nozzle, chips packing in the bore",
+        "source": "incident",
+        "status": "act",
+        "trap": null
+      },
+      {
+        "checks": {
+          "fix_listed": true,
+          "fix_shown": true,
+          "lockout": true,
+          "parts": true,
+          "root_top1": true,
+          "root_top3": true
+        },
+        "diagnostics": {
+          "names_first_cause": true,
+          "names_truth_cause": true
+        },
+        "id": "ans-06",
+        "judge": {
+          "cause": 2,
+          "contradiction": 2,
+          "safety": 2
+        },
+        "ok": true,
+        "question": "CNC 2 is showing SP-104. spindle running hot and noisy at high rpm. whats the fix and what parts do i need pls",
+        "source": "incident",
+        "status": "act",
+        "trap": null
+      },
+      {
+        "checks": {
+          "fix_listed": true,
+          "fix_shown": true,
+          "lockout": true,
+          "parts": true,
+          "root_top1": true,
+          "root_top3": true
+        },
+        "diagnostics": {
+          "names_first_cause": true,
+          "names_truth_cause": true
+        },
+        "id": "ans-07",
+        "judge": {
+          "cause": 2,
+          "contradiction": 2,
+          "safety": 2
+        },
+        "ok": true,
+        "question": "MC-2 is showing ALM SP-117. grinding noise from spindle, vibration alarm. whats the fix and what parts do i need pls",
+        "source": "incident",
+        "status": "act",
+        "trap": null
+      },
+      {
+        "checks": {
+          "fix_listed": true,
+          "fix_shown": true,
+          "lockout": true,
+          "parts": true,
+          "root_top1": true,
+          "root_top3": true
+        },
+        "diagnostics": {
+          "names_first_cause": true,
+          "names_truth_cause": true
+        },
+        "id": "ans-08",
+        "judge": {
+          "cause": 2,
+          "contradiction": 2,
+          "safety": 2
+        },
+        "ok": true,
+        "question": "E217 w/ press losing pressure mid-stroke, oil on the floor on the press, how do we fix it",
+        "source": "incident",
+        "status": "act",
+        "trap": null
+      },
+      {
+        "checks": {
+          "fix_listed": true,
+          "fix_shown": true,
+          "lockout": true,
+          "parts": true,
+          "root_top1": true,
+          "root_top3": true
+        },
+        "diagnostics": {
+          "names_first_cause": true,
+          "names_truth_cause": true
+        },
+        "id": "ans-09",
+        "judge": {
+          "cause": 2,
+          "contradiction": 2,
+          "safety": 2
+        },
+        "ok": true,
+        "question": "the press is showing E-221. oil looks dark and milky, pump noisy. whats the fix and what parts do i need pls",
+        "source": "incident",
+        "status": "act",
+        "trap": null
+      },
+      {
+        "checks": {
+          "fix_listed": true,
+          "fix_shown": true,
+          "lockout": true,
+          "parts": true,
+          "root_top1": true,
+          "root_top3": true
+        },
+        "diagnostics": {
+          "names_first_cause": true,
+          "names_truth_cause": true
+        },
+        "id": "ans-10",
+        "judge": {
+          "cause": 2,
+          "contradiction": 2,
+          "safety": 2
+        },
+        "ok": true,
+        "question": "need help on PR-2, E221 came up and pressure spikes above setpoint then drops",
+        "source": "incident",
+        "status": "confirm",
+        "trap": null
+      },
+      {
+        "checks": {
+          "fix_listed": true,
+          "fix_shown": true,
+          "lockout": true,
+          "parts": true,
+          "root_top1": true,
+          "root_top3": true
+        },
+        "diagnostics": {
+          "names_first_cause": true,
+          "names_truth_cause": true
+        },
+        "id": "ans-11",
+        "judge": {
+          "cause": 2,
+          "contradiction": 2,
+          "safety": 2
+        },
+        "ok": true,
+        "question": "Err:230 w/ pressure hunting, oil running hot on the BH-250, how do we fix it",
+        "source": "incident",
+        "status": "confirm",
+        "trap": null
+      },
+      {
+        "checks": {
+          "fix_listed": true,
+          "fix_shown": true,
+          "lockout": true,
+          "parts": true,
+          "root_top1": true,
+          "root_top3": true
+        },
+        "diagnostics": {
+          "names_first_cause": true,
+          "names_truth_cause": true
+        },
+        "id": "ans-12",
+        "judge": {
+          "cause": 2,
+          "contradiction": 2,
+          "safety": 2
+        },
+        "ok": true,
+        "question": "need help on HP1, ERR 245 came up and press losing pressure mid-stroke, oil on the floor",
+        "source": "incident",
+        "status": "act",
+        "trap": null
+      },
+      {
+        "checks": {
+          "fix_listed": true,
+          "fix_shown": true,
+          "lockout": true,
+          "parts": true,
+          "root_top1": true,
+          "root_top3": true
+        },
+        "diagnostics": {
+          "names_first_cause": true,
+          "names_truth_cause": true
+        },
+        "id": "ans-13",
+        "judge": {
+          "cause": 2,
+          "contradiction": 2,
+          "safety": 2
+        },
+        "ok": true,
+        "question": "need help on Press 2, E252 came up and press cannot reach tonnage, relief valve hissing",
+        "source": "incident",
+        "status": "act",
+        "trap": null
+      },
+      {
+        "checks": {
+          "fix_listed": true,
+          "fix_shown": true,
+          "lockout": null,
+          "parts": true,
+          "root_top1": true,
+          "root_top3": true
+        },
+        "diagnostics": {
+          "names_first_cause": true,
+          "names_truth_cause": true
+        },
+        "id": "ans-14",
+        "judge": {
+          "cause": 2,
+          "contradiction": 2,
+          "safety": 2
+        },
+        "ok": true,
+        "question": "VT station is showing VT12. master part reading out of tolerance. whats the fix and what parts do i need pls",
+        "source": "incident",
+        "status": "confirm",
+        "trap": null
+      },
+      {
+        "checks": {
+          "fix_listed": true,
+          "fix_shown": true,
+          "lockout": true,
+          "parts": true,
+          "root_top1": true,
+          "root_top3": true
+        },
+        "diagnostics": {
+          "names_first_cause": true,
+          "names_truth_cause": true
+        },
+        "id": "ans-15",
+        "judge": {
+          "cause": 2,
+          "contradiction": 2,
+          "safety": 2
+        },
+        "ok": true,
+        "question": "fill takes too long, seals look flattened - the VT-LD20 - VT018. cause? fix? parts?",
+        "source": "incident",
+        "status": "confirm",
+        "trap": null
+      },
+      {
+        "checks": {
+          "fix_listed": true,
+          "fix_shown": true,
+          "lockout": true,
+          "parts": true,
+          "root_top1": true,
+          "root_top3": true
+        },
+        "diagnostics": {
+          "names_first_cause": true,
+          "names_truth_cause": true
+        },
+        "id": "ans-16",
+        "judge": {
+          "cause": 2,
+          "contradiction": 2,
+          "safety": 2
+        },
+        "ok": true,
+        "question": "need help on VT station, VT21 came up and fill takes too long, seals look flattened",
+        "source": "incident",
+        "status": "act",
+        "trap": null
+      },
+      {
+        "checks": {
+          "fix_listed": true,
+          "fix_shown": true,
+          "lockout": true,
+          "parts": true,
+          "root_top1": true,
+          "root_top3": true
+        },
+        "diagnostics": {
+          "names_first_cause": true,
+          "names_truth_cause": true
+        },
+        "id": "ans-17",
+        "judge": {
+          "cause": 2,
+          "contradiction": 2,
+          "safety": 2
+        },
+        "ok": true,
+        "question": "RB-551 w/ robot dropping parts at the deburr station on RC-1, how do we fix it",
+        "source": "incident",
+        "status": "confirm",
+        "trap": null
+      },
+      {
+        "checks": {
+          "fix_listed": true,
+          "fix_shown": true,
+          "lockout": true,
+          "parts": true,
+          "root_top1": true,
+          "root_top3": true
+        },
+        "diagnostics": {
+          "names_first_cause": true,
+          "names_truth_cause": true
+        },
+        "id": "ans-18",
+        "judge": {
+          "cause": 2,
+          "contradiction": 2,
+          "safety": 2
+        },
+        "ok": true,
+        "question": "robot arm jerky on axis 2, drive alarm - deburr cell - RB560. cause? fix? parts?",
+        "source": "incident",
+        "status": "act",
+        "trap": null
+      },
+      {
+        "checks": {
+          "fix_listed": true,
+          "fix_shown": true,
+          "lockout": true,
+          "parts": true,
+          "root_top1": true,
+          "root_top3": true
+        },
+        "diagnostics": {
+          "names_first_cause": true,
+          "names_truth_cause": true
+        },
+        "id": "ans-19",
+        "judge": {
+          "cause": 2,
+          "contradiction": 2,
+          "safety": 2
+        },
+        "ok": true,
+        "question": "deburr cell is showing RB-563. robot arm jerky on axis 2, drive alarm. whats the fix and what parts do i need pls",
+        "source": "incident",
+        "status": "act",
+        "trap": null
+      },
+      {
+        "checks": {
+          "fix_listed": true,
+          "fix_shown": true,
+          "lockout": true,
+          "parts": true,
+          "root_top1": true,
+          "root_top3": true
+        },
+        "diagnostics": {
+          "names_first_cause": true,
+          "names_truth_cause": true
+        },
+        "id": "ans-20",
+        "judge": {
+          "cause": 2,
+          "contradiction": 2,
+          "safety": 2
+        },
+        "ok": true,
+        "question": "muting fault after the guard was knocked - robot cell - RB-570. cause? fix? parts?",
+        "source": "incident",
+        "status": "confirm",
+        "trap": null
+      },
+      {
+        "checks": {
+          "no_causes": true,
+          "reason": true,
+          "status": true
+        },
+        "diagnostics": null,
+        "id": "ans-21",
+        "judge": null,
+        "ok": true,
+        "question": "Line 4 robot is down",
+        "source": "trap",
+        "status": "clarify",
+        "trap": "unknown_machine"
+      },
+      {
+        "checks": {
+          "chips": true,
+          "status": true
+        },
+        "diagnostics": null,
+        "id": "ans-22",
+        "judge": null,
+        "ok": true,
+        "question": "the CNC is making a weird noise",
+        "source": "trap",
+        "status": "clarify",
+        "trap": "vague_symptom"
+      },
+      {
+        "checks": {
+          "no_retrieval": true,
+          "referral": true,
+          "status": true
+        },
+        "diagnostics": null,
+        "id": "ans-23",
+        "judge": null,
+        "ok": true,
+        "question": "can you approve my leave for Friday",
+        "source": "trap",
+        "status": "out_of_scope",
+        "trap": "out_of_scope"
+      },
+      {
+        "checks": {
+          "note": true
+        },
+        "diagnostics": null,
+        "id": "ans-24",
+        "judge": {
+          "cause": 2,
+          "contradiction": 2,
+          "safety": 2
+        },
+        "ok": true,
+        "question": "LT-01 VT-018 leak rate high on every part, whats the fix pls",
+        "source": "trap",
+        "status": "confirm",
+        "trap": "conflicting_notes"
+      },
+      {
+        "checks": {
+          "fix": true,
+          "note": true,
+          "part": true
+        },
+        "diagnostics": null,
+        "id": "ans-25",
+        "judge": {
+          "cause": 2,
+          "contradiction": 2,
+          "safety": 2
+        },
+        "ok": true,
+        "question": "RW-01 RB-551 gripper not seeing parts, what do I need to fix it",
+        "source": "trap",
+        "status": "confirm",
+        "trap": "zero_stock"
+      }
+    ],
+    "judge": {
+      "citation_precision": {
+        "kept": 102,
+        "precision": 0.9411764705882353,
+        "supported": 96
+      },
+      "n": 22,
+      "rubric": {
+        "cause": {
+          "full_marks": 20,
+          "mean": 1.9090909090909092,
+          "n": 22
+        },
+        "contradiction": {
+          "full_marks": 22,
+          "mean": 2.0,
+          "n": 22
+        },
+        "safety": {
+          "full_marks": 22,
+          "mean": 2.0,
+          "n": 22
+        }
+      },
+      "verifier_agreement": {
+        "agree": 96,
+        "kept": {
+          "agree": 96,
+          "n": 102
+        },
+        "n": 102,
+        "rate": 0.9411764705882353,
+        "unverified": {
+          "agree": 0,
+          "n": 0
+        }
+      }
+    },
+    "lockout": {
+      "caught": 19,
+      "misses": [],
+      "n": 19,
+      "over_warning": {
+        "ids": [
+          "ans-14"
+        ],
+        "negatives": 1,
+        "rate": 1.0,
+        "warned": 1
+      },
+      "recall": 1.0
+    },
+    "n": 25,
+    "parts": {
+      "accuracy": 1.0,
+      "correct": 20,
+      "n": 20
+    },
+    "parts_when_fix_shown": {
+      "accuracy": 1.0,
+      "correct": 20,
+      "n": 20
+    },
+    "root_cause": {
+      "top1": {
+        "accuracy": 1.0,
+        "correct": 20,
+        "n": 20
+      },
+      "top3": {
+        "accuracy": 1.0,
+        "correct": 20,
+        "n": 20
+      }
+    },
+    "traps": [
+      {
+        "checks": {
+          "no_causes": true,
+          "reason": true,
+          "status": true
+        },
+        "id": "ans-21",
+        "ok": true,
+        "question": "Line 4 robot is down",
+        "trap": "unknown_machine"
+      },
+      {
+        "checks": {
+          "chips": true,
+          "status": true
+        },
+        "id": "ans-22",
+        "ok": true,
+        "question": "the CNC is making a weird noise",
+        "trap": "vague_symptom"
+      },
+      {
+        "checks": {
+          "no_retrieval": true,
+          "referral": true,
+          "status": true
+        },
+        "id": "ans-23",
+        "ok": true,
+        "question": "can you approve my leave for Friday",
+        "trap": "out_of_scope"
+      },
+      {
+        "checks": {
+          "note": true
+        },
+        "id": "ans-24",
+        "ok": true,
+        "question": "LT-01 VT-018 leak rate high on every part, whats the fix pls",
+        "trap": "conflicting_notes"
+      },
+      {
+        "checks": {
+          "fix": true,
+          "note": true,
+          "part": true
+        },
+        "id": "ans-25",
+        "ok": true,
+        "question": "RW-01 RB-551 gripper not seeing parts, what do I need to fix it",
+        "trap": "zero_stock"
+      }
+    ],
+    "traps_passed": {
+      "n": 5,
+      "passed": 5
+    }
+  },
+  "layer5": {
+    "cost_note": "The mean cost per answer includes the answers that do not retrieve (the non-retrieving traps stop at triage and cost almost nothing), so it is lower than the cost of an answer that does. Read the p50 next to the mean.",
+    "live": {
+      "answers": 25,
+      "cache_hit_share": 0.008849557522123894,
+      "cost_per_answer": {
+        "mean": 0.00877182384,
+        "p50": 0.00979527,
+        "p95": 0.0113995472,
+        "total": 0.219295596
+      },
+      "latency": {
+        "answer": {
+          "n": 25,
+          "p50": 13.620105,
+          "p95": 15.5120134
+        },
+        "nodes": {
+          "assemble": {
+            "n": 25,
+            "p50": 0.006,
+            "p95": 0.00772
+          },
+          "graph_agent": {
+            "n": 22,
+            "p50": 8.520499999999998,
+            "p95": 9.66125
+          },
+          "manual_agent": {
+            "n": 22,
+            "p50": 2.4583,
+            "p95": 4.2750699999999995
+          },
+          "synthesize": {
+            "n": 22,
+            "p50": 4.67925,
+            "p95": 5.818969999999999
+          },
+          "triage": {
+            "n": 25,
+            "p50": 0.2858,
+            "p95": 0.3884
+          },
+          "verify": {
+            "n": 22,
+            "p50": 0.3237,
+            "p95": 0.361655
+          }
+        }
+      },
+      "measured_at": "2026-10-28"
+    },
+    "this_run": {
+      "answers": 25,
+      "cache_hit_share": 0.9469026548672567,
+      "replayed": true
+    }
+  },
+  "limits": [
+    "Every golden question re-asks a recorded incident whose text is in the ingested data, so the golden results are not hold-out results: they show how the system answers questions it has already seen the records of, not how it generalises."
+  ]
+}

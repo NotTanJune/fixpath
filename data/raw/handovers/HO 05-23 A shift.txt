@@ -1,0 +1,8 @@
+Shift handover 23 May Shift A
+From: WM   To: Aisyah
+
+- RW-01 stopped 1231 w/ RB570, cell stops randomly, light curtani fault. Realign light curtain (LC bracket), test run ok. Down 165 min. chk again next shift.
+- nothing major, all machines running
+- CNC 1 running fine, tool wear ok
+
+Signed Wei Ming

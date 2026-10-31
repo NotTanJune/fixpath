@@ -1,0 +1,27 @@
+flowchart LR
+  LINE["Production line"] --> MACH["Machine"]
+  MACH --> ALARM["Alarm"]
+  ALARM --> CAUSE["Root cause"]
+  CAUSE --> FIX["Fix"]
+  FIX --> PART["Spare part"]
+  MACH --> COMP["Component"]
+  CAUSE --> COMP
+  PART --> COMP
+  PAST["Past breakdown"] --> MACH
+  PAST --> ALARM
+  PAST --> CAUSE
+  PAST --> PART
+  SRC["Source: a quote and a page<br/>behind every node and link"]
+
+  classDef where fill:#3e5c76,stroke:#3e5c76,color:#ffffff
+  classDef alarm fill:#c2362b,stroke:#c2362b,color:#ffffff
+  classDef cause fill:#d9921a,stroke:#d9921a,color:#1d2023
+  classDef green fill:#2d8653,stroke:#2d8653,color:#ffffff
+  classDef past fill:#6a4c9c,stroke:#6a4c9c,color:#ffffff
+  classDef source fill:#8a8f96,stroke:#8a8f96,color:#ffffff
+  class LINE,MACH,COMP where
+  class ALARM alarm
+  class CAUSE cause
+  class FIX,PART green
+  class PAST past
+  class SRC source

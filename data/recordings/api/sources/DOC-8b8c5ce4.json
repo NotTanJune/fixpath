@@ -1,0 +1,81 @@
+{
+  "id": "DOC-8b8c5ce4",
+  "path": "handovers/HO 09-02 A shift.txt",
+  "doc_type": "handover",
+  "kind": "text",
+  "text": "Shift handover 02/09/2026 Shift A\nFrom: Siew Ling   To: Aisyah\n\n- CNC 1 stopped 1330 w/ ALM SP-117, grinding noise from spindle, vibration alarm. Repl spindel brg set (7014ACD x2, GREASE KLB 2, SEAL SPDL 70), test run ok. Down 645 min. pls ckh again tmr.\n- leak tester master part passed at start of shift\n\nSigned Siew Ling\n",
+  "spans": [
+    {
+      "quote": "- CNC 1 stopped 1330 w/ ALM SP-117, grinding noise from spindle, vibration alarm. Repl spindel brg set (7014ACD x2, GREASE KLB 2, SEAL SPDL 70), test run ok. Down 645 min. pls ckh again tmr.",
+      "start": 64,
+      "end": 254,
+      "page": null,
+      "fact_kind": "node",
+      "fact_id": "INC-2026-054",
+      "type": "Incident",
+      "label": "grinding noise from spindle, vibration alarm",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- CNC 1 stopped 1330 w/ ALM SP-117, grinding noise from spindle, vibration alarm. Repl spindel brg set (7014ACD x2, GREASE KLB 2, SEAL SPDL 70), test run ok. Down 645 min. pls ckh again tmr.",
+      "start": 64,
+      "end": 254,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-054|OCCURRED_ON|CNC-01",
+      "type": "OCCURRED_ON",
+      "label": "INC-2026-054 happened on CNC-01",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- CNC 1 stopped 1330 w/ ALM SP-117, grinding noise from spindle, vibration alarm. Repl spindel brg set (7014ACD x2, GREASE KLB 2, SEAL SPDL 70), test run ok. Down 645 min. pls ckh again tmr.",
+      "start": 64,
+      "end": 254,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-054|TRIGGERED_BY|SP-117",
+      "type": "TRIGGERED_BY",
+      "label": "INC-2026-054 started with SP-117",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- CNC 1 stopped 1330 w/ ALM SP-117, grinding noise from spindle, vibration alarm. Repl spindel brg set (7014ACD x2, GREASE KLB 2, SEAL SPDL 70), test run ok. Down 645 min. pls ckh again tmr.",
+      "start": 64,
+      "end": 254,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-054|USED|BRG-7014-ACD",
+      "type": "USED",
+      "label": "INC-2026-054 used BRG-7014-ACD",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- CNC 1 stopped 1330 w/ ALM SP-117, grinding noise from spindle, vibration alarm. Repl spindel brg set (7014ACD x2, GREASE KLB 2, SEAL SPDL 70), test run ok. Down 645 min. pls ckh again tmr.",
+      "start": 64,
+      "end": 254,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-054|USED|GREASE-KLB-2",
+      "type": "USED",
+      "label": "INC-2026-054 used GREASE-KLB-2",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- CNC 1 stopped 1330 w/ ALM SP-117, grinding noise from spindle, vibration alarm. Repl spindel brg set (7014ACD x2, GREASE KLB 2, SEAL SPDL 70), test run ok. Down 645 min. pls ckh again tmr.",
+      "start": 64,
+      "end": 254,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-054|USED|SEAL-SPDL-70",
+      "type": "USED",
+      "label": "INC-2026-054 used SEAL-SPDL-70",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    }
+  ]
+}

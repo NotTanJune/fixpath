@@ -1,0 +1,8 @@
+Shift handover 23/07/2026 C shift
+From: Arun   To: Wei Ming
+
+- pls f/u on stores count for seals
+- leak tester master part passed at strat of shift
+- robot cell guard door sticking a bit, f/u tmr
+
+Signed Arun

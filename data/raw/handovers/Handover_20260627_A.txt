@@ -1,0 +1,9 @@
+Shift handover 2026-06-27 Shift A
+From: WM   To: NA
+
+- deburr cell stopped 1456 w/ RB570, muting fault after the guard was knocekd. Realign light curtain (LC bracket), tested ok. Down 125 min. pls f/u w/ stores.
+- chk air pressure at LT1, ok
+- 5S done on robot cell
+- pls f/u on stores count for seals
+
+Signed WM

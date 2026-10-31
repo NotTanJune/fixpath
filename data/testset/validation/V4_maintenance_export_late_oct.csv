@@ -1,0 +1,3 @@
+Date,Mach.,Problem desc,Action taken,Parts,Tech,Downtime (min),Ref
+2026-10-27,CNC 2,TC305 tool clamp not confirmed,Replace tool clamp disc springs,SPR TC 40 x1,Goh Siew Ling,140,WO-6001
+28/10/2026,Press 2,ERR 230 pump pressure unstable,Change hydraulic oil & filter,FLTHYD10 x1; OILHLP4620L x3,Tan Wei Ming,205,WO-6002

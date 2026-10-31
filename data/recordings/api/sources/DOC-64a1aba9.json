@@ -1,0 +1,57 @@
+{
+  "id": "DOC-64a1aba9",
+  "path": "handovers/shift notes 14 Aug A.txt",
+  "doc_type": "handover",
+  "kind": "text",
+  "text": "Shift handover 2026-08-14 Shift A\nFrom: Jia Hui   To: NA\n\n- CNC 1 running fine, tool wear ok\n- coolnat topped up on MC-2\n- LT-01 stopped 1403 w/ VT-012, good parts failing leak test, reference off. Recalibrate pressure sensor (SENSPRS10), test run ok. Down approx 1h. pls chk agani tmr.\n\nSigned Jia Hui\n",
+  "spans": [
+    {
+      "quote": "- LT-01 stopped 1403 w/ VT-012, good parts failing leak test, reference off. Recalibrate pressure sensor (SENSPRS10), test run ok. Down approx 1h. pls chk agani tmr.",
+      "start": 121,
+      "end": 286,
+      "page": null,
+      "fact_kind": "node",
+      "fact_id": "INC-2026-047",
+      "type": "Incident",
+      "label": "good parts failing leak test, reference off",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- LT-01 stopped 1403 w/ VT-012, good parts failing leak test, reference off. Recalibrate pressure sensor (SENSPRS10), test run ok. Down approx 1h. pls chk agani tmr.",
+      "start": 121,
+      "end": 286,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-047|OCCURRED_ON|LT-01",
+      "type": "OCCURRED_ON",
+      "label": "INC-2026-047 happened on LT-01",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- LT-01 stopped 1403 w/ VT-012, good parts failing leak test, reference off. Recalibrate pressure sensor (SENSPRS10), test run ok. Down approx 1h. pls chk agani tmr.",
+      "start": 121,
+      "end": 286,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-047|TRIGGERED_BY|VT-012",
+      "type": "TRIGGERED_BY",
+      "label": "INC-2026-047 started with VT-012",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- LT-01 stopped 1403 w/ VT-012, good parts failing leak test, reference off. Recalibrate pressure sensor (SENSPRS10), test run ok. Down approx 1h. pls chk agani tmr.",
+      "start": 121,
+      "end": 286,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-047|USED|SENS-PRS-10",
+      "type": "USED",
+      "label": "INC-2026-047 used SENS-PRS-10",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    }
+  ]
+}

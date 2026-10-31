@@ -1,0 +1,8 @@
+Shift handover 10/05/2026 Shift A
+From: Siew Ling   To: NA
+
+- 5S done on robot cell
+- CNC 1 running fine, tool wear ok
+- perss warm-up normal
+
+Signed SL

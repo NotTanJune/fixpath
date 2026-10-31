@@ -1,0 +1,766 @@
+/* the source sheet: it covers the graph pane, edge to edge, and shows one source as the
+   document it is */
+
+.sheet {
+  position: fixed;
+  inset: var(--bar) 0 0 0; /* the measured frame replaces this once the sheet is placed */
+  z-index: 30;
+  background: var(--bd);
+  border-left: 2px solid var(--ink);
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  animation: sheet-in 220ms var(--ease);
+}
+
+@keyframes sheet-in {
+  from {
+    transform: translateX(32px);
+    opacity: 0;
+  }
+}
+
+.sheet-head {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  column-gap: 12px;
+  padding: 8px 8px 0 16px;
+  border-bottom: 2px solid var(--ink);
+}
+
+.sheet-head h2 {
+  font-size: 24px;
+  line-height: 1.2;
+  overflow-wrap: anywhere;
+}
+
+.sheet-fact {
+  color: var(--muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 0;
+}
+
+.sheet-original {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.4em;
+  min-height: 44px;
+  padding-right: 8px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.sheet-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 1px solid var(--hair);
+}
+
+.sheet-tab {
+  min-height: 44px;
+  padding: 0 14px;
+  font-size: 15px;
+  font-weight: 500;
+  border-bottom: 4px solid transparent;
+  border-right: 1px solid var(--hair);
+}
+
+.sheet-tab:hover {
+  background: var(--well);
+}
+
+.sheet-tab[aria-selected="true"] {
+  border-bottom-color: var(--blue);
+  font-weight: 700;
+}
+
+.sheet-body {
+  flex: 1;
+  min-height: 0;
+  overflow: auto;
+  padding: 16px;
+}
+
+.sheet-foot .link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35em;
+  min-height: 44px;
+}
+
+.sheet-foot {
+  padding: 4px 16px;
+  border-top: 2px solid var(--ink);
+}
+
+.sheet-head .icon-btn {
+  justify-self: end;
+}
+
+/* the viewers: each fills the body of the sheet and scrolls inside it */
+
+.sheet-body {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 0;
+}
+
+.sheet-body > p {
+  margin: 16px;
+}
+
+.doc {
+  flex: 1;
+  min-height: 0;
+  overflow: auto;
+}
+
+.doc:focus-visible,
+.m:focus-visible,
+.ln:focus-visible {
+  outline: 3px solid var(--blue);
+  outline-offset: -3px;
+}
+
+/* a mark names its facts when it is hovered or focused */
+.fact-tip {
+  position: fixed;
+  z-index: 40;
+  padding: 6px 10px;
+  background: var(--ink);
+  color: var(--bd);
+  font-size: 14px;
+  pointer-events: none;
+}
+
+.fact-tip p + p {
+  margin-top: 2px;
+}
+
+/* the strong mark is the cited quote: a highlighter stroke (warm yellow multiplied onto the page, so
+   the ink stays ink) inside a 2 px blue outline, with no bar at the side; the faint mark is every
+   other fact of the file: a thin dotted underline in a mid grey. The outline is a shadow so that a
+   mark never moves the text around it */
+.m {
+  color: inherit;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
+.m.strong {
+  background: var(--mark);
+  mix-blend-mode: multiply;
+  box-shadow: 0 0 0 2px var(--blue);
+  padding: 1px 2px;
+}
+
+.m.faint {
+  background: none;
+  border-bottom: 2px dotted var(--dots);
+}
+
+/* a note or handover: a typed page on the desk, as a PDF reader shows one */
+.doc-note {
+  padding: 24px 20px 56px;
+  background: var(--desk);
+}
+
+.note-page {
+  max-width: 44rem;
+  min-height: 24rem;
+  margin: 0 auto;
+  padding: 48px clamp(28px, 9%, 64px) 56px; /* the margin of a typed page, less on a narrow pane */
+  font-size: 18px;
+  line-height: 1.6;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+  background: var(--paper);
+  /* the same paper shadow as a PDF page: see .pdf-sheet */
+  box-shadow:
+    0 1px 2px rgba(60, 56, 54, 0.3),
+    0 4px 12px rgba(60, 56, 54, 0.2);
+}
+
+/* a log */
+.doc-log {
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.doc-log .lines {
+  min-width: max-content;
+  padding-bottom: 24px;
+}
+
+.ln {
+  display: flex;
+  min-height: 22px;
+  white-space: pre;
+}
+
+.ln .no {
+  position: sticky;
+  left: 0;
+  flex: none;
+  width: var(--gutter);
+  box-sizing: content-box;
+  padding: 0 10px 0 8px;
+  text-align: right;
+  color: var(--muted);
+  background: var(--bd);
+  border-right: 1px solid var(--hair);
+}
+
+.ln .tx {
+  padding: 0 24px 0 12px;
+}
+
+/* a log is an export, not a page, so it stays on the ground of the app; the cited line is the same
+   highlighter stroke inside a blue outline as on a page, and the other facts are dotted underlines */
+.ln.faint .tx {
+  text-decoration: underline dotted var(--dots) 2px;
+  text-underline-offset: 3px;
+}
+
+.ln.strong {
+  padding: 3px 0;
+  background: var(--mark);
+  outline: 2px solid var(--blue);
+  outline-offset: -2px;
+}
+
+.ln.strong .no {
+  background: linear-gradient(var(--mark), var(--mark)), var(--bd);
+  color: var(--ink);
+  font-weight: 700;
+}
+
+/* a table: a csv file here, a sheet of a workbook in the next block */
+.doc-table {
+  padding-bottom: 24px;
+}
+
+.grid {
+  border-collapse: separate;
+  border-spacing: 0;
+  font-size: 15px;
+  line-height: 1.35;
+  min-width: 100%;
+}
+
+.grid-caption {
+  padding: 14px 16px 10px;
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.grid th,
+.grid td {
+  padding: 6px 12px;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid var(--hair);
+  border-right: 1px solid var(--faint);
+  max-width: 44ch;
+  min-width: 12ch;
+  overflow-wrap: break-word;
+  white-space: pre-line;
+}
+
+.grid td.nw {
+  white-space: nowrap;
+}
+
+.grid td:not(.nw) {
+  min-width: 22ch;
+}
+
+.grid thead th {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background: var(--well);
+  border-bottom: 2px solid var(--ink);
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.grid .num {
+  text-align: right;
+}
+
+.grid th.no {
+  position: sticky;
+  left: 0;
+  z-index: 1;
+  width: 1%;
+  min-width: 48px;
+  padding: 6px 10px;
+  text-align: right;
+  font-weight: 400;
+  color: var(--muted);
+  background: var(--bd);
+  border-right: 1px solid var(--hair);
+  white-space: nowrap;
+}
+
+.grid thead th.no {
+  z-index: 3;
+  background: var(--well);
+}
+
+.grid tr.faint th.no {
+  background: var(--wash);
+  color: var(--ink);
+  text-decoration: underline dotted var(--dots) 2px;
+  text-underline-offset: 3px;
+}
+
+/* the cited row: the highlighter stroke inside a 2 px blue outline, drawn by the top and bottom of
+   its cells and the start of the row number, and the row's own outline; there is no bar at the side.
+   The other rows of a fact are dotted underlines on the row number */
+.grid tr.strong td {
+  background: var(--mark);
+  box-shadow:
+    inset 0 2px 0 var(--blue),
+    inset 0 -2px 0 var(--blue);
+}
+
+.grid tr.strong {
+  outline: 2px solid var(--blue);
+  outline-offset: -2px;
+}
+
+.grid tr.strong th.no {
+  background: linear-gradient(var(--mark), var(--mark)), var(--bd);
+  color: var(--ink);
+  font-weight: 700;
+  box-shadow:
+    inset 2px 0 0 var(--blue),
+    inset 0 2px 0 var(--blue),
+    inset 0 -2px 0 var(--blue);
+}
+
+.grid tr:focus-visible {
+  outline: 3px solid var(--blue);
+  outline-offset: -3px;
+}
+
+/* a workbook: the grid scrolls, the sheet tabs sit under it like a spreadsheet's */
+.workbook {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.sheetgrid th,
+.sheetgrid td {
+  border-right: 1px solid var(--hair);
+}
+
+.sheetgrid thead th.col {
+  text-align: center;
+  background: var(--wash);
+  letter-spacing: 0.02em;
+  text-transform: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.sheetgrid thead th.corner {
+  background: var(--wash);
+}
+
+.sheetgrid th.no {
+  background: var(--wash);
+  text-align: center;
+  color: var(--ink);
+}
+
+.sheetgrid tr.head td {
+  background: var(--well);
+  font-weight: 700;
+}
+
+.sheetgrid td.merged {
+  font-weight: 700;
+  font-size: 17px;
+  white-space: normal;
+  max-width: none;
+}
+
+.sheetgrid tr.faint th.no {
+  background: var(--wash);
+}
+
+/* the sheet tabs sit at the foot of the sheet on a grey bar, the open one white, as in a spreadsheet */
+.sheet-switch {
+  flex: none;
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 1px solid var(--sheet-line);
+  background: var(--sheet-head);
+}
+
+.sheet-switch-tab {
+  min-height: 44px;
+  padding: 0 20px;
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--sheet-ink);
+  border-right: 1px solid var(--sheet-line);
+  border-bottom: 3px solid transparent;
+}
+
+.sheet-switch-tab:hover {
+  background: var(--paper);
+}
+
+.sheet-switch-tab[aria-selected="true"] {
+  background: var(--paper);
+  color: var(--ink);
+  border-bottom-color: var(--blue);
+  font-weight: 700;
+}
+
+/* a sheet as a spreadsheet draws it (a workbook with its styles, and a csv file): white cells, a
+   thin grey grid, grey column letters and row numbers, and the rows of the frozen pane held in place
+   while the rest scrolls. The cells keep the fills, fonts and borders of the file; a csv file has
+   none, so its cells are plain */
+.doc-xl,
+.doc-csv {
+  background: var(--paper);
+}
+
+.xl {
+  table-layout: fixed;
+  border-collapse: separate;
+  border-spacing: 0;
+  font-size: 14px;
+  line-height: 1.25;
+  color: var(--sheet-cell);
+  background: var(--paper);
+}
+
+.xl th,
+.xl td {
+  padding: 0 6px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  vertical-align: middle;
+  text-align: left;
+}
+
+.xl td {
+  background: var(--paper);
+  border-right: 1px solid var(--sheet-line);
+  border-bottom: 1px solid var(--sheet-line);
+}
+
+.xl td.num {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.xl td.merged {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.xl td.wrap {
+  white-space: pre-line;
+}
+
+.xl th {
+  font-weight: 500;
+  font-size: 13px;
+  color: var(--sheet-ink);
+  background: var(--sheet-head);
+  border-right: 1px solid var(--sheet-line);
+  border-bottom: 1px solid var(--sheet-line);
+}
+
+.xl thead th {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  text-align: center;
+}
+
+.xl .xl-corner {
+  left: 0;
+  z-index: 6;
+}
+
+.xl thead th.xl-col {
+  z-index: 5;
+}
+
+.xl .xl-no {
+  position: sticky;
+  left: 0;
+  z-index: 2;
+  text-align: center;
+  padding: 0 4px;
+}
+
+.xl-stick {
+  position: sticky;
+}
+
+/* a csv file is read as a source, so a long cell wraps in its column and the row grows */
+.xl-csv td {
+  white-space: pre-line;
+  overflow-wrap: anywhere;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  vertical-align: top;
+}
+
+.xl-csv .xl-no {
+  vertical-align: top;
+  padding-top: 5px;
+}
+
+/* a csv file: its header row stays under the column letters, bold; its title lines are merged rows */
+.xl-csv thead + tbody tr.xl-head th,
+.xl-csv tr.xl-head td {
+  position: sticky;
+  top: 24px;
+  z-index: 3;
+  font-weight: 700;
+  border-bottom: 1px solid var(--sheet-ink);
+}
+
+.xl-csv tr.xl-head th {
+  z-index: 4;
+}
+
+.xl-csv td.xl-title {
+  font-weight: 700;
+  font-size: 16px;
+  overflow: visible;
+}
+
+/* the cited row: the highlighter stroke inside a 2 px blue outline, with no bar at the side; the
+   other rows that hold a fact are a dotted underline on the row number */
+.xl tr.strong td {
+  background-image: linear-gradient(var(--mark), var(--mark));
+  box-shadow:
+    inset 0 2px 0 var(--blue),
+    inset 0 -2px 0 var(--blue);
+}
+
+.xl tr.strong {
+  outline: 2px solid var(--blue);
+  outline-offset: -2px;
+}
+
+.xl tr.strong th.xl-no {
+  background-image: linear-gradient(var(--mark), var(--mark));
+  color: var(--ink);
+  font-weight: 700;
+  box-shadow:
+    inset 2px 0 0 var(--blue),
+    inset 0 2px 0 var(--blue),
+    inset 0 -2px 0 var(--blue);
+}
+
+.xl tr.faint th.xl-no {
+  color: var(--ink);
+  text-decoration: underline dotted var(--dots) 2px;
+  text-underline-offset: 3px;
+}
+
+.xl tr:focus-visible {
+  outline: 3px solid var(--blue);
+  outline-offset: -3px;
+}
+
+/* a manual: the pages of the PDF as paper on a desk, one below the other, like a PDF reader; they
+   pan inside the view. The page is content, not site ground, so it is white and the desk is the
+   mid-tone of the Gruvbox ramp behind it */
+.doc-pdf {
+  background: var(--desk);
+}
+
+.pdf-pages {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  width: max-content;
+  min-width: 100%;
+  padding: 24px 24px 56px;
+}
+
+.doc-pdf .pdf-wait {
+  padding: 16px 24px;
+}
+
+.pdf-page {
+  flex: none;
+}
+
+.pdf-no {
+  margin-bottom: 8px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.pdf-no .quiet {
+  font-weight: 400;
+  color: var(--ink);
+}
+
+/* the page is the original file on white paper. The paper shadow is the one shadow in the app: two
+   soft layers, a tight one for the edge and a wide one for the lift, in a warm dark tone at low
+   opacity, so that the page reads as a sheet lying on the desk */
+.pdf-sheet {
+  position: relative;
+  isolation: isolate;
+  background: var(--paper);
+  box-shadow:
+    0 1px 2px rgba(60, 56, 54, 0.3),
+    0 4px 12px rgba(60, 56, 54, 0.2);
+}
+
+.pdf-sheet canvas {
+  display: block;
+}
+
+/* a mark on paper: the cited quote is a highlighter stroke (warm yellow multiplied onto the white,
+   so the ink stays ink) inside a 2 px blue outline; every other fact of the page is a thin dotted
+   underline in a mid grey. There is no bar at the side */
+.pdf-mark {
+  position: absolute;
+  mix-blend-mode: multiply;
+}
+
+.pdf-mark.strong {
+  background: var(--mark);
+  outline: 2px solid var(--blue);
+}
+
+.pdf-mark.faint {
+  border-bottom: 2px dotted var(--dots);
+}
+
+.pdf-mark:focus-visible {
+  outline: 3px solid var(--blue);
+  outline-offset: 2px;
+}
+
+/* the cited quote is on a page whose text does not give it back: the page is banded */
+.pdf-page.band .pdf-sheet {
+  box-shadow:
+    0 0 0 4px var(--blue),
+    0 4px 12px rgba(60, 56, 54, 0.2);
+}
+
+.pdf-band {
+  margin-bottom: 6px;
+  padding: 6px 10px;
+  background: var(--well);
+  outline: 2px solid var(--blue);
+  font-weight: 600;
+}
+
+/* the PDF viewer: a bar to set the zoom, and the pages that pan inside the view */
+.pdfview {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.pdf-bar {
+  flex: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0 2px;
+  padding: 0 6px;
+  background: var(--bd);
+  border-bottom: 2px solid var(--ink);
+}
+
+.pdf-bar button {
+  min-height: 44px;
+  min-width: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 8px;
+  font-weight: 700;
+  font-size: 15px;
+  border: 2px solid transparent;
+}
+
+.pdf-bar button:hover:not(:disabled) {
+  background: var(--well);
+}
+
+.pdf-bar button:disabled {
+  color: var(--muted);
+}
+
+.pdf-bar .pdf-fit[aria-pressed="true"] {
+  border-bottom: 4px solid var(--blue);
+}
+
+.pdf-percent {
+  min-width: 48px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+/* the page indicator: previous, the page typed into a box, "/ total", next */
+.pdf-pager {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.pdf-goto {
+  width: 52px;
+  min-height: 44px;
+  padding: 0 4px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 700;
+  background: var(--well);
+  border: 2px solid var(--ink);
+  border-radius: 0;
+}
+
+.pdf-goto:disabled {
+  color: var(--muted);
+}
+
+.pdf-of {
+  min-width: 36px;
+  padding: 0 6px 0 4px;
+  font-size: 15px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.pdf-rule {
+  align-self: stretch;
+  margin: 8px 4px;
+  border-left: 1px solid var(--hair);
+}

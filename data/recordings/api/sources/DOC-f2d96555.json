@@ -1,0 +1,105 @@
+{
+  "id": "DOC-f2d96555",
+  "path": "maintenance/note_from_rajesh_CNC1_spindle.txt",
+  "doc_type": "maintenance_note",
+  "kind": "text",
+  "text": "On 14 Jul CNC-01 stopped at about 2002 with SP104 on the screen. When I opened it up I found spindle bearing wear on the spindle. I replaced BRG7014ACD x2 and COLLET ER32 and GREASEKLB2 and SEALSPDL70. It was down for about 11 hours. After the repair I ran it for a while and it held. Next time I will check the spindle before the shift starts. Please tell the next shift if it comes back.\n",
+  "spans": [
+    {
+      "quote": "On 14 Jul CNC-01 stopped at about 2002 with SP104 on the screen. When I opened it up I found spindle bearing wear on the spindle. I replaced BRG7014ACD x2 and COLLET ER32 and GREASEKLB2 and SEALSPDL70. It was down for about 11 hours.",
+      "start": 0,
+      "end": 233,
+      "page": null,
+      "fact_kind": "node",
+      "fact_id": "INC-2026-036",
+      "type": "Incident",
+      "label": "spindle bearing wear on the spindle",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "On 14 Jul CNC-01 stopped at about 2002 with SP104 on the screen. When I opened it up I found spindle bearing wear on the spindle. I replaced BRG7014ACD x2 and COLLET ER32 and GREASEKLB2 and SEALSPDL70. It was down for about 11 hours.",
+      "start": 0,
+      "end": 233,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-036|OCCURRED_ON|CNC-01",
+      "type": "OCCURRED_ON",
+      "label": "INC-2026-036 happened on CNC-01",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "On 14 Jul CNC-01 stopped at about 2002 with SP104 on the screen. When I opened it up I found spindle bearing wear on the spindle. I replaced BRG7014ACD x2 and COLLET ER32 and GREASEKLB2 and SEALSPDL70. It was down for about 11 hours.",
+      "start": 0,
+      "end": 233,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-036|ROOT_CAUSE|FM-SPINDLE-BEARING-WEAR",
+      "type": "ROOT_CAUSE",
+      "label": "INC-2026-036 was caused by FM-SPINDLE-BEARING-WEAR",
+      "extractor": "linker",
+      "confidence": 1.0
+    },
+    {
+      "quote": "On 14 Jul CNC-01 stopped at about 2002 with SP104 on the screen. When I opened it up I found spindle bearing wear on the spindle. I replaced BRG7014ACD x2 and COLLET ER32 and GREASEKLB2 and SEALSPDL70. It was down for about 11 hours.",
+      "start": 0,
+      "end": 233,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-036|TRIGGERED_BY|SP-104",
+      "type": "TRIGGERED_BY",
+      "label": "INC-2026-036 started with SP-104",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "On 14 Jul CNC-01 stopped at about 2002 with SP104 on the screen. When I opened it up I found spindle bearing wear on the spindle. I replaced BRG7014ACD x2 and COLLET ER32 and GREASEKLB2 and SEALSPDL70. It was down for about 11 hours.",
+      "start": 0,
+      "end": 233,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-036|USED|BRG-7014-ACD",
+      "type": "USED",
+      "label": "INC-2026-036 used BRG-7014-ACD",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "On 14 Jul CNC-01 stopped at about 2002 with SP104 on the screen. When I opened it up I found spindle bearing wear on the spindle. I replaced BRG7014ACD x2 and COLLET ER32 and GREASEKLB2 and SEALSPDL70. It was down for about 11 hours.",
+      "start": 0,
+      "end": 233,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-036|USED|COLLET-ER32",
+      "type": "USED",
+      "label": "INC-2026-036 used COLLET-ER32",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "On 14 Jul CNC-01 stopped at about 2002 with SP104 on the screen. When I opened it up I found spindle bearing wear on the spindle. I replaced BRG7014ACD x2 and COLLET ER32 and GREASEKLB2 and SEALSPDL70. It was down for about 11 hours.",
+      "start": 0,
+      "end": 233,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-036|USED|GREASE-KLB-2",
+      "type": "USED",
+      "label": "INC-2026-036 used GREASE-KLB-2",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "On 14 Jul CNC-01 stopped at about 2002 with SP104 on the screen. When I opened it up I found spindle bearing wear on the spindle. I replaced BRG7014ACD x2 and COLLET ER32 and GREASEKLB2 and SEALSPDL70. It was down for about 11 hours.",
+      "start": 0,
+      "end": 233,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-036|USED|SEAL-SPDL-70",
+      "type": "USED",
+      "label": "INC-2026-036 used SEAL-SPDL-70",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    }
+  ]
+}

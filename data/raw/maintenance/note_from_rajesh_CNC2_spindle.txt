@@ -1,0 +1,1 @@
+On 5 Sep CNC 2 stopped at about 2115 with ALM SP-104 on the screen. The root cause was spindle bearing wear, found on the spindle. I replaced BRG 7014 ACD x2 and KLB2 grease and seal 70. Next time check the spindle first.

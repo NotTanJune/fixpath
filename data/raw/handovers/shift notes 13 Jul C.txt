@@ -1,0 +1,6 @@
+Shift handover 13 Jul C shift
+From: Arun   To: Wei Ming
+
+- press wram-up normal
+
+Signed AP

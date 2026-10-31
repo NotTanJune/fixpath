@@ -1,0 +1,7 @@
+Shift handover 2026-06-05 B
+From: Rajesh   To: Hafiz
+
+- CNC1 stopped 1912, tool not clamping after change, machine stops. Repl tool clamp disc sprigns (prox sensor M8, SPR TC 40), tested ok. Down 325 min.
+- robot cell guard door sticking a bit, f/u tmr
+
+Signed Rajesh

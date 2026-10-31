@@ -1,0 +1,435 @@
+{
+  "families": {
+    "where": {
+      "label": "Where",
+      "description": "Where the problem lives: the line, its machines and their components."
+    },
+    "problem": {
+      "label": "Problem",
+      "description": "What went wrong: alarms and the root causes behind them."
+    },
+    "fix": {
+      "label": "Fix",
+      "description": "How to fix it: procedures and the spare parts they need."
+    },
+    "history": {
+      "label": "History",
+      "description": "What happened before: past breakdowns."
+    },
+    "source": {
+      "label": "Source",
+      "description": "Where each fact came from."
+    }
+  },
+  "node_types": {
+    "Line": {
+      "label": "Production line",
+      "glyph": "factory",
+      "family": "where",
+      "description": "A production line in the plant.",
+      "id_pattern": "^LINE-\\d{2}$",
+      "properties": [
+        {
+          "name": "id",
+          "type": "str",
+          "required": true
+        },
+        {
+          "name": "name",
+          "type": "str",
+          "required": true
+        }
+      ]
+    },
+    "Asset": {
+      "label": "Machine",
+      "glyph": "cog",
+      "family": "where",
+      "description": "A machine on the line.",
+      "id_pattern": "^[A-Z]{2,3}-\\d{2}$",
+      "properties": [
+        {
+          "name": "id",
+          "type": "str",
+          "required": true
+        },
+        {
+          "name": "name",
+          "type": "str",
+          "required": true
+        },
+        {
+          "name": "machine_type",
+          "type": "str",
+          "required": true
+        },
+        {
+          "name": "vendor",
+          "type": "str",
+          "required": true
+        },
+        {
+          "name": "model",
+          "type": "str",
+          "required": true
+        },
+        {
+          "name": "aliases",
+          "type": "list[str]",
+          "required": false
+        }
+      ]
+    },
+    "Component": {
+      "label": "Component",
+      "glyph": "bolt",
+      "family": "where",
+      "description": "A part of a machine that can fail, such as a spindle or a pump.",
+      "id_pattern": "^[A-Z]{2,3}-\\d{2}-[A-Z0-9]+$",
+      "properties": [
+        {
+          "name": "id",
+          "type": "str",
+          "required": true
+        },
+        {
+          "name": "name",
+          "type": "str",
+          "required": true
+        },
+        {
+          "name": "asset_id",
+          "type": "str",
+          "required": true
+        }
+      ]
+    },
+    "AlarmCode": {
+      "label": "Alarm",
+      "glyph": "siren",
+      "family": "problem",
+      "description": "A code the machine shows when something is wrong.",
+      "id_pattern": "^[A-Z]{1,3}-\\d{3}$",
+      "properties": [
+        {
+          "name": "code",
+          "type": "str",
+          "required": true
+        },
+        {
+          "name": "text",
+          "type": "str",
+          "required": true
+        },
+        {
+          "name": "severity",
+          "type": "Literal['info', 'warning', 'critical']",
+          "required": true
+        },
+        {
+          "name": "aliases",
+          "type": "list[str]",
+          "required": false
+        }
+      ]
+    },
+    "FailureMode": {
+      "label": "Root cause",
+      "glyph": "unlink",
+      "family": "problem",
+      "description": "The underlying reason a machine stops.",
+      "id_pattern": "^FM-[A-Z0-9-]+$",
+      "properties": [
+        {
+          "name": "id",
+          "type": "str",
+          "required": true
+        },
+        {
+          "name": "name",
+          "type": "str",
+          "required": true
+        },
+        {
+          "name": "mechanism",
+          "type": "str",
+          "required": true
+        }
+      ]
+    },
+    "Procedure": {
+      "label": "Fix",
+      "glyph": "wrench",
+      "family": "fix",
+      "description": "Steps that resolve a root cause.",
+      "id_pattern": "^PROC-[A-Z]{2,3}-\\d{2}$",
+      "properties": [
+        {
+          "name": "id",
+          "type": "str",
+          "required": true
+        },
+        {
+          "name": "title",
+          "type": "str",
+          "required": true
+        },
+        {
+          "name": "steps",
+          "type": "list[str]",
+          "required": true
+        },
+        {
+          "name": "requires_loto",
+          "type": "bool",
+          "required": true
+        },
+        {
+          "name": "est_minutes",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "manual_ref",
+          "type": "str | None",
+          "required": false
+        }
+      ]
+    },
+    "Part": {
+      "label": "Spare part",
+      "glyph": "package",
+      "family": "fix",
+      "description": "A spare part kept in stock.",
+      "id_pattern": "^[A-Z0-9]+(-[A-Z0-9]+)+$",
+      "properties": [
+        {
+          "name": "part_no",
+          "type": "str",
+          "required": true
+        },
+        {
+          "name": "description",
+          "type": "str",
+          "required": true
+        },
+        {
+          "name": "aliases",
+          "type": "list[str]",
+          "required": false
+        },
+        {
+          "name": "qty_on_hand",
+          "type": "int | None",
+          "required": false
+        },
+        {
+          "name": "bin",
+          "type": "str | None",
+          "required": false
+        },
+        {
+          "name": "lead_time_days",
+          "type": "int | None",
+          "required": false
+        },
+        {
+          "name": "stock_as_of",
+          "type": "date | None",
+          "required": false
+        },
+        {
+          "name": "unit_cost_sgd",
+          "type": "float | None",
+          "required": false
+        }
+      ]
+    },
+    "Incident": {
+      "label": "Past breakdown",
+      "glyph": "history",
+      "family": "history",
+      "description": "A breakdown that happened before, and how it was fixed.",
+      "id_pattern": "^INC-\\d{4}-\\d{3}$",
+      "properties": [
+        {
+          "name": "id",
+          "type": "str",
+          "required": true
+        },
+        {
+          "name": "date",
+          "type": "date",
+          "required": true
+        },
+        {
+          "name": "shift",
+          "type": "Literal['A', 'B', 'C'] | None",
+          "required": false
+        },
+        {
+          "name": "downtime_min",
+          "type": "int | None",
+          "required": false
+        },
+        {
+          "name": "symptom_text",
+          "type": "str",
+          "required": true
+        },
+        {
+          "name": "technician",
+          "type": "str | None",
+          "required": false
+        },
+        {
+          "name": "resolution_text",
+          "type": "str | None",
+          "required": false
+        }
+      ]
+    },
+    "Document": {
+      "label": "Source",
+      "glyph": "file-text",
+      "family": "source",
+      "description": "A file from the shared folder that backs the facts.",
+      "id_pattern": "^DOC-[0-9a-f]{8}$",
+      "properties": [
+        {
+          "name": "id",
+          "type": "str",
+          "required": true
+        },
+        {
+          "name": "path",
+          "type": "str",
+          "required": true
+        },
+        {
+          "name": "doc_type",
+          "type": "Literal['log', 'handover', 'maintenance_note', 'inventory', 'manual', 'procedure']",
+          "required": true
+        },
+        {
+          "name": "sha256",
+          "type": "str",
+          "required": true
+        }
+      ]
+    }
+  },
+  "relations": {
+    "HAS_MACHINE": {
+      "label": "has machine",
+      "from": "Line",
+      "to": "Asset",
+      "properties": []
+    },
+    "HAS_COMPONENT": {
+      "label": "is built from",
+      "from": "Asset",
+      "to": "Component",
+      "properties": []
+    },
+    "RAISED": {
+      "label": "raised",
+      "from": "Asset",
+      "to": "AlarmCode",
+      "properties": [
+        {
+          "name": "count",
+          "type": "int",
+          "required": true
+        },
+        {
+          "name": "first_seen",
+          "type": "datetime",
+          "required": true
+        },
+        {
+          "name": "last_seen",
+          "type": "datetime",
+          "required": true
+        }
+      ]
+    },
+    "INDICATES": {
+      "label": "usually means",
+      "from": "AlarmCode",
+      "to": "FailureMode",
+      "properties": [
+        {
+          "name": "likelihood",
+          "type": "float",
+          "required": true
+        },
+        {
+          "name": "support",
+          "type": "int",
+          "required": true
+        }
+      ]
+    },
+    "AFFECTS": {
+      "label": "damages",
+      "from": "FailureMode",
+      "to": "Component",
+      "properties": []
+    },
+    "RESOLVED_BY": {
+      "label": "fixed by",
+      "from": "FailureMode",
+      "to": "Procedure",
+      "properties": []
+    },
+    "REQUIRES": {
+      "label": "needs",
+      "from": "Procedure",
+      "to": "Part",
+      "properties": [
+        {
+          "name": "qty",
+          "type": "int",
+          "required": true
+        }
+      ]
+    },
+    "FITS": {
+      "label": "fits",
+      "from": "Part",
+      "to": "Component",
+      "properties": []
+    },
+    "OCCURRED_ON": {
+      "label": "happened on",
+      "from": "Incident",
+      "to": "Asset",
+      "properties": []
+    },
+    "TRIGGERED_BY": {
+      "label": "started with",
+      "from": "Incident",
+      "to": "AlarmCode",
+      "properties": []
+    },
+    "ROOT_CAUSE": {
+      "label": "was caused by",
+      "from": "Incident",
+      "to": "FailureMode",
+      "properties": []
+    },
+    "USED": {
+      "label": "used",
+      "from": "Incident",
+      "to": "Part",
+      "properties": [
+        {
+          "name": "qty",
+          "type": "int",
+          "required": true
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,9 @@
+Shift handover 12 Sep C shift
+From: Arun   To: Siew Ling
+
+- robot cell guard door sticking a bit, f/u tmr
+- leak tester master part passed at start of shift
+- robot cell stopped 2359 w/ RB-551, part-present signal flickering, grippre slipipng. Repl gripper fingers (gripper finger x2), test run ok. Down approx 3h.
+- 5S done on robot cell
+
+Signed Arun

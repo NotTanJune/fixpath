@@ -1,0 +1,57 @@
+{
+  "id": "DOC-03cd4877",
+  "path": "handovers/handover_2026-07-22_A.txt",
+  "doc_type": "handover",
+  "kind": "text",
+  "text": "Shift handover 2026-07-22 Shift A\nFrom: Jia Hui   To: Rajesh\n\n- pls f/u on stores count for seals\n- robot stopped 0733 w/ RB-551, part-present signal flickering, gripepr slipping. Repl gripper fingers (GRP FNG 12 x2), running ok now. Down approx 2h. pls chk again tmr.\n- leak tester master part passed at start of shift\n\nSigned Jia Hui\n",
+  "spans": [
+    {
+      "quote": "- robot stopped 0733 w/ RB-551, part-present signal flickering, gripepr slipping. Repl gripper fingers (GRP FNG 12 x2), running ok now. Down approx 2h. pls chk again tmr.",
+      "start": 98,
+      "end": 268,
+      "page": null,
+      "fact_kind": "node",
+      "fact_id": "INC-2026-040",
+      "type": "Incident",
+      "label": "part-present signal flickering, gripper slipping",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- robot stopped 0733 w/ RB-551, part-present signal flickering, gripepr slipping. Repl gripper fingers (GRP FNG 12 x2), running ok now. Down approx 2h. pls chk again tmr.",
+      "start": 98,
+      "end": 268,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-040|OCCURRED_ON|RW-01",
+      "type": "OCCURRED_ON",
+      "label": "INC-2026-040 happened on RW-01",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- robot stopped 0733 w/ RB-551, part-present signal flickering, gripepr slipping. Repl gripper fingers (GRP FNG 12 x2), running ok now. Down approx 2h. pls chk again tmr.",
+      "start": 98,
+      "end": 268,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-040|TRIGGERED_BY|RB-551",
+      "type": "TRIGGERED_BY",
+      "label": "INC-2026-040 started with RB-551",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- robot stopped 0733 w/ RB-551, part-present signal flickering, gripepr slipping. Repl gripper fingers (GRP FNG 12 x2), running ok now. Down approx 2h. pls chk again tmr.",
+      "start": 98,
+      "end": 268,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-040|USED|GRP-FNG-12",
+      "type": "USED",
+      "label": "INC-2026-040 used GRP-FNG-12",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    }
+  ]
+}

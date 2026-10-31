@@ -1,0 +1,20 @@
+sequenceDiagram
+  participant Tech as Technician
+  participant T as Triage<br/>JEV
+  participant G as Graph agent<br/>Terra
+  participant M as Manual agent<br/>Terra
+  participant S as Synthesizer<br/>Sol
+  participant V as Verifier<br/>JEV
+  participant A as Assemble<br/>code
+  Tech->>T: HP-01 stopped with E-217, oil under the press
+  T-->>Tech: HP-01 1.00, E-217 1.00, seal wear 0.51
+  par graph facts
+    T->>G: causes, fixes, parts, past breakdowns
+  and manual passages
+    T->>M: search the manual
+  end
+  G-->>S: facts and node path
+  M-->>S: manual chunks with pages
+  S->>V: summary and cited claims
+  V->>A: kept claims, unverified claims
+  A-->>Tech: cause, steps, lockout, parts and bin, past fixes

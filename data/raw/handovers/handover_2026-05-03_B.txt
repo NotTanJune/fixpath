@@ -1,0 +1,8 @@
+Shift handover 2026-05-03 B
+From: NA   To: MH
+
+- 5S done on robot cell
+- coolnat topped up on MC-2
+- press warm-up normal
+
+Signed NA

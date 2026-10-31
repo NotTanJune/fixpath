@@ -1,0 +1,9 @@
+Shift handover 2026-08-31 Shift A
+From: Jia Hui   To: Aisyah
+
+- nothing major, all machines running
+- CNC2 stopped 1429 w/ ALM SP-104, spindle running hot adn noisy at high rpm. Repl spindle brg set (BRG7014ACD x2, SENS PT100 01), tested ok. Down 655 min.
+- pls f/u on stores count for seals
+- chk air pressure at LT1, ok
+
+Signed Jia Hui

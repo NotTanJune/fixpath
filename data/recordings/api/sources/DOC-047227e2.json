@@ -1,0 +1,57 @@
+{
+  "id": "DOC-047227e2",
+  "path": "handovers/shift notes 18 Jun C.txt",
+  "doc_type": "handover",
+  "kind": "text",
+  "text": "Shift handover 18/06/2026 C shift\nFrom: Jun Hao   To: Jia Hui\n\n- HP1 stoppde 0403 w/ ERR 230, pressure hunting, oil running hot. Change hydrualic oli & filter (FLT HYD 10), running ok now. Down approx 4h. pls f/u w/ stores.\n- waiting on gripper fingers, stores says noen left\n- pls f/u on stores count for seals\n- CNC 1 running fine, tool wear ok\n\nSigned JHC\n",
+  "spans": [
+    {
+      "quote": "- HP1 stoppde 0403 w/ ERR 230, pressure hunting, oil running hot. Change hydrualic oli & filter (FLT HYD 10), running ok now. Down approx 4h. pls f/u w/ stores.",
+      "start": 63,
+      "end": 223,
+      "page": null,
+      "fact_kind": "node",
+      "fact_id": "INC-2026-030",
+      "type": "Incident",
+      "label": "pressure hunting, oil running hot",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- HP1 stoppde 0403 w/ ERR 230, pressure hunting, oil running hot. Change hydrualic oli & filter (FLT HYD 10), running ok now. Down approx 4h. pls f/u w/ stores.",
+      "start": 63,
+      "end": 223,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-030|OCCURRED_ON|HP-01",
+      "type": "OCCURRED_ON",
+      "label": "INC-2026-030 happened on HP-01",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- HP1 stoppde 0403 w/ ERR 230, pressure hunting, oil running hot. Change hydrualic oli & filter (FLT HYD 10), running ok now. Down approx 4h. pls f/u w/ stores.",
+      "start": 63,
+      "end": 223,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-030|TRIGGERED_BY|E-230",
+      "type": "TRIGGERED_BY",
+      "label": "INC-2026-030 started with E-230",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- HP1 stoppde 0403 w/ ERR 230, pressure hunting, oil running hot. Change hydrualic oli & filter (FLT HYD 10), running ok now. Down approx 4h. pls f/u w/ stores.",
+      "start": 63,
+      "end": 223,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-030|USED|FLT-HYD-10",
+      "type": "USED",
+      "label": "INC-2026-030 used FLT-HYD-10",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    }
+  ]
+}

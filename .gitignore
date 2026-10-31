@@ -1,0 +1,28 @@
+# Secrets
+.env
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+
+# Local model files, downloaded on first use
+.cache/
+
+# macOS
+.DS_Store
+
+# Web build output
+web/node_modules/
+web/dist/
+
+# Local model spend ledger (machine-local, never committed)
+data/cache/ledger.sqlite
+
+# Private deck copy and its audience line (see make deck-private)
+docs/private/
+
+# Ruff cache
+.ruff_cache/

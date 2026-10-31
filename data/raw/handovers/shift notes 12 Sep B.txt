@@ -1,0 +1,7 @@
+Shift handover 2026-09-12 B
+From: RP   To: JHC
+
+- leak tester master part passed at start of shift
+- nothing major, all machines running
+
+Signed RP

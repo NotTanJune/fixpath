@@ -1,0 +1,57 @@
+{
+  "id": "DOC-6a9f83b8",
+  "path": "handovers/handover_2026-04-23_A.txt",
+  "doc_type": "handover",
+  "kind": "text",
+  "text": "Shift handover 23 Apr Shift A\nFrom: Siew Ling   To: RP\n\n- VT station stopped 1233 w/ VT21, fill taeks too long, seals look flattened. Repl fixture seals (fixture seal x2), running ok now. Down 95 min.\n- nothing major, all machines running\n- coolant topped up on MC-2\n\nSigned SL\n",
+  "spans": [
+    {
+      "quote": "- VT station stopped 1233 w/ VT21, fill taeks too long, seals look flattened. Repl fixture seals (fixture seal x2), running ok now. Down 95 min.",
+      "start": 56,
+      "end": 200,
+      "page": null,
+      "fact_kind": "node",
+      "fact_id": "INC-2026-009",
+      "type": "Incident",
+      "label": "fill takes too long, seals look flattened",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- VT station stopped 1233 w/ VT21, fill taeks too long, seals look flattened. Repl fixture seals (fixture seal x2), running ok now. Down 95 min.",
+      "start": 56,
+      "end": 200,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-009|OCCURRED_ON|LT-01",
+      "type": "OCCURRED_ON",
+      "label": "INC-2026-009 happened on LT-01",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- VT station stopped 1233 w/ VT21, fill taeks too long, seals look flattened. Repl fixture seals (fixture seal x2), running ok now. Down 95 min.",
+      "start": 56,
+      "end": 200,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-009|TRIGGERED_BY|VT-021",
+      "type": "TRIGGERED_BY",
+      "label": "INC-2026-009 started with VT-021",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- VT station stopped 1233 w/ VT21, fill taeks too long, seals look flattened. Repl fixture seals (fixture seal x2), running ok now. Down 95 min.",
+      "start": 56,
+      "end": 200,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-009|USED|SEAL-FIX-30",
+      "type": "USED",
+      "label": "INC-2026-009 used SEAL-FIX-30",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    }
+  ]
+}

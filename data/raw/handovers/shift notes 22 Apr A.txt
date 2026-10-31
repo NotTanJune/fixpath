@@ -1,0 +1,9 @@
+Shift handover 2026-04-22 Shift A
+From: Siew Ling   To: RP
+
+- 5S done on robot cell
+- pls f/u on stores count for seals
+- press warm-up normal
+- CNC-01 stopped 1230 w/ SP-104, coolant pressure dropping, parts coming out hot. Clean coolant filter & flush liens (FLT CL 25), running ok now. Down approx 2h.
+
+Signed SL

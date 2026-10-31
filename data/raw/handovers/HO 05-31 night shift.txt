@@ -1,0 +1,8 @@
+Shift handover 2026-05-31 night
+From: Hafiz   To: Jia Hui
+
+- pls f/u on stores count for seals
+- press warm-up normal
+- leak test stopped 0127 w/ VT012, master part reading otu of tolerance. Recalibrate pressure sensor (SENSPRS10), test run ok. Down approx 2h.
+
+Signed Hafiz

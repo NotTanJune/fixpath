@@ -1,0 +1,93 @@
+{
+  "id": "DOC-27471019",
+  "path": "handovers/Handover_20260822_B.txt",
+  "doc_type": "handover",
+  "kind": "text",
+  "text": "Shift handover 22 Aug B\nFrom: Rajesh   To: Arun\n\n- CNC 2 stopped 1801 w/ ALM SP-104, grinding noise from spindle, virbation alarm. Repl spindle brg set (BRG 7014 ACD x2, SEAL SPDL 70, SENS PT100 01), tested ok. Down apporx 6h.\n- waiting on gripper fingers, stores says none left\n- CNC 1 running fine, tool wear ok\n\nSigned RP\n",
+  "spans": [
+    {
+      "quote": "- CNC 2 stopped 1801 w/ ALM SP-104, grinding noise from spindle, virbation alarm. Repl spindle brg set (BRG 7014 ACD x2, SEAL SPDL 70, SENS PT100 01), tested ok. Down apporx 6h.",
+      "start": 49,
+      "end": 226,
+      "page": null,
+      "fact_kind": "node",
+      "fact_id": "INC-2026-049",
+      "type": "Incident",
+      "label": "grinding noise from spindle, virbation alarm",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- CNC 2 stopped 1801 w/ ALM SP-104, grinding noise from spindle, virbation alarm. Repl spindle brg set (BRG 7014 ACD x2, SEAL SPDL 70, SENS PT100 01), tested ok. Down apporx 6h.",
+      "start": 49,
+      "end": 226,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-049|OCCURRED_ON|CNC-02",
+      "type": "OCCURRED_ON",
+      "label": "INC-2026-049 happened on CNC-02",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- CNC 2 stopped 1801 w/ ALM SP-104, grinding noise from spindle, virbation alarm. Repl spindle brg set (BRG 7014 ACD x2, SEAL SPDL 70, SENS PT100 01), tested ok. Down apporx 6h.",
+      "start": 49,
+      "end": 226,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-049|ROOT_CAUSE|FM-SPINDLE-BEARING-WEAR",
+      "type": "ROOT_CAUSE",
+      "label": "INC-2026-049 was caused by FM-SPINDLE-BEARING-WEAR",
+      "extractor": "linker",
+      "confidence": 1.0
+    },
+    {
+      "quote": "- CNC 2 stopped 1801 w/ ALM SP-104, grinding noise from spindle, virbation alarm. Repl spindle brg set (BRG 7014 ACD x2, SEAL SPDL 70, SENS PT100 01), tested ok. Down apporx 6h.",
+      "start": 49,
+      "end": 226,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-049|TRIGGERED_BY|SP-104",
+      "type": "TRIGGERED_BY",
+      "label": "INC-2026-049 started with SP-104",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- CNC 2 stopped 1801 w/ ALM SP-104, grinding noise from spindle, virbation alarm. Repl spindle brg set (BRG 7014 ACD x2, SEAL SPDL 70, SENS PT100 01), tested ok. Down apporx 6h.",
+      "start": 49,
+      "end": 226,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-049|USED|BRG-7014-ACD",
+      "type": "USED",
+      "label": "INC-2026-049 used BRG-7014-ACD",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- CNC 2 stopped 1801 w/ ALM SP-104, grinding noise from spindle, virbation alarm. Repl spindle brg set (BRG 7014 ACD x2, SEAL SPDL 70, SENS PT100 01), tested ok. Down apporx 6h.",
+      "start": 49,
+      "end": 226,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-049|USED|SEAL-SPDL-70",
+      "type": "USED",
+      "label": "INC-2026-049 used SEAL-SPDL-70",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- CNC 2 stopped 1801 w/ ALM SP-104, grinding noise from spindle, virbation alarm. Repl spindle brg set (BRG 7014 ACD x2, SEAL SPDL 70, SENS PT100 01), tested ok. Down apporx 6h.",
+      "start": 49,
+      "end": 226,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-049|USED|SENS-PT100-01",
+      "type": "USED",
+      "label": "INC-2026-049 used SENS-PT100-01",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    }
+  ]
+}

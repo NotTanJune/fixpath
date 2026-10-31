@@ -1,0 +1,8 @@
+Shift handover 26 Sep B
+From: Rajesh   To: Hafiz
+
+- coolant tpoped up on MC-2
+- CNC 1 running fine, tool waer ok
+- press wram-up normal
+
+Signed RP

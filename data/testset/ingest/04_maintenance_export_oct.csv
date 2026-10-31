@@ -1,0 +1,5 @@
+Date,Mach.,Problem desc,Action taken,Parts,Tech,Downtime (min),Ref
+2026-10-13,Kessler 1,"ALM CL-210: coolant pressure dropping, parts coming out hot",Clean coolant filter & flush lines,FLT CL 25 x1,Chen Jun Hao,120,WO-5101
+15/10/2026,the press,Err:252 relief valve pressure out of range,Reset and test relief valve,SEAL RV 25 x1,Arun Prakash,95,WO-5102
+2026-10-16,leak tester,VT018 leak rate above limit on master part,Replace fixture seals,SEAL FIX 30 x2,NA,60,WO-5103
+17/10/2026,robot cell,"RB560: axis 2 overcurrent, cell stopped",Inspect axis 2 and reset servo drive,FUSESRV10 x1,Rajesh Pillai,150,WO-5104

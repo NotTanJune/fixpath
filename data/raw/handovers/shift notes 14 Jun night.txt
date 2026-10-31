@@ -1,0 +1,9 @@
+Shift handover 14 Jun C shift
+From: Jun Hao   To: Siew Ling
+
+- LT1 stopped 2341 w/ VT018, fill takes too lnog, seals look flattened. Repl fixtuer seals (ORINGNBR30, SEAL FIX 30 x2), test run ok. Down approx 3h.
+- coolant topped up on MC-2
+- leak tester master part passed at start of shift
+- ckh air pressure at LT1, ok
+
+Signed Jun Hao

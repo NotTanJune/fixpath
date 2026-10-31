@@ -1,0 +1,81 @@
+{
+  "id": "DOC-3156b169",
+  "path": "handovers/shift notes 19 Apr C.txt",
+  "doc_type": "handover",
+  "kind": "text",
+  "text": "Shift handover 2026-04-19 C shift\nFrom: Arun   To: SL\n\n- pls f/u on stores count for seals\n- Press 2 stopped 0119 w/ E217, press losing pressure mid-stroke, oil on the folor. Repl main cylinder sela kit (OIL HLP46 20L, WIPERCYL50), running ok now. Down approx 4h. pls chk again tmr.\n\nSigned AP\n",
+  "spans": [
+    {
+      "quote": "- Press 2 stopped 0119 w/ E217, press losing pressure mid-stroke, oil on the folor. Repl main cylinder sela kit (OIL HLP46 20L, WIPERCYL50), running ok now. Down approx 4h. pls chk again tmr.",
+      "start": 91,
+      "end": 282,
+      "page": null,
+      "fact_kind": "node",
+      "fact_id": "INC-2026-004",
+      "type": "Incident",
+      "label": "press losing pressure mid-stroke, oil on the folor.",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- Press 2 stopped 0119 w/ E217, press losing pressure mid-stroke, oil on the folor. Repl main cylinder sela kit (OIL HLP46 20L, WIPERCYL50), running ok now. Down approx 4h. pls chk again tmr.",
+      "start": 91,
+      "end": 282,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-004|OCCURRED_ON|HP-01",
+      "type": "OCCURRED_ON",
+      "label": "INC-2026-004 happened on HP-01",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- Press 2 stopped 0119 w/ E217, press losing pressure mid-stroke, oil on the folor. Repl main cylinder sela kit (OIL HLP46 20L, WIPERCYL50), running ok now. Down approx 4h. pls chk again tmr.",
+      "start": 91,
+      "end": 282,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-004|ROOT_CAUSE|FM-MAIN-CYLINDER-SEAL-WEAR",
+      "type": "ROOT_CAUSE",
+      "label": "INC-2026-004 was caused by FM-MAIN-CYLINDER-SEAL-WEAR",
+      "extractor": "linker",
+      "confidence": 1.0
+    },
+    {
+      "quote": "- Press 2 stopped 0119 w/ E217, press losing pressure mid-stroke, oil on the folor. Repl main cylinder sela kit (OIL HLP46 20L, WIPERCYL50), running ok now. Down approx 4h. pls chk again tmr.",
+      "start": 91,
+      "end": 282,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-004|TRIGGERED_BY|E-217",
+      "type": "TRIGGERED_BY",
+      "label": "INC-2026-004 started with E-217",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- Press 2 stopped 0119 w/ E217, press losing pressure mid-stroke, oil on the folor. Repl main cylinder sela kit (OIL HLP46 20L, WIPERCYL50), running ok now. Down approx 4h. pls chk again tmr.",
+      "start": 91,
+      "end": 282,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-004|USED|OIL-HLP46-20L",
+      "type": "USED",
+      "label": "INC-2026-004 used OIL-HLP46-20L",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- Press 2 stopped 0119 w/ E217, press losing pressure mid-stroke, oil on the folor. Repl main cylinder sela kit (OIL HLP46 20L, WIPERCYL50), running ok now. Down approx 4h. pls chk again tmr.",
+      "start": 91,
+      "end": 282,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-004|USED|WIPER-CYL-50",
+      "type": "USED",
+      "label": "INC-2026-004 used WIPER-CYL-50",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    }
+  ]
+}

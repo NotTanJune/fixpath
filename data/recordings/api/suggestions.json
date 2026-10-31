@@ -1,0 +1,26 @@
+[
+  {
+    "question": "HP-01 stopped with E-217, oil under the press",
+    "replayable": true
+  },
+  {
+    "question": "CNC-02 spindle alarm SP-104, grinding noise",
+    "replayable": true
+  },
+  {
+    "question": "RW-01 gripper keeps dropping parts, RB-551",
+    "replayable": true
+  },
+  {
+    "question": "Leak tester failing the master part, VT-018",
+    "replayable": true
+  },
+  {
+    "question": "Line 4 robot is down",
+    "replayable": true
+  },
+  {
+    "question": "Is SEAL-KIT-50 in stock?",
+    "replayable": true
+  }
+]

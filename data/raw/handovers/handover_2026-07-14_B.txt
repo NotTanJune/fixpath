@@ -1,0 +1,8 @@
+Shift handover 14 Jul B
+From: Aisyah   To: AP
+
+- CNC 1 running fine, tool wear ok
+- CNC 1 stopped 2002 w/ ALM SP-104, grindign noise from spindle, vibration alram. Repl spindle bgr set (GREASEKLB2, SEAL SPDL 70), tested ok. Down 655 min. chk again nxet shift.
+- 5S done on robot cell
+
+Signed NA

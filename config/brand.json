@@ -1,0 +1,6 @@
+{
+  "name": "FixPath",
+  "slug": "fixpath",
+  "tagline": "Every answer shows its source and the graph path behind it.",
+  "description": "A troubleshooting assistant for factory technicians. It turns a messy maintenance folder into a knowledge graph and answers with cited fix paths."
+}

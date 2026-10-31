@@ -1,0 +1,57 @@
+{
+  "id": "DOC-c311d1b4",
+  "path": "handovers/shift notes 22 Apr A.txt",
+  "doc_type": "handover",
+  "kind": "text",
+  "text": "Shift handover 2026-04-22 Shift A\nFrom: Siew Ling   To: RP\n\n- 5S done on robot cell\n- pls f/u on stores count for seals\n- press warm-up normal\n- CNC-01 stopped 1230 w/ SP-104, coolant pressure dropping, parts coming out hot. Clean coolant filter & flush liens (FLT CL 25), running ok now. Down approx 2h.\n\nSigned SL\n",
+  "spans": [
+    {
+      "quote": "- CNC-01 stopped 1230 w/ SP-104, coolant pressure dropping, parts coming out hot. Clean coolant filter & flush liens (FLT CL 25), running ok now. Down approx 2h.",
+      "start": 143,
+      "end": 304,
+      "page": null,
+      "fact_kind": "node",
+      "fact_id": "INC-2026-007",
+      "type": "Incident",
+      "label": "coolant pressure dropping, parts coming out hot",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- CNC-01 stopped 1230 w/ SP-104, coolant pressure dropping, parts coming out hot. Clean coolant filter & flush liens (FLT CL 25), running ok now. Down approx 2h.",
+      "start": 143,
+      "end": 304,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-007|OCCURRED_ON|CNC-01",
+      "type": "OCCURRED_ON",
+      "label": "INC-2026-007 happened on CNC-01",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- CNC-01 stopped 1230 w/ SP-104, coolant pressure dropping, parts coming out hot. Clean coolant filter & flush liens (FLT CL 25), running ok now. Down approx 2h.",
+      "start": 143,
+      "end": 304,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-007|TRIGGERED_BY|SP-104",
+      "type": "TRIGGERED_BY",
+      "label": "INC-2026-007 started with SP-104",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- CNC-01 stopped 1230 w/ SP-104, coolant pressure dropping, parts coming out hot. Clean coolant filter & flush liens (FLT CL 25), running ok now. Down approx 2h.",
+      "start": 143,
+      "end": 304,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-007|USED|FLT-CL-25",
+      "type": "USED",
+      "label": "INC-2026-007 used FLT-CL-25",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    }
+  ]
+}

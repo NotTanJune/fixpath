@@ -1,0 +1,69 @@
+{
+  "id": "DOC-2a02eaf8",
+  "path": "handovers/shift notes 12 Sep night.txt",
+  "doc_type": "handover",
+  "kind": "text",
+  "text": "Shift handover 12 Sep C shift\nFrom: Arun   To: Siew Ling\n\n- robot cell guard door sticking a bit, f/u tmr\n- leak tester master part passed at start of shift\n- robot cell stopped 2359 w/ RB-551, part-present signal flickering, grippre slipipng. Repl gripper fingers (gripper finger x2), test run ok. Down approx 3h.\n- 5S done on robot cell\n\nSigned Arun\n",
+  "spans": [
+    {
+      "quote": "- robot cell stopped 2359 w/ RB-551, part-present signal flickering, grippre slipipng. Repl gripper fingers (gripper finger x2), test run ok. Down approx 3h.",
+      "start": 157,
+      "end": 314,
+      "page": null,
+      "fact_kind": "node",
+      "fact_id": "INC-2026-058",
+      "type": "Incident",
+      "label": "part-present signal flickering, grippre slipipng",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- robot cell stopped 2359 w/ RB-551, part-present signal flickering, grippre slipipng. Repl gripper fingers (gripper finger x2), test run ok. Down approx 3h.",
+      "start": 157,
+      "end": 314,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-058|OCCURRED_ON|RW-01",
+      "type": "OCCURRED_ON",
+      "label": "INC-2026-058 happened on RW-01",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- robot cell stopped 2359 w/ RB-551, part-present signal flickering, grippre slipipng. Repl gripper fingers (gripper finger x2), test run ok. Down approx 3h.",
+      "start": 157,
+      "end": 314,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-058|ROOT_CAUSE|FM-GRIPPER-FINGER-WEAR",
+      "type": "ROOT_CAUSE",
+      "label": "INC-2026-058 was caused by FM-GRIPPER-FINGER-WEAR",
+      "extractor": "linker",
+      "confidence": 1.0
+    },
+    {
+      "quote": "- robot cell stopped 2359 w/ RB-551, part-present signal flickering, grippre slipipng. Repl gripper fingers (gripper finger x2), test run ok. Down approx 3h.",
+      "start": 157,
+      "end": 314,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-058|TRIGGERED_BY|RB-551",
+      "type": "TRIGGERED_BY",
+      "label": "INC-2026-058 started with RB-551",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- robot cell stopped 2359 w/ RB-551, part-present signal flickering, grippre slipipng. Repl gripper fingers (gripper finger x2), test run ok. Down approx 3h.",
+      "start": 157,
+      "end": 314,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-058|USED|GRP-FNG-12",
+      "type": "USED",
+      "label": "INC-2026-058 used GRP-FNG-12",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    }
+  ]
+}

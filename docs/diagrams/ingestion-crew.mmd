@@ -1,0 +1,27 @@
+flowchart LR
+  ROUTE["Router<br/>code"]
+  ROUTE --> P["Parsers<br/>code<br/>logs, spares,<br/>maintenance export"]
+  ROUTE --> T["Text reader<br/>Sol<br/>handovers,<br/>loose notes"]
+  ROUTE --> M["Manual reader<br/>Sol<br/>PDF manuals"]
+  P --> RES["Resolver<br/>rules, fuzzy match<br/>JEV: same entity,<br/>same incident"]
+  T --> RES
+  M --> RES
+  RES --> LINK["Linker<br/>JEV picks each<br/>breakdown's<br/>root cause"]
+  LINK --> VAL["Validator<br/>code"]
+  VAL --> LOAD["Loader<br/>code"]
+  LOAD --> KG[("Knowledge<br/>graph")]
+  M -.->|"text chunks"| LOAD
+  RES -.-> RQ["Review queue"]
+  LINK -.-> RQ
+  VAL -.-> RQ
+
+  classDef code fill:#f3f4f1,stroke:#1d2023,stroke-width:2px,color:#1d2023
+  classDef jev fill:#1f4fd1,stroke:#1f4fd1,color:#ffffff
+  classDef llm fill:#1d2023,stroke:#1d2023,color:#ffffff
+  classDef store fill:#3e5c76,stroke:#3e5c76,color:#ffffff
+  classDef queue fill:#d9921a,stroke:#d9921a,color:#1d2023
+  class ROUTE,P,VAL,LOAD code
+  class T,M llm
+  class RES,LINK jev
+  class KG store
+  class RQ queue

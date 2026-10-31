@@ -1,0 +1,69 @@
+{
+  "id": "DOC-96468c6a",
+  "path": "handovers/shift notes 14 Jun night.txt",
+  "doc_type": "handover",
+  "kind": "text",
+  "text": "Shift handover 14 Jun C shift\nFrom: Jun Hao   To: Siew Ling\n\n- LT1 stopped 2341 w/ VT018, fill takes too lnog, seals look flattened. Repl fixtuer seals (ORINGNBR30, SEAL FIX 30 x2), test run ok. Down approx 3h.\n- coolant topped up on MC-2\n- leak tester master part passed at start of shift\n- ckh air pressure at LT1, ok\n\nSigned Jun Hao\n",
+  "spans": [
+    {
+      "quote": "- LT1 stopped 2341 w/ VT018, fill takes too lnog, seals look flattened. Repl fixtuer seals (ORINGNBR30, SEAL FIX 30 x2), test run ok. Down approx 3h.",
+      "start": 61,
+      "end": 210,
+      "page": null,
+      "fact_kind": "node",
+      "fact_id": "INC-2026-029",
+      "type": "Incident",
+      "label": "fill takes too long, seals look flattened",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- LT1 stopped 2341 w/ VT018, fill takes too lnog, seals look flattened. Repl fixtuer seals (ORINGNBR30, SEAL FIX 30 x2), test run ok. Down approx 3h.",
+      "start": 61,
+      "end": 210,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-029|OCCURRED_ON|LT-01",
+      "type": "OCCURRED_ON",
+      "label": "INC-2026-029 happened on LT-01",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- LT1 stopped 2341 w/ VT018, fill takes too lnog, seals look flattened. Repl fixtuer seals (ORINGNBR30, SEAL FIX 30 x2), test run ok. Down approx 3h.",
+      "start": 61,
+      "end": 210,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-029|TRIGGERED_BY|VT-018",
+      "type": "TRIGGERED_BY",
+      "label": "INC-2026-029 started with VT-018",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- LT1 stopped 2341 w/ VT018, fill takes too lnog, seals look flattened. Repl fixtuer seals (ORINGNBR30, SEAL FIX 30 x2), test run ok. Down approx 3h.",
+      "start": 61,
+      "end": 210,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-029|USED|O-RING-NBR-30",
+      "type": "USED",
+      "label": "INC-2026-029 used O-RING-NBR-30",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- LT1 stopped 2341 w/ VT018, fill takes too lnog, seals look flattened. Repl fixtuer seals (ORINGNBR30, SEAL FIX 30 x2), test run ok. Down approx 3h.",
+      "start": 61,
+      "end": 210,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-029|USED|SEAL-FIX-30",
+      "type": "USED",
+      "label": "INC-2026-029 used SEAL-FIX-30",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    }
+  ]
+}

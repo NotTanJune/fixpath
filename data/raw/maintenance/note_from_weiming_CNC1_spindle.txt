@@ -1,0 +1,1 @@
+On 2 Sep CNC 1 stopped at about 1330 with SP117 on the screen. When I opened it up I found spindle bearing wear on the spindle. I replaced spdl brg x2 and GREASE KLB 2 and seal 70 and SENSPT10001. Next time I will check the spindle before the shift starts.

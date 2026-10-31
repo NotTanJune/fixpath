@@ -1,0 +1,69 @@
+{
+  "id": "DOC-3bb868d8",
+  "path": "handovers/HO 08-10 B shift.txt",
+  "doc_type": "handover",
+  "kind": "text",
+  "text": "Shift handover 2026-08-10 B\nFrom: Aisyah   To: JHC\n\n- robot cell guard door sticking a bit, f/u tmr\n- CNC 1 running fine, tool wear ok\n- PR-2 stopped 1533 w/ E-221, oil looks dark and milky, pump niosy. Change hydraulic oil & filter (FLTHYD10, OILHLP4620L x3), test run ok. Down approx 6h. pls chk agani tmr.\n\nSigned NA\n",
+  "spans": [
+    {
+      "quote": "- PR-2 stopped 1533 w/ E-221, oil looks dark and milky, pump niosy. Change hydraulic oil & filter (FLTHYD10, OILHLP4620L x3), test run ok. Down approx 6h. pls chk agani tmr.",
+      "start": 135,
+      "end": 308,
+      "page": null,
+      "fact_kind": "node",
+      "fact_id": "INC-2026-045",
+      "type": "Incident",
+      "label": "oil looks dark and milky, pump noisy",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- PR-2 stopped 1533 w/ E-221, oil looks dark and milky, pump niosy. Change hydraulic oil & filter (FLTHYD10, OILHLP4620L x3), test run ok. Down approx 6h. pls chk agani tmr.",
+      "start": 135,
+      "end": 308,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-045|OCCURRED_ON|HP-01",
+      "type": "OCCURRED_ON",
+      "label": "INC-2026-045 happened on HP-01",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- PR-2 stopped 1533 w/ E-221, oil looks dark and milky, pump niosy. Change hydraulic oil & filter (FLTHYD10, OILHLP4620L x3), test run ok. Down approx 6h. pls chk agani tmr.",
+      "start": 135,
+      "end": 308,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-045|TRIGGERED_BY|E-221",
+      "type": "TRIGGERED_BY",
+      "label": "INC-2026-045 started with E-221",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- PR-2 stopped 1533 w/ E-221, oil looks dark and milky, pump niosy. Change hydraulic oil & filter (FLTHYD10, OILHLP4620L x3), test run ok. Down approx 6h. pls chk agani tmr.",
+      "start": 135,
+      "end": 308,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-045|USED|FLT-HYD-10",
+      "type": "USED",
+      "label": "INC-2026-045 used FLT-HYD-10",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- PR-2 stopped 1533 w/ E-221, oil looks dark and milky, pump niosy. Change hydraulic oil & filter (FLTHYD10, OILHLP4620L x3), test run ok. Down approx 6h. pls chk agani tmr.",
+      "start": 135,
+      "end": 308,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-045|USED|OIL-HLP46-20L",
+      "type": "USED",
+      "label": "INC-2026-045 used OIL-HLP46-20L",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+Shift handover 12/08/2026 night
+From: AP   To: Wei Ming
+
+- deburr cell stopped 0326 w/ RB563, robot arm jerky on axis 2, driev alarm. Inspect aixs 2 & reset servo drive (brg 6205), test run ok. Down 130 mni.
+- waiting on gripper fingers, stores says none left
+
+Signed AP

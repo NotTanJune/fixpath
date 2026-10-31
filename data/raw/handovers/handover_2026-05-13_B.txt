@@ -1,0 +1,8 @@
+Shift handover 2026-05-13 B
+From: RP   To: Jun Hao
+
+- nothing major, all machines running
+- RW-01 stpoped 2117 w/ RB-551, part-present signal flickering, grippre slipping. Repl gripper fingers (GRP FNG 12 x2), running ok now. Down 120 min. f/u tmr.
+- 5S done on robot cell
+
+Signed Rajesh

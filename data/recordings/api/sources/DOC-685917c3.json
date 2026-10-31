@@ -1,0 +1,57 @@
+{
+  "id": "DOC-685917c3",
+  "path": "handovers/Handover_20260513_C.txt",
+  "doc_type": "handover",
+  "kind": "text",
+  "text": "Shift handover 13/05/2026 night\nFrom: Hafiz   To: Wei Ming\n\n- pls f/u on stores count for seals\n- chk air pressure at LT1, ok\n- HP-01 stopped 2340 w/ E230, pressure hunting, oil running hot. Chagne hydraulic oil & filter (hyd oil 20L x3), tested ok. Down apprxo 4h.\n- press warm-up normal\n\nSigned Hafiz\n",
+  "spans": [
+    {
+      "quote": "- HP-01 stopped 2340 w/ E230, pressure hunting, oil running hot. Chagne hydraulic oil & filter (hyd oil 20L x3), tested ok. Down apprxo 4h.",
+      "start": 126,
+      "end": 265,
+      "page": null,
+      "fact_kind": "node",
+      "fact_id": "INC-2026-019",
+      "type": "Incident",
+      "label": "pressure hunting, oil running hot",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- HP-01 stopped 2340 w/ E230, pressure hunting, oil running hot. Chagne hydraulic oil & filter (hyd oil 20L x3), tested ok. Down apprxo 4h.",
+      "start": 126,
+      "end": 265,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-019|OCCURRED_ON|HP-01",
+      "type": "OCCURRED_ON",
+      "label": "INC-2026-019 happened on HP-01",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- HP-01 stopped 2340 w/ E230, pressure hunting, oil running hot. Chagne hydraulic oil & filter (hyd oil 20L x3), tested ok. Down apprxo 4h.",
+      "start": 126,
+      "end": 265,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-019|TRIGGERED_BY|E-230",
+      "type": "TRIGGERED_BY",
+      "label": "INC-2026-019 started with E-230",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- HP-01 stopped 2340 w/ E230, pressure hunting, oil running hot. Chagne hydraulic oil & filter (hyd oil 20L x3), tested ok. Down apprxo 4h.",
+      "start": 126,
+      "end": 265,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-019|USED|OIL-HLP46-20L",
+      "type": "USED",
+      "label": "INC-2026-019 used OIL-HLP46-20L",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    }
+  ]
+}

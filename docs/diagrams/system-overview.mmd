@@ -1,0 +1,24 @@
+flowchart TB
+  UI["Web app<br/>Ask, Pipeline, Evals"] <--> API["API<br/>server-sent events"]
+  FOLDER["Shared folder<br/>107 files"] --> ING["Ingestion crew<br/>LangGraph"]
+  API -->|"drop a file"| ING
+  ING --> KG[("Knowledge graph<br/>nodes, edges,<br/>evidence, chunks")]
+  API -->|"ask"| ASK["Troubleshooting crew<br/>LangGraph"]
+  KG --> ASK
+  S1["System 1: JEV<br/>fast typed decisions"]
+  S2["System 2: Sol and Terra<br/>read and write"]
+  ING -.-> S1
+  ASK -.-> S1
+  ING -.-> S2
+  ASK -.-> S2
+
+  classDef code fill:#f3f4f1,stroke:#1d2023,stroke-width:2px,color:#1d2023
+  classDef src fill:#8a8f96,stroke:#8a8f96,color:#ffffff
+  classDef jev fill:#1f4fd1,stroke:#1f4fd1,color:#ffffff
+  classDef llm fill:#1d2023,stroke:#1d2023,color:#ffffff
+  classDef store fill:#3e5c76,stroke:#3e5c76,color:#ffffff
+  class FOLDER src
+  class ING,ASK,API,UI code
+  class KG store
+  class S1 jev
+  class S2 llm

@@ -1,0 +1,1801 @@
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document (opensource)
+1 0 obj
+<<
+/F1 2 0 R /F2 3 0 R
+>>
+endobj
+2 0 obj
+<<
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
+endobj
+3 0 obj
+<<
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+>>
+endobj
+4 0 obj
+<<
+/Contents 13 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 12 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+5 0 obj
+<<
+/Contents 14 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 12 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+6 0 obj
+<<
+/Contents 15 0 R /MediaBox [ 0 0 841.8898 595.2756 ] /Parent 12 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+7 0 obj
+<<
+/Contents 16 0 R /MediaBox [ 0 0 841.8898 595.2756 ] /Parent 12 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+8 0 obj
+<<
+/Contents 17 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 12 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+9 0 obj
+<<
+/Contents 18 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 12 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+10 0 obj
+<<
+/PageMode /UseNone /Pages 12 0 R /Type /Catalog
+>>
+endobj
+11 0 obj
+<<
+/Author (Orbis Robotics) /CreationDate (D:20000101000000+00'00') /Creator (Orbis Robotics) /Keywords () /ModDate (D:20000101000000+00'00') /Producer (ReportLab PDF Library - \(opensource\)) 
+  /Subject (OR-6, Revision 3) /Title (Orbis Robotics OR-6 Cell Maintenance Guide) /Trapped /False
+>>
+endobj
+12 0 obj
+<<
+/Count 6 /Kids [ 4 0 R 5 0 R 6 0 R 7 0 R 8 0 R 9 0 R ] /Type /Pages
+>>
+endobj
+13 0 obj
+<<
+/Length 4020
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+n 0 569.7638 595.2756 272.126 re W* n
+.043137 .419608 .364706 rg
+n 0 569.7638 595.2756 272.126 re f*
+.157961 .489255 .440941 rg
+n
+674.6457 790.8661 m
+674.6457 881.667 601.0371 955.2756 510.2362 955.2756 c
+419.4354 955.2756 345.8268 881.667 345.8268 790.8661 c
+345.8268 700.0653 419.4354 626.4567 510.2362 626.4567 c
+601.0371 626.4567 674.6457 700.0653 674.6457 790.8661 c
+f*
+.23451 .535686 .491765 rg
+n
+504.5669 581.1024 m
+504.5669 628.0683 466.4935 666.1417 419.5276 666.1417 c
+372.5616 666.1417 334.4882 628.0683 334.4882 581.1024 c
+334.4882 534.1364 372.5616 496.063 419.5276 496.063 c
+466.4935 496.063 504.5669 534.1364 504.5669 581.1024 c
+f*
+Q
+q
+.569412 .738824 .714118 rg
+n 0 563.5276 595.2756 6.23622 re f*
+Q
+q
+1 0 0 1 487.5591 702.9921 cm
+1 1 1 RG
+1 1 1 rg
+3.968504 w
+q
+.819152 .573576 -0.573576 .819152 0 0 cm
+n
+56.69291 0 m
+56.69291 11.27183 31.31063 20.40945 0 20.40945 c
+-31.31063 20.40945 -56.69291 11.27183 -56.69291 0 c
+-56.69291 -11.27183 -31.31063 -20.40945 0 -20.40945 c
+31.31063 -20.40945 56.69291 -11.27183 56.69291 0 c
+S
+n
+61.79528 0 m
+61.79528 2.817957 59.51087 5.102362 56.69291 5.102362 c
+53.87496 5.102362 51.59055 2.817957 51.59055 0 c
+51.59055 -2.817957 53.87496 -5.102362 56.69291 -5.102362 c
+59.51087 -5.102362 61.79528 -2.817957 61.79528 0 c
+f*
+Q
+q
+.819152 -0.573576 .573576 .819152 0 0 cm
+n
+56.69291 0 m
+56.69291 11.27183 31.31063 20.40945 0 20.40945 c
+-31.31063 20.40945 -56.69291 11.27183 -56.69291 0 c
+-56.69291 -11.27183 -31.31063 -20.40945 0 -20.40945 c
+31.31063 -20.40945 56.69291 -11.27183 56.69291 0 c
+S
+n
+61.79528 0 m
+61.79528 2.817957 59.51087 5.102362 56.69291 5.102362 c
+53.87496 5.102362 51.59055 2.817957 51.59055 0 c
+51.59055 -2.817957 53.87496 -5.102362 56.69291 -5.102362 c
+59.51087 -5.102362 61.79528 -2.817957 61.79528 0 c
+f*
+Q
+q
+0 1 -1 0 0 0 cm
+n
+56.69291 0 m
+56.69291 11.27183 31.31063 20.40945 0 20.40945 c
+-31.31063 20.40945 -56.69291 11.27183 -56.69291 0 c
+-56.69291 -11.27183 -31.31063 -20.40945 0 -20.40945 c
+31.31063 -20.40945 56.69291 -11.27183 56.69291 0 c
+S
+n
+61.79528 0 m
+61.79528 2.817957 59.51087 5.102362 56.69291 5.102362 c
+53.87496 5.102362 51.59055 2.817957 51.59055 0 c
+51.59055 -2.817957 53.87496 -5.102362 56.69291 -5.102362 c
+59.51087 -5.102362 61.79528 -2.817957 61.79528 0 c
+f*
+Q
+n
+15.30709 0 m
+15.30709 8.453871 8.453871 15.30709 0 15.30709 c
+-8.453871 15.30709 -15.30709 8.453871 -15.30709 0 c
+-15.30709 -8.453871 -8.453871 -15.30709 0 -15.30709 c
+8.453871 -15.30709 15.30709 -8.453871 15.30709 0 c
+f*
+.043137 .419608 .364706 rg
+n
+5.669291 0 m
+5.669291 3.131063 3.131063 5.669291 0 5.669291 c
+-3.131063 5.669291 -5.669291 3.131063 -5.669291 0 c
+-5.669291 -3.131063 -3.131063 -5.669291 0 -5.669291 c
+3.131063 -5.669291 5.669291 -3.131063 5.669291 0 c
+f*
+Q
+q
+.043137 .419608 .364706 rg
+n 0 0 595.2756 22.67717 re f*
+Q
+q
+1 0 0 1 51.02362 683.1496 cm
+Q
+q
+1 0 0 1 51.02362 655.1496 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 6 Tm /F2 22 Tf 28 TL (Orbis Robotics) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.02362 547.4331 cm
+Q
+q
+1 0 0 1 51.02362 487.4331 cm
+q
+.043137 .419608 .364706 rg
+BT 1 0 0 1 0 6 Tm /F2 54 Tf 60 TL (OR-6) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.02362 469.4331 cm
+q
+.337255 .380392 .439216 rg
+BT 1 0 0 1 0 4 Tm /F1 14 Tf 18 TL (Load, unload and deburr robot cell) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.02362 460.9291 cm
+Q
+q
+1 0 0 1 51.02362 457.9291 cm
+q
+3 w
+1 J
+.043137 .419608 .364706 RG
+n 0 0 m 73.70079 0 l S
+Q
+Q
+q
+1 0 0 1 51.02362 423.9134 cm
+Q
+q
+1 0 0 1 51.02362 393.9134 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 0 6 Tm /F2 24 Tf 30 TL (Cell Maintenance Guide) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.02362 377.9134 cm
+q
+.337255 .380392 .439216 rg
+BT 1 0 0 1 0 4 Tm /F1 12 Tf 16 TL (Revision 3) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.02362 190.8268 cm
+Q
+q
+1 0 0 1 51.02362 159.8268 cm
+q
+.904314 .941961 .936471 rg
+n 0 31 493.2283 -31 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 14 9 cm
+q
+.043137 .419608 .364706 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (For qualified maintenance personnel) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.043137 .419608 .364706 RG
+5 w
+n 0 0 m 0 31 l S
+Q
+Q
+Q
+ 
+endstream
+endobj
+14 0 obj
+<<
+/Length 2036
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+.043137 .419608 .364706 rg
+n 0 830.5512 595.2756 11.33858 re f*
+Q
+q
+1 0 0 1 51.02362 770.0661 cm
+q
+.043137 .419608 .364706 rg
+BT 1 0 0 1 0 4.8 Tm /F2 16 Tf 20.8 TL (1 Safety) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.02362 765.4661 cm
+q
+1.6 w
+1 J
+.043137 .419608 .364706 RG
+n 0 0 m 493.2283 0 l S
+Q
+Q
+q
+1 0 0 1 51.02362 742.4661 cm
+q
+.043137 .419608 .364706 rg
+BT 1 0 0 1 0 3.5 Tm /F2 11.5 Tf 15 TL (1.1 General safety) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.02362 740.9661 cm
+q
+.5 w
+1 J
+.569412 .738824 .714118 RG
+n 0 0 m 493.2283 0 l S
+Q
+Q
+q
+1 0 0 1 51.02362 697.9661 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 0 29.5 Tm /F1 9.5 Tf 13 TL (Only qualified maintenance personnel who are trained on the OR-6 may enter the cell. Never bypass the light curtain) Tj T* (or a door interlock, and stay clear of the arm: it can move without warning while the cell has power. If anything moves) Tj T* (unexpectedly, press the emergency stop and leave the cell by the safety door.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.02362 674.9661 cm
+q
+.043137 .419608 .364706 rg
+BT 1 0 0 1 0 3.5 Tm /F2 11.5 Tf 15 TL (1.2 Lockout and tagout) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.02362 673.4661 cm
+q
+.5 w
+1 J
+.569412 .738824 .714118 RG
+n 0 0 m 493.2283 0 l S
+Q
+Q
+q
+1 0 0 1 51.02362 630.4661 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 0 29.5 Tm /F1 9.5 Tf 13 TL (Move the robot to the service position, switch off the cell isolator and fit your personal lock and tag. The drive) Tj T* (capacitors keep a dangerous charge after power off, so wait 5 minutes for the drive capacitors to discharge before) Tj T* (you touch a drive. Release the compressed air from the gripper valve block and verify zero energy before you start.) Tj T* ET
+Q
+Q
+q
+.043137 .419608 .364706 RG
+.8 w
+n 51.02362 39.68504 m 544.252 39.68504 l S
+.043137 .419608 .364706 rg
+n 51.02362 38.55118 39.68504 1.2 re f*
+.337255 .380392 .439216 rg
+BT /F1 8 Tf 9.6 TL ET
+BT 1 0 0 1 51.02362 26.92913 Tm (Orbis Robotics OR-6 Cell Maintenance Guide, Revision 3) Tj T* ET
+BT 1 0 0 1 518.9 26.92913 Tm (Page 2) Tj T* ET
+Q
+ 
+endstream
+endobj
+15 0 obj
+<<
+/Length 4621
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+.043137 .419608 .364706 rg
+n 0 583.937 841.8898 11.33858 re f*
+Q
+q
+1 0 0 1 51.02362 523.452 cm
+q
+.043137 .419608 .364706 rg
+BT 1 0 0 1 0 4.8 Tm /F2 16 Tf 20.8 TL (2 Alarm table) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.02362 518.852 cm
+q
+1.6 w
+1 J
+.043137 .419608 .364706 RG
+n 0 0 m 739.8425 0 l S
+Q
+Q
+q
+1 0 0 1 51.02362 499.852 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 0 3.5 Tm /F1 9.5 Tf 13 TL (The control shows these codes. Likely causes are listed in order of likelihood.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.02362 354.352 cm
+q
+.043137 .419608 .364706 rg
+n 0 139.5 739.8425 -19.5 re f*
+1 1 1 rg
+n 0 120 739.8425 -30 re f*
+.952941 .960784 .972549 rg
+n 0 90 739.8425 -30 re f*
+1 1 1 rg
+n 0 60 739.8425 -30 re f*
+.952941 .960784 .972549 rg
+n 0 30 739.8425 -30 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 5 125 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 8.5 Tf 10.5 TL (Code) Tj T* ET
+Q
+Q
+q
+1 0 0 1 49.39055 125 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 8.5 Tf 10.5 TL (Message) Tj T* ET
+Q
+Q
+q
+1 0 0 1 197.3591 125 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 8.5 Tf 10.5 TL (Severity) Tj T* ET
+Q
+Q
+q
+1 0 0 1 256.5465 125 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 8.5 Tf 10.5 TL (Likely causes) Tj T* ET
+Q
+Q
+q
+1 0 0 1 508.0929 125 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 8.5 Tf 10.5 TL (Action) Tj T* ET
+Q
+Q
+q
+1 0 0 1 5 105.5 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 0 2 Tm /F1 8.5 Tf 10.5 TL (RB-551) Tj T* ET
+Q
+Q
+q
+1 0 0 1 49.39055 105.5 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 0 2 Tm /F1 8.5 Tf 10.5 TL (Gripper part-present signal lost) Tj T* ET
+Q
+Q
+q
+1 0 0 1 197.3591 105.5 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 0 2 Tm /F1 8.5 Tf 10.5 TL (warning) Tj T* ET
+Q
+Q
+q
+1 0 0 1 256.5465 105.5 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 0 2 Tm /F1 8.5 Tf 10.5 TL (worn gripper fingers \(most likely\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 508.0929 95 cm
+q
+BT 1 0 0 1 0 12.5 Tm 10.5 TL /F1 8.5 Tf .121569 .160784 .2 rg (See 4.1 Replace gripper fingers) Tj  T* (\(plant ref PROC-RW-01\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 5 75.5 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 0 2 Tm /F1 8.5 Tf 10.5 TL (RB-560) Tj T* ET
+Q
+Q
+q
+1 0 0 1 49.39055 75.5 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 0 2 Tm /F1 8.5 Tf 10.5 TL (Axis 2 overcurrent) Tj T* ET
+Q
+Q
+q
+1 0 0 1 197.3591 75.5 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 0 2 Tm /F1 8.5 Tf 10.5 TL (critical) Tj T* ET
+Q
+Q
+q
+1 0 0 1 256.5465 75.5 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 0 2 Tm /F1 8.5 Tf 10.5 TL (axis 2 overload from binding or a failing drive \(most likely\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 508.0929 65 cm
+q
+BT 1 0 0 1 0 12.5 Tm 10.5 TL /F1 8.5 Tf .121569 .160784 .2 rg (See 4.2 Inspect axis 2 and reset servo drive) Tj  T* (\(plant ref PROC-RW-02\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 5 45.5 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 0 2 Tm /F1 8.5 Tf 10.5 TL (RB-563) Tj T* ET
+Q
+Q
+q
+1 0 0 1 49.39055 45.5 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 0 2 Tm /F1 8.5 Tf 10.5 TL (Axis 2 following error) Tj T* ET
+Q
+Q
+q
+1 0 0 1 197.3591 45.5 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 0 2 Tm /F1 8.5 Tf 10.5 TL (warning) Tj T* ET
+Q
+Q
+q
+1 0 0 1 256.5465 45.5 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 0 2 Tm /F1 8.5 Tf 10.5 TL (axis 2 overload from binding or a failing drive \(most likely\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 508.0929 35 cm
+q
+BT 1 0 0 1 0 12.5 Tm 10.5 TL /F1 8.5 Tf .121569 .160784 .2 rg (See 4.2 Inspect axis 2 and reset servo drive) Tj  T* (\(plant ref PROC-RW-02\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 5 15.5 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 0 2 Tm /F1 8.5 Tf 10.5 TL (RB-570) Tj T* ET
+Q
+Q
+q
+1 0 0 1 49.39055 15.5 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 0 2 Tm /F1 8.5 Tf 10.5 TL (Light curtain muting fault) Tj T* ET
+Q
+Q
+q
+1 0 0 1 197.3591 15.5 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 0 2 Tm /F1 8.5 Tf 10.5 TL (critical) Tj T* ET
+Q
+Q
+q
+1 0 0 1 256.5465 15.5 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 0 2 Tm /F1 8.5 Tf 10.5 TL (misaligned light curtain \(most likely\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 508.0929 5 cm
+q
+BT 1 0 0 1 0 12.5 Tm 10.5 TL /F1 8.5 Tf .121569 .160784 .2 rg (See 4.3 Realign light curtain) Tj  T* (\(plant ref PROC-RW-03\)) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.788235 .815686 .85098 RG
+.4 w
+n 0 90 m 739.8425 90 l S
+n 0 60 m 739.8425 60 l S
+n 0 30 m 739.8425 30 l S
+n 0 0 m 739.8425 0 l S
+.043137 .419608 .364706 RG
+.8 w
+n 0 139.5 m 739.8425 139.5 l S
+n 0 0 m 739.8425 0 l S
+n 0 0 m 0 139.5 l S
+n 739.8425 0 m 739.8425 139.5 l S
+Q
+Q
+Q
+q
+.043137 .419608 .364706 RG
+.8 w
+n 51.02362 39.68504 m 790.8661 39.68504 l S
+.043137 .419608 .364706 rg
+n 51.02362 38.55118 39.68504 1.2 re f*
+.337255 .380392 .439216 rg
+BT /F1 8 Tf 9.6 TL ET
+BT 1 0 0 1 51.02362 26.92913 Tm (Orbis Robotics OR-6 Cell Maintenance Guide, Revision 3) Tj T* ET
+BT 1 0 0 1 765.5141 26.92913 Tm (Page 3) Tj T* ET
+Q
+ 
+endstream
+endobj
+16 0 obj
+<<
+/Length 2964
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+.043137 .419608 .364706 rg
+n 0 583.937 841.8898 11.33858 re f*
+Q
+q
+1 0 0 1 51.02362 523.452 cm
+q
+.043137 .419608 .364706 rg
+BT 1 0 0 1 0 4.8 Tm /F2 16 Tf 20.8 TL (3 Troubleshooting table) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.02362 518.852 cm
+q
+1.6 w
+1 J
+.043137 .419608 .364706 RG
+n 0 0 m 739.8425 0 l S
+Q
+Q
+q
+1 0 0 1 51.02362 499.852 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 0 3.5 Tm /F1 9.5 Tf 13 TL (Find the symptom, then follow the remedy.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.02362 384.352 cm
+q
+.043137 .419608 .364706 rg
+n 0 109.5 739.8425 -19.5 re f*
+1 1 1 rg
+n 0 90 739.8425 -30 re f*
+.952941 .960784 .972549 rg
+n 0 60 739.8425 -30 re f*
+1 1 1 rg
+n 0 30 739.8425 -30 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 5 95 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 8.5 Tf 10.5 TL (Symptom) Tj T* ET
+Q
+Q
+q
+1 0 0 1 256.5465 95 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 8.5 Tf 10.5 TL (Probable cause) Tj T* ET
+Q
+Q
+q
+1 0 0 1 500.6945 95 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 8.5 Tf 10.5 TL (Remedy) Tj T* ET
+Q
+Q
+q
+1 0 0 1 5 75.5 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 0 2 Tm /F1 8.5 Tf 10.5 TL (robot dropping parts at the deburr station) Tj T* ET
+Q
+Q
+q
+1 0 0 1 256.5465 75.5 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 0 2 Tm /F1 8.5 Tf 10.5 TL (worn gripper fingers) Tj T* ET
+Q
+Q
+q
+1 0 0 1 500.6945 65 cm
+q
+BT 1 0 0 1 0 12.5 Tm 10.5 TL /F1 8.5 Tf .121569 .160784 .2 rg (See 4.1 Replace gripper fingers) Tj  T* (\(plant ref PROC-RW-01\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 5 45.5 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 0 2 Tm /F1 8.5 Tf 10.5 TL (axis 2 trips on overcurrent during fast moves) Tj T* ET
+Q
+Q
+q
+1 0 0 1 256.5465 45.5 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 0 2 Tm /F1 8.5 Tf 10.5 TL (axis 2 overload from binding or a failing drive) Tj T* ET
+Q
+Q
+q
+1 0 0 1 500.6945 35 cm
+q
+BT 1 0 0 1 0 12.5 Tm 10.5 TL /F1 8.5 Tf .121569 .160784 .2 rg (See 4.2 Inspect axis 2 and reset servo drive) Tj  T* (\(plant ref PROC-RW-02\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 5 15.5 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 0 2 Tm /F1 8.5 Tf 10.5 TL (cell stops randomly, light curtain fault) Tj T* ET
+Q
+Q
+q
+1 0 0 1 256.5465 15.5 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 0 2 Tm /F1 8.5 Tf 10.5 TL (misaligned light curtain) Tj T* ET
+Q
+Q
+q
+1 0 0 1 500.6945 5 cm
+q
+BT 1 0 0 1 0 12.5 Tm 10.5 TL /F1 8.5 Tf .121569 .160784 .2 rg (See 4.3 Realign light curtain) Tj  T* (\(plant ref PROC-RW-03\)) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.788235 .815686 .85098 RG
+.4 w
+n 0 60 m 739.8425 60 l S
+n 0 30 m 739.8425 30 l S
+n 0 0 m 739.8425 0 l S
+.043137 .419608 .364706 RG
+.8 w
+n 0 109.5 m 739.8425 109.5 l S
+n 0 0 m 739.8425 0 l S
+n 0 0 m 0 109.5 l S
+n 739.8425 0 m 739.8425 109.5 l S
+Q
+Q
+Q
+q
+.043137 .419608 .364706 RG
+.8 w
+n 51.02362 39.68504 m 790.8661 39.68504 l S
+.043137 .419608 .364706 rg
+n 51.02362 38.55118 39.68504 1.2 re f*
+.337255 .380392 .439216 rg
+BT /F1 8 Tf 9.6 TL ET
+BT 1 0 0 1 51.02362 26.92913 Tm (Orbis Robotics OR-6 Cell Maintenance Guide, Revision 3) Tj T* ET
+BT 1 0 0 1 765.5141 26.92913 Tm (Page 4) Tj T* ET
+Q
+ 
+endstream
+endobj
+17 0 obj
+<<
+/Length 11664
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+.043137 .419608 .364706 rg
+n 0 830.5512 595.2756 11.33858 re f*
+Q
+q
+1 0 0 1 51.02362 770.0661 cm
+q
+.043137 .419608 .364706 rg
+BT 1 0 0 1 0 4.8 Tm /F2 16 Tf 20.8 TL (4 Procedures) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.02362 765.4661 cm
+q
+1.6 w
+1 J
+.043137 .419608 .364706 RG
+n 0 0 m 493.2283 0 l S
+Q
+Q
+q
+1 0 0 1 51.02362 742.4661 cm
+q
+.043137 .419608 .364706 rg
+BT 1 0 0 1 0 3.5 Tm /F2 11.5 Tf 15 TL (4.1 Replace gripper fingers) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.02362 740.9661 cm
+q
+.5 w
+1 J
+.569412 .738824 .714118 RG
+n 0 0 m 493.2283 0 l S
+Q
+Q
+q
+1 0 0 1 51.02362 723.9661 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 0 3.5 Tm /F1 9.5 Tf 13 TL (Plant ref: PROC-RW-01 | Lockout required: yes | Time: 40 min) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.02362 672.9504 cm
+q
+1 .956863 .760784 rg
+n 0 45.01575 493.2283 -45.01575 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 8 6 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT /F1 10 Tf 12 TL ET
+0 0 0 RG
+[] 0 d
+0 J
+0 j
+1 w
+1 0 0 1 0 0 cm
+q
+1 0 0 1 0 0 cm
+q
+1 .823529 .121569 rg
+.121569 .160784 .2 RG
+[] 0 d
+0 J
+1 j
+3.061417 w
+n 2.040945 3.741732 m 31.9748 3.741732 l 17.00787 31.9748 l h
+B*
+Q
+q
+.121569 .160784 .2 rg
+.121569 .160784 .2 RG
+[] 0 d
+0 J
+0 j
+.3 w
+n 15.30709 13.6063 m 18.70866 13.6063 l 18.19843 22.45039 l 15.81732 22.45039 l h
+B*
+Q
+q
+.121569 .160784 .2 rg
+.121569 .160784 .2 RG
+[] 0 d
+0 J
+0 j
+1 w
+n
+18.87874 9.864567 m
+18.87874 10.89782 18.04112 11.73543 17.00787 11.73543 c
+15.97462 11.73543 15.13701 10.89782 15.13701 9.864567 c
+15.13701 8.831316 15.97462 7.993701 17.00787 7.993701 c
+18.04112 7.993701 18.87874 8.831316 18.87874 9.864567 c
+B*
+Q
+Q
+Q
+Q
+q
+1 0 0 1 50.01575 16.50787 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 0 3.5 Tm /F2 9.5 Tf 13 TL (WARNING: Apply lockout and tagout before starting. Verify zero energy.) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+1 .823529 .121569 RG
+1.5 w
+n 0 45.01575 m 493.2283 45.01575 l S
+n 0 0 m 493.2283 0 l S
+n 0 0 m 0 45.01575 l S
+n 493.2283 0 m 493.2283 45.01575 l S
+7 w
+n 0 0 m 0 45.01575 l S
+Q
+Q
+Q
+q
+1 0 0 1 51.02362 666.9504 cm
+Q
+q
+1 0 0 1 51.02362 653.9504 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 16 3.5 Tm /F1 9.5 Tf 13 TL -16 0 Td (1. Move the robot to the service position and apply lockout and tagout on the cell isolator.) Tj T* 16 0 Td ET
+Q
+Q
+q
+1 0 0 1 51.02362 637.9504 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 16 3.5 Tm /F1 9.5 Tf 13 TL -16 0 Td (2. Release air from the gripper valve block.) Tj T* 16 0 Td ET
+Q
+Q
+q
+1 0 0 1 51.02362 621.9504 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 16 3.5 Tm /F1 9.5 Tf 13 TL -16 0 Td (3. Unbolt the worn fingers and fit two GRP-FNG-12 fingers.) Tj T* 16 0 Td ET
+Q
+Q
+q
+1 0 0 1 51.02362 605.9504 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 16 3.5 Tm /F1 9.5 Tf 13 TL -16 0 Td (4. Remove the lockout and teach the part-present sensor on a master part.) Tj T* 16 0 Td ET
+Q
+Q
+q
+1 0 0 1 51.02362 598.9504 cm
+Q
+q
+1 0 0 1 51.02362 559.9504 cm
+q
+.043137 .419608 .364706 rg
+n 0 39 493.2283 -19.5 re f*
+1 1 1 rg
+n 0 19.5 493.2283 -19.5 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 5 24.5 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 8.5 Tf 10.5 TL (Order no.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 123.3748 24.5 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 8.5 Tf 10.5 TL (Description) Tj T* ET
+Q
+Q
+q
+1 0 0 1 448.9055 24.5 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 8.5 Tf 10.5 TL (Qty) Tj T* ET
+Q
+Q
+q
+1 0 0 1 5 5 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 0 2 Tm /F1 8.5 Tf 10.5 TL (GRP-FNG-12) Tj T* ET
+Q
+Q
+q
+1 0 0 1 123.3748 5 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 0 2 Tm /F1 8.5 Tf 10.5 TL (Gripper finger, hardened) Tj T* ET
+Q
+Q
+q
+1 0 0 1 448.9055 5 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 0 2 Tm /F1 8.5 Tf 10.5 TL (2) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.788235 .815686 .85098 RG
+.4 w
+n 0 0 m 493.2283 0 l S
+.043137 .419608 .364706 RG
+.8 w
+n 0 39 m 493.2283 39 l S
+n 0 0 m 493.2283 0 l S
+n 0 0 m 0 39 l S
+n 493.2283 0 m 493.2283 39 l S
+Q
+Q
+Q
+q
+1 0 0 1 51.02362 549.9504 cm
+Q
+q
+1 0 0 1 51.02362 526.9504 cm
+q
+.043137 .419608 .364706 rg
+BT 1 0 0 1 0 3.5 Tm /F2 11.5 Tf 15 TL (4.2 Inspect axis 2 and reset servo drive) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.02362 525.4504 cm
+q
+.5 w
+1 J
+.569412 .738824 .714118 RG
+n 0 0 m 493.2283 0 l S
+Q
+Q
+q
+1 0 0 1 51.02362 508.4504 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 0 3.5 Tm /F1 9.5 Tf 13 TL (Plant ref: PROC-RW-02 | Lockout required: yes | Time: 90 min) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.02362 457.4346 cm
+q
+1 .956863 .760784 rg
+n 0 45.01575 493.2283 -45.01575 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 8 6 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT /F1 10 Tf 12 TL ET
+0 0 0 RG
+[] 0 d
+0 J
+0 j
+1 w
+1 0 0 1 0 0 cm
+q
+1 0 0 1 0 0 cm
+q
+1 .823529 .121569 rg
+.121569 .160784 .2 RG
+[] 0 d
+0 J
+1 j
+3.061417 w
+n 2.040945 3.741732 m 31.9748 3.741732 l 17.00787 31.9748 l h
+B*
+Q
+q
+.121569 .160784 .2 rg
+.121569 .160784 .2 RG
+[] 0 d
+0 J
+0 j
+.3 w
+n 15.30709 13.6063 m 18.70866 13.6063 l 18.19843 22.45039 l 15.81732 22.45039 l h
+B*
+Q
+q
+.121569 .160784 .2 rg
+.121569 .160784 .2 RG
+[] 0 d
+0 J
+0 j
+1 w
+n
+18.87874 9.864567 m
+18.87874 10.89782 18.04112 11.73543 17.00787 11.73543 c
+15.97462 11.73543 15.13701 10.89782 15.13701 9.864567 c
+15.13701 8.831316 15.97462 7.993701 17.00787 7.993701 c
+18.04112 7.993701 18.87874 8.831316 18.87874 9.864567 c
+B*
+Q
+Q
+Q
+Q
+q
+1 0 0 1 50.01575 16.50787 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 0 3.5 Tm /F2 9.5 Tf 13 TL (WARNING: Apply lockout and tagout before starting. Verify zero energy.) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+1 .823529 .121569 RG
+1.5 w
+n 0 45.01575 m 493.2283 45.01575 l S
+n 0 0 m 493.2283 0 l S
+n 0 0 m 0 45.01575 l S
+n 493.2283 0 m 493.2283 45.01575 l S
+7 w
+n 0 0 m 0 45.01575 l S
+Q
+Q
+Q
+q
+1 0 0 1 51.02362 451.4346 cm
+Q
+q
+1 0 0 1 51.02362 438.4346 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 16 3.5 Tm /F1 9.5 Tf 13 TL -16 0 Td (1. Apply lockout and tagout on the cell isolator and wait 5 minutes for the drive capacitors to discharge.) Tj T* 16 0 Td ET
+Q
+Q
+q
+1 0 0 1 51.02362 422.4346 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 16 3.5 Tm /F1 9.5 Tf 13 TL -16 0 Td (2. Check the axis 2 gearbox for binding by moving the arm by hand.) Tj T* 16 0 Td ET
+Q
+Q
+q
+1 0 0 1 51.02362 406.4346 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 16 3.5 Tm /F1 9.5 Tf 13 TL -16 0 Td (3. Replace the drive fuse with FUSE-SRV-10, and replace the idler bearing with BRG-6205-2RS if it feels rough.) Tj T* 16 0 Td ET
+Q
+Q
+q
+1 0 0 1 51.02362 390.4346 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 16 3.5 Tm /F1 9.5 Tf 13 TL -16 0 Td (4. Remove the lockout, reset the drive and run axis 2 at 10 percent speed.) Tj T* 16 0 Td ET
+Q
+Q
+q
+1 0 0 1 51.02362 383.4346 cm
+Q
+q
+1 0 0 1 51.02362 324.9346 cm
+q
+.043137 .419608 .364706 rg
+n 0 58.5 493.2283 -19.5 re f*
+1 1 1 rg
+n 0 39 493.2283 -19.5 re f*
+.952941 .960784 .972549 rg
+n 0 19.5 493.2283 -19.5 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 5 44 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 8.5 Tf 10.5 TL (Order no.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 123.3748 44 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 8.5 Tf 10.5 TL (Description) Tj T* ET
+Q
+Q
+q
+1 0 0 1 448.9055 44 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 8.5 Tf 10.5 TL (Qty) Tj T* ET
+Q
+Q
+q
+1 0 0 1 5 24.5 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 0 2 Tm /F1 8.5 Tf 10.5 TL (FUSE-SRV-10) Tj T* ET
+Q
+Q
+q
+1 0 0 1 123.3748 24.5 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 0 2 Tm /F1 8.5 Tf 10.5 TL (Servo drive fuse 10 A) Tj T* ET
+Q
+Q
+q
+1 0 0 1 448.9055 24.5 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 0 2 Tm /F1 8.5 Tf 10.5 TL (1) Tj T* ET
+Q
+Q
+q
+1 0 0 1 5 5 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 0 2 Tm /F1 8.5 Tf 10.5 TL (BRG-6205-2RS) Tj T* ET
+Q
+Q
+q
+1 0 0 1 123.3748 5 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 0 2 Tm /F1 8.5 Tf 10.5 TL (Deep groove ball bearing 6205-2RS) Tj T* ET
+Q
+Q
+q
+1 0 0 1 448.9055 5 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 0 2 Tm /F1 8.5 Tf 10.5 TL (1) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.788235 .815686 .85098 RG
+.4 w
+n 0 19.5 m 493.2283 19.5 l S
+n 0 0 m 493.2283 0 l S
+.043137 .419608 .364706 RG
+.8 w
+n 0 58.5 m 493.2283 58.5 l S
+n 0 0 m 493.2283 0 l S
+n 0 0 m 0 58.5 l S
+n 493.2283 0 m 493.2283 58.5 l S
+Q
+Q
+Q
+q
+1 0 0 1 51.02362 314.9346 cm
+Q
+q
+1 0 0 1 51.02362 291.9346 cm
+q
+.043137 .419608 .364706 rg
+BT 1 0 0 1 0 3.5 Tm /F2 11.5 Tf 15 TL (4.3 Realign light curtain) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.02362 290.4346 cm
+q
+.5 w
+1 J
+.569412 .738824 .714118 RG
+n 0 0 m 493.2283 0 l S
+Q
+Q
+q
+1 0 0 1 51.02362 273.4346 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 0 3.5 Tm /F1 9.5 Tf 13 TL (Plant ref: PROC-RW-03 | Lockout required: yes | Time: 30 min) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.02362 222.4189 cm
+q
+1 .956863 .760784 rg
+n 0 45.01575 493.2283 -45.01575 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 8 6 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT /F1 10 Tf 12 TL ET
+0 0 0 RG
+[] 0 d
+0 J
+0 j
+1 w
+1 0 0 1 0 0 cm
+q
+1 0 0 1 0 0 cm
+q
+1 .823529 .121569 rg
+.121569 .160784 .2 RG
+[] 0 d
+0 J
+1 j
+3.061417 w
+n 2.040945 3.741732 m 31.9748 3.741732 l 17.00787 31.9748 l h
+B*
+Q
+q
+.121569 .160784 .2 rg
+.121569 .160784 .2 RG
+[] 0 d
+0 J
+0 j
+.3 w
+n 15.30709 13.6063 m 18.70866 13.6063 l 18.19843 22.45039 l 15.81732 22.45039 l h
+B*
+Q
+q
+.121569 .160784 .2 rg
+.121569 .160784 .2 RG
+[] 0 d
+0 J
+0 j
+1 w
+n
+18.87874 9.864567 m
+18.87874 10.89782 18.04112 11.73543 17.00787 11.73543 c
+15.97462 11.73543 15.13701 10.89782 15.13701 9.864567 c
+15.13701 8.831316 15.97462 7.993701 17.00787 7.993701 c
+18.04112 7.993701 18.87874 8.831316 18.87874 9.864567 c
+B*
+Q
+Q
+Q
+Q
+q
+1 0 0 1 50.01575 16.50787 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 0 3.5 Tm /F2 9.5 Tf 13 TL (WARNING: Apply lockout and tagout before starting. Verify zero energy.) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+1 .823529 .121569 RG
+1.5 w
+n 0 45.01575 m 493.2283 45.01575 l S
+n 0 0 m 493.2283 0 l S
+n 0 0 m 0 45.01575 l S
+n 493.2283 0 m 493.2283 45.01575 l S
+7 w
+n 0 0 m 0 45.01575 l S
+Q
+Q
+Q
+q
+1 0 0 1 51.02362 216.4189 cm
+Q
+q
+1 0 0 1 51.02362 203.4189 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 16 3.5 Tm /F1 9.5 Tf 13 TL -16 0 Td (1. Apply lockout and tagout on the cell isolator.) Tj T* 16 0 Td ET
+Q
+Q
+q
+1 0 0 1 51.02362 187.4189 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 16 3.5 Tm /F1 9.5 Tf 13 TL -16 0 Td (2. Check both light curtain brackets and replace a bent one with BRKT-LC-01.) Tj T* 16 0 Td ET
+Q
+Q
+q
+1 0 0 1 51.02362 171.4189 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 16 3.5 Tm /F1 9.5 Tf 13 TL -16 0 Td (3. Align the emitter and receiver until all beam LEDs are green.) Tj T* 16 0 Td ET
+Q
+Q
+q
+1 0 0 1 51.02362 155.4189 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 16 3.5 Tm /F1 9.5 Tf 13 TL -16 0 Td (4. Remove the lockout and run the muting test from the safety menu.) Tj T* 16 0 Td ET
+Q
+Q
+q
+1 0 0 1 51.02362 148.4189 cm
+Q
+q
+1 0 0 1 51.02362 109.4189 cm
+q
+.043137 .419608 .364706 rg
+n 0 39 493.2283 -19.5 re f*
+1 1 1 rg
+n 0 19.5 493.2283 -19.5 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 5 24.5 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 8.5 Tf 10.5 TL (Order no.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 123.3748 24.5 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 8.5 Tf 10.5 TL (Description) Tj T* ET
+Q
+Q
+q
+1 0 0 1 448.9055 24.5 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 8.5 Tf 10.5 TL (Qty) Tj T* ET
+Q
+Q
+q
+1 0 0 1 5 5 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 0 2 Tm /F1 8.5 Tf 10.5 TL (BRKT-LC-01) Tj T* ET
+Q
+Q
+q
+1 0 0 1 123.3748 5 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 0 2 Tm /F1 8.5 Tf 10.5 TL (Light curtain mounting bracket) Tj T* ET
+Q
+Q
+q
+1 0 0 1 448.9055 5 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 0 2 Tm /F1 8.5 Tf 10.5 TL (1) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.788235 .815686 .85098 RG
+.4 w
+n 0 0 m 493.2283 0 l S
+.043137 .419608 .364706 RG
+.8 w
+n 0 39 m 493.2283 39 l S
+n 0 0 m 493.2283 0 l S
+n 0 0 m 0 39 l S
+n 493.2283 0 m 493.2283 39 l S
+Q
+Q
+Q
+q
+1 0 0 1 51.02362 99.4189 cm
+Q
+q
+.043137 .419608 .364706 RG
+.8 w
+n 51.02362 39.68504 m 544.252 39.68504 l S
+.043137 .419608 .364706 rg
+n 51.02362 38.55118 39.68504 1.2 re f*
+.337255 .380392 .439216 rg
+BT /F1 8 Tf 9.6 TL ET
+BT 1 0 0 1 51.02362 26.92913 Tm (Orbis Robotics OR-6 Cell Maintenance Guide, Revision 3) Tj T* ET
+BT 1 0 0 1 518.9 26.92913 Tm (Page 5) Tj T* ET
+Q
+ 
+endstream
+endobj
+18 0 obj
+<<
+/Length 5212
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+.043137 .419608 .364706 rg
+n 0 830.5512 595.2756 11.33858 re f*
+Q
+q
+1 0 0 1 51.02362 770.0661 cm
+q
+.043137 .419608 .364706 rg
+BT 1 0 0 1 0 4.8 Tm /F2 16 Tf 20.8 TL (5 Spare parts list) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.02362 765.4661 cm
+q
+1.6 w
+1 J
+.043137 .419608 .364706 RG
+n 0 0 m 493.2283 0 l S
+Q
+Q
+q
+1 0 0 1 51.02362 746.4661 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 0 3.5 Tm /F1 9.5 Tf 13 TL (Order spare parts by part number.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.02362 545.4661 cm
+q
+.043137 .419608 .364706 rg
+n 0 195 493.2283 -19.5 re f*
+1 1 1 rg
+n 0 175.5 493.2283 -19.5 re f*
+.952941 .960784 .972549 rg
+n 0 156 493.2283 -19.5 re f*
+1 1 1 rg
+n 0 136.5 493.2283 -19.5 re f*
+.952941 .960784 .972549 rg
+n 0 117 493.2283 -19.5 re f*
+1 1 1 rg
+n 0 97.5 493.2283 -19.5 re f*
+.952941 .960784 .972549 rg
+n 0 78 493.2283 -19.5 re f*
+1 1 1 rg
+n 0 58.5 493.2283 -19.5 re f*
+.952941 .960784 .972549 rg
+n 0 39 493.2283 -19.5 re f*
+1 1 1 rg
+n 0 19.5 493.2283 -19.5 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 5 180.5 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 8.5 Tf 10.5 TL (Part number) Tj T* ET
+Q
+Q
+q
+1 0 0 1 113.5102 180.5 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 8.5 Tf 10.5 TL (Description) Tj T* ET
+Q
+Q
+q
+1 0 0 1 310.8016 180.5 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 8.5 Tf 10.5 TL (Fits) Tj T* ET
+Q
+Q
+q
+1 0 0 1 5 161 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 0 2 Tm /F1 8.5 Tf 10.5 TL (BATT-ENC-36) Tj T* ET
+Q
+Q
+q
+1 0 0 1 113.5102 161 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 0 2 Tm /F1 8.5 Tf 10.5 TL (Encoder backup battery 3.6 V) Tj T* ET
+Q
+Q
+q
+1 0 0 1 310.8016 161 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 0 2 Tm /F1 8.5 Tf 10.5 TL (Axis 2 servo) Tj T* ET
+Q
+Q
+q
+1 0 0 1 5 141.5 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 0 2 Tm /F1 8.5 Tf 10.5 TL (BELT-HTD-8M) Tj T* ET
+Q
+Q
+q
+1 0 0 1 113.5102 141.5 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 0 2 Tm /F1 8.5 Tf 10.5 TL (Timing belt HTD 8M) Tj T* ET
+Q
+Q
+q
+1 0 0 1 310.8016 141.5 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 0 2 Tm /F1 8.5 Tf 10.5 TL (Axis 2 servo) Tj T* ET
+Q
+Q
+q
+1 0 0 1 5 122 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 0 2 Tm /F1 8.5 Tf 10.5 TL (BRG-6205-2RS) Tj T* ET
+Q
+Q
+q
+1 0 0 1 113.5102 122 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 0 2 Tm /F1 8.5 Tf 10.5 TL (Deep groove ball bearing 6205-2RS) Tj T* ET
+Q
+Q
+q
+1 0 0 1 310.8016 122 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 0 2 Tm /F1 8.5 Tf 10.5 TL (Axis 2 servo) Tj T* ET
+Q
+Q
+q
+1 0 0 1 5 102.5 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 0 2 Tm /F1 8.5 Tf 10.5 TL (BRKT-LC-01) Tj T* ET
+Q
+Q
+q
+1 0 0 1 113.5102 102.5 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 0 2 Tm /F1 8.5 Tf 10.5 TL (Light curtain mounting bracket) Tj T* ET
+Q
+Q
+q
+1 0 0 1 310.8016 102.5 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 0 2 Tm /F1 8.5 Tf 10.5 TL (Light curtain) Tj T* ET
+Q
+Q
+q
+1 0 0 1 5 83 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 0 2 Tm /F1 8.5 Tf 10.5 TL (CABLE-ENC-05) Tj T* ET
+Q
+Q
+q
+1 0 0 1 113.5102 83 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 0 2 Tm /F1 8.5 Tf 10.5 TL (Encoder cable 5 m) Tj T* ET
+Q
+Q
+q
+1 0 0 1 310.8016 83 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 0 2 Tm /F1 8.5 Tf 10.5 TL (Axis 2 servo) Tj T* ET
+Q
+Q
+q
+1 0 0 1 5 63.5 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 0 2 Tm /F1 8.5 Tf 10.5 TL (CUP-VAC-40) Tj T* ET
+Q
+Q
+q
+1 0 0 1 113.5102 63.5 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 0 2 Tm /F1 8.5 Tf 10.5 TL (Vacuum suction cup 40 mm) Tj T* ET
+Q
+Q
+q
+1 0 0 1 310.8016 63.5 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 0 2 Tm /F1 8.5 Tf 10.5 TL (Gripper) Tj T* ET
+Q
+Q
+q
+1 0 0 1 5 44 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 0 2 Tm /F1 8.5 Tf 10.5 TL (FUSE-SRV-10) Tj T* ET
+Q
+Q
+q
+1 0 0 1 113.5102 44 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 0 2 Tm /F1 8.5 Tf 10.5 TL (Servo drive fuse 10 A) Tj T* ET
+Q
+Q
+q
+1 0 0 1 310.8016 44 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 0 2 Tm /F1 8.5 Tf 10.5 TL (Axis 2 servo) Tj T* ET
+Q
+Q
+q
+1 0 0 1 5 24.5 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 0 2 Tm /F1 8.5 Tf 10.5 TL (GRP-FNG-12) Tj T* ET
+Q
+Q
+q
+1 0 0 1 113.5102 24.5 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 0 2 Tm /F1 8.5 Tf 10.5 TL (Gripper finger, hardened) Tj T* ET
+Q
+Q
+q
+1 0 0 1 310.8016 24.5 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 0 2 Tm /F1 8.5 Tf 10.5 TL (Gripper) Tj T* ET
+Q
+Q
+q
+1 0 0 1 5 5 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 0 2 Tm /F1 8.5 Tf 10.5 TL (RELAY-SAF-24) Tj T* ET
+Q
+Q
+q
+1 0 0 1 113.5102 5 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 0 2 Tm /F1 8.5 Tf 10.5 TL (Safety relay 24 V) Tj T* ET
+Q
+Q
+q
+1 0 0 1 310.8016 5 cm
+q
+.121569 .160784 .2 rg
+BT 1 0 0 1 0 2 Tm /F1 8.5 Tf 10.5 TL (Light curtain) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.788235 .815686 .85098 RG
+.4 w
+n 0 156 m 493.2283 156 l S
+n 0 136.5 m 493.2283 136.5 l S
+n 0 117 m 493.2283 117 l S
+n 0 97.5 m 493.2283 97.5 l S
+n 0 78 m 493.2283 78 l S
+n 0 58.5 m 493.2283 58.5 l S
+n 0 39 m 493.2283 39 l S
+n 0 19.5 m 493.2283 19.5 l S
+n 0 0 m 493.2283 0 l S
+.043137 .419608 .364706 RG
+.8 w
+n 0 195 m 493.2283 195 l S
+n 0 0 m 493.2283 0 l S
+n 0 0 m 0 195 l S
+n 493.2283 0 m 493.2283 195 l S
+Q
+Q
+Q
+q
+.043137 .419608 .364706 RG
+.8 w
+n 51.02362 39.68504 m 544.252 39.68504 l S
+.043137 .419608 .364706 rg
+n 51.02362 38.55118 39.68504 1.2 re f*
+.337255 .380392 .439216 rg
+BT /F1 8 Tf 9.6 TL ET
+BT 1 0 0 1 51.02362 26.92913 Tm (Orbis Robotics OR-6 Cell Maintenance Guide, Revision 3) Tj T* ET
+BT 1 0 0 1 518.9 26.92913 Tm (Page 6) Tj T* ET
+Q
+ 
+endstream
+endobj
+xref
+0 19
+0000000000 65535 f 
+0000000061 00000 n 
+0000000102 00000 n 
+0000000209 00000 n 
+0000000321 00000 n 
+0000000526 00000 n 
+0000000731 00000 n 
+0000000936 00000 n 
+0000001141 00000 n 
+0000001346 00000 n 
+0000001551 00000 n 
+0000001621 00000 n 
+0000001932 00000 n 
+0000002022 00000 n 
+0000006094 00000 n 
+0000008182 00000 n 
+0000012855 00000 n 
+0000015871 00000 n 
+0000027588 00000 n 
+trailer
+<<
+/ID 
+[<d901aaa56fc4fa63c644c44051b0b277><d901aaa56fc4fa63c644c44051b0b277>]
+% ReportLab generated PDF document -- digest (opensource)
+
+/Info 11 0 R
+/Root 10 0 R
+/Size 19
+>>
+startxref
+32852
+%%EOF

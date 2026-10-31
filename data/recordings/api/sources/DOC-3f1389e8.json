@@ -1,0 +1,69 @@
+{
+  "id": "DOC-3f1389e8",
+  "path": "handovers/handover_2026-07-14_B.txt",
+  "doc_type": "handover",
+  "kind": "text",
+  "text": "Shift handover 14 Jul B\nFrom: Aisyah   To: AP\n\n- CNC 1 running fine, tool wear ok\n- CNC 1 stopped 2002 w/ ALM SP-104, grindign noise from spindle, vibration alram. Repl spindle bgr set (GREASEKLB2, SEAL SPDL 70), tested ok. Down 655 min. chk again nxet shift.\n- 5S done on robot cell\n\nSigned NA\n",
+  "spans": [
+    {
+      "quote": "- CNC 1 stopped 2002 w/ ALM SP-104, grindign noise from spindle, vibration alram. Repl spindle bgr set (GREASEKLB2, SEAL SPDL 70), tested ok. Down 655 min. chk again nxet shift.",
+      "start": 82,
+      "end": 259,
+      "page": null,
+      "fact_kind": "node",
+      "fact_id": "INC-2026-036",
+      "type": "Incident",
+      "label": "spindle bearing wear on the spindle",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- CNC 1 stopped 2002 w/ ALM SP-104, grindign noise from spindle, vibration alram. Repl spindle bgr set (GREASEKLB2, SEAL SPDL 70), tested ok. Down 655 min. chk again nxet shift.",
+      "start": 82,
+      "end": 259,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-036|OCCURRED_ON|CNC-01",
+      "type": "OCCURRED_ON",
+      "label": "INC-2026-036 happened on CNC-01",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- CNC 1 stopped 2002 w/ ALM SP-104, grindign noise from spindle, vibration alram. Repl spindle bgr set (GREASEKLB2, SEAL SPDL 70), tested ok. Down 655 min. chk again nxet shift.",
+      "start": 82,
+      "end": 259,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-036|TRIGGERED_BY|SP-104",
+      "type": "TRIGGERED_BY",
+      "label": "INC-2026-036 started with SP-104",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- CNC 1 stopped 2002 w/ ALM SP-104, grindign noise from spindle, vibration alram. Repl spindle bgr set (GREASEKLB2, SEAL SPDL 70), tested ok. Down 655 min. chk again nxet shift.",
+      "start": 82,
+      "end": 259,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-036|USED|GREASE-KLB-2",
+      "type": "USED",
+      "label": "INC-2026-036 used GREASE-KLB-2",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- CNC 1 stopped 2002 w/ ALM SP-104, grindign noise from spindle, vibration alram. Repl spindle bgr set (GREASEKLB2, SEAL SPDL 70), tested ok. Down 655 min. chk again nxet shift.",
+      "start": 82,
+      "end": 259,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-036|USED|SEAL-SPDL-70",
+      "type": "USED",
+      "label": "INC-2026-036 used SEAL-SPDL-70",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    }
+  ]
+}

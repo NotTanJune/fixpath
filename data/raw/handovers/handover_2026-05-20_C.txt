@@ -1,0 +1,8 @@
+Shift handover 2026-05-20 C shift
+From: MH   To: WM
+
+- leak tester master part passed at start of shift
+- coolant topped up on MC-2
+- 5S done on robot cell
+
+Signed Hafiz

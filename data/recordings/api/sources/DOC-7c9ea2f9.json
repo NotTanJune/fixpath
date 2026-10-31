@@ -1,0 +1,57 @@
+{
+  "id": "DOC-7c9ea2f9",
+  "path": "handovers/shift notes 5 Jun B.txt",
+  "doc_type": "handover",
+  "kind": "text",
+  "text": "Shift handover 2026-06-05 B\nFrom: Rajesh   To: Hafiz\n\n- CNC1 stopped 1912, tool not clamping after change, machine stops. Repl tool clamp disc sprigns (prox sensor M8, SPR TC 40), tested ok. Down 325 min.\n- robot cell guard door sticking a bit, f/u tmr\n\nSigned Rajesh\n",
+  "spans": [
+    {
+      "quote": "- CNC1 stopped 1912, tool not clamping after change, machine stops. Repl tool clamp disc sprigns (prox sensor M8, SPR TC 40), tested ok. Down 325 min.",
+      "start": 54,
+      "end": 204,
+      "page": null,
+      "fact_kind": "node",
+      "fact_id": "INC-2026-027",
+      "type": "Incident",
+      "label": "tool not clamping after change, machine stops",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- CNC1 stopped 1912, tool not clamping after change, machine stops. Repl tool clamp disc sprigns (prox sensor M8, SPR TC 40), tested ok. Down 325 min.",
+      "start": 54,
+      "end": 204,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-027|OCCURRED_ON|CNC-01",
+      "type": "OCCURRED_ON",
+      "label": "INC-2026-027 happened on CNC-01",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- CNC1 stopped 1912, tool not clamping after change, machine stops. Repl tool clamp disc sprigns (prox sensor M8, SPR TC 40), tested ok. Down 325 min.",
+      "start": 54,
+      "end": 204,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-027|USED|SENS-PROX-08",
+      "type": "USED",
+      "label": "INC-2026-027 used SENS-PROX-08",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- CNC1 stopped 1912, tool not clamping after change, machine stops. Repl tool clamp disc sprigns (prox sensor M8, SPR TC 40), tested ok. Down 325 min.",
+      "start": 54,
+      "end": 204,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-027|USED|SPR-TC-40",
+      "type": "USED",
+      "label": "INC-2026-027 used SPR-TC-40",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+Shift handover 02/09/2026 Shift A
+From: Siew Ling   To: Aisyah
+
+- CNC 1 stopped 1330 w/ ALM SP-117, grinding noise from spindle, vibration alarm. Repl spindel brg set (7014ACD x2, GREASE KLB 2, SEAL SPDL 70), test run ok. Down 645 min. pls ckh again tmr.
+- leak tester master part passed at start of shift
+
+Signed Siew Ling

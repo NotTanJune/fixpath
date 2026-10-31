@@ -1,0 +1,58 @@
+Date,Mach.,Problem desc,Action taken,Parts,Tech,Downtime (min),Ref
+2026-04-14,PR-2,"press losing pressure mid-stroke, oil on the floor",Repl main cylinder seal kit,HLP46 x1; SK-50 x1,NA,,WO-1142
+17/04/2026,Kessler 1,"ALM CL-210: coolant pressure dropping, parts coming out hot",Clean coolant filter & flush lines,FLT CL 25 x1,Chen Jun Hao,175,WO-1801
+2026-04-18,PR-2,"pressure hunting, oil running hot",Change hydraulic oil & filter,FLT HYD 10 x1; HLP46 x3,Goh Siew Ling,215,WO-1877
+2026-04-22,HP-01,"Err:245: press losing pressure mid-stroke, oil on the floor",Repl main cylinder seal kit,OILHLP4620L x1; SEAL KIT 50 x1,Arun Prakash,455,WO-3033
+22/04/2026,CNC 1,"coolant pressure dropping, parts coming out hot",Clean coolant filter & flush lines,FLTCL25 x1,Goh Siew Ling,110,WO-3306
+22/04/2026,hyd press,"press losing pressure mid-stroke, oil on the floor",Repl main cylinder seal kit,HLP46 x1; SEAL KIT 50 x1,RP,525,WO-3456
+23/04/2026,LT-01,"fill takes too long, seals look flattened",Repl fixture seals,SEALFIX30 x2,Siew Ling,95,WO-3685
+23/04/2026,the press,"oil leaking under the ram, pressure dropping",Repl main cylinder seal kit,OILHLP4620L x1; seal kit 50 x1,Rajesh Pillai,180,WO-3699
+26/04/2026,VT station,"VT18: fill takes too long, seals look flattened",Repl fixture seals,SEALFIX30 x2,Siew Ling,200,WO-3841
+2026-04-26,VT station,"VT18: fill takes too long, seals look flattened",Repl fixture seals,SEALFIX30 x2,Siew Ling,220,WO-3841
+2026-04-27,MC-2,"ALM SP-117: grinding noise from spindle, vibration alarm",Repl spindle brg set,BRG 7014 ACD x2; GREASEKLB2 x1; SEALSPDL70 x1,Siew Ling,approx 360,WO-3952
+27-Apr-26,RC-1,"RB-560: robot arm jerky on axis 2, drive alarm",Inspect axis 2 & reset servo drive,brg 6205 x1; FUSE SRV 10 x1,Rajesh Pillai,275,WO-4209
+2026-04-30,LT-01,"leak rate high on every part, fixture hissing",Repl fixture seals,fixture seal x2,Nur Aisyah,approx 150,WO-4247
+2026-05-02,CNC-01,tool change takes too long then faults,Repl tool clamp disc springs,SENS PROX 08 x1; disc springs TC x1,Wei Ming,280,WO-4354
+4-May-26,CNC 2,"SP-104: grinding noise from spindle, vibration alarm",Repl spindle brg set,BRG7014ACD x2; KLB2 grease x1; SEAL SPDL 70 x1,Arun,590,WO-4469
+05/05/2026,LT-01,"VT012: good parts failing leak test, reference off",Recalibrate pressure sensor,,Chen Jun Hao,approx 120,WO-4483
+08/05/2026,leak test,"VT012: good parts failing leak test, reference off",Recalibrate pressure sensor,,Goh Siew Ling,125,WO-4782
+06/05/2026,CNC2,"SP-104: no coolant at the nozzle, chips packing in the bore",Clean coolant filter & flush lines,FLTCL25 x1,Tan Wei Ming,205,WO-4780
+13/05/2026,Press 2,"pressure hunting, oil running hot",Change hydraulic oil & filter,FLTHYD10 x1; OIL HLP46 20L x3,MH,210,WO-5079
+2026-05-16,leak test,master part reading out of tolerance,Recalibrate pressure sensor,,Arun Prakash,approx 150,WO-5085
+23/05/2026,RW-01,"RB570: cell stops randomly, light curtain fault",Realign light curtain,LC bracket x1,Siew Ling,165,WO-5218
+25/05/2026,deburr cell,RB-551: robot dropping parts at the deburr station,Repl gripper fingers,CUPVAC40 x1; GRP FNG 12 x2,Aisyah,125,WO-5328
+2026-05-31,LT1,master part reading out of tolerance,Recalibrate pressure sensor,SENS PRS 10 x1,Muhammad Hafiz,150,WO-5373
+05/06/2026,CNC-02,"TC-305: tool not clamping after change, machine stops",Repl tool clamp disc springs,prox sensor M8 x1; disc springs TC x1,Goh Siew Ling,300,WO-5485
+05/06/2026,MC-1,"tool not clamping after change, machine stops",Repl tool clamp disc springs,SENS PROX 08 x1; SPRTC40 x1,Nur Aisyah,approx 330,WO-5657
+2026-06-08,CNC-02,"coolant pressure dropping, parts coming out hot",Clean coolant filter & flush lines,FLT CL 25 x1,Tan Wei Ming,105,WO-5733
+14/06/2026,leak tester,"VT-018: fill takes too long, seals look flattened",Repl fixture seals,ORINGNBR30 x1; fixture seal x2,AP,170,WO-5999
+18/06/2026,Press 2,"ERR 230: pressure hunting, oil running hot",Change hydraulic oil & filter,FLTHYD10 x1; OILHLP4620L x3,Arun Prakash,approx 240,WO-6240
+2026-06-20,HP1,"oil leaking under the ram, pressure dropping",Repl main cylinder seal kit,HLP46 x1; seal kit 50 x1,Lim Jia Hui,335,WO-6369
+2026-06-21,PR-2,"E-252: press cannot reach tonnage, relief valve hissing",Reset & test relief valve,GAUGE PRS 250 x1; SEAL RV 25 x1,AP,approx 150,WO-6442
+2026-06-27,robot cell,muting fault after the guard was knocked,Realign light curtain,BRKTLC01 x1,Lim Jia Hui,125,WO-6485
+28-Jun-26,PR-2,"Err:217: oil leaking under the ram, pressure dropping",Repl main cylinder seal kit,HLP46 x1; SK-50 x1; SWITCH LIM 01 x1,Rajesh Pillai,440,WO-6570
+30/06/2026,hyd press,"press cannot reach tonnage, relief valve hissing",Reset & test relief valve,RV seal x1,Tan Wei Ming,approx 180,WO-6578
+2026-06-30,hyd press,"press cannot reach tonnage, relief valve hissing",Reset & test relief valve,RV seal x1,Tan Wei Ming,170,WO-6578
+15/07/2026,CNC2,"ALM CL-214: coolant pressure dropping, parts coming out hot",Clean coolant filter & flush lines,CL filter 25 x1,Goh Siew Ling,60,WO-6626
+2026-07-19,CNC-02,"grinding noise from spindle, vibration alarm",Repl spindle brg set,7014ACD x2; GREASEKLB2 x1; seal 70 x1,Arun Prakash,535,WO-6684
+19-Jul-26,CNC 1,"tool not clamping after change, machine stops",Repl tool clamp disc springs,prox sensor M8 x1; SPR TC 40 x1,Lim Jia Hui,285,WO-6916
+22/07/2026,RC-1,"RB-551: part-present signal flickering, gripper slipping",Repl gripper fingers,gripper finger x2,Lim Jia Hui,120,WO-7044
+2026-07-24,CNC-01,"CL210: no coolant at the nozzle, chips packing in the bore",Clean coolant filter & flush lines,FLTCL25 x1,Lim Jia Hui,95,WO-7175
+24-Jul-26,CNC-01,"CL210: no coolant at the nozzle, chips packing in the bore",Clean coolant filter & flush lines,FLTCL25 x1,Lim Jia Hui,120,WO-7175
+2026-07-27,HP1,"press cannot reach tonnage, relief valve hissing",Reset & test relief valve,GAUGE PRS 250 x1; RV seal x1,Rajesh Pillai,105,WO-7249
+3-Aug-26,CNC 2,spindle running hot and noisy at high rpm,Repl spindle brg set,spdl brg x2; GREASE KLB 2 x1; seal 70 x1,Lim Jia Hui,230,WO-7306
+4-Aug-26,hyd press,E221: pressure spikes above setpoint then drops,Reset & test relief valve,SEALRV25 x1,Arun Prakash,210,WO-7340
+2026-08-10,the press,"Err:221: oil looks dark and milky, pump noisy",Change hydraulic oil & filter,FLTHYD10 x1; HLP46 x3,RP,360,WO-7530
+12/08/2026,robot cell,"RB-563: robot arm jerky on axis 2, drive alarm",Inspect axis 2 & reset servo drive,BRG 6205 2RS x1; FUSESRV10 x1,Muhammad Hafiz,130,WO-7598
+22/08/2026,CNC 1,"ALM SP-104: grinding noise from spindle, vibration alarm",Repl spindle brg set,spdl brg x2; GREASE KLB 2 x1; seal 70 x1; SENS PT100 01 x1,Rajesh,385,WO-8302
+14/08/2026,VT station,"good parts failing leak test, reference off",Recalibrate pressure sensor,pressure sensor 10bar x1,Tan Wei Ming,70,WO-8027
+23-Aug-26,CNC-02,"coolant pressure dropping, parts coming out hot",Clean coolant filter & flush lines,FLT CL 25 x1,WM,,WO-8773
+31/08/2026,Kessler 2,"ALM CL-214: coolant pressure dropping, parts coming out hot",Clean coolant filter & flush lines,FLT CL 25 x1; PUMP CL 04 x1,Chen Jun Hao,90,WO-8889
+2026-08-31,CNC 1,"coolant pressure dropping, parts coming out hot",Clean coolant filter & flush lines,CL filter 25 x1,Jun Hao,approx 120,WO-9037
+2026-08-31,Kessler 2,"ALM CL-214: coolant pressure dropping, parts coming out hot",Clean coolant filter & flush lines,FLT CL 25 x1; PUMP CL 04 x1,Chen Jun Hao,110,WO-8889
+02/09/2026,Kessler 1,"SP-117: grinding noise from spindle, vibration alarm",Repl spindle brg set,spdl brg x2; GREASE KLB 2 x1; SEALSPDL70 x1; SENSPT10001 x1,Tan Wei Ming,645,WO-9220
+03/09/2026,leak tester,VT012: master part reading out of tolerance,Recalibrate pressure sensor,,Rajesh,95,WO-9307
+2026-09-05,MC-2,ALM SP-104: spindle running hot and noisy at high rpm,Repl spindle brg set,BRG7014ACD x2; GREASE KLB 2 x1; SEALSPDL70 x1,Rajesh Pillai,approx 570,WO-9373
+17/09/2026,HP-01,"oil leaking under the ram, pressure dropping",Repl main cylinder seal kit,OILHLP4620L x1; seal kit 50 x1,SL,475,WO-9908
+11/09/2026,leak tester,VT012: master part reading out of tolerance,Recalibrate pressure sensor,,Lim Jia Hui,110,WO-9570
+28/09/2026,hyd press,"ERR 217: press losing pressure mid-stroke, oil on the floor",Repl main cylinder seal kit,HLP46 x1; SEALKIT50 x1,Rajesh Pillai,approx 420,WO-9989

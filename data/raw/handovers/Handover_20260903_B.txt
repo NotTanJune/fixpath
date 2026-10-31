@@ -1,0 +1,7 @@
+Shift handover 2026-09-03 B
+From: Rajesh   To: MH
+
+- CNC 1 running fnie, tool wear ok
+- LT1 stopped 1621 w/ VT12, master patr readnig out of tolerance. Recalibrate pressure sensor, test rnu ok. Down 95 min.
+
+Signed RP

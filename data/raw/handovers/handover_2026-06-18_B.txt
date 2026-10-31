@@ -1,0 +1,8 @@
+Shift handover 18 Jun B
+From: RP   To: Jun Hao
+
+- coolant topped up on MC-2
+- 5S done on robot cell
+- CNC 1 running fine, tool wear ok
+
+Signed RP

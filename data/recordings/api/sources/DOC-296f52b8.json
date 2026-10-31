@@ -1,0 +1,69 @@
+{
+  "id": "DOC-296f52b8",
+  "path": "handovers/handover_2026-04-14_B.txt",
+  "doc_type": "handover",
+  "kind": "text",
+  "text": "Shift handover 14 Apr B\nFrom: RP   To: MH\n\n- HP-01 stopped 1538 w/ E-245, press losing pressure mid-stroke, oil on the floor. Rpel main cylinder seal kit (OIL HLP46 20L, SK-50), tested ok. Down 425 min.\n- coolant topped up on MC-2\n- pls f/u on stores count for seals\n- perss warm-up normal\n\nSigned Rajesh\n",
+  "spans": [
+    {
+      "quote": "- HP-01 stopped 1538 w/ E-245, press losing pressure mid-stroke, oil on the floor. Rpel main cylinder seal kit (OIL HLP46 20L, SK-50), tested ok. Down 425 min.",
+      "start": 43,
+      "end": 202,
+      "page": null,
+      "fact_kind": "node",
+      "fact_id": "INC-2026-001",
+      "type": "Incident",
+      "label": "press losing pressure mid-stroke, oil on the floor",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- HP-01 stopped 1538 w/ E-245, press losing pressure mid-stroke, oil on the floor. Rpel main cylinder seal kit (OIL HLP46 20L, SK-50), tested ok. Down 425 min.",
+      "start": 43,
+      "end": 202,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-001|OCCURRED_ON|HP-01",
+      "type": "OCCURRED_ON",
+      "label": "INC-2026-001 happened on HP-01",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- HP-01 stopped 1538 w/ E-245, press losing pressure mid-stroke, oil on the floor. Rpel main cylinder seal kit (OIL HLP46 20L, SK-50), tested ok. Down 425 min.",
+      "start": 43,
+      "end": 202,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-001|TRIGGERED_BY|E-245",
+      "type": "TRIGGERED_BY",
+      "label": "INC-2026-001 started with E-245",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- HP-01 stopped 1538 w/ E-245, press losing pressure mid-stroke, oil on the floor. Rpel main cylinder seal kit (OIL HLP46 20L, SK-50), tested ok. Down 425 min.",
+      "start": 43,
+      "end": 202,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-001|USED|OIL-HLP46-20L",
+      "type": "USED",
+      "label": "INC-2026-001 used OIL-HLP46-20L",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- HP-01 stopped 1538 w/ E-245, press losing pressure mid-stroke, oil on the floor. Rpel main cylinder seal kit (OIL HLP46 20L, SK-50), tested ok. Down 425 min.",
+      "start": 43,
+      "end": 202,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-001|USED|SEAL-KIT-50",
+      "type": "USED",
+      "label": "INC-2026-001 used SEAL-KIT-50",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    }
+  ]
+}

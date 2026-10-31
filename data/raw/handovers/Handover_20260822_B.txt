@@ -1,0 +1,8 @@
+Shift handover 22 Aug B
+From: Rajesh   To: Arun
+
+- CNC 2 stopped 1801 w/ ALM SP-104, grinding noise from spindle, virbation alarm. Repl spindle brg set (BRG 7014 ACD x2, SEAL SPDL 70, SENS PT100 01), tested ok. Down apporx 6h.
+- waiting on gripper fingers, stores says none left
+- CNC 1 running fine, tool wear ok
+
+Signed RP

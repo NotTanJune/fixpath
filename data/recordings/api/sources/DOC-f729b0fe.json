@@ -1,0 +1,69 @@
+{
+  "id": "DOC-f729b0fe",
+  "path": "handovers/shift notes 5 Jun A.txt",
+  "doc_type": "handover",
+  "kind": "text",
+  "text": "Shift handover 05/06/2026 Shift A\nFrom: Siew Ling   To: Rajesh\n\n- robot cell guard door sticking a bit, f/u tmr\n- CNC 2 stopped 1049 w/ ALM TC-305, tool not clamping afetr change, machine stops. Repl tool clamp disc springs (SENS PROX 08, disc springs TC), tested ok. Down approx 5h.\n\nSigned Siew Ling\n",
+  "spans": [
+    {
+      "quote": "- CNC 2 stopped 1049 w/ ALM TC-305, tool not clamping afetr change, machine stops. Repl tool clamp disc springs (SENS PROX 08, disc springs TC), tested ok. Down approx 5h.",
+      "start": 112,
+      "end": 283,
+      "page": null,
+      "fact_kind": "node",
+      "fact_id": "INC-2026-026",
+      "type": "Incident",
+      "label": "tool not clamping after change, machine stops",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- CNC 2 stopped 1049 w/ ALM TC-305, tool not clamping afetr change, machine stops. Repl tool clamp disc springs (SENS PROX 08, disc springs TC), tested ok. Down approx 5h.",
+      "start": 112,
+      "end": 283,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-026|OCCURRED_ON|CNC-02",
+      "type": "OCCURRED_ON",
+      "label": "INC-2026-026 happened on CNC-02",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- CNC 2 stopped 1049 w/ ALM TC-305, tool not clamping afetr change, machine stops. Repl tool clamp disc springs (SENS PROX 08, disc springs TC), tested ok. Down approx 5h.",
+      "start": 112,
+      "end": 283,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-026|TRIGGERED_BY|TC-305",
+      "type": "TRIGGERED_BY",
+      "label": "INC-2026-026 started with TC-305",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- CNC 2 stopped 1049 w/ ALM TC-305, tool not clamping afetr change, machine stops. Repl tool clamp disc springs (SENS PROX 08, disc springs TC), tested ok. Down approx 5h.",
+      "start": 112,
+      "end": 283,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-026|USED|SENS-PROX-08",
+      "type": "USED",
+      "label": "INC-2026-026 used SENS-PROX-08",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    },
+    {
+      "quote": "- CNC 2 stopped 1049 w/ ALM TC-305, tool not clamping afetr change, machine stops. Repl tool clamp disc springs (SENS PROX 08, disc springs TC), tested ok. Down approx 5h.",
+      "start": 112,
+      "end": 283,
+      "page": null,
+      "fact_kind": "edge",
+      "fact_id": "INC-2026-026|USED|SPR-TC-40",
+      "type": "USED",
+      "label": "INC-2026-026 used SPR-TC-40",
+      "extractor": "sol-text",
+      "confidence": 0.8
+    }
+  ]
+}

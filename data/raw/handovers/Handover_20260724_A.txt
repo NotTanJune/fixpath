@@ -1,0 +1,8 @@
+Shift handover 24 Jul Shift A
+From: Wei Ming   To: RP
+
+- CNC 1 running fine, tolo wera ok
+- CNC1 stopped 0903 w/ CL210, no coolant at the nozzle, chips packing in the bore. Clean coolant filter & flush lines (FLTCL25), tested ok. Down approx 2h. chk again next shift.
+- coolant topped up on MC-2
+
+Signed WM

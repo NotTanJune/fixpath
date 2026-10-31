@@ -1,0 +1,9 @@
+Shift handover 19/07/2026 C shift
+From: Jun Hao   To: Siew Ling
+
+- psl f/u on stores count for seals
+- chk air pressure at LT1, ok
+- CNC2 stopped 0324 w/ SP-117, grinding noise from spindle, vibration alarm. Repl spindle brg set (7014ACD x2), running ok now. Down 535 min. chk again next shift.
+- press warm-up normal
+
+Signed Jun Hao

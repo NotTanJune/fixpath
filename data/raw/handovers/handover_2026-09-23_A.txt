@@ -1,0 +1,8 @@
+Shift handover 23/09/2026 Shift A
+From: WM   To: RP
+
+- 5S done on robot cell
+- press warm-up normal
+- chk air pressure at LT1, ok
+
+Signed Wei Ming
