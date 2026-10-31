@@ -1,5 +1,5 @@
 flowchart TB
-  UI["Web app<br/>Ask, Pipeline, Evals"] <--> API["API<br/>server-sent events"]
+  UI["Web app<br/>Ask, Ingestion"] <--> API["API<br/>server-sent events"]
   FOLDER["Shared folder<br/>107 files"] --> ING["Ingestion crew<br/>LangGraph"]
   API -->|"drop a file"| ING
   ING --> KG[("Knowledge graph<br/>nodes, edges,<br/>evidence, chunks")]

@@ -1,6 +1,6 @@
 # FixPath
 
-Every answer shows its source and the graph path behind it.A troubleshooting assistant for factory technicians.
+Every answer shows its source and the graph path behind it. A troubleshooting assistant for factory technicians.
 
 
 ![The Ask tab after the HP-01 question: the root cause first, the lockout block with its manual citations, and the knowledge graph with the path from the alarm to the bin lit](docs/images/readme-ask-hp01.png)
