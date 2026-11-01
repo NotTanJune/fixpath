@@ -516,6 +516,27 @@ Talk track: Risks first, with the measure that watches each. A model could inven
 -->
 
 ---
+<!-- _class: dense -->
+
+<p class="kicker">Next</p>
+
+# Maintenance contracts and SLAs
+
+Link each machine to its contract terms: response time, uptime target and the parts covered.
+
+Measure uptime against the target from the graph, which already records each breakdown's date and downtime.
+
+Measure response time from when the alarm was raised to when the technician arrived.
+
+Send the customer a monthly service report where every number links back to a recorded breakdown.
+
+Warn before a breach: use the upkeep predictions to flag a part that is due to fail on a machine whose uptime is near its target.
+
+<!--
+Talk track: The graph already holds dates and downtime, so contract terms are a small step. The demo shows example terms next to the uptime the graph measured. HP-01 is at 97.9 percent against a 98 percent target.
+-->
+
+---
 
 <p class="kicker">Demo</p>
 
