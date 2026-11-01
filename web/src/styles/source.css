@@ -819,8 +819,53 @@
 }
 
 .upkeep-row {
-  padding: 10px 0;
+  padding: 10px 0 10px 12px;
   border-bottom: 1px solid var(--hair);
+  border-left: 4px solid var(--status);
+}
+
+/* each group has its own colour: red past due, amber due soon, slate later, grey unknown */
+.upkeep-group {
+  --status: var(--so);
+  --status-ink: var(--ink);
+}
+.upkeep-group[data-status="overdue"] {
+  --status: var(--rd);
+  --status-ink: #fff;
+}
+.upkeep-group[data-status="due_soon"] {
+  --status: var(--am);
+  --status-ink: var(--ink);
+}
+.upkeep-group[data-status="later"] {
+  --status: var(--sl);
+  --status-ink: #fff;
+}
+
+.upkeep-group h3 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.upkeep-tag {
+  padding: 2px 8px;
+  background: var(--status);
+  color: var(--status-ink);
+}
+
+.upkeep-count {
+  color: var(--muted);
+  letter-spacing: 0;
+}
+
+.upkeep-line {
+  color: var(--muted);
+}
+
+.upkeep-line strong {
+  color: var(--ink);
+  font-weight: 700;
 }
 
 .upkeep-what {

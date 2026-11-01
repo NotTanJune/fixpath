@@ -12,6 +12,17 @@ const GROUPS: { status: UpkeepStatus; heading: string }[] = [
   { status: "not_enough_history", heading: "Not enough history" },
 ];
 
+/** The due line, with its last sentence (the due date) in bold so it stands out. */
+function DueLine({ text }: { text: string }) {
+  const cut = text.lastIndexOf(". ", text.length - 2);
+  if (cut < 0) return <p className="upkeep-line">{text}</p>;
+  return (
+    <p className="upkeep-line">
+      {text.slice(0, cut + 1)} <strong>{text.slice(cut + 2)}</strong>
+    </p>
+  );
+}
+
 function Row({ item, onOpen }: { item: UpkeepItem; onOpen: (label: string, citations: Citation[]) => void }) {
   const [shown, setShown] = useState(false);
   const n = item.breakdowns.length;
@@ -21,7 +32,7 @@ function Row({ item, onOpen }: { item: UpkeepItem; onOpen: (label: string, citat
         <span className="id">{item.machine}</span> {item.machine_label}
       </p>
       <p className="upkeep-cause">{item.cause_label}</p>
-      <p className="upkeep-line quiet">{dueLine(item)}</p>
+      <DueLine text={dueLine(item)} />
       <button
         className="link upkeep-based"
         aria-expanded={shown}
@@ -141,8 +152,11 @@ export function UpkeepPanel({
           GROUPS.map(({ status, heading }) => {
             const items = upkeep.items.filter((i) => i.status === status);
             return items.length ? (
-              <section key={status} aria-label={heading}>
-                <h3>{heading}</h3>
+              <section key={status} aria-label={heading} className="upkeep-group" data-status={status}>
+                <h3>
+                  <span className="upkeep-tag">{heading}</span>
+                  <span className="upkeep-count">{items.length}</span>
+                </h3>
                 <ul className="upkeep-list">
                   {items.map((i) => (
                     <Row key={`${i.machine}-${i.cause}`} item={i} onOpen={onOpen} />
