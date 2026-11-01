@@ -1,5 +1,5 @@
 import { describe, expect, test } from "bun:test";
-import { hrefFor, parseHash, VIEWS } from "../src/lib/router";
+import { hrefFor, parseHash, tabsFor, VIEWS } from "../src/lib/router";
 
 describe("hash router", () => {
   test("picks the view from the hash", () => {
@@ -7,11 +7,21 @@ describe("hash router", () => {
     expect(parseHash("#/ingestion").view).toBe("ingestion");
   });
 
-  test("the top bar has Ask and Ingestion only", () => {
+  test("the views are Ask, Ingestion and New issues", () => {
     expect(VIEWS).toEqual([
       { view: "ask", label: "Ask" },
       { view: "ingestion", label: "Ingestion" },
+      { view: "issues", label: "New issues" },
     ]);
+  });
+
+  test("the top bar shows New issues in replay mode only", () => {
+    expect(tabsFor(true).map((v) => v.view)).toEqual(["ask", "ingestion", "issues"]);
+    expect(tabsFor(false).map((v) => v.view)).toEqual(["ask", "ingestion"]);
+  });
+
+  test("the issues hash opens New issues", () => {
+    expect(parseHash("#/issues")).toEqual({ view: "issues" });
   });
 
   test("an old Pipeline link opens the same file in Ingestion", () => {

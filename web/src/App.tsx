@@ -6,9 +6,13 @@ import { UpkeepPanel } from "./components/UpkeepPanel";
 import { getOntology, getSuggestions, getUpkeep } from "./lib/api";
 import { useAsk, useHashRoute, useHealth, useHistory } from "./lib/hooks";
 import { OntologyContext } from "./lib/ontology";
+import { paced } from "./lib/pace";
+import { nextStage, reportId, type Report } from "./lib/reports";
 import { reportView } from "./lib/runReport";
+import type { NovelCase, NovelRecord } from "./lib/novel";
 import type { Citation, Ontology, Suggestion, Upkeep } from "./lib/types";
 import { dueCount } from "./lib/upkeep";
+import { NewIssuesView } from "./views/NewIssuesView";
 import { AskView } from "./views/AskView";
 import { PipelineView } from "./views/PipelineView";
 
@@ -22,6 +26,8 @@ export default function App() {
   const [upkeepFailed, setUpkeepFailed] = useState(false);
   const [upkeepOpen, setUpkeepOpen] = useState(false);
   const [sheet, setSheet] = useState<SheetRequest | null>(null);
+  // the new issues reported in this session: held here only, lost on reload
+  const [issues, setIssues] = useState<Report[]>([]);
   const history = useHistory();
   const ask = useAsk(refresh, history.record);
 
@@ -36,6 +42,45 @@ export default function App() {
       .then(setUpkeep)
       .catch(() => setUpkeepFailed(true));
   }, []);
+
+  // a report moves captured, checked, matched, merged: one step each 900 ms, all at once when
+  // the reveal is switched off (prefers-reduced-motion or ?pace=0)
+  useEffect(() => {
+    const live = issues.find((r) => nextStage(r.stage));
+    if (!live) return;
+    const step = (r: Report): Report => {
+      const n = nextStage(r.stage);
+      return n ? { ...r, stage: n } : r;
+    };
+    const wait = paced(900);
+    if (wait <= 0) {
+      setIssues((all) =>
+        all.map((r) => {
+          let x = r;
+          while (nextStage(x.stage)) x = step(x);
+          return x;
+        }),
+      );
+      return;
+    }
+    const t = setTimeout(
+      () => setIssues((all) => all.map((r) => (r.id === live.id ? step(r) : r))),
+      wait,
+    );
+    return () => clearTimeout(t);
+  }, [issues]);
+
+  const sendIssue = useCallback(
+    (novel: NovelCase, record: NovelRecord): string => {
+      const id = reportId(issues.length + 1);
+      setIssues((all) => [
+        ...all,
+        { id, question: novel.question, record, adds: novel.adds, stage: "captured", at: new Date().toISOString() },
+      ]);
+      return id;
+    },
+    [issues.length],
+  );
 
   const open = useCallback(
     (label: string, citations: Citation[]) => {
@@ -68,8 +113,11 @@ export default function App() {
             upkeep={upkeep}
             onUpkeep={() => setUpkeepOpen(true)}
             onOpen={open}
+            issues={issues}
+            onReport={sendIssue}
           />
         )}
+        {route.view === "issues" && <NewIssuesView issues={issues} replay={health?.replay_mode ?? false} />}
         {route.view === "ingestion" && (
           <PipelineView
             selected={report ? undefined : route.arg}

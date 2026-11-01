@@ -1,6 +1,6 @@
 import { Bell } from "lucide-react";
 import brand from "../../../config/brand.json";
-import { hrefFor, VIEWS, type View } from "../lib/router";
+import { hrefFor, tabsFor, type View } from "../lib/router";
 import type { Health } from "../lib/types";
 import { money } from "../lib/format";
 
@@ -33,7 +33,7 @@ export function TopBar({
         {brand.name}
       </a>
       <nav className="tabs" aria-label="Views">
-        {VIEWS.map((v) => (
+        {tabsFor(health?.replay_mode ?? false).map((v) => (
           <a
             key={v.view}
             href={hrefFor(v.view)}

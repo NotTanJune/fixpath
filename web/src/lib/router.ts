@@ -1,9 +1,15 @@
-export type View = "ask" | "ingestion";
+export type View = "ask" | "ingestion" | "issues";
 
 export const VIEWS: { view: View; label: string }[] = [
   { view: "ask", label: "Ask" },
   { view: "ingestion", label: "Ingestion" },
+  { view: "issues", label: "New issues" },
 ];
+
+/** The views the top bar lists. New issues is a replay-mode demo, so a live server hides it. */
+export function tabsFor(replay: boolean): typeof VIEWS {
+  return replay ? VIEWS : VIEWS.filter((v) => v.view !== "issues");
+}
 
 /** Old names of a view. A link saved under one of them opens the view that took its place. */
 const OLD_NAMES: Record<string, View> = { pipeline: "ingestion" };

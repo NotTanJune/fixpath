@@ -19,6 +19,7 @@ import {
 } from "../components/answer";
 import { AgentTrace } from "../components/AgentTrace";
 import { Rail } from "../components/Rail";
+import { CaptureFlow } from "../components/CaptureFlow";
 import { NovelResult } from "../components/NovelResult";
 import { WriteBack } from "../components/WriteBack";
 import { GraphPanel } from "../components/GraphPanel";
@@ -26,7 +27,8 @@ import type { OpenSource } from "../components/IdLink";
 import { Split } from "../components/Split";
 import { canShowRevealAgain, canStartOver, hasGraph } from "../lib/askLayout";
 import { composeAsk, errorText, failureName, MAX_QUESTION, sentenceCase } from "../lib/format";
-import { NOVEL, novelCase, type NovelCase } from "../lib/novel";
+import { NOVEL, novelCase, type NovelCase, type NovelRecord } from "../lib/novel";
+import type { Report } from "../lib/reports";
 import { PACE, paceFactor, paced } from "../lib/pace";
 import { arrivedStages, narration, revealApplies, STAGES, summaryAt, viewOf } from "../lib/reveal";
 import { useAlarmFacts, useFollowReveal, useReveal } from "../lib/hooks";
@@ -91,6 +93,8 @@ export function AskView({
   upkeep,
   onUpkeep,
   onOpen,
+  issues,
+  onReport,
 }: {
   ask: {
     state: AskState;
@@ -105,6 +109,8 @@ export function AskView({
   upkeep: Upkeep | null;
   onUpkeep: () => void;
   onOpen: OpenSource;
+  issues: Report[];
+  onReport: (novel: NovelCase, record: NovelRecord) => string;
 }) {
   const { state, send, stop, restore, reset } = ask;
   const [draft, setDraft] = useState("");
@@ -120,6 +126,13 @@ export function AskView({
     status === "act" || status === "confirm" || (status === null && state.phase !== "idle");
   // a canned novel question (replay only) is shown without a run: the ask state stays idle
   const [novel, setNovel] = useState<NovelCase | null>(null);
+  const [reporting, setReporting] = useState(false);
+  const [sent, setSent] = useState<string | null>(null); // the id of the report this screen sent
+  const showNovel = (c: NovelCase | null) => {
+    setNovel(c);
+    setReporting(false);
+    setSent(null);
+  };
   const idle = state.phase === "idle" && !novel;
   const side = novel ? true : hasGraph(state);
   const [refit, setRefit] = useState(0);
@@ -147,7 +160,7 @@ export function AskView({
   const newQuestion = () => {
     startOver.current = true;
     setDraft("");
-    setNovel(null);
+    showNovel(null);
     reset();
   };
 
@@ -158,10 +171,10 @@ export function AskView({
     if (hit) {
       stop();
       reset();
-      setNovel(hit);
+      showNovel(hit);
       return;
     }
-    setNovel(null);
+    showNovel(null);
     send(q);
   };
   const submit = (e: FormEvent) => {
@@ -175,7 +188,7 @@ export function AskView({
     start(q);
   };
   const reopen = (run: SavedRun) => {
-    setNovel(null);
+    showNovel(null);
     setDraft(run.question);
     restore(run);
   };
@@ -292,6 +305,11 @@ export function AskView({
     );
   }
 
+  // asked again after it was merged in an earlier visit to this screen
+  const mergedId =
+    novel && !reporting
+      ? (issues.find((r) => r.question === novel.question && r.stage === "merged")?.id ?? null)
+      : null;
   if (novel) {
     return (
       <div className="ask">
@@ -312,7 +330,21 @@ export function AskView({
                   </button>
                 </div>
                 {questionForm}
-                <NovelResult novel={novel} merged={null} reporting={false} onReport={() => {}} />
+                <NovelResult
+                  novel={novel}
+                  merged={mergedId}
+                  reporting={reporting}
+                  onReport={() => setReporting(true)}
+                >
+                  {reporting && !mergedId && (
+                    <CaptureFlow
+                      key={novel.question}
+                      novel={novel}
+                      report={issues.find((r) => r.id === sent) ?? null}
+                      onSend={(record) => setSent(onReport(novel, record))}
+                    />
+                  )}
+                </NovelResult>
               </section>
             }
             second={
