@@ -5,6 +5,7 @@ import { layoutLabels, type GLabel } from "./graphLabels";
 import { labelOf, relationLabel } from "./ontology";
 import { measure as measureText, wrapLines, type Measure } from "./textMetrics";
 import type { Citation, Ontology, PathStep } from "./types";
+import type { TechBreakdown } from "./writeBack";
 
 export type GraphType =
   "Asset" | "AlarmCode" | "FailureMode" | "Procedure" | "Part" | "Bin" | "Incident" | "Document";
@@ -71,6 +72,8 @@ export interface BuildOptions {
   /** The width of the pane the graph is drawn in, in px. With it the path is sized to the pane and
    * its cited page goes beside the fix or under it, whichever fits. */
   paneWidth?: number;
+  /** Breakdowns a technician reported in this session: drawn beside the machine, dashed. */
+  technician?: TechBreakdown[];
 }
 
 // the type sizes of a magnet, in px of the graph plane
@@ -403,6 +406,24 @@ export function buildAskGraph(
       });
     const cause = pickedId ? causeOf(pickedId) : undefined;
     (cause?.citations ?? []).forEach((c) => pageOf(c, pickedId!, "extra", 2));
+  }
+  // the breakdowns a technician reported, beside the machine they are about
+  if (asset) {
+    for (const t of options.technician ?? []) {
+      put(side, {
+        id: t.id,
+        label: t.label,
+        type: "Incident",
+        detail: [t.cause, t.part].filter(Boolean).join(", "),
+        lit: null,
+        dashed: true,
+        citations: [],
+        layer: "path",
+        anchor: asset,
+        group: 4,
+      });
+      link(t.id, "OCCURRED_ON", asset, true);
+    }
   }
   // the cause edges that the path names but that were not drawn above
   for (const s of steps) if (KEPT.has(s.rel)) link(s.src, s.rel, s.dst);

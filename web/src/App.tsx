@@ -65,6 +65,8 @@ export default function App() {
             history={history}
             health={health}
             suggestions={suggestions}
+            upkeep={upkeep}
+            onUpkeep={() => setUpkeepOpen(true)}
             onOpen={open}
           />
         )}

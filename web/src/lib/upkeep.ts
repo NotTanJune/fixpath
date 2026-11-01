@@ -22,3 +22,10 @@ export function dueLine(item: UpkeepItem): string {
 export function itemFor(u: Upkeep, machine: string): UpkeepItem | null {
   return u.items.find((i) => i.machine === machine && URGENT.has(i.status)) ?? null;
 }
+
+/** The one line an answer carries when its machine has a part that is due. */
+export function noteLine(item: UpkeepItem): string {
+  const head = `Upkeep: ${item.cause_label} on ${item.machine}`;
+  if (item.status === "overdue") return `${head} is past due (usually every ${item.gap_days} days).`;
+  return `${head} is due around ${item.due ? shortDate(item.due) : "soon"}.`;
+}

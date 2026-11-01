@@ -5,6 +5,7 @@ import { viewOf, type HeldView } from "../lib/graphView";
 import { sourceLabel } from "../lib/format";
 import { PACE, paced } from "../lib/pace";
 import { revealedGraph } from "../lib/reveal";
+import type { TechBreakdown } from "../lib/writeBack";
 import { glyphOf, Glyph, toneOf, useOntology } from "../lib/ontology";
 import type { OpenSource } from "./IdLink";
 import { CyGraph, type CyEdge, type CyLabel, type CyNode, type Frame } from "./CyGraph";
@@ -54,12 +55,14 @@ export function GraphPanel({
   onOpen,
   refit,
   facts,
+  technician,
 }: {
   state: AskState;
   shown: number;
   onOpen: OpenSource;
   refit?: number;
   facts?: Facts | null;
+  technician?: TechBreakdown[];
 }) {
   const ontology = useOntology();
   // what the reader chose belongs to this answer: the next question opens on the path again
@@ -81,8 +84,8 @@ export function GraphPanel({
   const message = facts?.message ?? null;
   const machineName = facts?.machineName ?? null;
   const whole = useMemo(
-    () => buildAskGraph(state, { view, ontology, facts: { message, machineName }, paneWidth }),
-    [state, view, ontology, message, machineName, paneWidth],
+    () => buildAskGraph(state, { view, ontology, facts: { message, machineName }, paneWidth, technician }),
+    [state, view, ontology, message, machineName, paneWidth, technician],
   );
   const graph = useMemo(() => revealedGraph(whole, shown), [whole, shown]);
   const byId = useMemo(() => new Map(graph.nodes.map((n) => [n.id, n])), [graph]);

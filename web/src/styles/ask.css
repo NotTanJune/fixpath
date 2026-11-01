@@ -1109,3 +1109,76 @@
     animation: none;
   }
 }
+
+/* the upkeep note above the root cause, and the technician's report under the answer */
+
+.upkeep-note {
+  margin-top: 12px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: normal;
+}
+
+.upkeep-note .link {
+  min-height: 44px;
+  padding: 0 6px;
+}
+
+.wb-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.wb-form .wb-actions {
+  margin-top: 4px;
+}
+
+.wb-btn,
+.wb-submit {
+  min-height: 44px;
+  padding: 0 16px;
+  border: 2px solid var(--blue);
+  color: var(--blue);
+  font-weight: 700;
+  text-align: center;
+}
+
+.wb-btn:hover {
+  background: var(--blue);
+  color: var(--bd);
+}
+
+.wb-submit {
+  background: var(--blue);
+  color: var(--bd);
+}
+
+.wb-form {
+  display: grid;
+  gap: 12px;
+  max-width: 62ch;
+  margin-top: 24px;
+}
+
+.wb-form label {
+  display: grid;
+  gap: 4px;
+  font-weight: 600;
+}
+
+.wb-form input,
+.wb-form textarea {
+  border: 2px solid var(--ink);
+  background: var(--well);
+  padding: 8px 12px;
+  font-family: inherit;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.wb-done {
+  margin-top: 24px;
+  font-weight: 600;
+}

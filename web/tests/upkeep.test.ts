@@ -1,6 +1,6 @@
 import { describe, expect, test } from "bun:test";
 import { readFileSync } from "node:fs";
-import { dueCount, dueLine, itemFor } from "../src/lib/upkeep";
+import { dueCount, dueLine, itemFor, noteLine } from "../src/lib/upkeep";
 import type { Upkeep, UpkeepItem } from "../src/lib/types";
 
 const recording: Upkeep = JSON.parse(
@@ -49,5 +49,14 @@ describe("upkeep helpers", () => {
     expect(["overdue", "due_soon"]).toContain(got?.status ?? "");
     expect(itemFor(recording, "RW-01")).toBeNull();
     expect(itemFor(recording, "NOPE")).toBeNull();
+  });
+
+  test("writes the note line of an answer", () => {
+    expect(noteLine(item({ status: "overdue", cause_label: "main cylinder seal wear" }))).toBe(
+      "Upkeep: main cylinder seal wear on HP-01 is past due (usually every 17 days).",
+    );
+    expect(noteLine(item({ status: "due_soon", due: "2026-10-05", cause_label: "coolant filter blockage", machine: "CNC-02" }))).toBe(
+      "Upkeep: coolant filter blockage on CNC-02 is due around 5 Oct.",
+    );
   });
 });

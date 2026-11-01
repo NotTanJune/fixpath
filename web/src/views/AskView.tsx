@@ -15,9 +15,11 @@ import {
   splitCauses,
   StockList,
   Summary,
+  UpkeepNote,
 } from "../components/answer";
 import { AgentTrace } from "../components/AgentTrace";
 import { Rail } from "../components/Rail";
+import { WriteBack } from "../components/WriteBack";
 import { GraphPanel } from "../components/GraphPanel";
 import type { OpenSource } from "../components/IdLink";
 import { Split } from "../components/Split";
@@ -28,7 +30,9 @@ import { arrivedStages, narration, revealApplies, STAGES, summaryAt, viewOf } fr
 import { useAlarmFacts, useFollowReveal, useReveal } from "../lib/hooks";
 import type { AskState } from "../lib/askReducer";
 import { savedAt, type SavedRun } from "../lib/history";
-import type { Chip, Health, Suggestion } from "../lib/types";
+import type { Chip, Health, Suggestion, Upkeep } from "../lib/types";
+import { itemFor } from "../lib/upkeep";
+import { newBreakdown, type TechBreakdown } from "../lib/writeBack";
 
 const NODE_WORDS: Record<string, string> = {
   triage: "Reading the question",
@@ -82,6 +86,8 @@ export function AskView({
   history,
   health,
   suggestions,
+  upkeep,
+  onUpkeep,
   onOpen,
 }: {
   ask: {
@@ -94,6 +100,8 @@ export function AskView({
   history: { runs: SavedRun[]; clear: () => void };
   health: Health | null;
   suggestions: Suggestion[];
+  upkeep: Upkeep | null;
+  onUpkeep: () => void;
   onOpen: OpenSource;
 }) {
   const { state, send, stop, restore, reset } = ask;
@@ -112,6 +120,9 @@ export function AskView({
   const side = hasGraph(state);
   const [refit, setRefit] = useState(0);
   const field = useRef<HTMLInputElement>(null);
+  // what a technician reported on this answer: held here only, so a new question clears it
+  const [reports, setReports] = useState<TechBreakdown[]>([]);
+  useEffect(() => setReports([]), [state.run]);
 
   // the form moves when the screen changes layout, and the keyboard stays in it
   const before = useRef({ idle, side });
@@ -177,6 +188,7 @@ export function AskView({
     root_cause: triage?.failure_mode_id ?? null,
     machine: triage?.asset_id ?? null,
   };
+  const due = upkeep && machine ? itemFor(upkeep, machine) : null;
   const chips = triage?.chips ?? state.clarify?.chips ?? [];
   const reason = triage?.reason ?? state.clarify?.reason ?? null;
   const showChips = (status === "confirm" || status === "clarify") && chips.length > 0;
@@ -326,6 +338,7 @@ export function AskView({
               citations={picked?.citations ?? []}
               onOpen={onOpen}
             />
+            {due && v.done && <UpkeepNote item={due} onSee={onUpkeep} />}
             {causeName && v.rootCause && (
               <RootCause
                 cause={picked}
@@ -378,6 +391,14 @@ export function AskView({
             {v.done && (card.breakdowns.length > 0 || card.history) && (
               <PastBreakdowns items={card.breakdowns} history={card.history} onOpen={onOpen} />
             )}
+            {replay && v.done && open && machine && (
+              <WriteBack
+                key={state.run}
+                onSubmit={(input) =>
+                  setReports((all) => [...all, newBreakdown({ ...input, machine }, all.length + 1)])
+                }
+              />
+            )}
           </>
         )}
       {(v.done || state.phase === "error" || !applies) && <AgentTrace state={state} />}
@@ -398,7 +419,7 @@ export function AskView({
             first={work}
             second={
               <aside className="side">
-                <GraphPanel state={state} shown={shown} onOpen={onOpen} refit={refit} facts={facts} />
+                <GraphPanel state={state} shown={shown} onOpen={onOpen} refit={refit} facts={facts} technician={reports} />
               </aside>
             }
           />

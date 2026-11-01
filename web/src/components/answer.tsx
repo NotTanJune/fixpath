@@ -2,6 +2,7 @@ import { ChevronRight } from "lucide-react";
 import { useState, type ReactNode } from "react";
 import { causeRank, pastStops, shortOnStock } from "../lib/answerText";
 import { fixed, sentenceCase, shortDate, sourceLabel } from "../lib/format";
+import { noteLine } from "../lib/upkeep";
 import { bandSteps, lockoutScope } from "../lib/lockoutSteps";
 import type {
   AnswerCard,
@@ -13,6 +14,7 @@ import type {
   PartNeed,
   PartStock,
   SafetyBlock,
+  UpkeepItem,
 } from "../lib/types";
 import { IdLink, type OpenSource } from "./IdLink";
 
@@ -48,6 +50,18 @@ export function MainIssue({
       {alarm && <IdLink id={alarm} citations={citations} onOpen={onOpen} className="strong" />}
       {alarm && message && <span className="issue-msg">{message}</span>}
     </h2>
+  );
+}
+
+/** One line above the root cause when the machine has a part that is due or past due. */
+export function UpkeepNote({ item, onSee }: { item: UpkeepItem; onSee: () => void }) {
+  return (
+    <p className="upkeep-note">
+      {noteLine(item)}{" "}
+      <button type="button" className="link" onClick={onSee}>
+        See upkeep
+      </button>
+    </p>
   );
 }
 
