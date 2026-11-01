@@ -271,3 +271,40 @@ export interface Activity {
   breakdowns: BreakdownRow[];
   alarms: AlarmRow[];
 }
+
+export interface UpkeepBreakdown {
+  id: string;
+  date: string;
+  downtime_min: number | null;
+  citations: Citation[];
+}
+
+export type UpkeepStatus = "overdue" | "due_soon" | "later" | "not_enough_history";
+
+export interface UpkeepItem {
+  machine: string;
+  machine_label: string;
+  cause: string;
+  cause_label: string;
+  episodes: number;
+  last: string;
+  status: UpkeepStatus;
+  gap_days: number | null;
+  due: string | null;
+  breakdowns: UpkeepBreakdown[];
+}
+
+export interface UpkeepTerm {
+  machine: string;
+  response_hours: number;
+  uptime_target: number;
+  covers: string;
+  measured_uptime: number;
+  downtime_min: number;
+}
+
+export interface Upkeep {
+  as_of: string | null;
+  items: UpkeepItem[];
+  terms: UpkeepTerm[];
+}

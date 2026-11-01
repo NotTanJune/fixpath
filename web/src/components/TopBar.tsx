@@ -1,3 +1,4 @@
+import { Bell } from "lucide-react";
 import brand from "../../../config/brand.json";
 import { hrefFor, VIEWS, type View } from "../lib/router";
 import type { Health } from "../lib/types";
@@ -14,10 +15,16 @@ export function TopBar({
   view,
   health,
   failed,
+  due = 0,
+  upkeepOpen = false,
+  onUpkeep,
 }: {
   view: View;
   health: Health | null;
   failed: boolean;
+  due?: number;
+  upkeepOpen?: boolean;
+  onUpkeep?: () => void;
 }) {
   const mode = modeOf(health, failed);
   return (
@@ -38,6 +45,17 @@ export function TopBar({
         ))}
       </nav>
       <div className="status">
+        {onUpkeep && (
+          <button
+            className="bell"
+            onClick={onUpkeep}
+            aria-label={`Upkeep, ${due} due`}
+            aria-expanded={upkeepOpen}
+          >
+            <Bell size={20} aria-hidden="true" />
+            {due > 0 && <span className="bell-count">{due}</span>}
+          </button>
+        )}
         <span
           className={`pill ${mode.kind}`}
           title={health ? `Decider: ${health.decider}` : undefined}

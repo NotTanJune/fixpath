@@ -9,6 +9,7 @@ import type {
   SourceDoc,
   SourceSummary,
   Suggestion,
+  Upkeep,
 } from "./types";
 
 export class ApiError extends Error {
@@ -47,6 +48,7 @@ export async function getJson<T>(path: string, signal?: AbortSignal): Promise<T>
 export const getHealth = () => getJson<Health>("/api/health");
 export const getOntology = () => getJson<Ontology>("/api/ontology");
 export const getSuggestions = () => getJson<Suggestion[]>("/api/suggestions");
+export const getUpkeep = () => getJson<Upkeep>("/api/upkeep");
 export const getSources = () => getJson<SourceSummary[]>("/api/sources");
 export const getSource = (id: string) =>
   getJson<SourceDoc>(`/api/sources/${encodeURIComponent(id)}`);

@@ -429,3 +429,36 @@ h2 {
     transition-delay: 0ms !important;
   }
 }
+
+/* the bell in the top bar: it opens the upkeep panel and shows how many parts are due */
+
+.bell {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  color: var(--bd);
+  border: 1px solid #5c6268;
+}
+
+.bell:hover,
+.bell[aria-expanded="true"] {
+  background: var(--bd);
+  color: var(--ink);
+}
+
+.bell-count {
+  position: absolute;
+  top: 0;
+  right: -4px;
+  min-width: 20px;
+  padding: 0 5px;
+  background: var(--rd);
+  color: var(--paper);
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: center;
+  font-variant-numeric: tabular-nums lining-nums;
+}
