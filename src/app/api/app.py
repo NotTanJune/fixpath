@@ -19,7 +19,7 @@ from fastapi.responses import FileResponse, JSONResponse
 from fastapi.sse import EventSourceResponse, ServerSentEvent
 from pydantic import BaseModel, Field, StringConstraints
 
-from app import ledger
+from app import ledger, upkeep
 from app.api import recorded, stream, suggestions, uploads, views
 from app.brand import load_brand
 from app.config import KG_PATH, ROOT, Settings, load_settings
@@ -207,6 +207,10 @@ def create_app(
     @app.get("/api/map")
     def fact_map() -> Any:
         return views.fact_map(map_path)
+
+    @app.get("/api/upkeep")
+    def upkeep_due() -> dict[str, Any]:
+        return upkeep.upkeep(kg_path)
 
     @app.get("/api/suggestions")
     def suggested() -> list[dict[str, Any]]:

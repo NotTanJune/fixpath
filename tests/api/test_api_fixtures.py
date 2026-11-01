@@ -46,6 +46,7 @@ def test_it_writes_one_json_file_per_get_endpoint_and_one_per_source(
         "sources.json",
     ]
     assert "suggestions.json" in names
+    assert "upkeep.json" in names
     assert (
         "sources/DOC-aaaaaaaa.json" in names
         and len([n for n in names if n.startswith("sources/")]) == 6

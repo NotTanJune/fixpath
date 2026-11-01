@@ -1,0 +1,1004 @@
+{
+  "as_of": "2026-09-28",
+  "items": [
+    {
+      "machine": "HP-01",
+      "machine_label": "Hydraulic press",
+      "cause": "FM-HYDRAULIC-OIL-CONTAMINATION",
+      "cause_label": "hydraulic oil contamination",
+      "episodes": 4,
+      "last": "2026-08-10",
+      "status": "overdue",
+      "gap_days": 36,
+      "due": "2026-09-15",
+      "breakdowns": [
+        {
+          "id": "INC-2026-003",
+          "date": "2026-04-18",
+          "downtime_min": 215,
+          "citations": [
+            {
+              "doc_path": "maintenance/maint_log_export_2026.csv",
+              "page": null,
+              "chunk_id": null,
+              "quote": "2026-04-18,PR-2,\"pressure hunting, oil running hot\",Change hydraulic oil & filter,FLT HYD 10 x1; HLP46 x3,Goh Siew Ling,215,WO-1877"
+            },
+            {
+              "doc_path": "handovers/Handover_20260418_A.txt",
+              "page": null,
+              "chunk_id": "DOC-c76bf879-0-0",
+              "quote": "- the press stopped 1355 w/ Err:230, pressure hunting, oil running hot. Chnage hdyraulic oil & filter (FLTHYD10, OIL HLP46 20L x3), tested ok. Down 215 min."
+            }
+          ]
+        },
+        {
+          "id": "INC-2026-019",
+          "date": "2026-05-13",
+          "downtime_min": 210,
+          "citations": [
+            {
+              "doc_path": "maintenance/maint_log_export_2026.csv",
+              "page": null,
+              "chunk_id": null,
+              "quote": "13/05/2026,Press 2,\"pressure hunting, oil running hot\",Change hydraulic oil & filter,FLTHYD10 x1; OIL HLP46 20L x3,MH,210,WO-5079"
+            },
+            {
+              "doc_path": "handovers/Handover_20260513_C.txt",
+              "page": null,
+              "chunk_id": "DOC-685917c3-0-0",
+              "quote": "- HP-01 stopped 2340 w/ E230, pressure hunting, oil running hot. Chagne hydraulic oil & filter (hyd oil 20L x3), tested ok. Down apprxo 4h."
+            }
+          ]
+        },
+        {
+          "id": "INC-2026-030",
+          "date": "2026-06-18",
+          "downtime_min": 240,
+          "citations": [
+            {
+              "doc_path": "maintenance/maint_log_export_2026.csv",
+              "page": null,
+              "chunk_id": null,
+              "quote": "18/06/2026,Press 2,\"ERR 230: pressure hunting, oil running hot\",Change hydraulic oil & filter,FLTHYD10 x1; OILHLP4620L x3,Arun Prakash,approx 240,WO-6240"
+            },
+            {
+              "doc_path": "handovers/shift notes 18 Jun C.txt",
+              "page": null,
+              "chunk_id": "DOC-047227e2-0-0",
+              "quote": "- HP1 stoppde 0403 w/ ERR 230, pressure hunting, oil running hot. Change hydrualic oli & filter (FLT HYD 10), running ok now. Down approx 4h. pls f/u w/ stores."
+            }
+          ]
+        },
+        {
+          "id": "INC-2026-045",
+          "date": "2026-08-10",
+          "downtime_min": 360,
+          "citations": [
+            {
+              "doc_path": "maintenance/maint_log_export_2026.csv",
+              "page": null,
+              "chunk_id": null,
+              "quote": "2026-08-10,the press,\"Err:221: oil looks dark and milky, pump noisy\",Change hydraulic oil & filter,FLTHYD10 x1; HLP46 x3,RP,360,WO-7530"
+            },
+            {
+              "doc_path": "handovers/HO 08-10 B shift.txt",
+              "page": null,
+              "chunk_id": "DOC-3bb868d8-0-0",
+              "quote": "- PR-2 stopped 1533 w/ E-221, oil looks dark and milky, pump niosy. Change hydraulic oil & filter (FLTHYD10, OILHLP4620L x3), test run ok. Down approx 6h. pls chk agani tmr."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "machine": "CNC-02",
+      "machine_label": "Machining centre 2",
+      "cause": "FM-SPINDLE-BEARING-WEAR",
+      "cause_label": "spindle bearing wear",
+      "episodes": 5,
+      "last": "2026-08-31",
+      "status": "overdue",
+      "gap_days": 17,
+      "due": "2026-09-17",
+      "breakdowns": [
+        {
+          "id": "INC-2026-011",
+          "date": "2026-04-27",
+          "downtime_min": 360,
+          "citations": [
+            {
+              "doc_path": "maintenance/maint_log_export_2026.csv",
+              "page": null,
+              "chunk_id": null,
+              "quote": "2026-04-27,MC-2,\"ALM SP-117: grinding noise from spindle, vibration alarm\",Repl spindle brg set,BRG 7014 ACD x2; GREASEKLB2 x1; SEALSPDL70 x1,Siew Ling,approx 360,WO-3952"
+            }
+          ]
+        },
+        {
+          "id": "INC-2026-015",
+          "date": "2026-05-04",
+          "downtime_min": 590,
+          "citations": [
+            {
+              "doc_path": "maintenance/maint_log_export_2026.csv",
+              "page": null,
+              "chunk_id": null,
+              "quote": "4-May-26,CNC 2,\"SP-104: grinding noise from spindle, vibration alarm\",Repl spindle brg set,BRG7014ACD x2; KLB2 grease x1; SEAL SPDL 70 x1,Arun,590,WO-4469"
+            },
+            {
+              "doc_path": "maintenance/note_from_arun_CNC2_spindle.txt",
+              "page": null,
+              "chunk_id": "DOC-d96954cc-0-0",
+              "quote": "On 4 May CNC-02 stopped at about 0039 with SP104 on the screen. Grinding noise from spindle, vibration alarm. When I opened it up I found spindle bearing wear on the spindle. I replaced BRG 7014 ACD x2 and KLB2 grease and SEAL SPDL 70."
+            },
+            {
+              "doc_path": "handovers/HO 05-04 C shift.txt",
+              "page": null,
+              "chunk_id": "DOC-e3e0f7e7-0-0",
+              "quote": "- CNC2 stopped 0039 w/ SP-104, grinding noise from spindle, vibration alarm. Repl spindle bgr set (BRG 7014 ACD x2), running ok now. Down approx 10h."
+            }
+          ]
+        },
+        {
+          "id": "INC-2026-039",
+          "date": "2026-07-19",
+          "downtime_min": 535,
+          "citations": [
+            {
+              "doc_path": "maintenance/maint_log_export_2026.csv",
+              "page": null,
+              "chunk_id": null,
+              "quote": "2026-07-19,CNC-02,\"grinding noise from spindle, vibration alarm\",Repl spindle brg set,7014ACD x2; GREASEKLB2 x1; seal 70 x1,Arun Prakash,535,WO-6684"
+            },
+            {
+              "doc_path": "handovers/handover_2026-07-19_C.txt",
+              "page": null,
+              "chunk_id": "DOC-dd145032-0-0",
+              "quote": "- CNC2 stopped 0324 w/ SP-117, grinding noise from spindle, vibration alarm. Repl spindle brg set (7014ACD x2), running ok now. Down 535 min. chk again next shift."
+            }
+          ]
+        },
+        {
+          "id": "INC-2026-043",
+          "date": "2026-08-03",
+          "downtime_min": 230,
+          "citations": [
+            {
+              "doc_path": "maintenance/maint_log_export_2026.csv",
+              "page": null,
+              "chunk_id": null,
+              "quote": "3-Aug-26,CNC 2,spindle running hot and noisy at high rpm,Repl spindle brg set,spdl brg x2; GREASE KLB 2 x1; seal 70 x1,Lim Jia Hui,230,WO-7306"
+            },
+            {
+              "doc_path": "handovers/handover_2026-08-03_A.txt",
+              "page": null,
+              "chunk_id": "DOC-a4a04eba-0-0",
+              "quote": "- Kessler 2 stopped 1255 w/ ALM SP-104, spindle running hot adn noisy at high rpm. Repl spidnle brg set (BRG7014ACD x2, GREASEKLB2, SEAL SPDL 70), test run ok. Down 230 min. f/u tmr."
+            }
+          ]
+        },
+        {
+          "id": "INC-2026-049",
+          "date": "2026-08-22",
+          "downtime_min": 360,
+          "citations": [
+            {
+              "doc_path": "handovers/Handover_20260822_B.txt",
+              "page": null,
+              "chunk_id": "DOC-27471019-0-0",
+              "quote": "- CNC 2 stopped 1801 w/ ALM SP-104, grinding noise from spindle, virbation alarm. Repl spindle brg set (BRG 7014 ACD x2, SEAL SPDL 70, SENS PT100 01), tested ok. Down apporx 6h."
+            }
+          ]
+        },
+        {
+          "id": "INC-2026-053",
+          "date": "2026-08-31",
+          "downtime_min": 655,
+          "citations": [
+            {
+              "doc_path": "maintenance/note_from_weiming_CNC2_spindle.txt",
+              "page": null,
+              "chunk_id": "DOC-8c5246b4-0-0",
+              "quote": "On 31 Aug MC-2 stopped at about 1429 with ALM SP-104 on the screen. Spindle running hot and noisy at high rpm. The root cause was spindle bearing wear, found on the spindle. I replaced spdl brg x2 and KLB2 grease and SEAL SPDL 70 and SENSPT10001."
+            },
+            {
+              "doc_path": "handovers/HO 08-31 A shift.txt",
+              "page": null,
+              "chunk_id": "DOC-8645f44e-0-0",
+              "quote": "- CNC2 stopped 1429 w/ ALM SP-104, spindle running hot adn noisy at high rpm. Repl spindle brg set (BRG7014ACD x2, SENS PT100 01), tested ok. Down 655 min."
+            }
+          ]
+        },
+        {
+          "id": "INC-2026-056",
+          "date": "2026-09-05",
+          "downtime_min": 570,
+          "citations": [
+            {
+              "doc_path": "maintenance/maint_log_export_2026.csv",
+              "page": null,
+              "chunk_id": null,
+              "quote": "2026-09-05,MC-2,ALM SP-104: spindle running hot and noisy at high rpm,Repl spindle brg set,BRG7014ACD x2; GREASE KLB 2 x1; SEALSPDL70 x1,Rajesh Pillai,approx 570,WO-9373"
+            },
+            {
+              "doc_path": "maintenance/note_from_rajesh_CNC2_spindle.txt",
+              "page": null,
+              "chunk_id": "DOC-8ca7dd4b-0-0",
+              "quote": "On 5 Sep CNC 2 stopped at about 2115 with ALM SP-104 on the screen. The root cause was spindle bearing wear, found on the spindle. I replaced BRG 7014 ACD x2 and KLB2 grease and seal 70."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "machine": "LT-01",
+      "machine_label": "Leak tester",
+      "cause": "FM-PRESSURE-SENSOR-DRIFT",
+      "cause_label": "pressure sensor drift",
+      "episodes": 6,
+      "last": "2026-09-11",
+      "status": "overdue",
+      "gap_days": 15,
+      "due": "2026-09-26",
+      "breakdowns": [
+        {
+          "id": "INC-2026-016",
+          "date": "2026-05-05",
+          "downtime_min": 120,
+          "citations": [
+            {
+              "doc_path": "maintenance/maint_log_export_2026.csv",
+              "page": null,
+              "chunk_id": null,
+              "quote": "05/05/2026,LT-01,\"VT012: good parts failing leak test, reference off\",Recalibrate pressure sensor,,Chen Jun Hao,approx 120,WO-4483"
+            },
+            {
+              "doc_path": "handovers/HO 05-05 night shift.txt",
+              "page": null,
+              "chunk_id": "DOC-bd78ee36-0-0",
+              "quote": "- leak test stopped 0631 w/ VT-012, good parts failing leak test, reference off. Recalibrate pressure senosr, tested ok. Down approx 2h. psl chk again tmr."
+            }
+          ]
+        },
+        {
+          "id": "INC-2026-018",
+          "date": "2026-05-08",
+          "downtime_min": 125,
+          "citations": [
+            {
+              "doc_path": "maintenance/maint_log_export_2026.csv",
+              "page": null,
+              "chunk_id": null,
+              "quote": "08/05/2026,leak test,\"VT012: good parts failing leak test, reference off\",Recalibrate pressure sensor,,Goh Siew Ling,125,WO-4782"
+            }
+          ]
+        },
+        {
+          "id": "INC-2026-021",
+          "date": "2026-05-16",
+          "downtime_min": 150,
+          "citations": [
+            {
+              "doc_path": "maintenance/maint_log_export_2026.csv",
+              "page": null,
+              "chunk_id": null,
+              "quote": "2026-05-16,leak test,master part reading out of tolerance,Recalibrate pressure sensor,,Arun Prakash,approx 150,WO-5085"
+            },
+            {
+              "doc_path": "handovers/Handover_20260516_C.txt",
+              "page": null,
+              "chunk_id": "DOC-abe5a65a-0-0",
+              "quote": "- leak tester stopped 0147 w/ VT-012, master part reading out of tolerance. Recalibrate pressure sensor, rnuning ok now. Down 145 mni."
+            }
+          ]
+        },
+        {
+          "id": "INC-2026-025",
+          "date": "2026-05-31",
+          "downtime_min": 150,
+          "citations": [
+            {
+              "doc_path": "maintenance/maint_log_export_2026.csv",
+              "page": null,
+              "chunk_id": null,
+              "quote": "2026-05-31,LT1,master part reading out of tolerance,Recalibrate pressure sensor,SENS PRS 10 x1,Muhammad Hafiz,150,WO-5373"
+            },
+            {
+              "doc_path": "handovers/HO 05-31 night shift.txt",
+              "page": null,
+              "chunk_id": "DOC-39b13f95-0-0",
+              "quote": "- leak test stopped 0127 w/ VT012, master part reading otu of tolerance. Recalibrate pressure sensor (SENSPRS10), test run ok. Down approx 2h."
+            }
+          ]
+        },
+        {
+          "id": "INC-2026-047",
+          "date": "2026-08-14",
+          "downtime_min": 70,
+          "citations": [
+            {
+              "doc_path": "maintenance/maint_log_export_2026.csv",
+              "page": null,
+              "chunk_id": null,
+              "quote": "14/08/2026,VT station,\"good parts failing leak test, reference off\",Recalibrate pressure sensor,pressure sensor 10bar x1,Tan Wei Ming,70,WO-8027"
+            },
+            {
+              "doc_path": "handovers/shift notes 14 Aug A.txt",
+              "page": null,
+              "chunk_id": "DOC-64a1aba9-0-0",
+              "quote": "- LT-01 stopped 1403 w/ VT-012, good parts failing leak test, reference off. Recalibrate pressure sensor (SENSPRS10), test run ok. Down approx 1h. pls chk agani tmr."
+            }
+          ]
+        },
+        {
+          "id": "INC-2026-055",
+          "date": "2026-09-03",
+          "downtime_min": 95,
+          "citations": [
+            {
+              "doc_path": "maintenance/maint_log_export_2026.csv",
+              "page": null,
+              "chunk_id": null,
+              "quote": "03/09/2026,leak tester,VT012: master part reading out of tolerance,Recalibrate pressure sensor,,Rajesh,95,WO-9307"
+            },
+            {
+              "doc_path": "handovers/Handover_20260903_B.txt",
+              "page": null,
+              "chunk_id": "DOC-4795207a-0-0",
+              "quote": "- LT1 stopped 1621 w/ VT12, master patr readnig out of tolerance. Recalibrate pressure sensor, test rnu ok. Down 95 min."
+            }
+          ]
+        },
+        {
+          "id": "INC-2026-057",
+          "date": "2026-09-11",
+          "downtime_min": 110,
+          "citations": [
+            {
+              "doc_path": "maintenance/maint_log_export_2026.csv",
+              "page": null,
+              "chunk_id": null,
+              "quote": "11/09/2026,leak tester,VT012: master part reading out of tolerance,Recalibrate pressure sensor,,Lim Jia Hui,110,WO-9570"
+            },
+            {
+              "doc_path": "handovers/Handover_20260911_A.txt",
+              "page": null,
+              "chunk_id": "DOC-a3a1a910-0-0",
+              "quote": "- LT1 stopped 0958 w/ VT-012, matser part reading otu of tolerance. Recalibrate pressure sensor, rnuning ok now. Down apprxo 2h. pls f/u w/ stores."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "machine": "CNC-01",
+      "machine_label": "Machining centre 1",
+      "cause": "FM-SPINDLE-BEARING-WEAR",
+      "cause_label": "spindle bearing wear",
+      "episodes": 3,
+      "last": "2026-09-02",
+      "status": "overdue",
+      "gap_days": 25,
+      "due": "2026-09-27",
+      "breakdowns": [
+        {
+          "id": "INC-2026-036",
+          "date": "2026-07-14",
+          "downtime_min": 660,
+          "citations": [
+            {
+              "doc_path": "maintenance/note_from_rajesh_CNC1_spindle.txt",
+              "page": null,
+              "chunk_id": "DOC-f2d96555-0-0",
+              "quote": "On 14 Jul CNC-01 stopped at about 2002 with SP104 on the screen. When I opened it up I found spindle bearing wear on the spindle. I replaced BRG7014ACD x2 and COLLET ER32 and GREASEKLB2 and SEALSPDL70. It was down for about 11 hours."
+            },
+            {
+              "doc_path": "handovers/handover_2026-07-14_B.txt",
+              "page": null,
+              "chunk_id": "DOC-3f1389e8-0-0",
+              "quote": "- CNC 1 stopped 2002 w/ ALM SP-104, grindign noise from spindle, vibration alram. Repl spindle bgr set (GREASEKLB2, SEAL SPDL 70), tested ok. Down 655 min. chk again nxet shift."
+            }
+          ]
+        },
+        {
+          "id": "INC-2026-048",
+          "date": "2026-08-22",
+          "downtime_min": 385,
+          "citations": [
+            {
+              "doc_path": "maintenance/maint_log_export_2026.csv",
+              "page": null,
+              "chunk_id": null,
+              "quote": "22/08/2026,CNC 1,\"ALM SP-104: grinding noise from spindle, vibration alarm\",Repl spindle brg set,spdl brg x2; GREASE KLB 2 x1; seal 70 x1; SENS PT100 01 x1,Rajesh,385,WO-8302"
+            }
+          ]
+        },
+        {
+          "id": "INC-2026-054",
+          "date": "2026-09-02",
+          "downtime_min": 645,
+          "citations": [
+            {
+              "doc_path": "maintenance/maint_log_export_2026.csv",
+              "page": null,
+              "chunk_id": null,
+              "quote": "02/09/2026,Kessler 1,\"SP-117: grinding noise from spindle, vibration alarm\",Repl spindle brg set,spdl brg x2; GREASE KLB 2 x1; SEALSPDL70 x1; SENSPT10001 x1,Tan Wei Ming,645,WO-9220"
+            },
+            {
+              "doc_path": "maintenance/note_from_weiming_CNC1_spindle.txt",
+              "page": null,
+              "chunk_id": "DOC-99860cfd-0-0",
+              "quote": "On 2 Sep CNC 1 stopped at about 1330 with SP117 on the screen. When I opened it up I found spindle bearing wear on the spindle. I replaced spdl brg x2 and GREASE KLB 2 and seal 70 and SENSPT10001."
+            },
+            {
+              "doc_path": "handovers/HO 09-02 A shift.txt",
+              "page": null,
+              "chunk_id": "DOC-8b8c5ce4-0-0",
+              "quote": "- CNC 1 stopped 1330 w/ ALM SP-117, grinding noise from spindle, vibration alarm. Repl spindel brg set (7014ACD x2, GREASE KLB 2, SEAL SPDL 70), test run ok. Down 645 min. pls ckh again tmr."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "machine": "CNC-02",
+      "machine_label": "Machining centre 2",
+      "cause": "FM-COOLANT-FILTER-BLOCKAGE",
+      "cause_label": "coolant filter blockage",
+      "episodes": 5,
+      "last": "2026-08-31",
+      "status": "due_soon",
+      "gap_days": 35,
+      "due": "2026-10-05",
+      "breakdowns": [
+        {
+          "id": "INC-2026-017",
+          "date": "2026-05-06",
+          "downtime_min": 205,
+          "citations": [
+            {
+              "doc_path": "maintenance/maint_log_export_2026.csv",
+              "page": null,
+              "chunk_id": null,
+              "quote": "06/05/2026,CNC2,\"SP-104: no coolant at the nozzle, chips packing in the bore\",Clean coolant filter & flush lines,FLTCL25 x1,Tan Wei Ming,205,WO-4780"
+            }
+          ]
+        },
+        {
+          "id": "INC-2026-028",
+          "date": "2026-06-08",
+          "downtime_min": 105,
+          "citations": [
+            {
+              "doc_path": "maintenance/maint_log_export_2026.csv",
+              "page": null,
+              "chunk_id": null,
+              "quote": "2026-06-08,CNC-02,\"coolant pressure dropping, parts coming out hot\",Clean coolant filter & flush lines,FLT CL 25 x1,Tan Wei Ming,105,WO-5733"
+            }
+          ]
+        },
+        {
+          "id": "INC-2026-037",
+          "date": "2026-07-15",
+          "downtime_min": 60,
+          "citations": [
+            {
+              "doc_path": "maintenance/maint_log_export_2026.csv",
+              "page": null,
+              "chunk_id": null,
+              "quote": "15/07/2026,CNC2,\"ALM CL-214: coolant pressure dropping, parts coming out hot\",Clean coolant filter & flush lines,CL filter 25 x1,Goh Siew Ling,60,WO-6626"
+            }
+          ]
+        },
+        {
+          "id": "INC-2026-050",
+          "date": "2026-08-23",
+          "downtime_min": 180,
+          "citations": [
+            {
+              "doc_path": "maintenance/maint_log_export_2026.csv",
+              "page": null,
+              "chunk_id": null,
+              "quote": "23-Aug-26,CNC-02,\"coolant pressure dropping, parts coming out hot\",Clean coolant filter & flush lines,FLT CL 25 x1,WM,,WO-8773"
+            },
+            {
+              "doc_path": "handovers/handover_2026-08-23_A.txt",
+              "page": null,
+              "chunk_id": "DOC-ac4012f2-0-0",
+              "quote": "- CNC 2 stopped 1014 w/ ALM CL-214, coloant pressure dropping, parts cmoing out hot. Clean coolant filter & fulsh lines (FLTCL25), tested ok. Down approx 3h. pls f/u w/ stores."
+            }
+          ]
+        },
+        {
+          "id": "INC-2026-051",
+          "date": "2026-08-31",
+          "downtime_min": 90,
+          "citations": [
+            {
+              "doc_path": "maintenance/maint_log_export_2026.csv",
+              "page": null,
+              "chunk_id": null,
+              "quote": "31/08/2026,Kessler 2,\"ALM CL-214: coolant pressure dropping, parts coming out hot\",Clean coolant filter & flush lines,FLT CL 25 x1; PUMP CL 04 x1,Chen Jun Hao,90,WO-8889"
+            },
+            {
+              "doc_path": "maintenance/maint_log_export_2026.csv",
+              "page": null,
+              "chunk_id": null,
+              "quote": "2026-08-31,Kessler 2,\"ALM CL-214: coolant pressure dropping, parts coming out hot\",Clean coolant filter & flush lines,FLT CL 25 x1; PUMP CL 04 x1,Chen Jun Hao,110,WO-8889"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "machine": "RW-01",
+      "machine_label": "Robot workcell",
+      "cause": "FM-GRIPPER-FINGER-WEAR",
+      "cause_label": "gripper finger wear",
+      "episodes": 5,
+      "last": "2026-09-28",
+      "status": "later",
+      "gap_days": 34,
+      "due": "2026-11-01",
+      "breakdowns": [
+        {
+          "id": "INC-2026-020",
+          "date": "2026-05-13",
+          "downtime_min": 120,
+          "citations": [
+            {
+              "doc_path": "handovers/handover_2026-05-13_B.txt",
+              "page": null,
+              "chunk_id": "DOC-ea5261ac-0-0",
+              "quote": "- RW-01 stpoped 2117 w/ RB-551, part-present signal flickering, grippre slipping. Repl gripper fingers (GRP FNG 12 x2), running ok now. Down 120 min. f/u tmr."
+            }
+          ]
+        },
+        {
+          "id": "INC-2026-024",
+          "date": "2026-05-25",
+          "downtime_min": 125,
+          "citations": [
+            {
+              "doc_path": "maintenance/maint_log_export_2026.csv",
+              "page": null,
+              "chunk_id": null,
+              "quote": "25/05/2026,deburr cell,RB-551: robot dropping parts at the deburr station,Repl gripper fingers,CUPVAC40 x1; GRP FNG 12 x2,Aisyah,125,WO-5328"
+            }
+          ]
+        },
+        {
+          "id": "INC-2026-040",
+          "date": "2026-07-22",
+          "downtime_min": 120,
+          "citations": [
+            {
+              "doc_path": "maintenance/maint_log_export_2026.csv",
+              "page": null,
+              "chunk_id": null,
+              "quote": "22/07/2026,RC-1,\"RB-551: part-present signal flickering, gripper slipping\",Repl gripper fingers,gripper finger x2,Lim Jia Hui,120,WO-7044"
+            },
+            {
+              "doc_path": "handovers/handover_2026-07-22_A.txt",
+              "page": null,
+              "chunk_id": "DOC-03cd4877-0-0",
+              "quote": "- robot stopped 0733 w/ RB-551, part-present signal flickering, gripepr slipping. Repl gripper fingers (GRP FNG 12 x2), running ok now. Down approx 2h. pls chk again tmr."
+            }
+          ]
+        },
+        {
+          "id": "INC-2026-058",
+          "date": "2026-09-12",
+          "downtime_min": 180,
+          "citations": [
+            {
+              "doc_path": "handovers/shift notes 12 Sep night.txt",
+              "page": null,
+              "chunk_id": "DOC-2a02eaf8-0-0",
+              "quote": "- robot cell stopped 2359 w/ RB-551, part-present signal flickering, grippre slipipng. Repl gripper fingers (gripper finger x2), test run ok. Down approx 3h."
+            }
+          ]
+        },
+        {
+          "id": "INC-2026-061",
+          "date": "2026-09-28",
+          "downtime_min": 120,
+          "citations": [
+            {
+              "doc_path": "handovers/handover_2026-09-28_C.txt",
+              "page": null,
+              "chunk_id": "DOC-d0d89be6-0-0",
+              "quote": "- RC-1 stopped 0623 w/ RB551, robot dropping parts at the deburr station. Repl gripper fingers (GRP FNG 12 x2), test run ok. Donw approx 2h. f/u tmr."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "machine": "HP-01",
+      "machine_label": "Hydraulic press",
+      "cause": "FM-MAIN-CYLINDER-SEAL-WEAR",
+      "cause_label": "main cylinder seal wear",
+      "episodes": 5,
+      "last": "2026-09-28",
+      "status": "later",
+      "gap_days": 39,
+      "due": "2026-11-06",
+      "breakdowns": [
+        {
+          "id": "INC-2026-001",
+          "date": "2026-04-14",
+          "downtime_min": 425,
+          "citations": [
+            {
+              "doc_path": "maintenance/maint_log_export_2026.csv",
+              "page": null,
+              "chunk_id": null,
+              "quote": "2026-04-14,PR-2,\"press losing pressure mid-stroke, oil on the floor\",Repl main cylinder seal kit,HLP46 x1; SK-50 x1,NA,,WO-1142"
+            },
+            {
+              "doc_path": "handovers/handover_2026-04-14_B.txt",
+              "page": null,
+              "chunk_id": "DOC-296f52b8-0-0",
+              "quote": "- HP-01 stopped 1538 w/ E-245, press losing pressure mid-stroke, oil on the floor. Rpel main cylinder seal kit (OIL HLP46 20L, SK-50), tested ok. Down 425 min."
+            }
+          ]
+        },
+        {
+          "id": "INC-2026-004",
+          "date": "2026-04-19",
+          "downtime_min": 240,
+          "citations": [
+            {
+              "doc_path": "handovers/shift notes 19 Apr C.txt",
+              "page": null,
+              "chunk_id": "DOC-3156b169-0-0",
+              "quote": "- Press 2 stopped 0119 w/ E217, press losing pressure mid-stroke, oil on the folor. Repl main cylinder sela kit (OIL HLP46 20L, WIPERCYL50), running ok now. Down approx 4h. pls chk again tmr."
+            }
+          ]
+        },
+        {
+          "id": "INC-2026-005",
+          "date": "2026-04-22",
+          "downtime_min": 525,
+          "citations": [
+            {
+              "doc_path": "maintenance/maint_log_export_2026.csv",
+              "page": null,
+              "chunk_id": null,
+              "quote": "22/04/2026,hyd press,\"press losing pressure mid-stroke, oil on the floor\",Repl main cylinder seal kit,HLP46 x1; SEAL KIT 50 x1,RP,525,WO-3456"
+            },
+            {
+              "doc_path": "handovers/Handover_20260422_B.txt",
+              "page": null,
+              "chunk_id": "DOC-40e144a6-0-0",
+              "quote": "- Press 2 stopped 1648 w/ Err:217, press losing pressure mid-stroke, oil on the floor. Repl main cylinder seal kit (SK-50), running ok now. Down 525 min. pls chk again tmr."
+            }
+          ]
+        },
+        {
+          "id": "INC-2026-006",
+          "date": "2026-04-22",
+          "downtime_min": 455,
+          "citations": [
+            {
+              "doc_path": "maintenance/maint_log_export_2026.csv",
+              "page": null,
+              "chunk_id": null,
+              "quote": "2026-04-22,HP-01,\"Err:245: press losing pressure mid-stroke, oil on the floor\",Repl main cylinder seal kit,OILHLP4620L x1; SEAL KIT 50 x1,Arun Prakash,455,WO-3033"
+            },
+            {
+              "doc_path": "handovers/Handover_20260422_C.txt",
+              "page": null,
+              "chunk_id": "DOC-1317cc0d-0-0",
+              "quote": "- PR-2 stopped 0248 w/ E245, press losing pressure mid-stroke, oli on the floor. Repl mani cylinder seal kit (HLP46, seal kit 50), running ok now. Down approx 8h."
+            }
+          ]
+        },
+        {
+          "id": "INC-2026-008",
+          "date": "2026-04-23",
+          "downtime_min": 180,
+          "citations": [
+            {
+              "doc_path": "maintenance/maint_log_export_2026.csv",
+              "page": null,
+              "chunk_id": null,
+              "quote": "23/04/2026,the press,\"oil leaking under the ram, pressure dropping\",Repl main cylinder seal kit,OILHLP4620L x1; seal kit 50 x1,Rajesh Pillai,180,WO-3699"
+            },
+            {
+              "doc_path": "handovers/HO 04-23 B shift.txt",
+              "page": null,
+              "chunk_id": "DOC-4c0539fe-0-0",
+              "quote": "- Press 2 stopped 2039 w/ Err:217, oli leaikng under the ram, pressure dropping. Repl main cylinder seal kit (OIL HLP46 20L, SEALKIT50), tested ok. Down 180 min."
+            }
+          ]
+        },
+        {
+          "id": "INC-2026-031",
+          "date": "2026-06-20",
+          "downtime_min": 335,
+          "citations": [
+            {
+              "doc_path": "maintenance/maint_log_export_2026.csv",
+              "page": null,
+              "chunk_id": null,
+              "quote": "2026-06-20,HP1,\"oil leaking under the ram, pressure dropping\",Repl main cylinder seal kit,HLP46 x1; seal kit 50 x1,Lim Jia Hui,335,WO-6369"
+            },
+            {
+              "doc_path": "handovers/HO 06-20 A shift.txt",
+              "page": null,
+              "chunk_id": "DOC-32c1bca5-0-0",
+              "quote": "- Press 2 stopped 1150 w/ Err:217, oli leaking under the ram, pressure dropping. Repl main cylinder seal kit (SEALKIT50), tested ok. Down approx 6h. f/u tmr."
+            }
+          ]
+        },
+        {
+          "id": "INC-2026-034",
+          "date": "2026-06-28",
+          "downtime_min": 440,
+          "citations": [
+            {
+              "doc_path": "maintenance/maint_log_export_2026.csv",
+              "page": null,
+              "chunk_id": null,
+              "quote": "28-Jun-26,PR-2,\"Err:217: oil leaking under the ram, pressure dropping\",Repl main cylinder seal kit,HLP46 x1; SK-50 x1; SWITCH LIM 01 x1,Rajesh Pillai,440,WO-6570"
+            },
+            {
+              "doc_path": "handovers/shift notes 28 Jun B.txt",
+              "page": null,
+              "chunk_id": "DOC-6625560e-0-0",
+              "quote": "- the press stopped 2056 w/ E-217, oli leaking under the ram, pressure dropping. Repl main cylinder seal kit (HLP46, SWITCH LIM 01), tested ok. Down 440 min."
+            }
+          ]
+        },
+        {
+          "id": "INC-2026-059",
+          "date": "2026-09-17",
+          "downtime_min": 475,
+          "citations": [
+            {
+              "doc_path": "maintenance/maint_log_export_2026.csv",
+              "page": null,
+              "chunk_id": null,
+              "quote": "17/09/2026,HP-01,\"oil leaking under the ram, pressure dropping\",Repl main cylinder seal kit,OILHLP4620L x1; seal kit 50 x1,SL,475,WO-9908"
+            },
+            {
+              "doc_path": "handovers/Handover_20260917_A.txt",
+              "page": null,
+              "chunk_id": "DOC-4476c35a-0-0",
+              "quote": "- HP1 stopped 1229, oil leaking under the rma, pressure dorpping. Repl main cylinder seal kti (OIL HLP46 20L), rnuning ok now. Down 475 min."
+            }
+          ]
+        },
+        {
+          "id": "INC-2026-060",
+          "date": "2026-09-28",
+          "downtime_min": 420,
+          "citations": [
+            {
+              "doc_path": "maintenance/maint_log_export_2026.csv",
+              "page": null,
+              "chunk_id": null,
+              "quote": "28/09/2026,hyd press,\"ERR 217: press losing pressure mid-stroke, oil on the floor\",Repl main cylinder seal kit,HLP46 x1; SEALKIT50 x1,Rajesh Pillai,approx 420,WO-9989"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "machine": "CNC-01",
+      "machine_label": "Machining centre 1",
+      "cause": "FM-COOLANT-FILTER-BLOCKAGE",
+      "cause_label": "coolant filter blockage",
+      "episodes": 3,
+      "last": "2026-08-31",
+      "status": "later",
+      "gap_days": 68,
+      "due": "2026-11-07",
+      "breakdowns": [
+        {
+          "id": "INC-2026-002",
+          "date": "2026-04-17",
+          "downtime_min": 175,
+          "citations": [
+            {
+              "doc_path": "maintenance/maint_log_export_2026.csv",
+              "page": null,
+              "chunk_id": null,
+              "quote": "17/04/2026,Kessler 1,\"ALM CL-210: coolant pressure dropping, parts coming out hot\",Clean coolant filter & flush lines,FLT CL 25 x1,Chen Jun Hao,175,WO-1801"
+            }
+          ]
+        },
+        {
+          "id": "INC-2026-007",
+          "date": "2026-04-22",
+          "downtime_min": 110,
+          "citations": [
+            {
+              "doc_path": "maintenance/maint_log_export_2026.csv",
+              "page": null,
+              "chunk_id": null,
+              "quote": "22/04/2026,CNC 1,\"coolant pressure dropping, parts coming out hot\",Clean coolant filter & flush lines,FLTCL25 x1,Goh Siew Ling,110,WO-3306"
+            },
+            {
+              "doc_path": "handovers/shift notes 22 Apr A.txt",
+              "page": null,
+              "chunk_id": "DOC-c311d1b4-0-0",
+              "quote": "- CNC-01 stopped 1230 w/ SP-104, coolant pressure dropping, parts coming out hot. Clean coolant filter & flush liens (FLT CL 25), running ok now. Down approx 2h."
+            }
+          ]
+        },
+        {
+          "id": "INC-2026-041",
+          "date": "2026-07-24",
+          "downtime_min": 95,
+          "citations": [
+            {
+              "doc_path": "maintenance/maint_log_export_2026.csv",
+              "page": null,
+              "chunk_id": null,
+              "quote": "2026-07-24,CNC-01,\"CL210: no coolant at the nozzle, chips packing in the bore\",Clean coolant filter & flush lines,FLTCL25 x1,Lim Jia Hui,95,WO-7175"
+            },
+            {
+              "doc_path": "maintenance/maint_log_export_2026.csv",
+              "page": null,
+              "chunk_id": null,
+              "quote": "24-Jul-26,CNC-01,\"CL210: no coolant at the nozzle, chips packing in the bore\",Clean coolant filter & flush lines,FLTCL25 x1,Lim Jia Hui,120,WO-7175"
+            },
+            {
+              "doc_path": "handovers/Handover_20260724_A.txt",
+              "page": null,
+              "chunk_id": "DOC-b657cea1-0-0",
+              "quote": "- CNC1 stopped 0903 w/ CL210, no coolant at the nozzle, chips packing in the bore. Clean coolant filter & flush lines (FLTCL25), tested ok. Down approx 2h. chk again next shift."
+            }
+          ]
+        },
+        {
+          "id": "INC-2026-052",
+          "date": "2026-08-31",
+          "downtime_min": 120,
+          "citations": [
+            {
+              "doc_path": "maintenance/maint_log_export_2026.csv",
+              "page": null,
+              "chunk_id": null,
+              "quote": "2026-08-31,CNC 1,\"coolant pressure dropping, parts coming out hot\",Clean coolant filter & flush lines,CL filter 25 x1,Jun Hao,approx 120,WO-9037"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "machine": "LT-01",
+      "machine_label": "Leak tester",
+      "cause": "FM-FIXTURE-SEAL-WEAR",
+      "cause_label": "fixture seal wear",
+      "episodes": 2,
+      "last": "2026-06-14",
+      "status": "not_enough_history",
+      "gap_days": null,
+      "due": null,
+      "breakdowns": [
+        {
+          "id": "INC-2026-009",
+          "date": "2026-04-23",
+          "downtime_min": 95,
+          "citations": [
+            {
+              "doc_path": "maintenance/maint_log_export_2026.csv",
+              "page": null,
+              "chunk_id": null,
+              "quote": "23/04/2026,LT-01,\"fill takes too long, seals look flattened\",Repl fixture seals,SEALFIX30 x2,Siew Ling,95,WO-3685"
+            },
+            {
+              "doc_path": "handovers/handover_2026-04-23_A.txt",
+              "page": null,
+              "chunk_id": "DOC-6a9f83b8-0-0",
+              "quote": "- VT station stopped 1233 w/ VT21, fill taeks too long, seals look flattened. Repl fixture seals (fixture seal x2), running ok now. Down 95 min."
+            }
+          ]
+        },
+        {
+          "id": "INC-2026-010",
+          "date": "2026-04-26",
+          "downtime_min": 200,
+          "citations": [
+            {
+              "doc_path": "maintenance/maint_log_export_2026.csv",
+              "page": null,
+              "chunk_id": null,
+              "quote": "26/04/2026,VT station,\"VT18: fill takes too long, seals look flattened\",Repl fixture seals,SEALFIX30 x2,Siew Ling,200,WO-3841"
+            },
+            {
+              "doc_path": "maintenance/maint_log_export_2026.csv",
+              "page": null,
+              "chunk_id": null,
+              "quote": "2026-04-26,VT station,\"VT18: fill takes too long, seals look flattened\",Repl fixture seals,SEALFIX30 x2,Siew Ling,220,WO-3841"
+            }
+          ]
+        },
+        {
+          "id": "INC-2026-013",
+          "date": "2026-04-30",
+          "downtime_min": 150,
+          "citations": [
+            {
+              "doc_path": "maintenance/maint_log_export_2026.csv",
+              "page": null,
+              "chunk_id": null,
+              "quote": "2026-04-30,LT-01,\"leak rate high on every part, fixture hissing\",Repl fixture seals,fixture seal x2,Nur Aisyah,approx 150,WO-4247"
+            },
+            {
+              "doc_path": "handovers/Handover_20260430_B.txt",
+              "page": null,
+              "chunk_id": "DOC-7b31fde2-0-0",
+              "quote": "- LT-01 stopped 1915 w/ VT018, leak rate high on every part, fixture hisisng. Repl fixture seals (SEAL FIX 30 x2), running ok now. Down 145 min."
+            }
+          ]
+        },
+        {
+          "id": "INC-2026-029",
+          "date": "2026-06-14",
+          "downtime_min": 170,
+          "citations": [
+            {
+              "doc_path": "maintenance/maint_log_export_2026.csv",
+              "page": null,
+              "chunk_id": null,
+              "quote": "14/06/2026,leak tester,\"VT-018: fill takes too long, seals look flattened\",Repl fixture seals,ORINGNBR30 x1; fixture seal x2,AP,170,WO-5999"
+            },
+            {
+              "doc_path": "handovers/shift notes 14 Jun night.txt",
+              "page": null,
+              "chunk_id": "DOC-96468c6a-0-0",
+              "quote": "- LT1 stopped 2341 w/ VT018, fill takes too lnog, seals look flattened. Repl fixtuer seals (ORINGNBR30, SEAL FIX 30 x2), test run ok. Down approx 3h."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "machine": "CNC-01",
+      "response_hours": 8,
+      "uptime_target": 0.97,
+      "covers": "Spindle and coolant system",
+      "measured_uptime": 0.9859,
+      "downtime_min": 3420
+    },
+    {
+      "machine": "CNC-02",
+      "response_hours": 8,
+      "uptime_target": 0.97,
+      "covers": "Spindle and coolant system",
+      "measured_uptime": 0.9825,
+      "downtime_min": 4240
+    },
+    {
+      "machine": "HP-01",
+      "response_hours": 4,
+      "uptime_target": 0.98,
+      "covers": "Hydraulic cylinder, seals and valves",
+      "measured_uptime": 0.9786,
+      "downtime_min": 5165
+    },
+    {
+      "machine": "LT-01",
+      "response_hours": 24,
+      "uptime_target": 0.95,
+      "covers": "Sensors and test fixtures",
+      "measured_uptime": 0.9941,
+      "downtime_min": 1435
+    },
+    {
+      "machine": "RW-01",
+      "response_hours": 8,
+      "uptime_target": 0.96,
+      "covers": "Gripper and end effector",
+      "measured_uptime": 0.9944,
+      "downtime_min": 1360
+    }
+  ]
+}

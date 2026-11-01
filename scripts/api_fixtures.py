@@ -32,6 +32,7 @@ GET_ENDPOINTS = {
     "/api/pipeline/latest": "pipeline_latest.json",
     "/api/evals/latest": "evals_latest.json",
     "/api/map": "map.json",
+    "/api/upkeep": "upkeep.json",
 }
 
 

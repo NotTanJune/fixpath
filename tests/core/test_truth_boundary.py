@@ -23,6 +23,7 @@ GUARDED = (
     "ledger.py",
     "ontology.py",
     "factmap.py",
+    "upkeep.py",
 )
 # The modules that run in the product. They never import the evals or the generator,
 # which are the only code that may read the truth.
@@ -37,6 +38,7 @@ RUNTIME = (
     "embed.py",
     "ledger.py",
     "factmap.py",
+    "upkeep.py",
 )
 OFF_LIMITS = ("app.evals", "app.generator")
 FORBIDDEN = ("TRUTH_DIR", "data/truth", "world.json", "mentions.json")
