@@ -19,12 +19,14 @@ import {
 } from "../components/answer";
 import { AgentTrace } from "../components/AgentTrace";
 import { Rail } from "../components/Rail";
+import { NovelResult } from "../components/NovelResult";
 import { WriteBack } from "../components/WriteBack";
 import { GraphPanel } from "../components/GraphPanel";
 import type { OpenSource } from "../components/IdLink";
 import { Split } from "../components/Split";
 import { canShowRevealAgain, canStartOver, hasGraph } from "../lib/askLayout";
 import { composeAsk, errorText, failureName, MAX_QUESTION, sentenceCase } from "../lib/format";
+import { NOVEL, novelCase, type NovelCase } from "../lib/novel";
 import { PACE, paceFactor, paced } from "../lib/pace";
 import { arrivedStages, narration, revealApplies, STAGES, summaryAt, viewOf } from "../lib/reveal";
 import { useAlarmFacts, useFollowReveal, useReveal } from "../lib/hooks";
@@ -116,8 +118,10 @@ export function AskView({
   const status = card?.triage.status ?? state.triage?.status ?? null;
   const open =
     status === "act" || status === "confirm" || (status === null && state.phase !== "idle");
-  const idle = state.phase === "idle";
-  const side = hasGraph(state);
+  // a canned novel question (replay only) is shown without a run: the ask state stays idle
+  const [novel, setNovel] = useState<NovelCase | null>(null);
+  const idle = state.phase === "idle" && !novel;
+  const side = novel ? true : hasGraph(state);
   const [refit, setRefit] = useState(0);
   const field = useRef<HTMLInputElement>(null);
   // what a technician reported on this answer: held here only, so a new question clears it
@@ -143,12 +147,21 @@ export function AskView({
   const newQuestion = () => {
     startOver.current = true;
     setDraft("");
+    setNovel(null);
     reset();
   };
 
   // every question that is sent is counted, so that the rail can make room for its answer
   const start = (q: string) => {
     setAsked((n) => n + 1);
+    const hit = replay ? novelCase(q) : null;
+    if (hit) {
+      stop();
+      reset();
+      setNovel(hit);
+      return;
+    }
+    setNovel(null);
     send(q);
   };
   const submit = (e: FormEvent) => {
@@ -162,6 +175,7 @@ export function AskView({
     start(q);
   };
   const reopen = (run: SavedRun) => {
+    setNovel(null);
     setDraft(run.question);
     restore(run);
   };
@@ -233,10 +247,26 @@ export function AskView({
     </ul>
   );
 
+  const novelSuggested = replay && (
+    <section className="novel-sug" aria-labelledby="novel-sug-h">
+      <h2 id="novel-sug-h">Issues the graph has not seen</h2>
+      <ul className="suggest list" aria-label="Issues the graph has not seen">
+        {NOVEL.map((c) => (
+          <li key={c.question}>
+            <button type="button" className="sug" onClick={() => ask_(c.question)}>
+              {c.question}
+              <ArrowRight size={20} aria-hidden="true" />
+            </button>
+          </li>
+        ))}
+      </ul>
+    </section>
+  );
+
   const rail = (
     <Rail
       runs={history.runs}
-      current={idle ? "" : state.question}
+      current={novel ? novel.question : idle ? "" : state.question}
       asked={asked}
       idle={idle}
       onReopen={reopen}
@@ -255,7 +285,47 @@ export function AskView({
             <h1>What is wrong on Line 3?</h1>
             {questionForm}
             {suggested}
+            {novelSuggested}
           </section>
+        </div>
+      </div>
+    );
+  }
+
+  if (novel) {
+    return (
+      <div className="ask">
+        {rail}
+        <div className="ask-main">
+          <Split
+            id="ask"
+            initial={0.56}
+            minFirst={520}
+            minSecond={360}
+            onResize={() => setRefit((n) => n + 1)}
+            first={
+              <section className="work" ref={pane}>
+                <h1 className="sr">Ask</h1>
+                <div className="new-q-bar">
+                  <button type="button" className="new-q" onClick={newQuestion}>
+                    <Plus size={20} aria-hidden="true" /> New question
+                  </button>
+                </div>
+                {questionForm}
+                <NovelResult novel={novel} merged={null} reporting={false} onReport={() => {}} />
+              </section>
+            }
+            second={
+              <aside className="side">
+                <div className="novel-side">
+                  <h2>Not in the graph yet</h2>
+                  <p className="quiet">
+                    No machine, alarm or past breakdown in the graph matches this. Nothing to draw.
+                  </p>
+                </div>
+              </aside>
+            }
+          />
         </div>
       </div>
     );
