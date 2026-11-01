@@ -1203,16 +1203,32 @@
   margin-top: 20px;
 }
 
+/* a new issue has no graph to draw, so it takes the whole width and type scales with the screen */
+.novel-work {
+  font-size: clamp(17px, 1.35vw, 22px);
+  padding: 24px clamp(16px, 4vw, 72px) 64px;
+}
+
+/* the question box reads from the back of the room too */
+.novel-work .askform {
+  height: 64px;
+}
+
+.novel-work .askform input,
+.novel-work .askform button {
+  font-size: 1.1em;
+}
+
 .novel-q {
-  font-size: 28px;
+  font-size: 2em;
   line-height: 1.12;
-  max-width: 34ch;
+  max-width: 40ch;
   text-wrap: balance;
 }
 
 .novel-status {
   margin-top: 12px;
-  font-size: 17px;
+  font-size: 1.1em;
 }
 
 .novel-conf {
@@ -1222,14 +1238,14 @@
 
 .novel-sub {
   margin-top: 24px;
-  font-size: 15px;
+  font-size: 1em;
   font-weight: 700;
 }
 
 .novel-near,
 .novel-none {
   margin-top: 8px;
-  max-width: 62ch;
+  max-width: 70ch;
 }
 
 .novel-near {
@@ -1242,12 +1258,12 @@
 }
 
 .novel-report {
-  min-height: 48px;
+  min-height: 56px;
   margin-top: 24px;
-  padding: 0 24px;
+  padding: 0 28px;
   background: var(--blue);
   color: var(--bd);
-  font-size: 17px;
+  font-size: 1.05em;
   font-weight: 700;
   text-align: center;
 }
@@ -1261,7 +1277,7 @@
   padding: 8px 12px;
   border-left: 4px solid var(--gr);
   font-weight: 600;
-  max-width: 62ch;
+  max-width: 70ch;
 }
 
 .novel-side {
@@ -1280,8 +1296,8 @@
 /* reporting a new issue: three steps, then the merge progress */
 
 .capture {
-  margin-top: 24px;
-  max-width: 62ch;
+  margin-top: 32px;
+  max-width: 64em;
   border-top: 2px solid var(--ink);
   padding-top: 16px;
 }
@@ -1306,7 +1322,7 @@
 
 .cap-n {
   display: inline-block;
-  min-width: 22px;
+  min-width: 1.5em;
   text-align: center;
   border: 2px solid currentColor;
 }
@@ -1334,9 +1350,9 @@
 .cap-form textarea {
   border: 2px solid var(--ink);
   background: var(--well);
-  padding: 8px 12px;
+  padding: 10px 14px;
   font-family: inherit;
-  font-size: 17px;
+  font-size: 1em;
   font-weight: 400;
 }
 
@@ -1367,7 +1383,7 @@
 
 .cap-sum {
   display: grid;
-  grid-template-columns: 9em 1fr;
+  grid-template-columns: minmax(7em, 10em) 1fr;
   gap: 8px 16px;
   margin-top: 16px;
 }
@@ -1390,7 +1406,7 @@
 }
 
 .cap-h {
-  font-size: 20px;
+  font-size: 1.3em;
 }
 
 .merge {

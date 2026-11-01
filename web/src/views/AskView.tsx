@@ -315,49 +315,30 @@ export function AskView({
       <div className="ask">
         {rail}
         <div className="ask-main">
-          <Split
-            id="ask"
-            initial={0.56}
-            minFirst={520}
-            minSecond={360}
-            onResize={() => setRefit((n) => n + 1)}
-            first={
-              <section className="work" ref={pane}>
-                <h1 className="sr">Ask</h1>
-                <div className="new-q-bar">
-                  <button type="button" className="new-q" onClick={newQuestion}>
-                    <Plus size={20} aria-hidden="true" /> New question
-                  </button>
-                </div>
-                {questionForm}
-                <NovelResult
+          <section className="work novel-work" ref={pane}>
+            <h1 className="sr">Ask</h1>
+            <div className="new-q-bar">
+              <button type="button" className="new-q" onClick={newQuestion}>
+                <Plus size={20} aria-hidden="true" /> New question
+              </button>
+            </div>
+            {questionForm}
+            <NovelResult
+              novel={novel}
+              merged={mergedId}
+              reporting={reporting}
+              onReport={() => setReporting(true)}
+            >
+              {reporting && !mergedId && (
+                <CaptureFlow
+                  key={novel.question}
                   novel={novel}
-                  merged={mergedId}
-                  reporting={reporting}
-                  onReport={() => setReporting(true)}
-                >
-                  {reporting && !mergedId && (
-                    <CaptureFlow
-                      key={novel.question}
-                      novel={novel}
-                      report={issues.find((r) => r.id === sent) ?? null}
-                      onSend={(record) => setSent(onReport(novel, record))}
-                    />
-                  )}
-                </NovelResult>
-              </section>
-            }
-            second={
-              <aside className="side">
-                <div className="novel-side">
-                  <h2>Not in the graph yet</h2>
-                  <p className="quiet">
-                    No machine, alarm or past breakdown in the graph matches this. Nothing to draw.
-                  </p>
-                </div>
-              </aside>
-            }
-          />
+                  report={issues.find((r) => r.id === sent) ?? null}
+                  onSend={(record) => setSent(onReport(novel, record))}
+                />
+              )}
+            </NovelResult>
+          </section>
         </div>
       </div>
     );
