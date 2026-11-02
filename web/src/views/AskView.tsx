@@ -31,7 +31,7 @@ import { NOVEL, novelCase, type NovelCase, type NovelRecord } from "../lib/novel
 import type { Report } from "../lib/reports";
 import { PACE, paceFactor, paced } from "../lib/pace";
 import { arrivedStages, narration, revealApplies, STAGES, summaryAt, viewOf } from "../lib/reveal";
-import { useAlarmFacts, useFollowReveal, useReveal } from "../lib/hooks";
+import { useAlarmFacts, useReveal } from "../lib/hooks";
 import type { AskState } from "../lib/askReducer";
 import { savedAt, type SavedRun } from "../lib/history";
 import type { Chip, Health, Suggestion, Upkeep } from "../lib/types";
@@ -117,7 +117,7 @@ export function AskView({
   const [asked, setAsked] = useState(0);
   const { shown, skipAll } = useReveal(state);
   const pane = useRef<HTMLElement>(null);
-  useFollowReveal(pane, shown, state.run);
+  // the answer grows downward and the pane stays where the reader put it: the root cause stays in view
   const busy = state.phase === "running" || state.phase === "queued";
   const replay = health?.replay_mode ?? false;
   const card = state.card;

@@ -29,6 +29,7 @@ import { PACE, paceFactor } from "../lib/pace";
 import type { Span } from "../lib/types";
 
 const TURN_MS = 600;
+const RESUME_MS = 2000; // how long the map waits after a drag before it turns again
 /** How close the camera may come, as a share of the distance of the home view. */
 const CLOSEST = 0.02;
 /** The wheel zoom: a notch of the wheel takes a third off the distance, so ten notches go from
@@ -241,10 +242,21 @@ export default function FactMap({
         controls.autoRotateSpeed = 0.6;
         controls.update();
         controls.saveState();
+        // a drag stops the turning; letting go starts it again after a short pause
+        let resume: ReturnType<typeof setTimeout> | undefined;
         const stopTurning = () => {
+          clearTimeout(resume);
           controls.autoRotate = false;
         };
+        const turnLater = () => {
+          clearTimeout(resume);
+          if (reducedMotion()) return;
+          resume = setTimeout(() => {
+            controls.autoRotate = true;
+          }, RESUME_MS);
+        };
         controls.addEventListener("start", stopTurning);
+        controls.addEventListener("end", turnLater);
 
         const count = data.points.length;
         const geometry = new THREE.BufferGeometry();
@@ -624,6 +636,7 @@ export default function FactMap({
           canvas.removeEventListener("click", onClick);
           canvas.removeEventListener("dblclick", onDouble);
           canvas.removeEventListener("keydown", onKey);
+          clearTimeout(resume);
           controls.dispose();
           geometry.dispose();
           material.dispose();

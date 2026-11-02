@@ -13,7 +13,6 @@ import { trapTab } from "./SourceSheet";
 const WIDE = "(min-width: 1280px)";
 const PINNED_KEY = "rail";
 /** Below this width a question that is asked shuts the wide rail, so the answer has the room. */
-const ROOMY = "(min-width: 1600px)";
 
 /** Whether the wide rail is open: a choice that is kept, open when nothing is kept. */
 function usePinned(): [boolean, (open: boolean) => void] {
@@ -180,8 +179,8 @@ function Panel({
 /** The left rail of the Ask view: what happened lately on the line, and the questions asked in
  * this browser. Beside the answer from 1280 px (and open or shut as the reader left it);
  * below that it starts shut and opens as a drawer over the answer. `asked` counts the
- * questions sent: each one shuts the wide rail to its strip when the window is under 1600 px,
- * and a reopen by the reader keeps it open for that answer. On the idle screen it is open again
+ * questions sent: each one shuts the wide rail to its strip so the answer has the room, and a
+ * reopen by the reader keeps it open for that answer. On the idle screen it is open again
  * (unless the reader shut it). */
 export function Rail({
   runs,
@@ -201,7 +200,6 @@ export function Rail({
   onOpen: OpenSource;
 }) {
   const wide = useMedia(WIDE);
-  const roomy = useMedia(ROOMY);
   const [pinned, setPinned] = usePinned();
   const [drawer, setDrawer] = useState(false);
   // shut for this answer only: the kept choice of the reader is not changed by it
@@ -210,8 +208,8 @@ export function Rail({
   useLayoutEffect(() => {
     if (asked === seen.current) return;
     seen.current = asked;
-    setTucked(!roomy);
-  }, [asked, roomy]);
+    setTucked(true);
+  }, [asked]);
   // the idle screen has its rail back: "New question" returns to it with the questions in reach
   useLayoutEffect(() => {
     if (idle) setTucked(false);
