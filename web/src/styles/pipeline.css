@@ -729,13 +729,66 @@
   font-size: 14px;
 }
 
+/* the legend: what each colour and shape means */
+.fm-legend {
+  flex: none;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.fm-lead {
+  font-weight: 600;
+}
+
+.fm-legend ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 20px;
+  margin-top: 6px;
+  list-style: none;
+}
+
+.fm-legend li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.fm-key {
+  flex: none;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+}
+
+.fm-key.fact {
+  background: var(--blue);
+}
+
+.fm-key.centre {
+  background: var(--mark-solid);
+  box-shadow: 0 0 0 2px var(--ink);
+}
+
+.fm-key.passage {
+  border-radius: 0;
+  background: var(--ink);
+}
+
+.fm-key.faint {
+  background: var(--point-faint);
+}
+
 /* what the map leaves out: structured files have facts but no passages */
 .fm-note {
   flex: none;
-  margin: 4px 0 0;
-  color: var(--muted);
-  font-size: 13px;
-  font-style: italic;
+  margin-top: 12px;
+  padding: 12px 16px;
+  border: 2px solid var(--ink);
+  border-left-width: 6px;
+  background: var(--well);
+  font-size: 16px;
+  line-height: 1.4;
 }
 
 .fm-tip,

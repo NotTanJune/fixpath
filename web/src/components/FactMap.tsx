@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useRef } from "react";
 import {
+  LEAD,
   POINT_SIZE,
-  caption,
   centreName,
   clickAction,
   drawOrder,
@@ -116,6 +116,37 @@ interface Scene {
 /** The 3D map of every fact and passage. The facts of the open file that the graph pane shows are
  * lit, and the pane's centre is yellow; the scene is built once and relit when the file, its spans
  * or what the pane shows change. Without WebGL it calls onFail. */
+/** What the colours and shapes on the map mean, for the file that is open. */
+function Legend({ facts, passages, centre }: { facts: number; passages: number; centre: string | null }) {
+  return (
+    <div className="fm-legend">
+      <p className="fm-lead">{LEAD}</p>
+      <ul>
+        {facts > 0 && (
+          <li>
+            <span className="fm-key fact" aria-hidden="true" />
+            This file's {facts} {facts === 1 ? "fact" : "facts"}
+          </li>
+        )}
+        {centre !== null && (
+          <li>
+            <span className="fm-key centre" aria-hidden="true" />
+            {centre}
+          </li>
+        )}
+        <li>
+          <span className="fm-key passage" aria-hidden="true" />
+          {passages > 0 ? "Passages they came from" : "No passages: this file is a table or a log"}
+        </li>
+        <li>
+          <span className="fm-key faint" aria-hidden="true" />
+          Everything else in the graph
+        </li>
+      </ul>
+    </div>
+  );
+}
+
 export default function FactMap({
   data,
   docId,
@@ -711,18 +742,19 @@ export default function FactMap({
         </div>
         <div ref={centreLabel} className="fm-open" hidden />
       </div>
-      <p className="fm-caption">
-        {run !== undefined
-          ? runCaption(run)
-          : caption({
-              facts: lit.facts,
-              passages: lit.passages,
-              centre: lit.centre < 0 ? null : centreName(data.points[lit.centre]!),
-            })}
-      </p>
+      {run !== undefined ? (
+        <p className="fm-caption">{runCaption(run)}</p>
+      ) : (
+        <Legend
+          facts={lit.facts}
+          passages={lit.passages}
+          centre={lit.centre < 0 ? null : centreName(data.points[lit.centre]!)}
+        />
+      )}
       <p className="fm-note">
-        Only free-text passages are embedded: handover notes, maintenance notes and manuals. CSV
-        files, logs and spreadsheets are read as rows, so they show as facts, not passages.
+        <strong>Not every file is on the map.</strong> Only free-text passages are embedded:
+        handover notes, maintenance notes and manuals. CSV files, logs and spreadsheets are read as
+        rows, so they show as facts, not passages.
       </p>
     </div>
   );
