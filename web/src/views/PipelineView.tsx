@@ -208,8 +208,15 @@ function FullMap({
             docId={doc.id}
             spans={doc.spans}
             shown={shown}
-            onPick={onPick}
-            onOpen={onOpen}
+            onPick={(index) => {
+              // going to a fact or a file leaves the full-size map, so the document is in view
+              onClose();
+              onPick(index);
+            }}
+            onOpen={(docId, factId) => {
+              onClose();
+              onOpen(docId, factId);
+            }}
             onFail={onFail}
             autoFocus
           />

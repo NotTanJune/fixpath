@@ -886,6 +886,49 @@
   min-height: 0;
 }
 
+/* full size: the legend and the note become a large side bar on the left, the map takes the rest */
+.fm-full-body > .fact-map {
+  display: grid;
+  grid-template-columns: minmax(300px, 28%) 1fr;
+  grid-template-rows: auto 1fr;
+  grid-template-areas:
+    "legend stage"
+    "note stage";
+  column-gap: 32px;
+}
+
+.fm-full-body .fm-stage {
+  grid-area: stage;
+}
+
+.fm-full-body .fm-legend,
+.fm-full-body .fm-caption {
+  grid-area: legend;
+  margin: 16px 0 0;
+  font-size: 22px;
+  line-height: 1.35;
+}
+
+.fm-full-body .fm-legend ul {
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.fm-full-body .fm-key {
+  width: 22px;
+  height: 22px;
+}
+
+.fm-full-body .fm-note {
+  grid-area: note;
+  align-self: start;
+  margin-top: 28px;
+  padding: 16px 20px;
+  font-size: 19px;
+  line-height: 1.45;
+}
+
 /* the graph full size: the picker row takes the room that the title has in the map's header */
 .ex-full .fm-full-head .ex-row {
   flex: 1;
