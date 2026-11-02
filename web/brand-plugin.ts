@@ -30,7 +30,7 @@ const FAVICON_SVG = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
 /** The tags and the language rule for one brand. A pure function, so a test can read it. */
 export function brandPage(brand: Brand, siteUrl: string = DEFAULT_SITE) {
   const base = siteUrl.endsWith("/") ? siteUrl : `${siteUrl}/`;
-  const title = `${brand.name}, a troubleshooting assistant for factory technicians`;
+  const title = `${brand.name} Agentic AI`;
   const meta = (key: "name" | "property", name: string, content: string): Tag => ({
     tag: "meta",
     attrs: { [key]: name, content },
