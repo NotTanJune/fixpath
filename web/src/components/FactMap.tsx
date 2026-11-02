@@ -720,6 +720,10 @@ export default function FactMap({
               centre: lit.centre < 0 ? null : centreName(data.points[lit.centre]!),
             })}
       </p>
+      <p className="fm-note">
+        Only free-text passages are embedded: handover notes, maintenance notes and manuals. CSV
+        files, logs and spreadsheets are read as rows, so they show as facts, not passages.
+      </p>
     </div>
   );
 }

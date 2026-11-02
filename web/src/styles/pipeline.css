@@ -729,6 +729,15 @@
   font-size: 14px;
 }
 
+/* what the map leaves out: structured files have facts but no passages */
+.fm-note {
+  flex: none;
+  margin: 4px 0 0;
+  color: var(--muted);
+  font-size: 13px;
+  font-style: italic;
+}
+
 .fm-tip,
 .fm-open {
   position: absolute;
