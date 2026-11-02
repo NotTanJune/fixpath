@@ -106,7 +106,13 @@
   opacity: 1;
 }
 
+/* the focus ring goes round the field and the Ask button together, so the two stay one shape */
 .askform input:focus-visible {
+  outline: none;
+}
+
+.askform:has(input:focus-visible) {
+  outline: 3px solid var(--blue);
   outline-offset: 2px;
 }
 
